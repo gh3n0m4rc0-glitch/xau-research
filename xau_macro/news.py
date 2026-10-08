@@ -12,13 +12,14 @@ RELEVANT_CCY = {"USD", "ALL", "CNY", "XAU"}
 
 def tier_of(title: str, impact: str) -> int:
     t = (title or "").lower()
+    imp = (impact or "").lower()
+    if imp not in ("high", "medium"):
+        return 4
+    if "speaks" in t and "chair" not in t:
+        return 2 if imp == "high" else 3
     if any(k in t for k in TIER1_KEYWORDS):
         return 1
-    if (impact or "").lower() == "high":
-        return 2
-    if (impact or "").lower() == "medium":
-        return 3
-    return 4
+    return 2 if imp == "high" else 3
 
 
 def normalize_calendar(raw: list[dict]) -> list[dict]:
