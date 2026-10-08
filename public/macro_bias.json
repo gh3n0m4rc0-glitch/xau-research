@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-10-08T10:19:33Z",
+ "timestamp_utc": "2026-10-08T10:46:32Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -12,24 +12,5 @@
  "halt_reason": "",
  "data_age_days": 0.0,
  "pre_news": [],
- "upcoming_events": [
-  {
-   "time_utc": "2026-10-08T17:40:00Z",
-   "currency": "USD",
-   "impact": "Low",
-   "title": "FOMC Member Musalem Speaks",
-   "tier": 1,
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "time_utc": "2026-10-09T20:00:00Z",
-   "currency": "USD",
-   "impact": "Low",
-   "title": "FOMC Member Collins Speaks",
-   "tier": 1,
-   "forecast": "",
-   "previous": ""
-  }
- ]
+ "upcoming_events": []
 }
