@@ -1,0 +1,110 @@
+[
+ {
+  "time_utc": "2026-10-04T09:15:00Z",
+  "currency": "ALL",
+  "impact": "Medium",
+  "title": "OPEC-JMMC Meetings",
+  "tier": 3,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-05T14:00:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "ISM Services PMI",
+  "tier": 3,
+  "forecast": "55.1",
+  "previous": "55.4"
+ },
+ {
+  "time_utc": "2026-10-06T14:45:00Z",
+  "currency": "USD",
+  "impact": "Low",
+  "title": "FOMC Member Bowman Speaks",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-06T17:15:00Z",
+  "currency": "USD",
+  "impact": "Low",
+  "title": "FOMC Member Schmid Speaks",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-07T17:00:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "President Trump Speaks",
+  "tier": 3,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-07T18:00:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "FOMC Meeting Minutes",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-08T08:30:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "FOMC Member Waller Speaks",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-08T12:30:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Unemployment Claims",
+  "tier": 3,
+  "forecast": "200K",
+  "previous": "197K"
+ },
+ {
+  "time_utc": "2026-10-08T17:40:00Z",
+  "currency": "USD",
+  "impact": "Low",
+  "title": "FOMC Member Musalem Speaks",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-09T14:00:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Prelim UoM Consumer Sentiment",
+  "tier": 3,
+  "forecast": "47.5",
+  "previous": "47.8"
+ },
+ {
+  "time_utc": "2026-10-09T14:00:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Prelim UoM Inflation Expectations",
+  "tier": 3,
+  "forecast": "",
+  "previous": "4.6%"
+ },
+ {
+  "time_utc": "2026-10-09T20:00:00Z",
+  "currency": "USD",
+  "impact": "Low",
+  "title": "FOMC Member Collins Speaks",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ }
+]
