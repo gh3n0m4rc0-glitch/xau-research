@@ -1,0 +1,8 @@
+{
+  "output_dir": "public",
+  "anthropic_model": "claude-sonnet-4-6",
+  "committee_hours": 4,
+  "committee_rounds": 2,
+  "prenews_hours": 10,
+  "prenews_refresh_hours": 2
+}

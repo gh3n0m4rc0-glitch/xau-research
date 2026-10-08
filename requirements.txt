@@ -1,0 +1,7 @@
+requests>=2.31
+pandas>=2.0
+numpy>=1.24
+anthropic>=0.40     # analisi news, pre-news e comitato AI (serve ANTHROPIC_API_KEY)
+# opzionali:
+# databento>=0.40   # order flow reale futures oro CME (serve DATABENTO_API_KEY)
+# pypdf>=4.0        # per indicizzare PDF nella cartella knowledge/
