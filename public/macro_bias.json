@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-10-12T12:20:33Z",
+ "timestamp_utc": "2026-10-12T12:35:56Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -12,5 +12,42 @@
  "halt_reason": "",
  "data_age_days": 0.0,
  "pre_news": [],
- "upcoming_events": []
+ "upcoming_events": [
+  {
+   "time_utc": "2026-10-14T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Core CPI m/m",
+   "tier": 1,
+   "forecast": "0.2%",
+   "previous": "0.3%"
+  },
+  {
+   "time_utc": "2026-10-14T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Core CPI y/y",
+   "tier": 1,
+   "forecast": "2.5%",
+   "previous": "2.4%"
+  },
+  {
+   "time_utc": "2026-10-14T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "CPI m/m",
+   "tier": 1,
+   "forecast": "0.6%",
+   "previous": "0.4%"
+  },
+  {
+   "time_utc": "2026-10-14T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "CPI y/y",
+   "tier": 1,
+   "forecast": "3.6%",
+   "previous": "3.4%"
+  }
+ ]
 }
