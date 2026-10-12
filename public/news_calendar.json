@@ -50,7 +50,7 @@
   "impact": "High",
   "title": "Core Retail Sales m/m",
   "tier": 2,
-  "forecast": "0.5%",
+  "forecast": "0.6%",
   "previous": "1.4%"
  },
  {
@@ -59,7 +59,7 @@
   "impact": "High",
   "title": "PPI m/m",
   "tier": 2,
-  "forecast": "0.5%",
+  "forecast": "0.6%",
   "previous": "0.4%"
  },
  {
@@ -77,7 +77,7 @@
   "impact": "Medium",
   "title": "Philly Fed Manufacturing Index",
   "tier": 3,
-  "forecast": "26.5",
+  "forecast": "28.2",
   "previous": "37.8"
  },
  {
@@ -86,7 +86,7 @@
   "impact": "Medium",
   "title": "Unemployment Claims",
   "tier": 3,
-  "forecast": "195K",
+  "forecast": "199K",
   "previous": "197K"
  },
  {
