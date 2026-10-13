@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-10-13T12:28:45Z",
+ "timestamp_utc": "2026-10-13T12:57:39Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -48,6 +48,42 @@
    "tier": 1,
    "forecast": "3.6%",
    "previous": "3.4%"
+  },
+  {
+   "time_utc": "2026-10-15T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Core PPI m/m",
+   "tier": 2,
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "time_utc": "2026-10-15T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Core Retail Sales m/m",
+   "tier": 2,
+   "forecast": "0.6%",
+   "previous": "1.4%"
+  },
+  {
+   "time_utc": "2026-10-15T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "PPI m/m",
+   "tier": 2,
+   "forecast": "0.6%",
+   "previous": "0.4%"
+  },
+  {
+   "time_utc": "2026-10-15T12:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Retail Sales m/m",
+   "tier": 2,
+   "forecast": "0.3%",
+   "previous": "1.2%"
   }
  ]
 }
