@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-10-16T03:29:52Z",
+ "timestamp_utc": "2026-10-16T04:03:57Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -12,15 +12,5 @@
  "halt_reason": "",
  "data_age_days": 0.0,
  "pre_news": [],
- "upcoming_events": [
-  {
-   "time_utc": "2026-10-16T03:30:00Z",
-   "currency": "USD",
-   "impact": "High",
-   "title": "Fed Chairman Warsh Speaks",
-   "tier": 1,
-   "forecast": "",
-   "previous": ""
-  }
- ]
+ "upcoming_events": []
 }
