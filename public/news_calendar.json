@@ -1,47 +1,83 @@
 [
  {
-  "time_utc": "2026-10-22T12:30:00Z",
+  "time_utc": "2026-10-27T14:00:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "CB Consumer Confidence",
+  "tier": 3,
+  "forecast": "80.5",
+  "previous": "81.9"
+ },
+ {
+  "time_utc": "2026-10-28T18:00:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Federal Funds Rate",
+  "tier": 1,
+  "forecast": "4.00%",
+  "previous": "4.00%"
+ },
+ {
+  "time_utc": "2026-10-28T18:00:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "FOMC Statement",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-28T18:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "FOMC Press Conference",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-10-29T12:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Advance GDP q/q",
+  "tier": 2,
+  "forecast": "3.2%",
+  "previous": "1.5%"
+ },
+ {
+  "time_utc": "2026-10-29T12:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Core PCE Price Index m/m",
+  "tier": 1,
+  "forecast": "0.3%",
+  "previous": "0.2%"
+ },
+ {
+  "time_utc": "2026-10-29T12:30:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Advance GDP Price Index q/q",
+  "tier": 3,
+  "forecast": "3.5%",
+  "previous": "6.2%"
+ },
+ {
+  "time_utc": "2026-10-29T12:30:00Z",
   "currency": "USD",
   "impact": "Medium",
   "title": "Unemployment Claims",
   "tier": 3,
-  "forecast": "200K",
-  "previous": "199K"
+  "forecast": "198K",
+  "previous": "194K"
  },
  {
-  "time_utc": "2026-10-23T13:45:00Z",
+  "time_utc": "2026-10-30T12:30:00Z",
   "currency": "USD",
   "impact": "Medium",
-  "title": "Flash Manufacturing PMI",
+  "title": "Employment Cost Index q/q",
   "tier": 3,
-  "forecast": "55.4",
-  "previous": "57.0"
- },
- {
-  "time_utc": "2026-10-23T13:45:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "Flash Services PMI",
-  "tier": 3,
-  "forecast": "57.9",
-  "previous": "58.7"
- },
- {
-  "time_utc": "2026-10-23T14:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "Revised UoM Consumer Sentiment",
-  "tier": 3,
-  "forecast": "46.3",
-  "previous": "46.3"
- },
- {
-  "time_utc": "2026-10-23T14:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "Revised UoM Inflation Expectations",
-  "tier": 3,
-  "forecast": "",
-  "previous": "4.7%"
+  "forecast": "0.8%",
+  "previous": "0.9%"
  }
 ]
