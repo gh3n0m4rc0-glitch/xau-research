@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-10-26T17:19:30Z",
+ "timestamp_utc": "2026-10-26T18:06:41Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -12,5 +12,24 @@
  "halt_reason": "",
  "data_age_days": 0.0,
  "pre_news": [],
- "upcoming_events": []
+ "upcoming_events": [
+  {
+   "time_utc": "2026-10-28T18:00:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Federal Funds Rate",
+   "tier": 1,
+   "forecast": "4.00%",
+   "previous": "4.00%"
+  },
+  {
+   "time_utc": "2026-10-28T18:00:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "FOMC Statement",
+   "tier": 1,
+   "forecast": "",
+   "previous": ""
+  }
+ ]
 }
