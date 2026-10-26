@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-10-26T18:11:51Z",
+ "timestamp_utc": "2026-10-26T19:18:24Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -27,6 +27,15 @@
    "currency": "USD",
    "impact": "High",
    "title": "FOMC Statement",
+   "tier": 1,
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "time_utc": "2026-10-28T18:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "FOMC Press Conference",
    "tier": 1,
    "forecast": "",
    "previous": ""
