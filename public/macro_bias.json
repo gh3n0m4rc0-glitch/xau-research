@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-10-29T11:42:37Z",
+ "timestamp_utc": "2026-10-29T12:37:39Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -12,24 +12,5 @@
  "halt_reason": "",
  "data_age_days": 0.0,
  "pre_news": [],
- "upcoming_events": [
-  {
-   "time_utc": "2026-10-29T12:30:00Z",
-   "currency": "USD",
-   "impact": "High",
-   "title": "Advance GDP q/q",
-   "tier": 2,
-   "forecast": "3.2%",
-   "previous": "1.5%"
-  },
-  {
-   "time_utc": "2026-10-29T12:30:00Z",
-   "currency": "USD",
-   "impact": "High",
-   "title": "Core PCE Price Index m/m",
-   "tier": 1,
-   "forecast": "0.3%",
-   "previous": "0.2%"
-  }
- ]
+ "upcoming_events": []
 }
