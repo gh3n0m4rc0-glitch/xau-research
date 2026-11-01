@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-01T15:08:21Z",
+ "timestamp_utc": "2026-11-01T15:33:59Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -12,5 +12,15 @@
  "halt_reason": "",
  "data_age_days": 0.0,
  "pre_news": [],
- "upcoming_events": []
+ "upcoming_events": [
+  {
+   "time_utc": "2026-11-03T15:16:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Congressional Elections",
+   "tier": 2,
+   "forecast": "",
+   "previous": ""
+  }
+ ]
 }
