@@ -14,7 +14,7 @@
   "impact": "Medium",
   "title": "JOLTS Job Openings",
   "tier": 3,
-  "forecast": "7.11M",
+  "forecast": "7.15M",
   "previous": "7.08M"
  },
  {
@@ -32,7 +32,7 @@
   "impact": "Medium",
   "title": "ISM Services PMI",
   "tier": 3,
-  "forecast": "54.9",
+  "forecast": "54.8",
   "previous": "54.9"
  },
  {
@@ -59,7 +59,7 @@
   "impact": "High",
   "title": "Non-Farm Employment Change",
   "tier": 1,
-  "forecast": "63K",
+  "forecast": "65K",
   "previous": "29K"
  },
  {
@@ -77,7 +77,7 @@
   "impact": "Medium",
   "title": "Prelim UoM Consumer Sentiment",
   "tier": 3,
-  "forecast": "47.8",
+  "forecast": "48.1",
   "previous": "46.3"
  },
  {
