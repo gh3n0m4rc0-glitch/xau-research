@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-04T12:49:35Z",
+ "timestamp_utc": "2026-11-04T13:45:18Z",
  "bias": 0.0,
  "confidence": 0.0,
  "regime": "",
@@ -12,5 +12,33 @@
  "halt_reason": "",
  "data_age_days": 0.0,
  "pre_news": [],
- "upcoming_events": []
+ "upcoming_events": [
+  {
+   "time_utc": "2026-11-06T13:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Average Hourly Earnings m/m",
+   "tier": 2,
+   "forecast": "0.3%",
+   "previous": "0.1%"
+  },
+  {
+   "time_utc": "2026-11-06T13:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Non-Farm Employment Change",
+   "tier": 1,
+   "forecast": "65K",
+   "previous": "29K"
+  },
+  {
+   "time_utc": "2026-11-06T13:30:00Z",
+   "currency": "USD",
+   "impact": "High",
+   "title": "Unemployment Rate",
+   "tier": 2,
+   "forecast": "4.2%",
+   "previous": "4.2%"
+  }
+ ]
 }
