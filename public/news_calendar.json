@@ -1,92 +1,56 @@
 [
  {
-  "time_utc": "2026-11-02T15:00:00Z",
+  "time_utc": "2026-11-10T09:00:00Z",
   "currency": "USD",
   "impact": "Medium",
-  "title": "ISM Manufacturing PMI",
+  "title": "FOMC Member Waller Speaks",
   "tier": 3,
-  "forecast": "54.5",
-  "previous": "54.5"
- },
- {
-  "time_utc": "2026-11-03T15:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "JOLTS Job Openings",
-  "tier": 3,
-  "forecast": "7.15M",
-  "previous": "7.08M"
- },
- {
-  "time_utc": "2026-11-03T15:16:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "Congressional Elections",
-  "tier": 2,
   "forecast": "",
   "previous": ""
  },
  {
-  "time_utc": "2026-11-04T15:00:00Z",
+  "time_utc": "2026-11-10T13:30:00Z",
   "currency": "USD",
-  "impact": "Medium",
-  "title": "ISM Services PMI",
-  "tier": 3,
-  "forecast": "54.8",
-  "previous": "54.9"
+  "impact": "High",
+  "title": "Core CPI m/m",
+  "tier": 1,
+  "forecast": "0.2%",
+  "previous": "0.3%"
  },
  {
-  "time_utc": "2026-11-05T13:30:00Z",
+  "time_utc": "2026-11-10T13:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "CPI m/m",
+  "tier": 1,
+  "forecast": "0.3%",
+  "previous": "0.6%"
+ },
+ {
+  "time_utc": "2026-11-12T13:30:00Z",
   "currency": "USD",
   "impact": "Medium",
   "title": "Unemployment Claims",
   "tier": 3,
-  "forecast": "197K",
-  "previous": "194K"
+  "forecast": "194K",
+  "previous": "189K"
  },
  {
-  "time_utc": "2026-11-06T13:30:00Z",
+  "time_utc": "2026-11-13T13:30:00Z",
   "currency": "USD",
   "impact": "High",
-  "title": "Average Hourly Earnings m/m",
+  "title": "Core PPI m/m",
   "tier": 2,
   "forecast": "0.3%",
-  "previous": "0.1%"
+  "previous": "0.7%"
  },
  {
-  "time_utc": "2026-11-06T13:30:00Z",
+  "time_utc": "2026-11-13T13:30:00Z",
   "currency": "USD",
   "impact": "High",
-  "title": "Non-Farm Employment Change",
-  "tier": 1,
-  "forecast": "65K",
-  "previous": "29K"
- },
- {
-  "time_utc": "2026-11-06T13:30:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "Unemployment Rate",
+  "title": "PPI m/m",
   "tier": 2,
-  "forecast": "4.2%",
-  "previous": "4.2%"
- },
- {
-  "time_utc": "2026-11-06T15:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "Prelim UoM Consumer Sentiment",
-  "tier": 3,
-  "forecast": "48.1",
-  "previous": "46.3"
- },
- {
-  "time_utc": "2026-11-06T15:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "Prelim UoM Inflation Expectations",
-  "tier": 3,
-  "forecast": "",
-  "previous": "4.7%"
+  "forecast": "0.4%",
+  "previous": "1.3%"
  }
 ]
