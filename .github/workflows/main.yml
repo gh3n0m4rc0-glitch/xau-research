@@ -1,8 +1,8 @@
 name: ricerca-oro
 on:
   schedule:
-    - cron: "*/30 * * * 0-5"
-  workflow_dispatch: {}
+    - cron: "*/30 * * * 0-5"   # ogni 30 minuti, domenica-venerdi' (UTC)
+  workflow_dispatch: {}          # avvio manuale dal tab Actions
 permissions:
   contents: write
 concurrency:
@@ -21,6 +21,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Servizio macro news pre-news comitato AI
         env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DATABENTO_API_KEY: ${{ secrets.DATABENTO_API_KEY }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
@@ -28,6 +29,13 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m xau_macro.service --once
+      - name: Storico macro per i test (una volta al giorno o se manca)
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          if [ ! -s public/macro_history.csv ] || [ "$(date -u +%H)" = "05" ]; then
+            python -m xau_macro.service --history || echo "storico non aggiornato"
+          fi
       - name: Pubblica i file
         run: |
           git config user.name "ricerca-bot"
