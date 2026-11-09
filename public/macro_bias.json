@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-09T21:27:51Z",
+ "timestamp_utc": "2026-11-09T21:31:28Z",
  "bias": 0.359,
  "confidence": 0.16,
  "regime": "moderatamente favorevole",
@@ -66,7 +66,6 @@
   "Fed feed testimonianze: not well-formed (invalid token): line 1, column 1",
   "Fed agenda: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column",
   "SPDR GLD: ",
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "premio Shanghai: manca il prezzo oro in dollari"
  ],
@@ -170,6 +169,13 @@
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 3.3735,
+   "media_30g": 3.0033,
+   "z": 0.68,
+   "allarme": false,
+   "punteggio": 0.328
   },
   "sintesi": "nessun segnale extra forte"
  },
