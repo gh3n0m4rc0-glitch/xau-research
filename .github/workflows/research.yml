@@ -1,8 +1,13 @@
 name: ricerca-oro
+# Un solo workflow (cancellare main.yml, che era un doppione).
+# GitHub fa partire i "schedule" in ritardo anche di ore: la partenza puntuale arriva da un timer esterno
+# (cron-job.org) che chiama workflow_dispatch ogni 15 minuti. Il cron qui sotto resta come riserva.
 on:
   schedule:
-    - cron: "*/30 * * * 0-5"
+    - cron: "7,37 * * * 0-5"
   workflow_dispatch: {}
+  repository_dispatch:
+    types: [aggiorna-macro]
 permissions:
   contents: write
 concurrency:
@@ -11,7 +16,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,6 +26,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Servizio macro news pre-news comitato AI
         env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DATABENTO_API_KEY: ${{ secrets.DATABENTO_API_KEY }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
@@ -34,5 +41,8 @@ jobs:
           git config user.email "ricerca-bot@users.noreply.github.com"
           git add public
           git diff --cached --quiet || git commit -m "aggiornamento $(date -u +%FT%TZ)"
-          git pull --rebase --autostash || true
-          git push
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && break
+            sleep 5
+          done
+ 
