@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-08T23:05:35Z",
+ "timestamp_utc": "2026-11-09T02:23:01Z",
  "bias": 0.439,
  "confidence": 0.683,
  "regime": "moderatamente favorevole",
@@ -17,7 +17,7 @@
  "risk_multiplier": 1.0,
  "halt_trading": false,
  "halt_reason": "",
- "data_age_days": 2,
+ "data_age_days": 3,
  "pre_news": [],
  "upcoming_events": [
   {
