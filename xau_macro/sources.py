@@ -73,9 +73,9 @@ def fetch_fred(series_id: str, start: str = "2015-01-01") -> pd.Series:
         errors.append("CSV FRED gia' bloccato in questo giro")
         raise RuntimeError("; ".join(errors))
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}"
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            r = requests.get(url, headers=BROWSER_UA, timeout=TIMEOUT)
+            r = requests.get(url, headers=BROWSER_UA, timeout=20)
             r.raise_for_status()
             if "<html" in r.text[:800].lower():
                 raise ValueError("FRED ha risposto con una pagina web invece del CSV (probabile blocco)")
@@ -85,8 +85,8 @@ def fetch_fred(series_id: str, start: str = "2015-01-01") -> pd.Series:
             raise ValueError("serie vuota")
         except Exception as e:
             errors.append(f"CSV tentativo {attempt + 1}: {e}")
-            if attempt < 2:
-                time.sleep(2 * (attempt + 1))
+            if attempt < 1:
+                time.sleep(2)
     _fred_csv_blocked = True   # se FRED blocca il runner, le altre serie vanno subito alle riserve
     raise RuntimeError("; ".join(errors))
 
@@ -129,6 +129,7 @@ def parse_treasury_csv(text: str, column: str) -> pd.Series:
 
 
 _treasury_cache: dict[tuple[str, str, str], pd.Series] = {}
+_treasury_text: dict[tuple[str, int], str] = {}
 
 
 def fetch_treasury(kind: str, column: str, start: str) -> pd.Series:
@@ -137,11 +138,14 @@ def fetch_treasury(kind: str, column: str, start: str) -> pd.Series:
         return _treasury_cache[ck]
     parts = []
     for y in range(int(start[:4]), datetime.now(timezone.utc).year + 1):
-        r = requests.get(TREASURY_URL.format(year=y, kind=kind), headers=BROWSER_UA, timeout=TIMEOUT)
-        r.raise_for_status()
-        if not r.text.strip():
+        if (kind, y) not in _treasury_text:
+            r = requests.get(TREASURY_URL.format(year=y, kind=kind), headers=BROWSER_UA, timeout=TIMEOUT)
+            r.raise_for_status()
+            _treasury_text[(kind, y)] = r.text
+        text = _treasury_text[(kind, y)]
+        if not text.strip():
             continue
-        parts.append(parse_treasury_csv(r.text, column))
+        parts.append(parse_treasury_csv(text, column))
     if not parts:
         raise ValueError("Tesoro: nessun dato")
     s = pd.concat(parts).sort_index()
@@ -181,7 +185,7 @@ def parse_ecb_dollar_index(text: str) -> pd.Series:
 
 
 def fetch_ecb_dollar(start: str) -> pd.Series:
-    r = requests.get(ECB_URL, params={"format": "csvdata", "startPeriod": start}, headers=BROWSER_UA, timeout=TIMEOUT)
+    r = requests.get(ECB_URL, params={"format": "csvdata", "startPeriod": start}, headers=BROWSER_UA, timeout=20)
     r.raise_for_status()
     s = parse_ecb_dollar_index(r.text)
     if len(s) < 10:
@@ -218,21 +222,43 @@ def fallback_series(name: str, start: str) -> tuple[pd.Series, str]:
         be.name = "breakeven_10y"
         return be, "Tesoro USA (10y nominale - reale)"
     if name == "dollar_broad":
-        return fetch_ecb_dollar(start), "BCE (dollaro sintetico)"
+        try:
+            return fetch_ecb_dollar(start), "BCE (dollaro sintetico)"
+        except Exception as e:
+            log.warning("BCE non risponde (%s): provo Yahoo DXY", str(e)[:120])
+            from . import extra
+            return extra.yahoo_dollar_daily(start), "Yahoo (indice DXY)"
     if name == "vix":
         return fetch_cboe_vix(start), "CBOE"
     raise KeyError(name)
+
+
+SOURCE_LOG: dict[str, str] = {}   # nome serie -> fonte usata o "MANCA: motivo" (per macro_bias.json)
+
+
+def fetch_bills(start: str) -> dict[str, pd.Series]:
+    """T-bill 3 mesi, 6 mesi, 1 anno dal Tesoro (per i tagli Fed prezzati)."""
+    out = {}
+    for k, col in (("3m", "3 Mo"), ("6m", "6 Mo"), ("1y", "1 Yr")):
+        try:
+            out[k] = fetch_treasury("daily_treasury_yield_curve", col, start)
+        except Exception as e:
+            log.warning("T-bill %s non disponibile: %s", col, str(e)[:120])
+    return out
 
 
 def fetch_all_fred(start: str = "2015-01-01") -> dict[str, pd.Series]:
     """Serie macro: FRED se risponde, altrimenti fonti ufficiali di riserva. Una fonte che manca non ferma nulla."""
     global _fred_csv_blocked
     out = {}
+    SOURCE_LOG.clear()
     _treasury_cache.clear()
+    _treasury_text.clear()
     _fred_csv_blocked = False
     for name, sid in FRED_SERIES.items():
         try:
             out[name] = fetch_fred(sid, start)
+            SOURCE_LOG[name] = "FRED"
             log.info("FRED %s: %d osservazioni, ultima %s", sid, len(out[name]), out[name].index[-1].date())
             continue
         except Exception as e:
@@ -240,9 +266,11 @@ def fetch_all_fred(start: str = "2015-01-01") -> dict[str, pd.Series]:
         try:
             s, src = fallback_series(name, start)
             out[name] = s
+            SOURCE_LOG[name] = src
             log.info("%s da %s: %d osservazioni, ultima %s", name, src, len(s), s.index[-1].date())
         except Exception as e:
             log.warning("%s: anche la fonte di riserva non risponde: %s", name, str(e)[:200])
+            SOURCE_LOG[name] = "MANCA: " + str(e)[:100]
     if not out:
         log.error("Nessun dato macro disponibile: controlla la connessione del runner")
     return out

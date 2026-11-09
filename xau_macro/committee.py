@@ -57,7 +57,7 @@ def build_briefing(snapshot: dict | None, macro: dict, headlines: list[dict], ca
         parts.append("SNAPSHOT DEL cBot (prezzi spot XAUUSD):\n" + json.dumps(snapshot, ensure_ascii=False)[:6000])
     else:
         parts.append("SNAPSHOT DEL cBot: non disponibile (bot fermo o file vecchio).")
-    m = {k: macro.get(k) for k in ("bias", "confidence", "regime", "summary", "components", "risk_flags", "halt_trading")}
+    m = {k: macro.get(k) for k in ("bias", "confidence", "regime", "summary", "components", "risk_flags", "halt_trading", "extra")}
     parts.append("MACRO:\n" + json.dumps(m, ensure_ascii=False))
     if orderflow:
         parts.append("ORDER FLOW FUTURES CME (prezzi futures, base rispetto allo spot indicata dal cBot):\n" + json.dumps(orderflow, ensure_ascii=False)[:2500])

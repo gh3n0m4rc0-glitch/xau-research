@@ -27,7 +27,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from . import committee, engine, knowledge, llm, news, orderflow, prenews, sources
+from . import committee, engine, extra, knowledge, llm, news, orderflow, prenews, sources
 
 log = logging.getLogger("xau_macro")
 HERE = Path(__file__).resolve().parent.parent
@@ -37,9 +37,20 @@ DEFAULT_CONFIG = {
     "interval_minutes": 30,
     "calendar_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
     "news_feeds": [
-        "https://news.google.com/rss/search?q=gold+price+OR+%22Federal+Reserve%22+OR+inflation+OR+treasury+yields&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=geopolitical+risk+OR+central+bank+gold+buying&hl=en-US&gl=US&ceid=US:en",
+        # fonti ufficiali e specializzate (D2)
+        "https://www.federalreserve.gov/feeds/press_all.xml",
+        "https://www.bls.gov/feed/bls_latest.rss",
+        "https://www.ecb.europa.eu/rss/press.html",
+        "https://www.fxstreet.com/rss/news",
+        "https://www.kitco.com/feed/rss/news/",
+        "https://www.mining.com/feed/",
+        # ricerche mirate su Google News (titoli di Reuters, Bloomberg, FT, WSJ, CNBC...)
+        "https://news.google.com/rss/search?q=gold+price+OR+%22Federal+Reserve%22+OR+inflation+OR+treasury+yields+when:1d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=geopolitical+risk+OR+central+bank+gold+buying+when:2d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=gold+(site:reuters.com+OR+site:bloomberg.com+OR+site:ft.com+OR+site:wsj.com)+when:1d&hl=en-US&gl=US&ceid=US:en",
     ],
+    "extra_enabled": True,
+    "extra_budget_seconds": 300,
     "news_weight": 0.25,
     "history_start": "2015-01-01",
     "anthropic_model": "claude-sonnet-4-6",
@@ -145,8 +156,10 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
 
     # 1) calendario
     calendar: list[dict] = []
+    calendar_raw: list[dict] = []
     try:
-        calendar = news.normalize_calendar(sources.fetch_calendar(cfg["calendar_url"]))
+        calendar_raw = sources.fetch_calendar(cfg["calendar_url"])
+        calendar = news.normalize_calendar(calendar_raw)
         write_atomic(out_dir / "news_calendar.json", json.dumps(calendar, ensure_ascii=False, indent=1))
         log.info("Calendario: %d eventi rilevanti", len(calendar))
     except Exception as e:
@@ -162,12 +175,31 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
     start = (pd.Timestamp.now("UTC") - pd.Timedelta(days=900)).strftime("%Y-%m-%d")
     series = sources.fetch_all_fred(start)
     cot = None
+    fonti = dict(sources.SOURCE_LOG)
     try:
         cot = sources.fetch_cot_gold(start)
+        fonti["cot"] = "CFTC"
     except Exception as e:
         log.warning("COT non disponibile: %s", e)
+        fonti["cot"] = "MANCA: " + str(e)[:100]
+    fonti["calendario"] = "ForexFactory" if calendar_raw else "MANCA (uso l'ultimo file)"
     macro = engine.latest(series, cot)
     log.info(macro.summary)
+
+    # 2b) informazioni in piu' (peso zero nel bias finche' non vengono confermate sullo storico)
+    extra_info, extra_missing = {}, []
+    if cfg.get("extra_enabled", True):
+        bills = sources.fetch_bills(start)
+        effr_hist = None
+        try:
+            effr_hist = sources.fetch_fred("DFF", start)
+        except Exception:
+            pass
+        extra_info, extra_missing = extra.collect(calendar_raw, now, cot, bills, sources.fetch_fred, effr_hist,
+                                                  os.environ.get("BLS_API_KEY", ""), float(cfg.get("extra_budget_seconds", 300)))
+        log.info("Extra: %s | fonti mancanti: %d", extra_info.get("sintesi"), len(extra_missing))
+        for m in extra_missing:
+            log.warning("fonte extra mancante: %s", m)
 
     # 3) order flow CME (opzionale)
     of = read_json(out_dir / "volume_levels.json")
@@ -183,7 +215,7 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
 
     # 4) news generali + Claude
     headlines = sources.fetch_headlines(cfg.get("news_feeds", []))
-    view = llm.analyze(headlines, macro.summary, news.upcoming(calendar, now, 72, 3), cfg.get("anthropic_model"),
+    view = llm.analyze(headlines, macro.summary + " | Extra: " + str(extra_info.get("sintesi", "")), news.upcoming(calendar, now, 72, 3), cfg.get("anthropic_model"),
                        kb.context("oro news reazione Fed inflazione dollaro geopolitica", 4))
     result = blend(macro, view, float(cfg.get("news_weight", 0.25)))
 
@@ -192,6 +224,26 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
                                      kb.context("reazione oro NFP CPI FOMC sorpresa consenso continuation", 5),
                                      float(cfg["prenews_hours"]), float(cfg["prenews_refresh_hours"]), cfg.get("anthropic_model"))
     result["upcoming_events"] = news.upcoming(calendar, now, 48, 2)[:10]
+    # A4: cosa manca, cosi' l'EA (e tu) sapete se il bias e' completo
+    base_missing = [k for k, v in fonti.items() if str(v).startswith("MANCA")]
+    result["fonti"] = fonti
+    result["fonti_mancanti"] = base_missing
+    result["macro_incompleta"] = any(k in base_missing for k in ("real_yield_10y", "dollar_broad"))
+    result["fonti_extra_mancanti"] = extra_missing
+    result["extra"] = extra_info
+    result["news_giudicate"] = bool(view)
+    # testi brevi a primo livello per il pannello dell'EA (dalla 1.21)
+    result["fonti_mancanti_testo"] = ", ".join(engine.LABELS_IT.get(k, k) for k in base_missing)
+    result["extra_sintesi"] = extra_info.get("sintesi", "")
+    ok = [d for d in extra_info.get("dati_usciti", []) if d.get("stato") == "ok"]
+    result["ultimo_dato"] = ""
+    if ok:
+        d = max(ok, key=lambda x: x["ora_utc"])
+        verso = "oro su" if d["verso_oro"] > 0 else "oro giu'" if d["verso_oro"] < 0 else "in linea"
+        result["ultimo_dato"] = f"{d['evento']} {d['dato']} (previsione {d['previsione']}): {verso}"
+        result["ultimo_dato_ora_utc"] = d["ora_utc"]
+        result["ultimo_dato_verso_oro"] = d["verso_oro"]
+        result["ultimo_dato_forza"] = d.get("forza", 0)
     write_atomic(out_dir / "macro_bias.json", json.dumps(result, ensure_ascii=False, indent=1))
     log.info("macro_bias.json: bias %+.2f conf %.2f halt=%s, viste pre-news %d", result["bias"], result["confidence"], result["halt_trading"], len(result["pre_news"]))
 
