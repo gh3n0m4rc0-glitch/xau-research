@@ -1,11 +1,12 @@
 {
- "timestamp_utc": "2026-11-09T02:57:44Z",
- "bias": 0.532,
- "confidence": 0.519,
+ "timestamp_utc": "2026-11-09T10:05:13Z",
+ "bias": 0.439,
+ "confidence": 0.683,
  "regime": "moderatamente favorevole",
- "summary": "Macro rialzista (bias +0.53, conf 0.52): VIX pro oro (+0.98); rendimenti reali 10y pro oro (+0.87); tasso 2y (Fed) pro oro (+0.82); inflazione attesa contro oro (-0.78) | reale 10y 2.63%",
+ "summary": "Macro rialzista (bias +0.44, conf 0.68): VIX pro oro (+0.98); rendimenti reali 10y pro oro (+0.87); tasso 2y (Fed) pro oro (+0.82); inflazione attesa contro oro (-0.78) | reale 10y 2.63%",
  "components": {
   "real_yield_10y": 0.87,
+  "dollar_broad": 0.159,
   "nominal_2y": 0.825,
   "breakeven_10y": -0.78,
   "vix": 0.978,
