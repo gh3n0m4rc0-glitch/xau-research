@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-09T21:31:28Z",
+ "timestamp_utc": "2026-11-09T21:46:25Z",
  "bias": 0.359,
  "confidence": 0.16,
  "regime": "moderatamente favorevole",
@@ -51,30 +51,143 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "yahoo ^TNX: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "yahoo DX-Y.NYB: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "yahoo TIP: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "yahoo ^VIX: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "yahoo GC=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "yahoo SI=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "yahoo CL=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "yahoo HG=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
-  "BLS: Invalid control character at: line 1 column 105 (char 104)",
-  "Cleveland nowcast: Cleveland: serie CPI non trovate nel JSON / Cleveland: numeri non trovati nella pagina",
-  "Fed feed comunicati: not well-formed (invalid token): line 1, column 1",
-  "Fed feed discorsi: not well-formed (invalid token): line 1, column 1",
-  "Fed feed testimonianze: not well-formed (invalid token): line 1, column 1",
-  "Fed agenda: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column",
-  "SPDR GLD: ",
+  "BLS: BLS: REQUEST_NOT_PROCESSED ['The key:4d8454084d624f0c8dc61c0ef0e538e0.\\n provide",
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
-  "premio Shanghai: manca il prezzo oro in dollari"
+  "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
  "extra": {
   "peso_nel_bias": 0,
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
+   "tasso_reale_10y": {
+    "ultimo": 2.663,
+    "ora": "2026-11-09T16:45:06.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": 4.5
+   },
+   "tasso_10y": {
+    "ultimo": 4.886,
+    "ora": "2026-11-09T16:45:02.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": 2.7
+   },
+   "tasso_2y": {
+    "ultimo": 4.568,
+    "ora": "2026-11-09T16:45:02.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": 4.6
+   },
+   "dollaro_dxy": {
+    "ultimo": 101.683,
+    "ora": "2026-11-09T16:45:44.000-0500",
+    "unita_variazioni": "%",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": -0.601
+   },
+   "vix": {
+    "ultimo": 19.92,
+    "ora": "2026-11-09T16:15:01.000-0500",
+    "unita_variazioni": "punti",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": -5.72
+   },
+   "oro_futures": {
+    "ultimo": 4148.6,
+    "ora": "2026-11-09T16:35:43.000-0500",
+    "unita_variazioni": "%",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": 1.809
+   },
+   "argento": {
+    "ultimo": 53.405,
+    "ora": "2026-11-09T16:35:29.000-0500",
+    "unita_variazioni": "%",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": 2.817
+   },
+   "petrolio_wti": {
+    "ultimo": 86.64,
+    "ora": "2026-11-09T16:35:40.000-0500",
+    "unita_variazioni": "%",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": -4.613
+   },
+   "rame": {
+    "ultimo": 6.376,
+    "ora": "2026-11-09T16:35:29.000-0500",
+    "unita_variazioni": "%",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": 2.22
+   },
+   "gld": {
+    "ultimo": 379.53,
+    "ora": "2026-11-09T16:10:00.000-0500",
+    "unita_variazioni": "%",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": 1.882
+   },
+   "usdcny": {
+    "ultimo": 6.6727,
+    "ora": "2026-11-09T05:16:00.000-0500",
+    "unita_variazioni": "%",
+    "var_1h": null,
+    "var_4h": null,
+    "var_24h": -0.049
+   },
    "punteggio_4h": null,
-   "punteggio_24h": null
+   "punteggio_24h": -0.1,
+   "rapporto_oro_argento": 77.68
+  },
+  "etf": {
+   "gld_tonnellate_stimate": 1038.3,
+   "data": "2026-11-09",
+   "giorni_di_storico": 1,
+   "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
+   "flusso_5g_t": null,
+   "flusso_20g_t": null,
+   "punteggio": null
+  },
+  "nowcast_inflazione": {
+   "fonte": "Cleveland Fed",
+   "mese_corrente": "2026-11",
+   "cpi_mm": 0.188147928143953,
+   "core_cpi_mm": 0.204076307515469,
+   "pce_mm": 0.245409888768775,
+   "core_pce_mm": 0.263085273897593,
+   "prossimi_cpi": [
+    {
+     "evento": "Core CPI m/m",
+     "ora_utc": "2026-11-10T13:30:00Z",
+     "mese_dato": "2026-10",
+     "previsione": 0.2,
+     "nowcast": 0.21,
+     "scarto": 0.01,
+     "rischio": "in linea"
+    },
+    {
+     "evento": "CPI m/m",
+     "ora_utc": "2026-11-10T13:30:00Z",
+     "mese_dato": "2026-10",
+     "previsione": 0.3,
+     "nowcast": 0.24,
+     "scarto": -0.06,
+     "rischio": "in linea"
+    }
+   ]
   },
   "aspettative_fed": {
    "effr": 3.88,
@@ -123,6 +236,133 @@
    ],
    "prossime": []
   },
+  "fed": {
+   "comunicati": [
+    {
+     "titolo": "Federal Reserve issues FOMC statement",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+     "data": "Wed, 28 Oct 2026 18:00:00 GMT"
+    },
+    {
+     "titolo": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+     "data": "Tue, 13 Oct 2026 18:00:00 GMT"
+    },
+    {
+     "titolo": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+     "data": "Wed, 7 Oct 2026 18:00:00 GMT"
+    },
+    {
+     "titolo": "Federal Reserve issues FOMC statement",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+     "data": "Wed, 16 Sep 2026 18:00:00 GMT"
+    },
+    {
+     "titolo": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+     "data": "Wed, 16 Sep 2026 18:00:00 GMT"
+    }
+   ],
+   "discorsi": [
+    {
+     "titolo": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+     "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+     "data": "Thu, 15 Oct 2026 02:55:00 GMT"
+    },
+    {
+     "titolo": "Waller, The Signaling Value of the Summary of Economic Projections",
+     "link": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+     "data": "Thu, 8 Oct 2026 08:30:00 GMT"
+    },
+    {
+     "titolo": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
+     "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
+     "data": "Tue, 6 Oct 2026 14:45:00 GMT"
+    },
+    {
+     "titolo": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+     "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+     "data": "Thu, 1 Oct 2026 19:00:00 GMT"
+    },
+    {
+     "titolo": "Jefferson, The U.S. Economy and Monetary Policy",
+     "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+     "data": "Thu, 1 Oct 2026 17:30:00 GMT"
+    }
+   ],
+   "testimonianze": [
+    {
+     "titolo": "Warsh, Semiannual Monetary Policy Report to the Congress",
+     "link": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm",
+     "data": "Tue, 14 Jul 2026 12:30:00 GMT"
+    },
+    {
+     "titolo": "Bowman, Supervision and Regulation",
+     "link": "https://www.federalreserve.gov/newsevents/testimony/bowman20260604a.htm",
+     "data": "Wed, 3 Jun 2026 20:30:00 GMT"
+    },
+    {
+     "titolo": "Guynn, Innovation",
+     "link": "https://www.federalreserve.gov/newsevents/testimony/guynn20260326a.htm",
+     "data": "Wed, 25 Mar 2026 20:30:00 GMT"
+    },
+    {
+     "titolo": "Bowman, Supervision and Regulation",
+     "link": "https://www.federalreserve.gov/newsevents/testimony/bowman20260226a.htm",
+     "data": "Wed, 25 Feb 2026 23:00:00 GMT"
+    },
+    {
+     "titolo": "Bowman, Supervision and Regulation",
+     "link": "https://www.federalreserve.gov/newsevents/testimony/bowman20251202a.htm",
+     "data": "Tue, 2 Dec 2025 15:00:00 GMT"
+    }
+   ],
+   "agenda_7g": [
+    {
+     "evento": "Speech - Governor Christopher J. Waller",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-10T09:00:00Z",
+     "orario_indicativo": false,
+     "dove": "At The Bank of England and its Watchers Conference 2026, London, United Kingdom"
+    },
+    {
+     "evento": "Speech - Vice Chair for Supervision Michelle W. Bowman",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-10T20:30:00Z",
+     "orario_indicativo": false,
+     "dove": "At the C. Peter McColough Series on International Economics with Michelle Bowman"
+    },
+    {
+     "evento": "Speech - Vice Chair for Supervision Michelle W. Bowman",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-10T23:30:00Z",
+     "orario_indicativo": false,
+     "dove": "At A View from the Federal Reserve Board (virtual)"
+    },
+    {
+     "evento": "Speech - Governor Michael S. Barr",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-12T15:00:00Z",
+     "orario_indicativo": false,
+     "dove": "At A Conversation with Michael S. Barr (virtual)"
+    },
+    {
+     "evento": "Discussion - Vice Chair for Supervision Michelle W. Bowman",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-13T15:50:00Z",
+     "orario_indicativo": false,
+     "dove": "At the Connecticut Bankers Association Annual Meeting and Conference 2026 (virtu"
+    },
+    {
+     "evento": "Speech - Vice Chair Philip N. Jefferson",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-14T00:00:00Z",
+     "orario_indicativo": false,
+     "dove": "At the University of California San Diego Economics Roundtable, La Jolla, Calif."
+    }
+   ]
+  },
   "cot_flusso": {
    "data": "2026-11-03",
    "netto_fondi_pct_oi": 26.0,
@@ -169,13 +409,6 @@
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 3.3735,
-   "media_30g": 3.0033,
-   "z": 0.68,
-   "allarme": false,
-   "punteggio": 0.328
   },
   "sintesi": "nessun segnale extra forte"
  },
