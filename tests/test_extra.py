@@ -156,3 +156,27 @@ def test_collect_survives_everything_down(monkeypatch, tmp_path):
     x, miss = extra.collect([], NOW, None, {}, boom, budget_s=60, history_path=str(tmp_path / "h.json"))
     assert x["peso_nel_bias"] == 0
     assert miss and "sintesi" in x
+
+
+def test_upcoming_auctions_use_close_date():
+    rows = [{"securityType": "Note", "securityTerm": "10-Year", "competitiveAuctionCloseDate": "2026-11-12T00:00:00",
+             "competitiveAuctionCloseTime": "01:00 PM", "offeringAmount": "42000000000"},
+            {"securityType": "Bill", "securityTerm": "4-Week", "competitiveAuctionCloseDate": "2026-11-12T00:00:00"}]
+    up = extra.parse_upcoming(rows, NOW)
+    assert up == [{"titolo": "Asta 10-Year", "ora_utc": "2026-11-12T18:00:00Z", "importo_mld": 42.0}]
+
+
+def test_bls_error_never_shows_key(monkeypatch):
+    key = "0123456789abcdef0123456789abcdef"     # chiave finta
+    calls = []
+
+    def fake(ids, k):
+        calls.append(k)
+        return {"status": "REQUEST_NOT_PROCESSED", "message": [f"The key:{key}. provided by the User is invalid."]}
+    monkeypatch.setattr(extra, "_bls_post", fake)
+    try:
+        extra.fetch_bls(["CUSR0000SA0"], key + "\n")
+        assert False
+    except ValueError as e:
+        assert key not in str(e)
+    assert calls == [key, ""]          # chiave pulita, poi riprova senza chiave
