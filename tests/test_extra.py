@@ -1,4 +1,5 @@
 """Test delle fonti extra (formati presi dalle risposte vere del 9 nov 2026)."""
+import json
 from datetime import datetime, timezone
 
 import pandas as pd
@@ -8,23 +9,78 @@ from xau_macro import extra
 NOW = datetime(2026, 11, 10, 14, 0, tzinfo=timezone.utc)
 
 
-def test_yahoo_parse_and_intraday():
-    ts = [1794178800 + 900 * i for i in range(120)]
-    data = {"chart": {"result": [{"timestamp": ts, "indicators": {"quote": [{"close": [100 + i * 0.01 for i in range(119)] + [None]}]}}], "error": None}}
-    s = extra.parse_yahoo_chart(data)
-    assert len(s) == 119
-    assert extra.change_over(s, 1, True) > 0
+CNBC_SAMPLE = {"FormattedQuoteResult": {"FormattedQuote": [
+    {"symbol": "US10YTIP", "code": 0, "last": "2.655%", "previous_day_closing": "2.618%", "last_time": "2026-11-09T16:30:37.000-0500"},
+    {"symbol": ".DXY", "code": 0, "last": "101.672", "previous_day_closing": "102.298"},
+    {"symbol": "@GC.1", "code": 0, "last": "4,147.30", "previous_day_closing": "4,074.90"},
+    {"symbol": "@SI.1", "code": 0, "last": "50.10", "previous_day_closing": "49.00"},
+    {"symbol": "GLD", "code": 0, "last": "379.53", "previous_day_closing": "372.52", "sharesout": "364.90M"},
+    {"symbol": "CNY=", "code": 0, "last": "6.6727", "previous_day_closing": "6.676"},
+    {"symbol": "XXX", "code": 1, "last": ""}]}}
 
-    def fake(sym):
-        if sym == "^TNX":
-            return pd.Series([4.10, 4.20], index=pd.to_datetime([NOW.timestamp() - 86400, NOW.timestamp()], unit="s", utc=True))
-        if sym == "DX-Y.NYB":
-            return pd.Series([100.0, 100.6], index=pd.to_datetime([NOW.timestamp() - 86400, NOW.timestamp()], unit="s", utc=True))
-        raise RuntimeError("non disponibile")
-    out, miss = extra.intraday_block(fake)
-    assert out["tasso_10y"]["var_24h"] == 10.0          # +10 pb
-    assert out["punteggio_24h"] < -0.5                  # tassi e dollaro su = contro oro
-    assert len(miss) == len(extra.YAHOO_SYMBOLS) - 2
+
+def test_cnbc_parse_and_intraday_history():
+    q = extra.parse_cnbc(CNBC_SAMPLE)
+    assert q["@GC.1"]["last"] == 4147.30 and q["GLD"]["sharesout"] == 364.9e6 and "XXX" not in q
+    hist = {}
+    t0 = datetime(2026, 11, 10, 9, 0, tzinfo=timezone.utc)
+    extra.intraday_from_quotes(q, hist, t0)
+    q2 = extra.parse_cnbc(CNBC_SAMPLE)
+    q2["US10YTIP"]["last"] = 2.755          # +10 pb in 4 ore
+    q2[".DXY"]["last"] = 102.2              # dollaro su
+    out = extra.intraday_from_quotes(q2, hist, t0.replace(hour=13))
+    assert out["tasso_reale_10y"]["var_4h"] == 10.0
+    assert out["tasso_reale_10y"]["var_1h"] is None        # nessun punto di 1 ora fa
+    assert out["punteggio_4h"] < -0.3                       # reali e dollaro su = contro oro
+    assert out["dollaro_dxy"]["var_24h"] < 0                # contro la chiusura di ieri
+    assert len(hist["intraday"]["tasso_reale_10y"]) == 2
+
+
+def test_etf_from_gld_shares():
+    q = extra.parse_cnbc(CNBC_SAMPLE)
+    hist = {"gld_tonnellate": [["2026-10-13", 1000.0]]}
+    out = extra.etf_from_quotes(q, hist, datetime(2026, 11, 10, 14, tzinfo=timezone.utc))
+    t = 364.9e6 * 379.53 / 4147.30 / 32150.7466
+    assert abs(out["gld_tonnellate_stimate"] - t) < 0.1
+    assert out["flusso_20g_t"] == round(t - 1000.0, 1)
+    assert out["flusso_5g_t"] == round(t - 1000.0, 1)
+
+
+def test_cleveland_month_json():
+    data = [
+        {"chart": {"subcaption": "2026-10"}, "dataset": [
+            {"seriesname": "CPI Inflation", "data": [{"value": "0.31"}, {"value": "0.36"}, {"value": ""}]},
+            {"seriesname": "Core CPI Inflation", "data": [{"value": "0.25"}]},
+            {"seriesname": "Actual CPI Inflation", "data": [{"value": ""}]}]},
+        {"chart": {"subcaption": "2026-11"}, "dataset": [
+            {"seriesname": "CPI Inflation", "data": [{"value": "0.19"}]}]}]
+    m = extra.parse_cleveland_month_json(data)
+    assert m["2026-10"]["cpi_mm"] == 0.36 and m["2026-11"]["cpi_mm"] == 0.19
+
+
+def test_nowcast_uses_month_before_release(monkeypatch):
+    data = [{"chart": {"subcaption": "2026-10"}, "dataset": [{"seriesname": "CPI Inflation", "data": [{"value": "0.45"}]}]},
+            {"chart": {"subcaption": "2026-11"}, "dataset": [{"seriesname": "CPI Inflation", "data": [{"value": "0.10"}]}]}]
+    import json as _j
+    resp = type("R", (), {"content": _j.dumps(data).encode()})()
+    monkeypatch.setattr(extra, "_get", lambda *a, **k: resp)
+    cal = [{"title": "CPI m/m", "country": "USD", "date": "2026-11-10T08:30:00-05:00", "forecast": "0.3%"}]
+    nc, miss = extra.nowcast_block(cal, datetime(2026, 11, 9, 21, tzinfo=timezone.utc))
+    c = nc["prossimi_cpi"][0]
+    assert c["mese_dato"] == "2026-10" and c["nowcast"] == 0.45 and c["rischio"].startswith("dato caldo")
+
+
+def test_fed_rss_with_bom_and_calendar():
+    xml = b"\xef\xbb\xbf<?xml version='1.0' encoding='utf-8'?><rss><channel><item><title>Speech by Governor X</title><pubDate>Mon, 09 Nov 2026 15:00:00 GMT</pubDate></item></channel></rss>"
+    assert extra.parse_rss_items(xml)[0]["titolo"] == "Speech by Governor X"
+    assert extra.parse_rss_items(xml.decode("latin-1"))[0]["titolo"] == "Speech by Governor X"
+    cal = {"events": [
+        {"title": "Testimony - Chairman Kevin Warsh", "time": "10:00 a.m.", "month": "2026-11", "days": "12", "type": "Testimony"},
+        {"title": "Speech - Governor Y", "time": "", "month": "2026-11", "days": "11", "type": "Speech"},
+        {"title": "Beige Book", "time": "2:00 p.m.", "month": "2026-11", "days": "11", "type": "Beige Book"}]}
+    ev = extra.parse_fed_calendar(cal, datetime(2026, 11, 9, 21, tzinfo=timezone.utc))
+    assert [e["evento"] for e in ev] == ["Speech - Governor Y", "Testimony - Chairman Kevin Warsh"]
+    assert ev[1]["ora_utc"] == "2026-11-12T15:00:00Z" and ev[0]["orario_indicativo"]
 
 
 def test_bls_and_surprise_cpi_hot():
@@ -58,7 +114,7 @@ def test_effr_and_fed_path(monkeypatch):
     assert extra.parse_effr(d)[0] == 3.88
     idx = pd.bdate_range("2026-09-01", periods=30)
     one_y = pd.Series([3.70] * 10 + [3.40] * 20, index=idx)
-    monkeypatch.setattr(extra, "_get", lambda *a, **k: type("R", (), {"json": lambda self: d})())
+    monkeypatch.setattr(extra, "_get", lambda *a, **k: type("R", (), {"content": json.dumps(d).encode()})())
     out, miss = extra.fed_path_block({"1y": one_y})
     assert out["tagli_prezzati_1y"] == round((3.88 - 3.40) / 0.25, 2)
     assert out["punteggio"] > 0               # piu' tagli prezzati di un mese fa = oro su
@@ -84,13 +140,6 @@ def test_gdelt_parse():
     assert extra.parse_gdelt_timeline(data).iloc[-1] == 0.9
 
 
-def test_gld_csv_parse():
-    rows = "\n".join(f"{d:%d-%b-%Y},400.0,{870 + i * 0.5:.2f}" for i, d in enumerate(pd.bdate_range("2026-08-01", periods=60)))
-    text = "SPDR Gold\n\nDate,GLD Close,Tonnes of Gold\n" + rows
-    s = extra.parse_gld_csv(text)
-    assert len(s) == 60 and s.iloc[-1] > s.iloc[0]
-
-
 def test_cot_flow():
     df = pd.DataFrame({"date": pd.date_range("2024-01-02", periods=120, freq="7D"),
                        "mm_net_pct_oi": [0.1 + 0.001 * i for i in range(120)]})
@@ -98,12 +147,12 @@ def test_cot_flow():
     assert out["percentile_3anni"] == 1.0
 
 
-def test_collect_survives_everything_down(monkeypatch):
+def test_collect_survives_everything_down(monkeypatch, tmp_path):
     def boom(*a, **k):
         raise RuntimeError("rete giu'")
     monkeypatch.setattr(extra, "_get", boom)
-    monkeypatch.setattr(extra, "fetch_yahoo", boom)
+    monkeypatch.setattr(extra, "fetch_cnbc", boom)
     monkeypatch.setattr(extra.requests, "post", boom)
-    x, miss = extra.collect([], NOW, None, {}, boom, budget_s=60)
+    x, miss = extra.collect([], NOW, None, {}, boom, budget_s=60, history_path=str(tmp_path / "h.json"))
     assert x["peso_nel_bias"] == 0
     assert miss and "sintesi" in x
