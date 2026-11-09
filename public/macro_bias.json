@@ -1,11 +1,12 @@
 {
- "timestamp_utc": "2026-11-09T11:19:45Z",
- "bias": 0.532,
- "confidence": 0.519,
+ "timestamp_utc": "2026-11-09T21:27:51Z",
+ "bias": 0.359,
+ "confidence": 0.16,
  "regime": "moderatamente favorevole",
- "summary": "Macro rialzista (bias +0.53, conf 0.52): VIX pro oro (+0.98); rendimenti reali 10y pro oro (+0.87); tasso 2y (Fed) pro oro (+0.82); inflazione attesa contro oro (-0.78) | reale 10y 2.63%",
+ "summary": "Macro rialzista (bias +0.36, conf 0.16): VIX pro oro (+0.98); rendimenti reali 10y pro oro (+0.87); tasso 2y (Fed) pro oro (+0.82); inflazione attesa contro oro (-0.78) | reale 10y 2.63%",
  "components": {
   "real_yield_10y": 0.87,
+  "dollar_broad": -0.16,
   "nominal_2y": 0.825,
   "breakeven_10y": -0.78,
   "vix": 0.978,
@@ -37,5 +38,143 @@
    "forecast": "0.3%",
    "previous": "0.6%"
   }
- ]
+ ],
+ "fonti": {
+  "real_yield_10y": "FRED",
+  "dollar_broad": "FRED",
+  "nominal_2y": "FRED",
+  "breakeven_10y": "FRED",
+  "vix": "FRED",
+  "cot": "CFTC",
+  "calendario": "ForexFactory"
+ },
+ "fonti_mancanti": [],
+ "macro_incompleta": false,
+ "fonti_extra_mancanti": [
+  "yahoo ^TNX: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "yahoo DX-Y.NYB: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "yahoo TIP: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "yahoo ^VIX: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "yahoo GC=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "yahoo SI=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "yahoo CL=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "yahoo HG=F: 429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8",
+  "BLS: Invalid control character at: line 1 column 105 (char 104)",
+  "Cleveland nowcast: Cleveland: serie CPI non trovate nel JSON / Cleveland: numeri non trovati nella pagina",
+  "Fed feed comunicati: not well-formed (invalid token): line 1, column 1",
+  "Fed feed discorsi: not well-formed (invalid token): line 1, column 1",
+  "Fed feed testimonianze: not well-formed (invalid token): line 1, column 1",
+  "Fed agenda: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column",
+  "SPDR GLD: ",
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
+  "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
+  "premio Shanghai: manca il prezzo oro in dollari"
+ ],
+ "extra": {
+  "peso_nel_bias": 0,
+  "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
+  "intraday": {
+   "punteggio_4h": null,
+   "punteggio_24h": null
+  },
+  "aspettative_fed": {
+   "effr": 3.88,
+   "data_effr": "2026-11-06",
+   "forchetta_fed": [
+    3.75,
+    4.0
+   ],
+   "tagli_prezzati_3m": -1.44,
+   "variazione_20g_3m": 0.04,
+   "tagli_prezzati_6m": -1.52,
+   "variazione_20g_6m": 0.24,
+   "tagli_prezzati_1y": -2.0,
+   "variazione_20g_1y": 0.36,
+   "punteggio": 0.235
+  },
+  "aste_tesoro": {
+   "ultime": [
+    {
+     "titolo": "10-Year",
+     "data": "2026-10-07",
+     "bid_to_cover": 2.77,
+     "quota_dealer": 0.025,
+     "high_meno_mediano": 0.045,
+     "debolezza_z": -2.2,
+     "giudizio": "forte"
+    },
+    {
+     "titolo": "20-Year",
+     "data": "2026-10-21",
+     "bid_to_cover": 2.73,
+     "quota_dealer": 0.102,
+     "high_meno_mediano": 0.054,
+     "debolezza_z": -0.9,
+     "giudizio": "normale"
+    },
+    {
+     "titolo": "30-Year",
+     "data": "2026-10-08",
+     "bid_to_cover": 2.54,
+     "quota_dealer": 0.068,
+     "high_meno_mediano": 0.051,
+     "debolezza_z": -1.0,
+     "giudizio": "forte"
+    }
+   ],
+   "prossime": []
+  },
+  "cot_flusso": {
+   "data": "2026-11-03",
+   "netto_fondi_pct_oi": 26.0,
+   "percentile_3anni": 0.24,
+   "variazione_4sett_pct_oi": -2.1,
+   "flusso_z": -0.44,
+   "punteggio_flusso": -0.283
+  },
+  "banche_centrali": {
+   "titoli_45g": [
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-07"
+    },
+    {
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "China Buys 26 Tonnes of Gold in October Despite 7% Price Drop, Extending Record Buying Streak - Brave New Coin",
+     "data": "2026-11-08"
+    },
+    {
+     "titolo": "Global Central Banks Are Buying Gold. Russia Is Selling More Than Anyone to Cover Its Budget Deficit - UNITED24 Media",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "September central bank Gold buying hit highest monthly total of the year - FXStreet",
+     "data": "2026-11-05"
+    },
+    {
+     "titolo": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
+     "data": "2026-11-07"
+    },
+    {
+     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
+     "data": "2026-11-03"
+    }
+   ],
+   "pboc_mesi_di_acquisti": 24,
+   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
+   "nota": "regime di fondo, mensile: informativo"
+  },
+  "sintesi": "nessun segnale extra forte"
+ },
+ "news_giudicate": false,
+ "fonti_mancanti_testo": "",
+ "extra_sintesi": "nessun segnale extra forte",
+ "ultimo_dato": ""
 }
