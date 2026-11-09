@@ -290,7 +290,7 @@ def parse_bls(data: dict) -> dict[str, pd.Series]:
     return out
 
 
-def fetch_bls(ids: list[str], api_key: str = "") -> dict[str, pd.Series]:
+def _bls_post(ids: list[str], api_key: str) -> dict:
     y = datetime.now(timezone.utc).year
     body = {"seriesid": ids, "startyear": str(y - 2), "endyear": str(y)}
     url = BLS_API
@@ -300,9 +300,25 @@ def fetch_bls(ids: list[str], api_key: str = "") -> dict[str, pd.Series]:
         url = BLS_API.replace("/v2/", "/v1/")
     r = requests.post(url, json=body, headers={**BROWSER_UA, "Content-Type": "application/json"}, timeout=TIMEOUT)
     r.raise_for_status()
-    d = json.loads(r.text, strict=False)
+    return json.loads(r.text, strict=False)
+
+
+def fetch_bls(ids: list[str], api_key: str = "") -> dict[str, pd.Series]:
+    """Dati ufficiali BLS. Con la chiave (500 richieste/giorno) e, se la chiave viene rifiutata, senza (25/giorno).
+    Il messaggio di errore del BLS ripete la chiave: non va mai scritto nei file pubblici."""
+    api_key = (api_key or "").strip()
+    d = _bls_post(ids, api_key)
+    note = ""
+    if d.get("status") != "REQUEST_SUCCEEDED" and api_key:
+        note = "chiave BLS rifiutata, usato l'accesso senza chiave"
+        log.warning("BLS: %s", note)
+        d = _bls_post(ids, "")
     if d.get("status") != "REQUEST_SUCCEEDED":
-        raise ValueError(f"BLS: {d.get('status')} {d.get('message')}")
+        msg = " ".join(str(m) for m in (d.get("message") or []))
+        if api_key:
+            msg = msg.replace(api_key, "***")
+        msg = re.sub(r"[0-9a-fA-F]{20,}", "***", msg)
+        raise ValueError(f"BLS {d.get('status')}: {msg[:80]}" + (f" ({note})" if note else ""))
     return parse_bls(d)
 
 
@@ -550,11 +566,13 @@ def parse_upcoming(rows: list[dict], now: datetime) -> list[dict]:
         term = r.get("securityTerm") or r.get("originalSecurityTerm") or ""
         if r.get("securityType") not in ("Note", "Bond") or not re.search(r"(10|20|30)-Year", term):
             continue
-        d = pd.to_datetime(r.get("auctionDate"), errors="coerce")
+        d = pd.to_datetime(r.get("auctionDate") or r.get("competitiveAuctionCloseDate"), errors="coerce")
         if pd.isna(d):
             continue
-        # le aste di note e bond chiudono alle 13:00 di New York
-        t = (d.tz_localize("America/New_York") + pd.Timedelta(hours=13)).tz_convert("UTC")
+        # chiusura delle offerte (di solito 01:00 PM di New York)
+        hm = re.match(r"\s*(\d{1,2}):(\d{2})\s*([AP])M", str(r.get("competitiveAuctionCloseTime") or "01:00 PM").upper())
+        hh, mm = (13, 0) if not hm else (int(hm.group(1)) % 12 + (12 if hm.group(3) == "P" else 0), int(hm.group(2)))
+        t = (d.normalize().tz_localize("America/New_York") + pd.Timedelta(hours=hh, minutes=mm)).tz_convert("UTC")
         if t.to_pydatetime() >= now:
             out.append({"titolo": f"Asta {term}", "ora_utc": t.strftime("%Y-%m-%dT%H:%M:%SZ"),
                         "importo_mld": _r(pd.to_numeric(r.get("offeringAmount"), errors="coerce") / 1e9, 1)})
