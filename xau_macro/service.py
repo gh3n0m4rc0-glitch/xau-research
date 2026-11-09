@@ -39,11 +39,9 @@ DEFAULT_CONFIG = {
     "news_feeds": [
         # fonti ufficiali e specializzate (D2)
         "https://www.federalreserve.gov/feeds/press_all.xml",
-        "https://www.bls.gov/feed/bls_latest.rss",
         "https://www.ecb.europa.eu/rss/press.html",
-        "https://www.fxstreet.com/rss/news",
-        "https://www.kitco.com/feed/rss/news/",
-        "https://www.mining.com/feed/",
+        # Kitco, FXStreet e Mining.com rifiutano i server di GitHub: i loro titoli arrivano da Google News
+        "https://news.google.com/rss/search?q=gold+(site:kitco.com+OR+site:fxstreet.com+OR+site:mining.com)+when:1d&hl=en-US&gl=US&ceid=US:en",
         # ricerche mirate su Google News (titoli di Reuters, Bloomberg, FT, WSJ, CNBC...)
         "https://news.google.com/rss/search?q=gold+price+OR+%22Federal+Reserve%22+OR+inflation+OR+treasury+yields+when:1d&hl=en-US&gl=US&ceid=US:en",
         "https://news.google.com/rss/search?q=geopolitical+risk+OR+central+bank+gold+buying+when:2d&hl=en-US&gl=US&ceid=US:en",
@@ -196,7 +194,8 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
         except Exception:
             pass
         extra_info, extra_missing = extra.collect(calendar_raw, now, cot, bills, sources.fetch_fred, effr_hist,
-                                                  os.environ.get("BLS_API_KEY", ""), float(cfg.get("extra_budget_seconds", 300)))
+                                                  os.environ.get("BLS_API_KEY", ""), float(cfg.get("extra_budget_seconds", 300)),
+                                                  out_dir / "intraday_history.json")
         log.info("Extra: %s | fonti mancanti: %d", extra_info.get("sintesi"), len(extra_missing))
         for m in extra_missing:
             log.warning("fonte extra mancante: %s", m)

@@ -317,7 +317,7 @@ def fetch_headlines(feeds: Iterable[str], max_per_feed: int = 25) -> list[dict]:
         try:
             r = requests.get(url, headers=UA, timeout=TIMEOUT)
             r.raise_for_status()
-            items.extend(parse_rss(r.text, url)[:max_per_feed])
+            items.extend(parse_rss(r.content, url)[:max_per_feed])
         except Exception as e:
             log.warning("Feed %s non disponibile: %s", url, e)
     # dedup per titolo
@@ -330,8 +330,11 @@ def fetch_headlines(feeds: Iterable[str], max_per_feed: int = 25) -> list[dict]:
     return out
 
 
-def parse_rss(xml_text: str, source: str) -> list[dict]:
-    root = ET.fromstring(xml_text)
+def parse_rss(xml_text, source: str) -> list[dict]:
+    if isinstance(xml_text, bytes):   # dai byte: niente codifica indovinata, BOM tolto (feed della Fed)
+        xml_text = xml_text.decode("utf-8-sig", errors="replace")
+    xml_text = xml_text.lstrip(chr(0xFEFF)).replace(chr(0xEF) + chr(0xBB) + chr(0xBF), "", 1).strip()
+    root = ET.fromstring(xml_text.encode("utf-8"))
     out = []
     for item in root.iter():
         tag = item.tag.split("}")[-1]

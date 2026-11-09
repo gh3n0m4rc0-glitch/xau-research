@@ -48,6 +48,15 @@ def _get(url: str, **kw) -> requests.Response:
     return r
 
 
+def body_text(r) -> str:
+    """Testo della risposta senza BOM e senza indovinare la codifica (la Fed manda XML con BOM)."""
+    return r.content.decode("utf-8-sig", errors="replace")
+
+
+def body_json(r):
+    return json.loads(body_text(r), strict=False)
+
+
 def _r(x, n=3):
     try:
         if x is None or (isinstance(x, float) and math.isnan(x)):
@@ -63,20 +72,6 @@ def _clip(x: float) -> float:
 
 # ------------------------------------------------------------------ B1 / C4 / A3: Yahoo Finance
 YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}"
-YAHOO_SYMBOLS = {
-    "tasso_10y": "^TNX",       # rendimento 10 anni (in %; vecchio formato x10 gestito sotto)
-    "dollaro_dxy": "DX-Y.NYB",
-    "tips_etf": "TIP",         # proxy dei tassi reali: TIP su = reali giu'
-    "vix": "^VIX",
-    "oro_futures": "GC=F",
-    "argento": "SI=F",
-    "petrolio_wti": "CL=F",
-    "rame": "HG=F",
-}
-# segno verso l'oro di una salita della serie (per la lettura intraday)
-YAHOO_SIGN = {"tasso_10y": -1, "dollaro_dxy": -1, "tips_etf": +1, "vix": +1, "petrolio_wti": +1}
-
-
 def parse_yahoo_chart(data: dict) -> pd.Series:
     res = (data.get("chart") or {}).get("result") or []
     if not res:
@@ -93,57 +88,134 @@ def parse_yahoo_chart(data: dict) -> pd.Series:
 
 def fetch_yahoo(sym: str, rng: str = "5d", interval: str = "15m") -> pd.Series:
     r = _get(YAHOO_CHART.format(sym=requests.utils.quote(sym, safe="")), params={"range": rng, "interval": interval})
-    return parse_yahoo_chart(r.json())
+    return parse_yahoo_chart(body_json(r))
 
 
-def change_over(s: pd.Series, hours: float, pct: bool) -> float | None:
-    if s.empty:
+CNBC_QUOTE = "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol"
+CNBC_SYMBOLS = {
+    "tasso_reale_10y": "US10YTIP",   # rendimento reale 10 anni (TIPS) in tempo reale
+    "tasso_10y": "US10Y",
+    "tasso_2y": "US2Y",
+    "dollaro_dxy": ".DXY",
+    "vix": ".VIX",
+    "oro_futures": "@GC.1",
+    "argento": "@SI.1",
+    "petrolio_wti": "@CL.1",
+    "rame": "@HG.1",
+    "gld": "GLD",
+    "usdcny": "CNY=",
+}
+RATES = ("tasso_reale_10y", "tasso_10y", "tasso_2y")
+CNBC_SIGN = {"tasso_reale_10y": -1, "dollaro_dxy": -1, "tasso_10y": -1, "vix": +1, "petrolio_wti": +1}
+
+
+def _num(x) -> float | None:
+    if x is None:
         return None
-    t_end = s.index[-1]
-    past = s[s.index <= t_end - pd.Timedelta(hours=hours)]
-    if past.empty:
+    m = re.search(r"-?\d+(?:\.\d+)?", str(x).replace(",", ""))
+    if not m:
         return None
-    a, b = float(past.iloc[-1]), float(s.iloc[-1])
-    if pct:
-        return (b / a - 1) * 100 if a else None
-    return b - a
+    v = float(m.group())
+    t = str(x).strip().upper()
+    if t.endswith("M"):
+        v *= 1e6
+    elif t.endswith("B"):
+        v *= 1e9
+    elif t.endswith("K"):
+        v *= 1e3
+    return v
 
 
-def intraday_block(fetch: Callable[[str], pd.Series] = fetch_yahoo) -> tuple[dict, list[str]]:
-    """Variazioni a 1h/4h/24h e un punteggio intraday -1..+1 (tassi e dollaro giu' = oro su)."""
-    out, missing = {}, []
-    for name, sym in YAHOO_SYMBOLS.items():
-        try:
-            s = fetch(sym)
-        except Exception as e:
-            missing.append(f"yahoo {sym}: {str(e)[:80]}")
+def parse_cnbc(data: dict) -> dict[str, dict]:
+    out = {}
+    for q in ((data.get("FormattedQuoteResult") or {}).get("FormattedQuote") or []):
+        if str(q.get("code", "0")) != "0" or q.get("last") in (None, ""):
             continue
-        pct = name not in ("tasso_10y", "vix")
-        if name == "tasso_10y" and s.iloc[-1] > 20:  # vecchio formato ^TNX x10
-            s = s / 10
-        unit = "%" if pct else ("pb" if name == "tasso_10y" else "punti")
-        mult = 100 if name == "tasso_10y" else 1     # tassi in punti base
-        row = {"ultimo": _r(s.iloc[-1], 4), "ora_utc": s.index[-1].strftime("%Y-%m-%dT%H:%M:%SZ"), "unita_variazioni": unit}
-        for h in (1, 4, 24):
-            c = change_over(s, h, pct)
-            row[f"var_{h}h"] = _r(c * mult if c is not None else None, 3)
+        out[q["symbol"]] = {"last": _num(q.get("last")), "prev": _num(q.get("previous_day_closing")),
+                            "time": q.get("last_time"), "sharesout": _num(q.get("sharesout"))}
+    return out
+
+
+def fetch_cnbc(symbols: list[str]) -> dict[str, dict]:
+    r = _get(CNBC_QUOTE, params={"symbols": "|".join(symbols), "requestMethod": "itv", "noform": 1,
+                                 "partnerId": 2, "fund": 1, "exthrs": 1, "output": "json"})
+    return parse_cnbc(body_json(r))
+
+
+def load_history(path) -> dict:
+    try:
+        return json.loads(open(path, encoding="utf-8").read())
+    except Exception:
+        return {}
+
+
+def save_history(path, h: dict) -> None:
+    import os
+    os.makedirs(os.path.dirname(str(path)) or ".", exist_ok=True)
+    tmp = str(path) + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(h, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, path)
+
+
+def _iso(t: datetime) -> str:
+    return t.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def intraday_from_quotes(quotes: dict[str, dict], hist: dict, now: datetime) -> dict:
+    """Variazioni 1h/4h dallo storico salvato dal servizio (ogni 15 min), 24h dalla chiusura di ieri."""
+    out = {}
+    series = hist.setdefault("intraday", {})
+    for name, sym in CNBC_SYMBOLS.items():
+        q = quotes.get(sym)
+        if not q or q["last"] is None:
+            continue
+        pts = [p for p in series.get(name, []) if p[0] >= _iso(now - timedelta(days=2))]
+        pts.append([_iso(now), q["last"]])
+        series[name] = pts[-400:]
+        is_rate = name in RATES
+        unit = "pb" if is_rate else ("punti" if name == "vix" else "%")
+        row = {"ultimo": _r(q["last"], 4), "ora": q.get("time"), "unita_variazioni": unit}
+
+        def delta(a, b):
+            if a is None or b is None:
+                return None
+            if is_rate:
+                return (b - a) * 100
+            if name == "vix":
+                return b - a
+            return (b / a - 1) * 100 if a else None
+        for h in (1, 4):
+            older = [p for p in pts[:-1] if p[0] <= _iso(now - timedelta(hours=h))]
+            # vale solo se il punto vecchio e' davvero di circa h ore fa (non di giorni prima)
+            ok = bool(older) and older[-1][0] >= _iso(now - timedelta(hours=h + 1.5))
+            row[f"var_{h}h"] = _r(delta(older[-1][1], q["last"]), 3) if ok else None
+        row["var_24h"] = _r(delta(q.get("prev"), q["last"]), 3)
         out[name] = row
-    # punteggio: 10y in pb (10 pb in 24h = forte), dollaro in % (0,5% = forte), TIP in % (0,3% = forte)
-    scale = {"tasso_10y": 10.0, "dollaro_dxy": 0.5, "tips_etf": 0.3, "vix": 3.0, "petrolio_wti": 3.0}
-    weights = {"tasso_10y": 0.35, "dollaro_dxy": 0.35, "tips_etf": 0.15, "vix": 0.075, "petrolio_wti": 0.075}
-    for h in (4, 24):
+    scale = {"tasso_reale_10y": 8.0, "dollaro_dxy": 0.5, "tasso_10y": 10.0, "vix": 3.0, "petrolio_wti": 3.0}
+    weights = {"tasso_reale_10y": 0.35, "dollaro_dxy": 0.35, "tasso_10y": 0.1, "vix": 0.1, "petrolio_wti": 0.1}
+    for h, k in ((4, 0.6), (24, 1.0)):
         num = den = 0.0
-        for k, w in weights.items():
-            v = (out.get(k) or {}).get(f"var_{h}h")
+        for n, w in weights.items():
+            v = (out.get(n) or {}).get(f"var_{h}h")
             if v is None:
                 continue
-            num += w * YAHOO_SIGN[k] * math.tanh(v / scale[k] / (1 if h == 24 else 0.6))
+            num += w * CNBC_SIGN[n] * math.tanh(v / scale[n] / k)
             den += w
-        out[f"punteggio_{h}h"] = _r(num / den if den else None, 3)
-    gold, silver = (out.get("oro_futures") or {}).get("ultimo"), (out.get("argento") or {}).get("ultimo")
-    if gold and silver:
-        out["rapporto_oro_argento"] = _r(gold / silver, 2)
-    return out, missing
+        out[f"punteggio_{h}h"] = _r(num / den if den >= 0.5 else None, 3)
+    g, sv = (out.get("oro_futures") or {}).get("ultimo"), (out.get("argento") or {}).get("ultimo")
+    if g and sv:
+        out["rapporto_oro_argento"] = _r(g / sv, 2)
+    return out
+
+
+def intraday_cnbc(hist: dict, now: datetime) -> tuple[dict, list[str], dict]:
+    try:
+        quotes = fetch_cnbc(list(CNBC_SYMBOLS.values()))
+    except Exception as e:
+        return {}, [f"CNBC quotazioni: {str(e)[:80]}"], {}
+    missing = [f"CNBC {s}: assente" for s in CNBC_SYMBOLS.values() if s not in quotes]
+    return intraday_from_quotes(quotes, hist, now), missing, quotes
 
 
 def yahoo_dollar_daily(start: str) -> pd.Series:
@@ -228,7 +300,7 @@ def fetch_bls(ids: list[str], api_key: str = "") -> dict[str, pd.Series]:
         url = BLS_API.replace("/v2/", "/v1/")
     r = requests.post(url, json=body, headers={**BROWSER_UA, "Content-Type": "application/json"}, timeout=TIMEOUT)
     r.raise_for_status()
-    d = r.json()
+    d = json.loads(r.text, strict=False)
     if d.get("status") != "REQUEST_SUCCEEDED":
         raise ValueError(f"BLS: {d.get('status')} {d.get('message')}")
     return parse_bls(d)
@@ -328,18 +400,19 @@ def surprise_block(calendar_raw: list[dict], now: datetime, fred_fetch: Callable
 
 # ------------------------------------------------------------------ B3: nowcast Fed di Cleveland
 CLEVELAND_JSON = "https://www.clevelandfed.org/-/media/files/webcharts/inflationnowcasting/nowcast_month.json"
-CLEVELAND_PAGE = "https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting"
 
 
-def parse_cleveland_month_json(data) -> dict:
-    """Formato dei grafici Highcharts del sito: lista di blocchi con 'chart' e 'dataset' (serie per indice)."""
-    blocks = data if isinstance(data, list) else [data]
-    last = blocks[-1]
-    out = {"mese": (last.get("chart") or {}).get("subcaption") or (last.get("chart") or {}).get("caption")}
-    for ds in last.get("dataset", []):
-        for s in ds.get("series", []) if isinstance(ds, dict) else []:
-            name = (s.get("seriesname") or s.get("name") or "").lower()
-            vals = [p.get("value") for p in s.get("data", []) if p.get("value") not in (None, "")]
+def _block_values(block: dict) -> dict:
+    out = {}
+    for ds in block.get("dataset", []) or []:
+        # ogni elemento di "dataset" e' una serie (seriesname, data); in altre versioni sta sotto "series"
+        for ser in (ds.get("series") if isinstance(ds, dict) and "series" in ds else [ds]):
+            if not isinstance(ser, dict):
+                continue
+            name = (ser.get("seriesname") or ser.get("name") or "").strip().lower()
+            if name.startswith("actual"):
+                continue
+            vals = [p.get("value") for p in ser.get("data", []) if isinstance(p, dict) and p.get("value") not in (None, "")]
             if not vals:
                 continue
             v = float(vals[-1])
@@ -351,36 +424,34 @@ def parse_cleveland_month_json(data) -> dict:
                 out["core_pce_mm"] = v
             elif name.startswith("pce"):
                 out["pce_mm"] = v
-    if not any(k in out for k in ("cpi_mm", "core_cpi_mm")):
+    return out
+
+
+def parse_cleveland_month_json(data) -> dict:
+    """File dei grafici del sito: lista di blocchi (uno per mese, 'chart.subcaption' = 'AAAA-M') con 'dataset'.
+    Restituisce {'AAAA-MM': {'cpi_mm':..,'core_cpi_mm':..,...}} per i mesi con valori."""
+    blocks = data if isinstance(data, list) else [data]
+    months = {}
+    for b in blocks:
+        if not isinstance(b, dict):
+            continue
+        cap = str((b.get("chart") or {}).get("subcaption") or "")
+        m = re.match(r"(\d{4})-(\d{1,2})", cap)
+        vals = _block_values(b)
+        if m and vals:
+            months[f"{int(m.group(1)):04d}-{int(m.group(2)):02d}"] = vals
+    if not months:
         raise ValueError("Cleveland: serie CPI non trovate nel JSON")
-    return out
-
-
-def parse_cleveland_page(html: str) -> dict:
-    txt = re.sub(r"<[^>]+>", " ", html)
-    txt = re.sub(r"\s+", " ", txt)
-    out = {}
-    m = re.search(r"Core CPI\s+(-?\d+\.\d+)", txt)
-    if m:
-        out["core_cpi_mm"] = float(m.group(1))
-    m = re.search(r"(?<!Core )CPI\s+(-?\d+\.\d+)", txt)
-    if m:
-        out["cpi_mm"] = float(m.group(1))
-    if not out:
-        raise ValueError("Cleveland: numeri non trovati nella pagina")
-    return out
+    return months
 
 
 def nowcast_block(calendar_raw: list[dict], now: datetime) -> tuple[dict, list[str]]:
     try:
-        nc = parse_cleveland_month_json(_get(CLEVELAND_JSON).json())
-        nc["fonte"] = "Cleveland Fed (json)"
+        months = parse_cleveland_month_json(body_json(_get(CLEVELAND_JSON, timeout=25)))
     except Exception as e1:
-        try:
-            nc = parse_cleveland_page(_get(CLEVELAND_PAGE).text)
-            nc["fonte"] = "Cleveland Fed (pagina)"
-        except Exception as e2:
-            return {}, [f"Cleveland nowcast: {str(e1)[:50]} / {str(e2)[:50]}"]
+        return {}, [f"Cleveland nowcast: {str(e1)[:80]}"]
+    last = max(months)
+    nc = {"fonte": "Cleveland Fed", "mese_corrente": last, **months[last]}
     # confronto con la previsione del prossimo CPI in calendario: nowcast sopra il consenso = rischio dato caldo
     for e in calendar_raw:
         k = _release_key(e.get("title", ""))
@@ -393,12 +464,14 @@ def nowcast_block(calendar_raw: list[dict], now: datetime) -> tuple[dict, list[s
         if t.tzinfo is None:
             t = t.replace(tzinfo=timezone.utc)
         fc = parse_number(e.get("forecast"))
-        v = nc.get("cpi_mm" if k == "cpi m/m" else "core_cpi_mm")
+        # il CPI che esce a novembre e' quello di ottobre: si confronta con il nowcast di quel mese
+        ref = (pd.Timestamp(t.year, t.month, 1) - pd.DateOffset(months=1)).strftime("%Y-%m")
+        v = (months.get(ref) or {}).get("cpi_mm" if k == "cpi m/m" else "core_cpi_mm")
         if t > now and fc is not None and v is not None:
             gap = v - fc
             nc.setdefault("prossimi_cpi", []).append({
                 "evento": e.get("title"), "ora_utc": t.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "previsione": fc, "nowcast": v, "scarto": _r(gap, 2),
+                "mese_dato": ref, "previsione": fc, "nowcast": _r(v, 2), "scarto": _r(gap, 2),
                 "rischio": "dato caldo (oro giu')" if gap >= 0.1 else "dato freddo (oro su)" if gap <= -0.1 else "in linea"})
     return nc, []
 
@@ -416,7 +489,7 @@ def fed_path_block(bills: dict[str, pd.Series], effr_hist: pd.Series | None = No
     """bills: {'3m','6m','1y'} serie giornaliere (Tesoro). Tagli prezzati ~ (EFFR - rendimento) / 0,25."""
     missing = []
     try:
-        effr, d, lo, hi = parse_effr(_get(NYFED_EFFR).json())
+        effr, d, lo, hi = parse_effr(body_json(_get(NYFED_EFFR)))
     except Exception as e:
         missing.append(f"Fed NY EFFR: {str(e)[:80]}")
         if effr_hist is None or effr_hist.empty:
@@ -493,12 +566,12 @@ def auctions_block(now: datetime) -> tuple[dict, list[str]]:
     try:
         rows = []
         for typ in ("Note", "Bond"):
-            rows += _get(TD_AUCTIONED, params={"format": "json", "type": typ, "days": 400}).json()
+            rows += body_json(_get(TD_AUCTIONED, params={"format": "json", "type": typ, "days": 400}))
         out["ultime"] = auction_quality(rows)
     except Exception as e:
         missing.append(f"TreasuryDirect aste: {str(e)[:80]}")
     try:
-        out["prossime"] = parse_upcoming(_get(TD_UPCOMING, params={"format": "json"}).json(), now)
+        out["prossime"] = parse_upcoming(body_json(_get(TD_UPCOMING, params={"format": "json"})), now)
     except Exception as e:
         missing.append(f"TreasuryDirect prossime aste: {str(e)[:80]}")
     return out, missing
@@ -513,9 +586,13 @@ FED_FEEDS = {
 FED_CALENDAR = "https://www.federalreserve.gov/json/calendar.json"
 
 
-def parse_rss_items(xml_text: str) -> list[dict]:
+def parse_rss_items(xml_text) -> list[dict]:
     import xml.etree.ElementTree as ET
-    root = ET.fromstring(xml_text.lstrip("﻿").strip())
+    if isinstance(xml_text, bytes):
+        xml_text = xml_text.decode("utf-8-sig", errors="replace")
+    # BOM vero o BOM letto come latin-1 (succede con i feed della Fed)
+    xml_text = xml_text.lstrip(chr(0xFEFF)).replace(chr(0xEF) + chr(0xBB) + chr(0xBF), "", 1).strip()
+    root = ET.fromstring(xml_text.encode("utf-8"))
     out = []
     for it in root.iter():
         if it.tag.split("}")[-1] not in ("item", "entry"):
@@ -534,25 +611,38 @@ def parse_rss_items(xml_text: str) -> list[dict]:
     return out
 
 
+def _fed_time(month, days, tm):
+    d = re.match(r"\s*(\d{1,2})", str(days or ""))
+    if not (re.match(r"\d{4}-\d{2}$", str(month or "")) and d):
+        return None
+    m = re.match(r"\s*(\d{1,2}):(\d{2})\s*([ap])\.?\s*m", str(tm or "").lower())
+    hh, mm = 12, 0
+    if m:
+        hh, mm = int(m.group(1)) % 12 + (12 if m.group(3) == "p" else 0), int(m.group(2))
+    try:
+        return pd.Timestamp(f"{month}-{int(d.group(1)):02d} {hh:02d}:{mm:02d}").tz_localize("America/New_York").tz_convert("UTC")
+    except Exception:
+        return None
+
+
 def parse_fed_calendar(data, now: datetime, days: int = 7) -> list[dict]:
+    """Agenda della Fed: {"events":[{"title","type","month":"AAAA-MM","days":"GG","time":"10:00 a.m.",...}]}"""
     events = data.get("events", data) if isinstance(data, dict) else data
     out = []
     for e in events or []:
-        title = e.get("title") or e.get("description") or ""
-        typ = (e.get("type") or "").lower()
-        if not any(k in (title + " " + typ).lower() for k in ("speech", "testimony", "fomc", "discussion", "remarks", "press conference")):
+        if not isinstance(e, dict):
             continue
-        d = e.get("days") or e.get("date") or ""
-        tm = e.get("time") or ""
-        try:
-            dt = pd.to_datetime(f"{e.get('month', '')} {d} {tm}".strip() if e.get("month") else f"{d} {tm}", errors="raise")
-        except Exception:
+        title = (e.get("title") or e.get("description") or "").strip()
+        typ = (e.get("type") or "").strip()
+        if not re.search(r"speech|testimony|fomc|press conference|remarks|discussion|minutes", f"{title} {typ}", re.I):
             continue
-        if dt.tzinfo is None:
-            dt = dt.tz_localize("America/New_York")
-        dt = dt.tz_convert("UTC")
+        dt = _fed_time(e.get("month"), e.get("days"), e.get("time"))
+        if dt is None:
+            continue
         if now - timedelta(hours=2) <= dt.to_pydatetime() <= now + timedelta(days=days):
-            out.append({"evento": title.strip(), "ora_utc": dt.strftime("%Y-%m-%dT%H:%M:%SZ"), "chi": e.get("speaker", "")})
+            out.append({"evento": title, "tipo": typ, "ora_utc": dt.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                        "orario_indicativo": not bool(re.search(r"\d:\d\d", str(e.get("time") or ""))),
+                        "dove": (e.get("location") or "")[:80]})
     return sorted(out, key=lambda x: x["ora_utc"])[:20]
 
 
@@ -560,11 +650,11 @@ def fed_block(now: datetime) -> tuple[dict, list[str]]:
     out, missing = {}, []
     for k, url in FED_FEEDS.items():
         try:
-            out[k] = parse_rss_items(_get(url).text)[:5]
+            out[k] = parse_rss_items(_get(url).content)[:5]
         except Exception as e:
             missing.append(f"Fed feed {k}: {str(e)[:60]}")
     try:
-        out["agenda_7g"] = parse_fed_calendar(_get(FED_CALENDAR).json(), now)
+        out["agenda_7g"] = parse_fed_calendar(body_json(_get(FED_CALENDAR)), now)
     except Exception as e:
         missing.append(f"Fed agenda: {str(e)[:60]}")
     return out, missing
@@ -584,35 +674,25 @@ def cot_flow_block(cot: pd.DataFrame | None) -> dict:
 
 
 # ------------------------------------------------------------------ C1: ETF (GLD)
-GLD_CSV = "https://www.spdrgoldshares.com/assets/dynamic/GLD/GLD_US_archive_EN.csv"
-
-
-def parse_gld_csv(text: str) -> pd.Series:
-    lines = text.splitlines()
-    hdr = next(i for i, l in enumerate(lines) if "Date" in l and ("Tonnes" in l or "Ounces" in l))
-    df = pd.read_csv(io.StringIO("\n".join(lines[hdr:])), skipinitialspace=True)
-    df.columns = [c.strip() for c in df.columns]
-    col = next(c for c in df.columns if "Tonnes" in c)
-    s = pd.to_numeric(df[col].astype(str).str.replace(",", ""), errors="coerce")
-    s.index = pd.to_datetime(df["Date"], errors="coerce", format="mixed", dayfirst=True)
-    s = s[s.index.notna()].dropna().sort_index()
-    s = s[s > 0]
-    if len(s) < 30:
-        raise ValueError("GLD: serie troppo corta")
-    return s
-
-
-def etf_block() -> tuple[dict, list[str]]:
-    try:
-        s = parse_gld_csv(_get(GLD_CSV, timeout=25).text)
-    except Exception as e:
-        return {}, [f"SPDR GLD: {str(e)[:80]}"]
-    s = s[~s.index.duplicated(keep="last")]
-    ch5, ch20 = s.diff(5), s.diff(20)
-    z = (ch20.iloc[-1] - ch20.iloc[-500:].mean()) / (ch20.iloc[-500:].std() or np.nan)
-    return {"gld_tonnellate": _r(s.iloc[-1], 2), "data": s.index[-1].strftime("%Y-%m-%d"),
-            "flusso_5g_t": _r(ch5.iloc[-1], 2), "flusso_20g_t": _r(ch20.iloc[-1], 2),
-            "flusso_z": _r(z, 2), "punteggio": _r(math.tanh(z / 1.5) if not np.isnan(z) else None, 3)}, []
+def etf_from_quotes(quotes: dict, hist: dict, now: datetime) -> dict:
+    """Once/tonnellate del GLD stimate da azioni in circolazione x (prezzo GLD / prezzo oro).
+    L'archivio CSV di SPDR non esiste piu' (nov 2026): lo storico lo costruisce il servizio, un punto al giorno."""
+    g, gold = quotes.get("GLD") or {}, (quotes.get("@GC.1") or {}).get("last")
+    if not g.get("sharesout") or not g.get("last") or not gold:
+        raise ValueError("GLD: azioni in circolazione non disponibili")
+    tonnes = g["sharesout"] * g["last"] / gold / 32150.7466
+    day = now.strftime("%Y-%m-%d")
+    pts = [p for p in hist.get("gld_tonnellate", []) if p[0] != day] + [[day, round(tonnes, 2)]]
+    hist["gld_tonnellate"] = pts = sorted(pts)[-600:]
+    s = pd.Series({pd.Timestamp(d): v for d, v in pts}).sort_index()
+    out = {"gld_tonnellate_stimate": _r(tonnes, 1), "data": day, "giorni_di_storico": len(s),
+           "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro"}
+    for n in (5, 20):
+        prev = s[s.index <= pd.Timestamp(day) - pd.Timedelta(days=int(n * 1.4))]
+        out[f"flusso_{n}g_t"] = _r(tonnes - prev.iloc[-1], 1) if len(prev) else None
+    f20 = out.get("flusso_20g_t")
+    out["punteggio"] = _r(math.tanh(f20 / 25.0), 3) if f20 is not None else None
+    return out
 
 
 # ------------------------------------------------------------------ C2: banche centrali (informativo)
@@ -622,7 +702,7 @@ CB_NEWS = ("https://news.google.com/rss/search?q=%22central+bank%22+gold+(tonnes
 
 def central_banks_block(now: datetime) -> tuple[dict, list[str]]:
     try:
-        items = parse_rss_items(_get(CB_NEWS).text)
+        items = parse_rss_items(_get(CB_NEWS).content)
     except Exception as e:
         return {}, [f"notizie banche centrali: {str(e)[:60]}"]
     keep = []
@@ -662,13 +742,12 @@ def parse_sge_benchmark(html: str) -> float:
     return nums[0]
 
 
-def shanghai_block(gold_usd_oz: float | None) -> tuple[dict, list[str]]:
+def shanghai_block(gold_usd_oz: float | None, usdcny: float | None = None) -> tuple[dict, list[str]]:
     if not gold_usd_oz:
         return {}, ["premio Shanghai: manca il prezzo oro in dollari"]
-    try:
-        usdcnh = float(fetch_yahoo("CNY=X", rng="5d", interval="1h").iloc[-1])
-    except Exception as e:
-        return {}, [f"cambio USDCNY: {str(e)[:60]}"]
+    usdcnh = usdcny
+    if not usdcnh:
+        return {}, ["premio Shanghai: manca il cambio USDCNY"]
     errs = []
     for url in SGE_URLS:
         try:
@@ -698,11 +777,18 @@ def parse_gdelt_timeline(data: dict) -> pd.Series:
 
 
 def geopolitics_block() -> tuple[dict, list[str]]:
-    try:
-        r = _get(GDELT, params={"query": GDELT_QUERY, "mode": "timelinevol", "timespan": "30d", "format": "json"}, timeout=25)
-        s = parse_gdelt_timeline(r.json())
-    except Exception as e:
-        return {}, [f"GDELT: {str(e)[:80]}"]
+    s, err = None, ""
+    for attempt in range(2):
+        try:
+            r = _get(GDELT, params={"query": GDELT_QUERY, "mode": "timelinevol", "timespan": "30d", "format": "json"}, timeout=25)
+            s = parse_gdelt_timeline(body_json(r))
+            break
+        except Exception as e:
+            err = str(e)[:80]
+            if attempt == 0:
+                time.sleep(7)
+    if s is None:
+        return {}, [f"GDELT: {err}"]
     daily = s.resample("1D").mean().dropna()
     last24 = s[s.index >= s.index[-1] - pd.Timedelta(hours=24)].mean()
     base = daily.iloc[:-1]
@@ -746,20 +832,30 @@ def crowd_block() -> tuple[dict, list[str]]:
 # ------------------------------------------------------------------ raccolta
 def collect(calendar_raw: list[dict], now: datetime, cot: pd.DataFrame | None, bills: dict[str, pd.Series],
             fred_fetch: Callable[[str, str], pd.Series], effr_hist: pd.Series | None = None,
-            bls_key: str = "", budget_s: float = 300) -> tuple[dict, list[str]]:
+            bls_key: str = "", budget_s: float = 300, history_path=None) -> tuple[dict, list[str]]:
     """Esegue tutti i blocchi entro un tempo massimo; restituisce (extra, fonti_mancanti)."""
     t0 = time.monotonic()
     extra: dict = {"peso_nel_bias": 0, "nota": "informazioni in prova: non cambiano il bias finche' non le confermi"}
     missing: list[str] = []
+    hist = load_history(history_path) if history_path else {}
+    intr, miss, quotes = intraday_cnbc(hist, now)
+    if intr:
+        extra["intraday"] = intr
+    missing += miss
+    if quotes:
+        try:
+            extra["etf"] = etf_from_quotes(quotes, hist, now)
+        except Exception as e:
+            missing.append(f"ETF GLD: {str(e)[:80]}")
+    else:
+        missing.append("ETF GLD: niente quotazioni CNBC")
     steps = [
-        ("intraday", lambda: intraday_block()),
         ("dati_usciti", lambda: surprise_block(calendar_raw, now, fred_fetch, bls_key)),
         ("nowcast_inflazione", lambda: nowcast_block(calendar_raw, now)),
         ("aspettative_fed", lambda: fed_path_block(bills, effr_hist)),
         ("aste_tesoro", lambda: auctions_block(now)),
         ("fed", lambda: fed_block(now)),
         ("cot_flusso", lambda: (cot_flow_block(cot), [])),
-        ("etf", lambda: etf_block()),
         ("banche_centrali", lambda: central_banks_block(now)),
         ("geopolitica", lambda: geopolitics_block()),
         ("folla", lambda: crowd_block()),
@@ -777,15 +873,21 @@ def collect(calendar_raw: list[dict], now: datetime, cot: pd.DataFrame | None, b
             log.warning("extra %s: %s", name, e)
             missing.append(f"{name}: errore {str(e)[:80]}")
     gold = ((extra.get("intraday") or {}).get("oro_futures") or {}).get("ultimo")
+    cny = ((extra.get("intraday") or {}).get("usdcny") or {}).get("ultimo")
     if time.monotonic() - t0 <= budget_s:
         try:
-            val, miss = shanghai_block(gold)
+            val, miss = shanghai_block(gold, cny)
             if val:
                 extra["premio_shanghai"] = val
             missing += miss
         except Exception as e:
             missing.append(f"premio_shanghai: errore {str(e)[:80]}")
     extra["sintesi"] = summary_it(extra)
+    if history_path:
+        try:
+            save_history(history_path, hist)
+        except Exception as e:
+            missing.append(f"storico intraday non salvato: {str(e)[:60]}")
     return extra, missing
 
 
