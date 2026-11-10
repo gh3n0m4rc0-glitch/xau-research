@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T10:46:32Z",
+ "timestamp_utc": "2026-11-10T11:02:21Z",
  "bias": 0.363,
  "confidence": 0.161,
  "regime": "moderatamente favorevole",
@@ -60,75 +60,75 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.662,
-    "ora": "2026-11-10T05:42:05.000-0500",
+    "ultimo": 2.665,
+    "ora": "2026-11-10T06:00:21.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
-    "var_4h": 0.4,
-    "var_24h": 0.1
+    "var_1h": 0.3,
+    "var_4h": 0.9,
+    "var_24h": 0.4
    },
    "tasso_10y": {
-    "ultimo": 4.884,
-    "ora": "2026-11-10T05:45:42.000-0500",
+    "ultimo": 4.888,
+    "ora": "2026-11-10T06:01:12.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
-    "var_4h": 1.6,
-    "var_24h": 2.2
+    "var_1h": 0.4,
+    "var_4h": 2.2,
+    "var_24h": 2.6
    },
    "tasso_2y": {
-    "ultimo": 4.609,
-    "ora": "2026-11-10T05:45:42.000-0500",
+    "ultimo": 4.612,
+    "ora": "2026-11-10T06:00:35.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
-    "var_4h": 5.8,
-    "var_24h": 6.2
+    "var_1h": -0.2,
+    "var_4h": 6.3,
+    "var_24h": 6.5
    },
    "dollaro_dxy": {
-    "ultimo": 101.708,
-    "ora": "2026-11-10T05:45:43.000-0500",
+    "ultimo": 101.7,
+    "ora": "2026-11-10T06:01:18.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.018,
-    "var_4h": 0.06,
-    "var_24h": 0.054
+    "var_1h": 0.01,
+    "var_4h": 0.072,
+    "var_24h": 0.046
    },
    "vix": {
-    "ultimo": 20.12,
-    "ora": "2026-11-10T05:45:31.000-0500",
+    "ultimo": 20.14,
+    "ora": "2026-11-10T06:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.11,
-    "var_4h": 0.2,
-    "var_24h": 0.2
+    "var_1h": 0.27,
+    "var_4h": 0.22,
+    "var_24h": 0.22
    },
    "oro_futures": {
-    "ultimo": 4083.0,
-    "ora": "2026-11-10T05:35:38.000-0500",
+    "ultimo": 4083.2,
+    "ora": "2026-11-10T05:51:18.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.356,
-    "var_4h": -1.174,
-    "var_24h": -0.766
+    "var_1h": -0.198,
+    "var_4h": -1.248,
+    "var_24h": -0.761
    },
    "argento": {
-    "ultimo": 52.43,
-    "ora": "2026-11-10T05:35:28.000-0500",
+    "ultimo": 52.35,
+    "ora": "2026-11-10T05:51:12.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.152,
-    "var_4h": -1.623,
-    "var_24h": -0.499
+    "var_1h": -0.409,
+    "var_4h": -1.598,
+    "var_24h": -0.651
    },
    "petrolio_wti": {
-    "ultimo": 85.06,
-    "ora": "2026-11-10T05:35:37.000-0500",
+    "ultimo": 85.42,
+    "ora": "2026-11-10T05:51:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.354,
-    "var_4h": -0.828,
-    "var_24h": -2.061
+    "var_1h": 1.545,
+    "var_4h": 0.117,
+    "var_24h": -1.647
    },
    "rame": {
     "ultimo": 6.31,
-    "ora": "2026-11-10T05:35:29.000-0500",
+    "ora": "2026-11-10T05:51:12.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.277,
-    "var_4h": -0.371,
+    "var_1h": -0.253,
+    "var_4h": -0.347,
     "var_24h": -0.544
    },
    "gld": {
@@ -143,16 +143,16 @@
     "ultimo": 6.6703,
     "ora": "2026-11-10T05:33:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.025,
-    "var_4h": 0.016,
+    "var_1h": 0.012,
+    "var_4h": 0.007,
     "var_24h": -0.036
    },
-   "punteggio_4h": -0.156,
-   "punteggio_24h": -0.117,
-   "rapporto_oro_argento": 77.88
+   "punteggio_4h": -0.164,
+   "punteggio_24h": -0.118,
+   "rapporto_oro_argento": 78.0
   },
   "etf": {
-   "gld_tonnellate_stimate": 1055.0,
+   "gld_tonnellate_stimate": 1054.9,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -334,13 +334,6 @@
     }
    ],
    "agenda_7g": [
-    {
-     "evento": "Speech - Governor Christopher J. Waller",
-     "tipo": "Speeches",
-     "ora_utc": "2026-11-10T09:00:00Z",
-     "orario_indicativo": false,
-     "dove": "At The Bank of England and its Watchers Conference 2026, London, United Kingdom"
-    },
     {
      "evento": "Speech - Vice Chair for Supervision Michelle W. Bowman",
      "tipo": "Speeches",
