@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T01:16:30Z",
+ "timestamp_utc": "2026-11-10T01:31:56Z",
  "bias": 0.363,
  "confidence": 0.161,
  "regime": "moderatamente favorevole",
@@ -51,6 +51,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -59,36 +60,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.66,
-    "ora": "2026-11-09T20:15:45.000-0500",
+    "ultimo": 2.659,
+    "ora": "2026-11-09T20:30:34.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.5,
+    "var_1h": -0.8,
     "var_4h": null,
-    "var_24h": -0.1
+    "var_24h": -0.2
    },
    "tasso_10y": {
     "ultimo": 4.872,
-    "ora": "2026-11-09T20:15:46.000-0500",
+    "ora": "2026-11-09T20:30:34.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.8,
+    "var_1h": -1.0,
     "var_4h": null,
     "var_24h": 1.0
    },
    "tasso_2y": {
-    "ultimo": 4.557,
-    "ora": "2026-11-09T20:15:44.000-0500",
+    "ultimo": 4.555,
+    "ora": "2026-11-09T20:30:49.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.4,
+    "var_1h": -0.8,
     "var_4h": null,
-    "var_24h": 1.0
+    "var_24h": 0.8
    },
    "dollaro_dxy": {
-    "ultimo": 101.656,
-    "ora": "2026-11-09T20:15:47.000-0500",
+    "ultimo": 101.657,
+    "ora": "2026-11-09T20:31:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.003,
+    "var_1h": 0.004,
     "var_4h": null,
-    "var_24h": 0.003
+    "var_24h": 0.004
    },
    "vix": {
     "ultimo": 19.92,
@@ -99,36 +100,36 @@
     "var_24h": -5.72
    },
    "oro_futures": {
-    "ultimo": 4143.2,
-    "ora": "2026-11-09T20:05:44.000-0500",
+    "ultimo": 4138.1,
+    "ora": "2026-11-09T20:21:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.063,
+    "var_1h": 0.015,
     "var_4h": null,
-    "var_24h": 0.698
+    "var_24h": 0.574
    },
    "argento": {
-    "ultimo": 53.6,
-    "ora": "2026-11-09T20:05:46.000-0500",
+    "ultimo": 53.435,
+    "ora": "2026-11-09T20:21:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.375,
+    "var_1h": 0.253,
     "var_4h": null,
-    "var_24h": 1.721
+    "var_24h": 1.408
    },
    "petrolio_wti": {
-    "ultimo": 86.41,
-    "ora": "2026-11-09T20:05:45.000-0500",
+    "ultimo": 86.32,
+    "ora": "2026-11-09T20:21:03.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.023,
+    "var_1h": -0.162,
     "var_4h": null,
-    "var_24h": -0.507
+    "var_24h": -0.61
    },
    "rame": {
-    "ultimo": 6.383,
-    "ora": "2026-11-09T20:05:46.000-0500",
+    "ultimo": 6.3825,
+    "ora": "2026-11-09T20:20:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.071,
+    "var_1h": 0.118,
     "var_4h": null,
-    "var_24h": 0.607
+    "var_24h": 0.599
    },
    "gld": {
     "ultimo": 379.53,
@@ -139,19 +140,19 @@
     "var_24h": 1.882
    },
    "usdcny": {
-    "ultimo": 6.6728,
-    "ora": "2026-11-09T17:01:00.000-0500",
+    "ultimo": 6.671,
+    "ora": "2026-11-09T20:31:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
+    "var_1h": -0.027,
     "var_4h": null,
-    "var_24h": 0.001
+    "var_24h": -0.025
    },
    "punteggio_4h": null,
    "punteggio_24h": -0.12,
-   "rapporto_oro_argento": 77.3
+   "rapporto_oro_argento": 77.44
   },
   "etf": {
-   "gld_tonnellate_stimate": 1039.7,
+   "gld_tonnellate_stimate": 1040.9,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -423,13 +424,6 @@
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 3.3912,
-   "media_30g": 2.9927,
-   "z": 0.75,
-   "allarme": false,
-   "punteggio": 0.358
   },
   "sintesi": "nessun segnale extra forte"
  },
