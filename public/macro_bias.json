@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T19:01:46Z",
+ "timestamp_utc": "2026-11-10T19:16:11Z",
  "bias": 0.35,
  "confidence": 0.156,
  "regime": "moderatamente favorevole",
@@ -40,84 +40,84 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.784,
-    "ora": "2026-11-10T14:01:08.000-0500",
+    "ultimo": 2.779,
+    "ora": "2026-11-10T14:15:41.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.3,
+    "var_1h": -1.2,
     "var_4h": 1.7,
-    "var_24h": 12.3
+    "var_24h": 11.8
    },
    "tasso_10y": {
     "ultimo": 4.996,
-    "ora": "2026-11-10T14:01:10.000-0500",
+    "ora": "2026-11-10T14:15:33.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.8,
+    "var_1h": -1.2,
     "var_4h": 0.8,
     "var_24h": 13.4
    },
    "tasso_2y": {
-    "ultimo": 4.736,
-    "ora": "2026-11-10T14:01:05.000-0500",
+    "ultimo": 4.74,
+    "ora": "2026-11-10T14:15:36.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.2,
-    "var_4h": -0.4,
-    "var_24h": 18.9
+    "var_1h": -0.8,
+    "var_4h": -0.2,
+    "var_24h": 19.3
    },
    "dollaro_dxy": {
-    "ultimo": 102.25,
-    "ora": "2026-11-10T14:01:15.000-0500",
+    "ultimo": 102.253,
+    "ora": "2026-11-10T14:15:47.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.079,
-    "var_4h": 0.172,
-    "var_24h": 0.587
+    "var_1h": -0.064,
+    "var_4h": 0.163,
+    "var_24h": 0.59
    },
    "vix": {
-    "ultimo": 20.15,
-    "ora": "2026-11-10T14:01:16.000-0500",
+    "ultimo": 20.19,
+    "ora": "2026-11-10T14:15:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -1.01,
-    "var_4h": -0.58,
-    "var_24h": 0.23
+    "var_1h": -0.57,
+    "var_4h": 0.25,
+    "var_24h": 0.27
    },
    "oro_futures": {
-    "ultimo": 4035.2,
-    "ora": "2026-11-10T13:51:14.000-0500",
+    "ultimo": 4035.7,
+    "ora": "2026-11-10T14:05:37.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.236,
-    "var_4h": -0.476,
-    "var_24h": -1.927
+    "var_1h": 0.191,
+    "var_4h": -0.19,
+    "var_24h": -1.915
    },
    "argento": {
-    "ultimo": 51.265,
-    "ora": "2026-11-10T13:51:09.000-0500",
+    "ultimo": 51.305,
+    "ora": "2026-11-10T14:05:39.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.156,
-    "var_4h": -0.937,
-    "var_24h": -2.71
+    "var_1h": 0.166,
+    "var_4h": -0.678,
+    "var_24h": -2.634
    },
    "petrolio_wti": {
-    "ultimo": 86.14,
-    "ora": "2026-11-10T13:51:13.000-0500",
+    "ultimo": 85.95,
+    "ora": "2026-11-10T14:05:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.232,
-    "var_4h": 1.76,
-    "var_24h": -0.818
+    "var_1h": -0.359,
+    "var_4h": 0.691,
+    "var_24h": -1.036
    },
    "rame": {
-    "ultimo": 6.25,
-    "ora": "2026-11-10T13:51:11.000-0500",
+    "ultimo": 6.257,
+    "ora": "2026-11-10T14:05:39.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.385,
-    "var_4h": -0.104,
-    "var_24h": -1.489
+    "var_1h": 0.433,
+    "var_4h": -0.008,
+    "var_24h": -1.379
    },
    "gld": {
-    "ultimo": 369.06,
-    "ora": "2026-11-10T14:01:13.834-0500",
+    "ultimo": 369.31,
+    "ora": "2026-11-10T14:15:37.061-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.157,
-    "var_4h": -0.37,
-    "var_24h": -2.759
+    "var_1h": 0.296,
+    "var_4h": -0.445,
+    "var_24h": -2.693
    },
    "usdcny": {
     "ultimo": 6.6703,
@@ -127,12 +127,12 @@
     "var_4h": 0.0,
     "var_24h": -0.036
    },
-   "punteggio_4h": -0.269,
-   "punteggio_24h": -0.714,
-   "rapporto_oro_argento": 78.71
+   "punteggio_4h": -0.255,
+   "punteggio_24h": -0.716,
+   "rapporto_oro_argento": 78.66
   },
   "etf": {
-   "gld_tonnellate_stimate": 1038.9,
+   "gld_tonnellate_stimate": 1039.5,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -393,8 +393,8 @@
      "data": "2026-11-07"
     },
     {
-     "titolo": "Global Central Banks Are Buying Gold. Russia Is Selling More Than Anyone to Cover Its Budget Deficit - UNITED24 Media",
-     "data": "2026-11-04"
+     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-10-06"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
@@ -408,11 +408,11 @@
    "allarme": false,
    "punteggio": 0.251
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.27); CPI m/m 0.4 vs 0.3%: oro giu"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.26); CPI m/m 0.4 vs 0.3%: oro giu"
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.27); CPI m/m 0.4 vs 0.3%: oro giu",
+ "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.26); CPI m/m 0.4 vs 0.3%: oro giu",
  "ultimo_dato": "Core CPI m/m 0.3 (previsione 0.2%): in linea",
  "ultimo_dato_ora_utc": "2026-11-10T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
