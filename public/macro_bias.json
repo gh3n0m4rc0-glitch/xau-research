@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T23:14:08Z",
+ "timestamp_utc": "2026-11-10T23:16:22Z",
  "bias": 0.345,
  "confidence": 0.153,
  "regime": "moderatamente favorevole",
@@ -81,36 +81,36 @@
     "var_24h": -0.46
    },
    "oro_futures": {
-    "ultimo": 4041.5,
-    "ora": "2026-11-10T18:03:21.000-0500",
+    "ultimo": 4042.5,
+    "ora": "2026-11-10T18:05:34.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.052,
-    "var_4h": 0.156,
-    "var_24h": 0.28
+    "var_1h": 0.077,
+    "var_4h": 0.181,
+    "var_24h": 0.305
    },
    "argento": {
-    "ultimo": 51.46,
-    "ora": "2026-11-10T18:03:16.000-0500",
+    "ultimo": 51.51,
+    "ora": "2026-11-10T18:05:24.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.097,
-    "var_4h": 0.38,
-    "var_24h": 0.459
+    "var_1h": 0.0,
+    "var_4h": 0.478,
+    "var_24h": 0.556
    },
    "petrolio_wti": {
-    "ultimo": 86.29,
-    "ora": "2026-11-10T18:03:02.000-0500",
+    "ultimo": 86.36,
+    "ora": "2026-11-10T18:05:31.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.22,
-    "var_4h": 0.174,
-    "var_24h": 0.291
+    "var_1h": -0.139,
+    "var_4h": 0.255,
+    "var_24h": 0.372
    },
    "rame": {
-    "ultimo": 6.268,
-    "ora": "2026-11-10T18:01:48.000-0500",
+    "ultimo": 6.2625,
+    "ora": "2026-11-10T18:05:28.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.112,
-    "var_4h": 0.288,
-    "var_24h": 0.537
+    "var_1h": -0.199,
+    "var_4h": 0.2,
+    "var_24h": 0.449
    },
    "gld": {
     "ultimo": 369.36,
@@ -128,12 +128,12 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.004,
-   "punteggio_24h": -0.375,
-   "rapporto_oro_argento": 78.54
+   "punteggio_4h": 0.001,
+   "punteggio_24h": -0.372,
+   "rapporto_oro_argento": 78.48
   },
   "etf": {
-   "gld_tonnellate_stimate": 1038.1,
+   "gld_tonnellate_stimate": 1037.9,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
