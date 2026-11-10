@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T22:46:30Z",
+ "timestamp_utc": "2026-11-10T23:02:13Z",
  "bias": 0.345,
  "confidence": 0.153,
  "regime": "moderatamente favorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -43,80 +44,80 @@
     "ultimo": 2.785,
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.1,
-    "var_4h": -0.3,
-    "var_24h": 12.4
+    "var_1h": 0.7,
+    "var_4h": 0.1,
+    "var_24h": 0.0
    },
    "tasso_10y": {
     "ultimo": 5.0,
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.0,
-    "var_4h": -0.4,
+    "var_1h": 0.6,
+    "var_4h": 0.2,
     "var_24h": 13.8
    },
    "tasso_2y": {
     "ultimo": 4.748,
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.0,
-    "var_4h": 0.8,
+    "var_1h": 0.4,
+    "var_4h": 1.2,
     "var_24h": 20.1
    },
    "dollaro_dxy": {
-    "ultimo": 102.226,
-    "ora": "2026-11-10T17:45:43.000-0500",
+    "ultimo": 102.233,
+    "ora": "2026-11-10T18:01:16.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.007,
-    "var_4h": -0.063,
-    "var_24h": 0.564
+    "var_4h": -0.022,
+    "var_24h": 0.571
    },
    "vix": {
     "ultimo": 19.46,
     "ora": "2026-11-10T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": -1.13,
+    "var_4h": -0.95,
     "var_24h": -0.46
    },
    "oro_futures": {
-    "ultimo": 4040.5,
-    "ora": "2026-11-10T16:59:59.000-0500",
+    "ultimo": 4030.2,
+    "ora": "2026-11-10T00:00:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.027,
-    "var_4h": 0.315,
-    "var_24h": -1.799
+    "var_1h": -0.228,
+    "var_4h": -0.079,
+    "var_24h": 0.0
    },
    "argento": {
-    "ultimo": 51.53,
-    "ora": "2026-11-10T16:59:56.000-0500",
+    "ultimo": 51.225,
+    "ora": "2026-11-10T00:00:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.039,
-    "var_4h": 0.576,
-    "var_24h": -2.207
+    "var_1h": -0.553,
+    "var_4h": -0.068,
+    "var_24h": 0.0
    },
    "petrolio_wti": {
-    "ultimo": 86.44,
-    "ora": "2026-11-10T16:59:59.000-0500",
+    "ultimo": 86.04,
+    "ora": "2026-11-10T00:00:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.023,
-    "var_4h": 0.313,
-    "var_24h": -0.472
+    "var_1h": -0.509,
+    "var_4h": -0.081,
+    "var_24h": 0.0
    },
    "rame": {
-    "ultimo": 6.27,
-    "ora": "2026-11-10T16:59:58.000-0500",
+    "ultimo": 6.2345,
+    "ora": "2026-11-10T00:00:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.032,
-    "var_4h": 0.392,
-    "var_24h": -1.174
+    "var_1h": -0.645,
+    "var_4h": -0.248,
+    "var_24h": 0.0
    },
    "gld": {
     "ultimo": 369.36,
     "ora": "2026-11-10T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.168,
+    "var_4h": -0.057,
     "var_24h": -2.68
    },
    "usdcny": {
@@ -127,12 +128,12 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.063,
-   "punteggio_24h": -0.722,
-   "rapporto_oro_argento": 78.41
+   "punteggio_4h": -0.038,
+   "punteggio_24h": -0.389,
+   "rapporto_oro_argento": 78.68
   },
   "etf": {
-   "gld_tonnellate_stimate": 1038.4,
+   "gld_tonnellate_stimate": 1041.0,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -393,13 +394,6 @@
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 3.338,
-   "media_30g": 2.9927,
-   "z": 0.65,
-   "allarme": false,
-   "punteggio": 0.314
   },
   "sintesi": "CPI m/m 0.4 vs 0.3%: oro giu"
  },
