@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T08:46:22Z",
+ "timestamp_utc": "2026-11-10T09:02:16Z",
  "bias": 0.363,
  "confidence": 0.161,
  "regime": "moderatamente favorevole",
@@ -60,76 +60,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.638,
-    "ora": "2026-11-10T03:45:34.000-0500",
+    "ultimo": 2.651,
+    "ora": "2026-11-10T04:01:22.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.0,
-    "var_4h": -2.2,
-    "var_24h": -2.3
+    "var_1h": 0.7,
+    "var_4h": -1.0,
+    "var_24h": -1.0
    },
    "tasso_10y": {
-    "ultimo": 4.862,
-    "ora": "2026-11-10T03:44:29.000-0500",
+    "ultimo": 4.876,
+    "ora": "2026-11-10T04:01:23.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.0,
-    "var_4h": -1.0,
-    "var_24h": 0.0
+    "var_1h": 1.0,
+    "var_4h": 0.2,
+    "var_24h": 1.4
    },
    "tasso_2y": {
-    "ultimo": 4.551,
-    "ora": "2026-11-10T03:44:31.000-0500",
+    "ultimo": 4.588,
+    "ora": "2026-11-10T04:01:23.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.2,
-    "var_4h": -0.6,
-    "var_24h": 0.4
+    "var_1h": 3.9,
+    "var_4h": 3.1,
+    "var_24h": 4.1
    },
    "dollaro_dxy": {
-    "ultimo": 101.524,
-    "ora": "2026-11-10T03:45:42.000-0500",
+    "ultimo": 101.599,
+    "ora": "2026-11-10T04:01:23.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.056,
-    "var_4h": -0.154,
-    "var_24h": -0.127
+    "var_1h": 0.039,
+    "var_4h": -0.038,
+    "var_24h": -0.053
    },
    "vix": {
-    "ultimo": 19.8,
-    "ora": "2026-11-10T03:45:31.000-0500",
+    "ultimo": 20.28,
+    "ora": "2026-11-10T04:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.12,
-    "var_4h": -0.12,
-    "var_24h": -0.12
+    "var_1h": 0.36,
+    "var_4h": 0.36,
+    "var_24h": 0.36
    },
    "oro_futures": {
-    "ultimo": 4126.2,
-    "ora": "2026-11-10T03:35:30.000-0500",
+    "ultimo": 4125.7,
+    "ora": "2026-11-10T03:51:21.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.005,
-    "var_4h": 0.08,
-    "var_24h": 0.284
+    "var_1h": 0.075,
+    "var_4h": 0.133,
+    "var_24h": 0.272
    },
    "argento": {
-    "ultimo": 52.84,
-    "ora": "2026-11-10T03:35:17.000-0500",
+    "ultimo": 52.835,
+    "ora": "2026-11-10T03:51:16.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.236,
-    "var_4h": -0.452,
-    "var_24h": 0.279
+    "var_1h": 0.104,
+    "var_4h": -0.667,
+    "var_24h": 0.269
    },
    "petrolio_wti": {
-    "ultimo": 84.56,
-    "ora": "2026-11-10T03:35:41.000-0500",
+    "ultimo": 84.36,
+    "ora": "2026-11-10T03:51:22.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.226,
-    "var_4h": -1.594,
-    "var_24h": -2.637
+    "var_1h": -1.345,
+    "var_4h": -1.667,
+    "var_24h": -2.867
    },
    "rame": {
-    "ultimo": 6.3175,
-    "ora": "2026-11-10T03:35:33.000-0500",
+    "ultimo": 6.328,
+    "ora": "2026-11-10T03:51:18.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.016,
-    "var_4h": -0.465,
-    "var_24h": -0.426
+    "var_1h": 0.206,
+    "var_4h": -0.386,
+    "var_24h": -0.26
    },
    "gld": {
     "ultimo": 379.53,
@@ -140,19 +140,19 @@
     "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.667,
-    "ora": "2026-11-10T03:45:00.000-0500",
+    "ultimo": 6.6677,
+    "ora": "2026-11-10T04:01:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.034,
-    "var_4h": -0.051,
-    "var_24h": -0.085
+    "var_1h": -0.019,
+    "var_4h": -0.04,
+    "var_24h": -0.075
    },
-   "punteggio_4h": 0.254,
-   "punteggio_24h": 0.11,
+   "punteggio_4h": 0.06,
+   "punteggio_24h": 0.004,
    "rapporto_oro_argento": 78.09
   },
   "etf": {
-   "gld_tonnellate_stimate": 1043.9,
+   "gld_tonnellate_stimate": 1044.1,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -281,6 +281,11 @@
    ],
    "discorsi": [
     {
+     "titolo": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+     "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+     "data": "Tue, 10 Nov 2026 09:00:00 GMT"
+    },
+    {
      "titolo": "Bowman, Supervisory Modernization After Silicon Valley Bank",
      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
      "data": "Thu, 15 Oct 2026 02:55:00 GMT"
@@ -299,11 +304,6 @@
      "titolo": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
      "data": "Thu, 1 Oct 2026 19:00:00 GMT"
-    },
-    {
-     "titolo": "Jefferson, The U.S. Economy and Monetary Policy",
-     "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-     "data": "Thu, 1 Oct 2026 17:30:00 GMT"
     }
    ],
    "testimonianze": [
@@ -425,10 +425,10 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.25)"
+  "sintesi": "nessun segnale extra forte"
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tassi/dollaro ultime 4h pro oro (+0.25)",
+ "extra_sintesi": "nessun segnale extra forte",
  "ultimo_dato": ""
 }
