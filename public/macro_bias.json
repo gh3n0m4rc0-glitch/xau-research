@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T04:02:02Z",
+ "timestamp_utc": "2026-11-10T04:16:19Z",
  "bias": 0.363,
  "confidence": 0.161,
  "regime": "moderatamente favorevole",
@@ -61,35 +61,35 @@
   "intraday": {
    "tasso_reale_10y": {
     "ultimo": 2.657,
-    "ora": "2026-11-09T23:01:01.000-0500",
+    "ora": "2026-11-09T23:15:16.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.6,
-    "var_4h": 0.2,
+    "var_1h": -0.4,
+    "var_4h": 0.5,
     "var_24h": -0.4
    },
    "tasso_10y": {
     "ultimo": 4.868,
-    "ora": "2026-11-09T22:58:46.000-0500",
+    "ora": "2026-11-09T23:15:12.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.8,
-    "var_4h": -1.2,
+    "var_1h": -0.4,
+    "var_4h": -0.8,
     "var_24h": 0.6
    },
    "tasso_2y": {
     "ultimo": 4.555,
-    "ora": "2026-11-09T23:01:00.000-0500",
+    "ora": "2026-11-09T23:14:01.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -0.4,
-    "var_4h": -0.8,
+    "var_4h": -0.6,
     "var_24h": 0.8
    },
    "dollaro_dxy": {
-    "ultimo": 101.678,
-    "ora": "2026-11-09T23:01:16.000-0500",
+    "ultimo": 101.667,
+    "ora": "2026-11-09T23:15:39.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.037,
-    "var_4h": 0.025,
-    "var_24h": 0.025
+    "var_1h": -0.031,
+    "var_4h": 0.014,
+    "var_24h": 0.014
    },
    "vix": {
     "ultimo": 19.92,
@@ -100,36 +100,36 @@
     "var_24h": -5.72
    },
    "oro_futures": {
-    "ultimo": 4118.7,
-    "ora": "2026-11-09T22:51:10.000-0500",
+    "ultimo": 4119.3,
+    "ora": "2026-11-09T23:05:12.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.172,
-    "var_4h": -0.716,
-    "var_24h": 0.102
+    "var_1h": -0.058,
+    "var_4h": -0.711,
+    "var_24h": 0.117
    },
    "argento": {
-    "ultimo": 52.95,
-    "ora": "2026-11-09T22:51:07.000-0500",
+    "ultimo": 53.0,
+    "ora": "2026-11-09T23:04:13.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.376,
-    "var_4h": -0.917,
-    "var_24h": 0.488
+    "var_1h": -0.057,
+    "var_4h": -0.842,
+    "var_24h": 0.583
    },
    "petrolio_wti": {
-    "ultimo": 85.65,
-    "ora": "2026-11-09T22:51:08.000-0500",
+    "ultimo": 85.93,
+    "ora": "2026-11-09T23:05:23.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.627,
-    "var_4h": -0.937,
-    "var_24h": -1.382
+    "var_1h": -0.128,
+    "var_4h": -0.613,
+    "var_24h": -1.059
    },
    "rame": {
-    "ultimo": 6.335,
-    "ora": "2026-11-09T22:51:04.000-0500",
+    "ultimo": 6.3395,
+    "ora": "2026-11-09T23:05:13.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.573,
-    "var_4h": -0.674,
-    "var_24h": -0.15
+    "var_1h": -0.408,
+    "var_4h": -0.635,
+    "var_24h": -0.079
    },
    "gld": {
     "ultimo": 379.53,
@@ -137,22 +137,22 @@
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": 0.0,
-    "var_24h": 1.882
+    "var_24h": 0.0
    },
    "usdcny": {
     "ultimo": 6.6704,
-    "ora": "2026-11-09T23:00:00.000-0500",
+    "ora": "2026-11-09T23:15:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.004,
+    "var_1h": -0.003,
     "var_4h": -0.036,
     "var_24h": -0.034
    },
    "punteggio_4h": -0.072,
-   "punteggio_24h": -0.145,
-   "rapporto_oro_argento": 77.78
+   "punteggio_24h": -0.128,
+   "rapporto_oro_argento": 77.72
   },
   "etf": {
-   "gld_tonnellate_stimate": 1045.8,
+   "gld_tonnellate_stimate": 1045.7,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -409,12 +409,12 @@
      "data": "2026-11-05"
     },
     {
-     "titolo": "Global Central Banks Are Buying Gold. Russia Is Selling More Than Anyone to Cover Its Budget Deficit - UNITED24 Media",
-     "data": "2026-11-04"
-    },
-    {
      "titolo": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
      "data": "2026-11-07"
+    },
+    {
+     "titolo": "Global Central Banks Are Buying Gold. Russia Is Selling More Than Anyone to Cover Its Budget Deficit - UNITED24 Media",
+     "data": "2026-11-04"
     },
     {
      "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
