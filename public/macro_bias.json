@@ -1,15 +1,15 @@
 {
- "timestamp_utc": "2026-11-10T14:31:54Z",
- "bias": 0.363,
- "confidence": 0.161,
+ "timestamp_utc": "2026-11-10T14:46:25Z",
+ "bias": 0.35,
+ "confidence": 0.156,
  "regime": "moderatamente favorevole",
- "summary": "Macro rialzista (bias +0.36, conf 0.16): VIX pro oro (+0.98); rendimenti reali 10y pro oro (+0.87); tasso 2y (Fed) pro oro (+0.82); inflazione attesa contro oro (-0.74) | reale 10y 2.63%",
+ "summary": "Macro rialzista (bias +0.35, conf 0.16): rendimenti reali 10y pro oro (+0.87); tasso 2y (Fed) pro oro (+0.82); inflazione attesa contro oro (-0.74); VIX pro oro (+0.72) | reale 10y 2.63%",
  "components": {
   "real_yield_10y": 0.87,
   "dollar_broad": -0.16,
   "nominal_2y": 0.825,
   "breakeven_10y": -0.742,
-  "vix": 0.978,
+  "vix": 0.719,
   "cot": 0.0
  },
  "news": {},
@@ -41,99 +41,99 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.755,
-    "ora": "2026-11-10T09:31:06.000-0500",
+    "ultimo": 2.767,
+    "ora": "2026-11-10T09:45:44.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 2.8,
-    "var_4h": 9.5,
-    "var_24h": 9.4
+    "var_1h": 5.9,
+    "var_4h": 10.5,
+    "var_24h": 10.6
    },
    "tasso_10y": {
-    "ultimo": 4.973,
-    "ora": "2026-11-10T09:31:05.000-0500",
+    "ultimo": 4.988,
+    "ora": "2026-11-10T09:45:44.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 3.5,
-    "var_4h": 8.9,
-    "var_24h": 11.1
+    "var_1h": 4.6,
+    "var_4h": 10.4,
+    "var_24h": 12.6
    },
    "tasso_2y": {
-    "ultimo": 4.712,
-    "ora": "2026-11-10T09:31:05.000-0500",
+    "ultimo": 4.74,
+    "ora": "2026-11-10T09:45:48.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 3.1,
-    "var_4h": 10.0,
-    "var_24h": 16.5
+    "var_1h": 5.1,
+    "var_4h": 13.1,
+    "var_24h": 19.3
    },
    "dollaro_dxy": {
-    "ultimo": 102.013,
-    "ora": "2026-11-10T09:31:08.000-0500",
+    "ultimo": 102.074,
+    "ora": "2026-11-10T09:45:48.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.012,
-    "var_4h": 0.27,
-    "var_24h": 0.354
+    "var_1h": 0.059,
+    "var_4h": 0.36,
+    "var_24h": 0.414
    },
    "vix": {
-    "ultimo": 21.33,
-    "ora": "2026-11-10T09:31:01.000-0500",
+    "ultimo": 20.73,
+    "ora": "2026-11-10T09:45:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.69,
-    "var_4h": 1.43,
-    "var_24h": 1.41
+    "var_1h": -0.33,
+    "var_4h": 0.61,
+    "var_24h": 0.81
    },
    "oro_futures": {
-    "ultimo": 4066.3,
-    "ora": "2026-11-10T09:21:06.000-0500",
+    "ultimo": 4054.5,
+    "ora": "2026-11-10T09:35:48.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.333,
-    "var_4h": -0.572,
-    "var_24h": -1.171
+    "var_1h": 0.025,
+    "var_4h": -0.698,
+    "var_24h": -1.458
    },
    "argento": {
-    "ultimo": 51.935,
-    "ora": "2026-11-10T09:21:07.000-0500",
+    "ultimo": 51.75,
+    "ora": "2026-11-10T09:35:44.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.631,
-    "var_4h": -0.991,
-    "var_24h": -1.439
+    "var_1h": -0.183,
+    "var_4h": -1.297,
+    "var_24h": -1.79
    },
    "petrolio_wti": {
-    "ultimo": 84.46,
-    "ora": "2026-11-10T09:21:03.000-0500",
+    "ultimo": 84.65,
+    "ora": "2026-11-10T09:35:45.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.589,
-    "var_4h": -0.165,
-    "var_24h": -2.752
+    "var_1h": 0.106,
+    "var_4h": -0.482,
+    "var_24h": -2.533
    },
    "rame": {
-    "ultimo": 6.2615,
-    "ora": "2026-11-10T09:21:06.000-0500",
+    "ultimo": 6.2565,
+    "ora": "2026-11-10T09:35:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.295,
-    "var_4h": -0.886,
-    "var_24h": -1.308
+    "var_1h": -0.207,
+    "var_4h": -0.848,
+    "var_24h": -1.387
    },
    "gld": {
-    "ultimo": 371.68,
-    "ora": "2026-11-10T09:31:08.591-0500",
+    "ultimo": 370.43,
+    "ora": "2026-11-10T09:45:48.713-0500",
     "unita_variazioni": "%",
-    "var_1h": -2.068,
-    "var_4h": -2.068,
-    "var_24h": -2.068
+    "var_1h": -2.398,
+    "var_4h": -2.398,
+    "var_24h": -2.398
    },
    "usdcny": {
     "ultimo": 6.6703,
     "ora": "2026-11-10T05:33:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.003,
+    "var_4h": 0.0,
     "var_24h": -0.036
    },
-   "punteggio_4h": -0.621,
-   "punteggio_24h": -0.611,
-   "rapporto_oro_argento": 78.3
+   "punteggio_4h": -0.721,
+   "punteggio_24h": -0.669,
+   "rapporto_oro_argento": 78.35
   },
   "etf": {
-   "gld_tonnellate_stimate": 1038.3,
+   "gld_tonnellate_stimate": 1037.8,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -387,10 +387,6 @@
      "data": "2026-11-08"
     },
     {
-     "titolo": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
-     "data": "2026-11-07"
-    },
-    {
      "titolo": "September central bank Gold buying hit highest monthly total of the year - FXStreet",
      "data": "2026-11-05"
     },
@@ -401,17 +397,21 @@
     {
      "titolo": "Global Central Banks Are Buying Gold. Russia Is Selling More Than Anyone to Cover Its Budget Deficit - UNITED24 Media",
      "data": "2026-11-04"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-10-06"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.62); CPI m/m 0.4 vs 0.3%: oro giu"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.72); CPI m/m 0.4 vs 0.3%: oro giu"
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.62); CPI m/m 0.4 vs 0.3%: oro giu",
+ "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.72); CPI m/m 0.4 vs 0.3%: oro giu",
  "ultimo_dato": "Core CPI m/m 0.3 (previsione 0.2%): in linea",
  "ultimo_dato_ora_utc": "2026-11-10T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
