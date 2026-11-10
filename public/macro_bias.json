@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T02:46:27Z",
+ "timestamp_utc": "2026-11-10T03:02:06Z",
  "bias": 0.363,
  "confidence": 0.161,
  "regime": "moderatamente favorevole",
@@ -60,36 +60,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.663,
-    "ora": "2026-11-09T21:45:25.000-0500",
+    "ultimo": 2.661,
+    "ora": "2026-11-09T22:01:16.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.3,
-    "var_4h": 0.2,
-    "var_24h": 0.2
+    "var_1h": -0.1,
+    "var_4h": 0.0,
+    "var_24h": 0.0
    },
    "tasso_10y": {
-    "ultimo": 4.876,
-    "ora": "2026-11-09T21:45:32.000-0500",
+    "ultimo": 4.872,
+    "ora": "2026-11-09T22:00:35.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.4,
-    "var_4h": -0.8,
-    "var_24h": 1.4
+    "var_1h": -0.4,
+    "var_4h": -1.2,
+    "var_24h": 1.0
    },
    "tasso_2y": {
     "ultimo": 4.559,
-    "ora": "2026-11-09T21:45:32.000-0500",
+    "ora": "2026-11-09T21:53:34.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.2,
     "var_4h": -0.9,
     "var_24h": 1.2
    },
    "dollaro_dxy": {
-    "ultimo": 101.716,
-    "ora": "2026-11-09T21:45:41.000-0500",
+    "ultimo": 101.699,
+    "ora": "2026-11-09T22:01:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.023,
-    "var_4h": 0.022,
-    "var_24h": 0.062
+    "var_1h": 0.016,
+    "var_4h": 0.005,
+    "var_24h": 0.045
    },
    "vix": {
     "ultimo": 19.92,
@@ -100,36 +100,36 @@
     "var_24h": -5.72
    },
    "oro_futures": {
-    "ultimo": 4125.8,
-    "ora": "2026-11-09T21:35:39.000-0500",
+    "ultimo": 4121.7,
+    "ora": "2026-11-09T21:51:10.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.329,
-    "var_4h": -0.571,
-    "var_24h": 0.275
+    "var_1h": -0.252,
+    "var_4h": -0.67,
+    "var_24h": 0.175
    },
    "argento": {
-    "ultimo": 53.15,
-    "ora": "2026-11-09T21:35:35.000-0500",
+    "ultimo": 53.03,
+    "ora": "2026-11-09T21:51:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.169,
-    "var_4h": -0.571,
-    "var_24h": 0.867
+    "var_1h": -0.235,
+    "var_4h": -0.795,
+    "var_24h": 0.64
    },
    "petrolio_wti": {
-    "ultimo": 86.19,
-    "ora": "2026-11-09T21:35:36.000-0500",
+    "ultimo": 86.04,
+    "ora": "2026-11-09T21:51:12.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.081,
-    "var_4h": -0.22,
-    "var_24h": -0.76
+    "var_1h": 0.023,
+    "var_4h": -0.394,
+    "var_24h": -0.933
    },
    "rame": {
-    "ultimo": 6.3715,
-    "ora": "2026-11-09T21:35:23.000-0500",
+    "ultimo": 6.3655,
+    "ora": "2026-11-09T21:51:09.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.008,
-    "var_4h": -0.172,
-    "var_24h": 0.426
+    "var_1h": -0.071,
+    "var_4h": -0.266,
+    "var_24h": 0.331
    },
    "gld": {
     "ultimo": 379.53,
@@ -140,19 +140,19 @@
     "var_24h": 1.882
    },
    "usdcny": {
-    "ultimo": 6.6707,
-    "ora": "2026-11-09T21:45:00.000-0500",
+    "ultimo": 6.6706,
+    "ora": "2026-11-09T22:01:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": -0.031,
-    "var_24h": -0.03
+    "var_1h": -0.01,
+    "var_4h": -0.033,
+    "var_24h": -0.031
    },
-   "punteggio_4h": -0.039,
-   "punteggio_24h": -0.186,
-   "rapporto_oro_argento": 77.63
+   "punteggio_4h": -0.008,
+   "punteggio_24h": -0.167,
+   "rapporto_oro_argento": 77.72
   },
   "etf": {
-   "gld_tonnellate_stimate": 1044.0,
+   "gld_tonnellate_stimate": 1045.1,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -401,6 +401,10 @@
      "data": "2026-11-03"
     },
     {
+     "titolo": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
+     "data": "2026-11-07"
+    },
+    {
      "titolo": "China Buys 26 Tonnes of Gold in October Despite 7% Price Drop, Extending Record Buying Streak - Brave New Coin",
      "data": "2026-11-08"
     },
@@ -413,12 +417,8 @@
      "data": "2026-11-04"
     },
     {
-     "titolo": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
-     "data": "2026-11-03"
+     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-10-06"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
