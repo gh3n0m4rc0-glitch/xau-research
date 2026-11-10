@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T06:46:23Z",
+ "timestamp_utc": "2026-11-10T07:02:14Z",
  "bias": 0.363,
  "confidence": 0.161,
  "regime": "moderatamente favorevole",
@@ -60,36 +60,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.656,
-    "ora": "2026-11-10T01:45:43.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": -1.4,
-    "var_4h": -0.7,
-    "var_24h": -0.5
-   },
-   "tasso_10y": {
-    "ultimo": 4.866,
-    "ora": "2026-11-10T01:45:41.000-0500",
+    "ultimo": 2.647,
+    "ora": "2026-11-10T02:01:05.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -1.8,
-    "var_4h": -1.0,
-    "var_24h": 0.4
+    "var_4h": -1.4,
+    "var_24h": -1.4
+   },
+   "tasso_10y": {
+    "ultimo": 4.87,
+    "ora": "2026-11-10T02:01:04.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": -0.8,
+    "var_4h": -0.2,
+    "var_24h": 0.8
    },
    "tasso_2y": {
-    "ultimo": 4.549,
-    "ora": "2026-11-10T01:45:41.000-0500",
+    "ultimo": 4.551,
+    "ora": "2026-11-10T02:01:24.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.6,
-    "var_4h": -1.0,
-    "var_24h": 0.2
+    "var_1h": -1.0,
+    "var_4h": -0.8,
+    "var_24h": 0.4
    },
    "dollaro_dxy": {
-    "ultimo": 101.627,
-    "ora": "2026-11-10T01:45:44.000-0500",
+    "ultimo": 101.607,
+    "ora": "2026-11-10T02:01:30.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.053,
-    "var_4h": -0.087,
-    "var_24h": -0.026
+    "var_1h": -0.062,
+    "var_4h": -0.09,
+    "var_24h": -0.045
    },
    "vix": {
     "ultimo": 19.92,
@@ -97,39 +97,39 @@
     "unita_variazioni": "punti",
     "var_1h": 0.0,
     "var_4h": 0.0,
-    "var_24h": -5.72
+    "var_24h": 0.0
    },
    "oro_futures": {
-    "ultimo": 4134.8,
-    "ora": "2026-11-10T01:35:40.000-0500",
+    "ultimo": 4129.2,
+    "ora": "2026-11-10T01:51:30.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.228,
-    "var_4h": 0.218,
-    "var_24h": 0.493
+    "var_1h": -0.075,
+    "var_4h": 0.182,
+    "var_24h": 0.357
    },
    "argento": {
-    "ultimo": 53.2,
-    "ora": "2026-11-10T01:35:24.000-0500",
+    "ultimo": 53.045,
+    "ora": "2026-11-10T01:51:23.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.009,
-    "var_4h": 0.094,
-    "var_24h": 0.962
+    "var_1h": -0.506,
+    "var_4h": 0.028,
+    "var_24h": 0.668
    },
    "petrolio_wti": {
-    "ultimo": 85.32,
-    "ora": "2026-11-10T01:35:39.000-0500",
+    "ultimo": 85.1,
+    "ora": "2026-11-10T01:51:28.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.952,
-    "var_4h": -1.009,
-    "var_24h": -1.762
+    "var_1h": -0.943,
+    "var_4h": -1.093,
+    "var_24h": -2.015
    },
    "rame": {
-    "ultimo": 6.332,
-    "ora": "2026-11-10T01:35:35.000-0500",
+    "ultimo": 6.327,
+    "ora": "2026-11-10T01:51:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.378,
-    "var_4h": -0.62,
-    "var_24h": -0.197
+    "var_1h": -0.354,
+    "var_4h": -0.605,
+    "var_24h": -0.276
    },
    "gld": {
     "ultimo": 379.53,
@@ -140,19 +140,19 @@
     "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.6698,
-    "ora": "2026-11-10T01:45:00.000-0500",
+    "ultimo": 6.6696,
+    "ora": "2026-11-10T02:01:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.003,
-    "var_4h": -0.013,
-    "var_24h": -0.043
+    "var_1h": -0.006,
+    "var_4h": -0.015,
+    "var_24h": -0.046
    },
-   "punteggio_4h": 0.115,
-   "punteggio_24h": -0.112,
-   "rapporto_oro_argento": 77.72
+   "punteggio_4h": 0.15,
+   "punteggio_24h": 0.025,
+   "rapporto_oro_argento": 77.84
   },
   "etf": {
-   "gld_tonnellate_stimate": 1041.8,
+   "gld_tonnellate_stimate": 1043.2,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -409,12 +409,12 @@
      "data": "2026-11-05"
     },
     {
-     "titolo": "Global Central Banks Are Buying Gold. Russia Is Selling More Than Anyone to Cover Its Budget Deficit - UNITED24 Media",
-     "data": "2026-11-04"
-    },
-    {
      "titolo": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
      "data": "2026-11-07"
+    },
+    {
+     "titolo": "Global Central Banks Are Buying Gold. Russia Is Selling More Than Anyone to Cover Its Budget Deficit - UNITED24 Media",
+     "data": "2026-11-04"
     },
     {
      "titolo": "China Boosts Gold Reserves as Prices Fall - Briefs Finance",
