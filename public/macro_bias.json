@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T05:16:26Z",
+ "timestamp_utc": "2026-11-10T05:31:54Z",
  "bias": 0.363,
  "confidence": 0.161,
  "regime": "moderatamente favorevole",
@@ -60,36 +60,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.661,
-    "ora": "2026-11-10T00:15:31.000-0500",
+    "ultimo": 2.664,
+    "ora": "2026-11-10T00:30:14.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.4,
-    "var_4h": -0.3,
-    "var_24h": 0.0
+    "var_1h": 0.7,
+    "var_4h": 0.4,
+    "var_24h": 0.3
    },
    "tasso_10y": {
-    "ultimo": 4.874,
-    "ora": "2026-11-10T00:15:28.000-0500",
+    "ultimo": 4.878,
+    "ora": "2026-11-10T00:30:50.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.6,
-    "var_4h": -0.4,
-    "var_24h": 1.2
+    "var_1h": 1.0,
+    "var_4h": 0.6,
+    "var_24h": 1.6
    },
    "tasso_2y": {
-    "ultimo": 4.557,
-    "ora": "2026-11-10T00:15:28.000-0500",
+    "ultimo": 4.561,
+    "ora": "2026-11-10T00:30:17.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
-    "var_4h": -0.4,
-    "var_24h": 1.0
+    "var_1h": 0.6,
+    "var_4h": 0.4,
+    "var_24h": 1.4
    },
    "dollaro_dxy": {
-    "ultimo": 101.661,
-    "ora": "2026-11-10T00:15:43.000-0500",
+    "ultimo": 101.629,
+    "ora": "2026-11-10T00:31:02.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.006,
-    "var_4h": -0.036,
-    "var_24h": 0.008
+    "var_1h": -0.037,
+    "var_4h": -0.027,
+    "var_24h": -0.024
    },
    "vix": {
     "ultimo": 19.92,
@@ -100,36 +100,36 @@
     "var_24h": -5.72
    },
    "oro_futures": {
-    "ultimo": 4122.1,
-    "ora": "2026-11-10T00:05:35.000-0500",
+    "ultimo": 4125.4,
+    "ora": "2026-11-10T00:21:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.068,
-    "var_4h": -0.24,
-    "var_24h": 0.185
+    "var_1h": 0.148,
+    "var_4h": -0.43,
+    "var_24h": 0.265
    },
    "argento": {
-    "ultimo": 53.12,
-    "ora": "2026-11-10T00:05:35.000-0500",
+    "ultimo": 53.24,
+    "ora": "2026-11-10T00:21:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.226,
-    "var_4h": 0.057,
-    "var_24h": 0.81
+    "var_1h": 0.453,
+    "var_4h": -0.672,
+    "var_24h": 1.038
    },
    "petrolio_wti": {
     "ultimo": 85.73,
-    "ora": "2026-11-10T00:05:40.000-0500",
+    "ora": "2026-11-10T00:20:57.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.233,
-    "var_4h": -0.97,
+    "var_4h": -0.787,
     "var_24h": -1.29
    },
    "rame": {
-    "ultimo": 6.352,
-    "ora": "2026-11-10T00:05:06.000-0500",
+    "ultimo": 6.361,
+    "ora": "2026-11-10T00:20:35.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.197,
-    "var_4h": -0.243,
-    "var_24h": 0.118
+    "var_1h": 0.339,
+    "var_4h": -0.345,
+    "var_24h": 0.26
    },
    "gld": {
     "ultimo": 379.53,
@@ -140,19 +140,19 @@
     "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.6702,
-    "ora": "2026-11-10T00:15:00.000-0500",
+    "ultimo": 6.6701,
+    "ora": "2026-11-10T00:31:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.003,
-    "var_4h": -0.039,
-    "var_24h": -0.037
+    "var_1h": -0.004,
+    "var_4h": -0.04,
+    "var_24h": -0.039
    },
-   "punteggio_4h": 0.021,
-   "punteggio_24h": -0.154,
-   "rapporto_oro_argento": 77.6
+   "punteggio_4h": -0.049,
+   "punteggio_24h": -0.148,
+   "rapporto_oro_argento": 77.49
   },
   "etf": {
-   "gld_tonnellate_stimate": 1045.0,
+   "gld_tonnellate_stimate": 1044.1,
    "data": "2026-11-10",
    "giorni_di_storico": 2,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -417,8 +417,8 @@
      "data": "2026-11-04"
     },
     {
-     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
-     "data": "2026-11-03"
+     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-10-06"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
