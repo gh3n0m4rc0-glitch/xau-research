@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-10T22:16:26Z",
+ "timestamp_utc": "2026-11-10T22:31:48Z",
  "bias": 0.345,
  "confidence": 0.153,
  "regime": "moderatamente favorevole",
@@ -45,7 +45,7 @@
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 1.1,
-    "var_4h": -0.6,
+    "var_4h": -0.3,
     "var_24h": 12.4
    },
    "tasso_10y": {
@@ -53,63 +53,63 @@
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 1.0,
-    "var_4h": -0.8,
+    "var_4h": -0.4,
     "var_24h": 13.8
    },
    "tasso_2y": {
     "ultimo": 4.748,
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.2,
-    "var_4h": 0.0,
+    "var_1h": 1.0,
+    "var_4h": 0.8,
     "var_24h": 20.1
    },
    "dollaro_dxy": {
-    "ultimo": 102.238,
-    "ora": "2026-11-10T17:15:45.000-0500",
+    "ultimo": 102.236,
+    "ora": "2026-11-10T17:31:01.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.02,
-    "var_4h": -0.078,
-    "var_24h": 0.575
+    "var_1h": 0.003,
+    "var_4h": -0.053,
+    "var_24h": 0.574
    },
    "vix": {
     "ultimo": 19.46,
     "ora": "2026-11-10T16:15:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.08,
-    "var_4h": -1.3,
+    "var_1h": 0.0,
+    "var_4h": -1.13,
     "var_24h": -0.46
    },
    "oro_futures": {
     "ultimo": 4040.5,
     "ora": "2026-11-10T16:59:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.069,
-    "var_4h": 0.31,
+    "var_1h": 0.027,
+    "var_4h": 0.315,
     "var_24h": -1.799
    },
    "argento": {
     "ultimo": 51.53,
     "ora": "2026-11-10T16:59:56.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.087,
-    "var_4h": 0.605,
+    "var_1h": 0.039,
+    "var_4h": 0.576,
     "var_24h": -2.207
    },
    "petrolio_wti": {
     "ultimo": 86.44,
     "ora": "2026-11-10T16:59:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.069,
-    "var_4h": 0.209,
+    "var_1h": 0.023,
+    "var_4h": 0.313,
     "var_24h": -0.472
    },
    "rame": {
     "ultimo": 6.27,
     "ora": "2026-11-10T16:59:58.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.064,
-    "var_4h": 0.642,
+    "var_1h": -0.032,
+    "var_4h": 0.392,
     "var_24h": -1.174
    },
    "gld": {
@@ -117,7 +117,7 @@
     "ora": "2026-11-10T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.31,
+    "var_4h": 0.168,
     "var_24h": -2.68
    },
    "usdcny": {
@@ -128,7 +128,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.096,
+   "punteggio_4h": 0.051,
    "punteggio_24h": -0.725,
    "rapporto_oro_argento": 78.41
   },
@@ -318,13 +318,6 @@
     }
    ],
    "agenda_7g": [
-    {
-     "evento": "Speech - Vice Chair for Supervision Michelle W. Bowman",
-     "tipo": "Speeches",
-     "ora_utc": "2026-11-10T20:30:00Z",
-     "orario_indicativo": false,
-     "dove": "At the C. Peter McColough Series on International Economics with Michelle Bowman"
-    },
     {
      "evento": "Speech - Vice Chair for Supervision Michelle W. Bowman",
      "tipo": "Speeches",
