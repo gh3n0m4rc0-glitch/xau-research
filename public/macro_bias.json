@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-11T09:31:50Z",
+ "timestamp_utc": "2026-11-11T09:46:29Z",
  "bias": 0.345,
  "confidence": 0.153,
  "regime": "moderatamente favorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -65,52 +64,52 @@
     "var_24h": 20.1
    },
    "dollaro_dxy": {
-    "ultimo": 102.479,
-    "ora": "2026-11-11T04:30:58.000-0500",
+    "ultimo": 102.497,
+    "ora": "2026-11-11T04:45:45.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.046,
-    "var_4h": 0.239,
-    "var_24h": 0.243
+    "var_1h": 0.098,
+    "var_4h": 0.206,
+    "var_24h": 0.26
    },
    "vix": {
-    "ultimo": 18.8,
-    "ora": "2026-11-11T04:30:46.000-0500",
+    "ultimo": 18.72,
+    "ora": "2026-11-11T04:45:31.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.05,
-    "var_4h": -0.66,
-    "var_24h": -0.66
+    "var_1h": 0.02,
+    "var_4h": -0.74,
+    "var_24h": -0.74
    },
    "oro_futures": {
-    "ultimo": 4057.5,
-    "ora": "2026-11-11T04:20:55.000-0500",
+    "ultimo": 4056.0,
+    "ora": "2026-11-11T04:35:42.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.185,
-    "var_4h": 0.002,
-    "var_24h": 0.677
+    "var_1h": -0.261,
+    "var_4h": -0.288,
+    "var_24h": 0.64
    },
    "argento": {
-    "ultimo": 52.85,
-    "ora": "2026-11-11T04:20:54.000-0500",
+    "ultimo": 52.935,
+    "ora": "2026-11-11T04:35:37.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.198,
-    "var_4h": 0.456,
-    "var_24h": 3.172
+    "var_1h": -0.066,
+    "var_4h": 0.294,
+    "var_24h": 3.338
    },
    "petrolio_wti": {
-    "ultimo": 86.83,
-    "ora": "2026-11-11T04:20:53.000-0500",
+    "ultimo": 86.74,
+    "ora": "2026-11-11T04:35:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.661,
-    "var_4h": 0.358,
-    "var_24h": 0.918
+    "var_4h": 0.394,
+    "var_24h": 0.814
    },
    "rame": {
-    "ultimo": 6.297,
-    "ora": "2026-11-11T04:20:46.000-0500",
+    "ultimo": 6.2965,
+    "ora": "2026-11-11T04:35:20.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.395,
-    "var_4h": -0.38,
-    "var_24h": 1.002
+    "var_1h": -0.427,
+    "var_4h": -0.372,
+    "var_24h": 0.994
    },
    "gld": {
     "ultimo": 369.36,
@@ -122,18 +121,18 @@
    },
    "usdcny": {
     "ultimo": 6.6703,
-    "ora": "2026-11-11T04:30:00.000-0500",
+    "ora": "2026-11-11T04:31:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.004,
-    "var_4h": -0.055,
+    "var_1h": 0.024,
+    "var_4h": -0.058,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.247,
-   "punteggio_24h": -0.238,
-   "rapporto_oro_argento": 76.77
+   "punteggio_4h": -0.226,
+   "punteggio_24h": -0.253,
+   "rapporto_oro_argento": 76.62
   },
   "etf": {
-   "gld_tonnellate_stimate": 1034.0,
+   "gld_tonnellate_stimate": 1034.4,
    "data": "2026-11-11",
    "giorni_di_storico": 3,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -388,11 +387,18 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.25); CPI m/m 0.4 vs 0.3%: oro giu"
+  "geopolitica": {
+   "intensita_24h": 4.2954,
+   "media_30g": 3.0293,
+   "z": 2.32,
+   "allarme": true,
+   "punteggio": 0.822
+  },
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.23); CPI m/m 0.4 vs 0.3%: oro giu; picco di notizie di conflitto"
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.25); CPI m/m 0.4 vs 0.3%: oro giu",
+ "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.23); CPI m/m 0.4 vs 0.3%: oro giu; picco di notizie di conflitto",
  "ultimo_dato": "Core CPI m/m 0.3 (previsione 0.2%): in linea",
  "ultimo_dato_ora_utc": "2026-11-10T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
