@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-11T18:46:37Z",
+ "timestamp_utc": "2026-11-11T19:01:55Z",
  "bias": 0.342,
  "confidence": 0.152,
  "regime": "moderatamente favorevole",
@@ -84,60 +84,60 @@
     "var_24h": 20.1
    },
    "dollaro_dxy": {
-    "ultimo": 102.919,
-    "ora": "2026-11-11T13:45:54.000-0500",
+    "ultimo": 102.931,
+    "ora": "2026-11-11T14:01:09.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.013,
-    "var_4h": -0.008,
-    "var_24h": 0.673
+    "var_1h": 0.026,
+    "var_4h": -0.026,
+    "var_24h": 0.685
    },
    "vix": {
-    "ultimo": 17.34,
-    "ora": "2026-11-11T13:45:46.000-0500",
+    "ultimo": 17.43,
+    "ora": "2026-11-11T14:01:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.29,
-    "var_4h": -1.34,
-    "var_24h": -2.12
+    "var_1h": -0.09,
+    "var_4h": -0.85,
+    "var_24h": -2.03
    },
    "oro_futures": {
-    "ultimo": 4000.6,
-    "ora": "2026-11-11T13:35:51.000-0500",
+    "ultimo": 3995.0,
+    "ora": "2026-11-11T13:51:06.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.277,
-    "var_4h": -0.688,
-    "var_24h": -0.734
+    "var_1h": -0.232,
+    "var_4h": -0.731,
+    "var_24h": -0.873
    },
    "argento": {
-    "ultimo": 52.015,
-    "ora": "2026-11-11T13:35:54.000-0500",
+    "ultimo": 51.895,
+    "ora": "2026-11-11T13:51:08.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.326,
-    "var_4h": -0.535,
-    "var_24h": 1.542
+    "var_1h": -0.336,
+    "var_4h": -0.727,
+    "var_24h": 1.308
    },
    "petrolio_wti": {
-    "ultimo": 86.95,
-    "ora": "2026-11-11T13:35:55.000-0500",
+    "ultimo": 87.14,
+    "ora": "2026-11-11T13:51:09.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.115,
-    "var_4h": -0.549,
-    "var_24h": 1.058
+    "var_1h": 0.322,
+    "var_4h": -0.343,
+    "var_24h": 1.278
    },
    "rame": {
-    "ultimo": 6.283,
-    "ora": "2026-11-11T13:35:39.000-0500",
+    "ultimo": 6.282,
+    "ora": "2026-11-11T13:51:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.222,
-    "var_4h": 0.255,
-    "var_24h": 0.778
+    "var_1h": -0.127,
+    "var_4h": 0.223,
+    "var_24h": 0.762
    },
    "gld": {
-    "ultimo": 365.53,
-    "ora": "2026-11-11T13:45:49.635-0500",
+    "ultimo": 365.23,
+    "ora": "2026-11-11T14:01:09.766-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.265,
-    "var_4h": -0.693,
-    "var_24h": -1.037
+    "var_1h": -0.186,
+    "var_4h": -0.701,
+    "var_24h": -1.118
    },
    "usdcny": {
     "ultimo": 6.6703,
@@ -147,12 +147,12 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.083,
-   "punteggio_24h": -0.421,
-   "rapporto_oro_argento": 76.91
+   "punteggio_4h": -0.033,
+   "punteggio_24h": -0.414,
+   "rapporto_oro_argento": 76.98
   },
   "etf": {
-   "gld_tonnellate_stimate": 1039.0,
+   "gld_tonnellate_stimate": 1039.6,
    "data": "2026-11-11",
    "giorni_di_storico": 3,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -357,6 +357,13 @@
      "ora_utc": "2026-11-14T00:00:00Z",
      "orario_indicativo": false,
      "dove": "At the University of California San Diego Economics Roundtable, La Jolla, Calif."
+    },
+    {
+     "evento": "FOMC Minutes",
+     "tipo": "FOMC",
+     "ora_utc": "2026-11-18T19:00:00Z",
+     "orario_indicativo": false,
+     "dove": ""
     }
    ]
   },
