@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-11T00:46:28Z",
+ "timestamp_utc": "2026-11-11T01:02:36Z",
  "bias": 0.345,
  "confidence": 0.153,
  "regime": "moderatamente favorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "notizie banche centrali: 503 Server Error: Service Unavailable for url: https://news.",
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
@@ -65,12 +66,12 @@
     "var_24h": 20.1
    },
    "dollaro_dxy": {
-    "ultimo": 102.239,
-    "ora": "2026-11-10T19:45:47.000-0500",
+    "ultimo": 102.243,
+    "ora": "2026-11-10T20:01:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.008,
-    "var_4h": -0.012,
-    "var_24h": 0.008
+    "var_1h": 0.012,
+    "var_4h": -0.008,
+    "var_24h": 0.012
    },
    "vix": {
     "ultimo": 19.46,
@@ -81,36 +82,36 @@
     "var_24h": -0.46
    },
    "oro_futures": {
-    "ultimo": 4044.0,
-    "ora": "2026-11-10T19:35:47.000-0500",
+    "ultimo": 4040.7,
+    "ora": "2026-11-10T19:51:01.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.012,
-    "var_4h": 0.045,
-    "var_24h": 0.342
+    "var_1h": -0.069,
+    "var_4h": -0.037,
+    "var_24h": 0.261
    },
    "argento": {
-    "ultimo": 51.51,
-    "ora": "2026-11-10T19:35:32.000-0500",
+    "ultimo": 51.435,
+    "ora": "2026-11-10T19:50:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.068,
-    "var_4h": -0.068,
-    "var_24h": 0.556
+    "var_1h": -0.213,
+    "var_4h": -0.213,
+    "var_24h": 0.41
    },
    "petrolio_wti": {
-    "ultimo": 86.29,
-    "ora": "2026-11-10T19:35:38.000-0500",
+    "ultimo": 86.36,
+    "ora": "2026-11-10T19:51:03.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.046,
-    "var_4h": -0.22,
-    "var_24h": 0.291
+    "var_1h": 0.035,
+    "var_4h": -0.139,
+    "var_24h": 0.372
    },
    "rame": {
-    "ultimo": 6.2705,
-    "ora": "2026-11-10T19:35:26.000-0500",
+    "ultimo": 6.2665,
+    "ora": "2026-11-10T19:50:50.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.056,
-    "var_4h": -0.024,
-    "var_24h": 0.577
+    "var_1h": -0.008,
+    "var_4h": -0.088,
+    "var_24h": 0.513
    },
    "gld": {
     "ultimo": 369.36,
@@ -128,12 +129,12 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.106,
+   "punteggio_4h": -0.107,
    "punteggio_24h": -0.099,
-   "rapporto_oro_argento": 78.51
+   "rapporto_oro_argento": 78.56
   },
   "etf": {
-   "gld_tonnellate_stimate": 1037.5,
+   "gld_tonnellate_stimate": 1038.3,
    "data": "2026-11-11",
    "giorni_di_storico": 3,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -355,45 +356,6 @@
    "variazione_4sett_pct_oi": -2.1,
    "flusso_z": -0.44,
    "punteggio_flusso": -0.283
-  },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "China buys gold for two straight years as central bank demand remains a key pillar of support - Kitco",
-     "data": "2026-11-10"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "China Buys 26 Tonnes of Gold in October Despite 7% Price Drop, Extending Record Buying Streak - Brave New Coin",
-     "data": "2026-11-08"
-    },
-    {
-     "titolo": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "September central bank Gold buying hit highest monthly total of the year - FXStreet",
-     "data": "2026-11-05"
-    },
-    {
-     "titolo": "China Boosts Gold Reserves as Prices Fall - Briefs Finance",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-10-06"
-    }
-   ],
-   "pboc_mesi_di_acquisti": 24,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
   },
   "sintesi": "CPI m/m 0.4 vs 0.3%: oro giu"
  },
