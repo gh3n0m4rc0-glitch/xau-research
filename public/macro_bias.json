@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-11T22:31:47Z",
+ "timestamp_utc": "2026-11-11T22:46:23Z",
  "bias": 0.342,
  "confidence": 0.152,
  "regime": "moderatamente favorevole",
@@ -84,19 +84,19 @@
     "var_24h": 20.1
    },
    "dollaro_dxy": {
-    "ultimo": 102.91,
-    "ora": "2026-11-11T17:31:04.000-0500",
+    "ultimo": 102.916,
+    "ora": "2026-11-11T17:45:44.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.017,
-    "var_4h": -0.004,
-    "var_24h": 0.664
+    "var_1h": -0.011,
+    "var_4h": 0.007,
+    "var_24h": 0.67
    },
    "vix": {
     "ultimo": 17.49,
     "ora": "2026-11-11T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": 0.11,
+    "var_4h": 0.1,
     "var_24h": -1.97
    },
    "oro_futures": {
@@ -104,7 +104,7 @@
     "ora": "2026-11-11T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.07,
-    "var_4h": -0.108,
+    "var_4h": -0.13,
     "var_24h": -0.891
    },
    "argento": {
@@ -112,7 +112,7 @@
     "ora": "2026-11-11T16:59:50.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.116,
-    "var_4h": -0.673,
+    "var_4h": -0.625,
     "var_24h": 0.888
    },
    "petrolio_wti": {
@@ -120,7 +120,7 @@
     "ora": "2026-11-11T16:59:55.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.781,
+    "var_4h": -0.769,
     "var_24h": 0.442
    },
    "rame": {
@@ -128,7 +128,7 @@
     "ora": "2026-11-11T16:59:55.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.016,
-    "var_4h": -0.326,
+    "var_4h": -0.255,
     "var_24h": 0.505
    },
    "gld": {
@@ -136,7 +136,7 @@
     "ora": "2026-11-11T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.2,
+    "var_4h": -0.129,
     "var_24h": -1.134
    },
    "usdcny": {
@@ -147,8 +147,8 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.03,
-   "punteggio_24h": -0.435,
+   "punteggio_4h": -0.043,
+   "punteggio_24h": -0.436,
    "rapporto_oro_argento": 77.29
   },
   "etf": {
@@ -386,10 +386,6 @@
      "data": "2026-11-04"
     },
     {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
-     "data": "2026-11-07"
-    },
-    {
      "titolo": "China Buys 26 Tonnes of Gold in October Despite 7% Price Drop, Extending Record Buying Streak - Brave New Coin",
      "data": "2026-11-08"
     },
@@ -408,6 +404,10 @@
     {
      "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
      "data": "2026-10-07"
+    },
+    {
+     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
+     "data": "2026-11-03"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
