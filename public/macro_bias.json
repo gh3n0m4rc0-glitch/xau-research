@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-11T01:16:31Z",
+ "timestamp_utc": "2026-11-11T01:31:51Z",
  "bias": 0.345,
  "confidence": 0.153,
  "regime": "moderatamente favorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -44,7 +45,7 @@
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 1.1,
+    "var_4h": 1.4,
     "var_24h": 0.0
    },
    "tasso_10y": {
@@ -52,7 +53,7 @@
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 1.0,
+    "var_4h": 1.5,
     "var_24h": 13.8
    },
    "tasso_2y": {
@@ -60,56 +61,56 @@
     "ora": "2026-11-10T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 1.2,
+    "var_4h": 1.5,
     "var_24h": 20.1
    },
    "dollaro_dxy": {
-    "ultimo": 102.282,
-    "ora": "2026-11-10T20:15:42.000-0500",
+    "ultimo": 102.268,
+    "ora": "2026-11-10T20:30:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.05,
-    "var_4h": 0.023,
-    "var_24h": 0.05
+    "var_1h": 0.036,
+    "var_4h": 0.011,
+    "var_24h": 0.036
    },
    "vix": {
     "ultimo": 19.46,
     "ora": "2026-11-10T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": -0.08,
+    "var_4h": 0.0,
     "var_24h": -0.46
    },
    "oro_futures": {
-    "ultimo": 4041.2,
-    "ora": "2026-11-10T20:05:41.000-0500",
+    "ultimo": 4039.7,
+    "ora": "2026-11-10T20:20:57.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.037,
-    "var_4h": -0.052,
-    "var_24h": 0.273
+    "var_1h": -0.222,
+    "var_4h": 0.022,
+    "var_24h": 0.236
    },
    "argento": {
-    "ultimo": 51.515,
-    "ora": "2026-11-10T20:05:41.000-0500",
+    "ultimo": 51.72,
+    "ora": "2026-11-10T20:20:49.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.039,
-    "var_4h": -0.116,
-    "var_24h": 0.566
+    "var_1h": 0.31,
+    "var_4h": 0.408,
+    "var_24h": 0.966
    },
    "petrolio_wti": {
-    "ultimo": 86.55,
-    "ora": "2026-11-10T20:05:33.000-0500",
+    "ultimo": 86.41,
+    "ora": "2026-11-10T20:20:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.336,
-    "var_4h": 0.197,
-    "var_24h": 0.593
+    "var_1h": 0.244,
+    "var_4h": 0.139,
+    "var_24h": 0.43
    },
    "rame": {
-    "ultimo": 6.284,
-    "ora": "2026-11-10T20:05:37.000-0500",
+    "ultimo": 6.296,
+    "ora": "2026-11-10T20:20:50.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.199,
-    "var_4h": 0.159,
-    "var_24h": 0.794
+    "var_1h": 0.343,
+    "var_4h": 0.399,
+    "var_24h": 0.986
    },
    "gld": {
     "ultimo": 369.36,
@@ -127,12 +128,12 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.116,
-   "punteggio_24h": -0.119,
-   "rapporto_oro_argento": 78.45
+   "punteggio_4h": -0.129,
+   "punteggio_24h": -0.114,
+   "rapporto_oro_argento": 78.11
   },
   "etf": {
-   "gld_tonnellate_stimate": 1038.2,
+   "gld_tonnellate_stimate": 1038.6,
    "data": "2026-11-11",
    "giorni_di_storico": 3,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -318,13 +319,6 @@
    ],
    "agenda_7g": [
     {
-     "evento": "Speech - Vice Chair for Supervision Michelle W. Bowman",
-     "tipo": "Speeches",
-     "ora_utc": "2026-11-10T23:30:00Z",
-     "orario_indicativo": false,
-     "dove": "At A View from the Federal Reserve Board (virtual)"
-    },
-    {
      "evento": "Speech - Governor Michael S. Barr",
      "tipo": "Speeches",
      "ora_utc": "2026-11-12T15:00:00Z",
@@ -393,13 +387,6 @@
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 4.0652,
-   "media_30g": 3.0293,
-   "z": 1.9,
-   "allarme": false,
-   "punteggio": 0.74
   },
   "sintesi": "CPI m/m 0.4 vs 0.3%: oro giu"
  },
