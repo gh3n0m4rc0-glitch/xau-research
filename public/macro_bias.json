@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-13T18:45:00Z",
+ "timestamp_utc": "2026-11-13T18:46:38Z",
  "bias": 0.194,
  "confidence": 0.086,
  "regime": "moderatamente favorevole",
@@ -42,83 +42,83 @@
   "intraday": {
    "tasso_reale_10y": {
     "ultimo": 2.89,
-    "ora": "2026-11-13T13:41:51.000-0500",
+    "ora": "2026-11-13T13:45:21.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
-    "var_4h": -0.3,
+    "var_1h": 1.0,
+    "var_4h": -0.4,
     "var_24h": 1.1
    },
    "tasso_10y": {
-    "ultimo": 5.141,
-    "ora": "2026-11-13T13:44:01.000-0500",
+    "ultimo": 5.139,
+    "ora": "2026-11-13T13:45:55.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.4,
-    "var_4h": -2.1,
-    "var_24h": 3.8
+    "var_1h": 0.8,
+    "var_4h": -2.3,
+    "var_24h": 3.6
    },
    "tasso_2y": {
-    "ultimo": 4.859,
-    "ora": "2026-11-13T13:43:31.000-0500",
+    "ultimo": 4.857,
+    "ora": "2026-11-13T13:45:55.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.7,
-    "var_4h": -1.3,
-    "var_24h": -0.5
+    "var_4h": -0.6,
+    "var_24h": -0.7
    },
    "dollaro_dxy": {
-    "ultimo": 103.379,
-    "ora": "2026-11-13T13:44:23.000-0500",
+    "ultimo": 103.378,
+    "ora": "2026-11-13T13:45:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.011,
-    "var_4h": 0.135,
-    "var_24h": 0.2
+    "var_1h": -0.015,
+    "var_4h": 0.21,
+    "var_24h": 0.199
    },
    "vix": {
     "ultimo": 19.38,
-    "ora": "2026-11-13T13:44:16.000-0500",
+    "ora": "2026-11-13T13:45:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.45,
-    "var_4h": 1.06,
+    "var_1h": -0.33,
+    "var_4h": 0.5,
     "var_24h": 0.68
    },
    "oro_futures": {
-    "ultimo": 3885.2,
-    "ora": "2026-11-13T13:34:22.000-0500",
+    "ultimo": 3884.6,
+    "ora": "2026-11-13T13:35:54.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.023,
-    "var_4h": -0.054,
-    "var_24h": -0.003
+    "var_1h": -0.054,
+    "var_4h": -0.298,
+    "var_24h": -0.018
    },
    "argento": {
-    "ultimo": 49.06,
-    "ora": "2026-11-13T13:34:22.000-0500",
+    "ultimo": 49.015,
+    "ora": "2026-11-13T13:35:53.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.051,
-    "var_4h": -0.959,
-    "var_24h": -2.007
+    "var_1h": -0.143,
+    "var_4h": -1.358,
+    "var_24h": -2.097
    },
    "petrolio_wti": {
-    "ultimo": 88.8,
-    "ora": "2026-11-13T13:34:16.000-0500",
+    "ultimo": 88.78,
+    "ora": "2026-11-13T13:35:54.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.26,
+    "var_1h": 0.271,
     "var_4h": -0.627,
-    "var_24h": 0.068
+    "var_24h": 0.045
    },
    "rame": {
-    "ultimo": 6.089,
-    "ora": "2026-11-13T13:34:20.000-0500",
-    "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": -0.911,
-    "var_24h": -1.727
-   },
-   "gld": {
-    "ultimo": 355.56,
-    "ora": "2026-11-13T13:44:22.342-0500",
+    "ultimo": 6.0865,
+    "ora": "2026-11-13T13:35:50.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.025,
-    "var_4h": -0.238,
-    "var_24h": 0.189
+    "var_4h": -1.209,
+    "var_24h": -1.767
+   },
+   "gld": {
+    "ultimo": 355.58,
+    "ora": "2026-11-13T13:45:55.913-0500",
+    "unita_variazioni": "%",
+    "var_1h": -0.18,
+    "var_4h": -0.465,
+    "var_24h": 0.194
    },
    "usdcny": {
     "ultimo": 6.671,
@@ -128,12 +128,12 @@
     "var_4h": 0.0,
     "var_24h": 0.009
    },
-   "punteggio_4h": -0.073,
-   "punteggio_24h": -0.193,
-   "rapporto_oro_argento": 79.19
+   "punteggio_4h": -0.152,
+   "punteggio_24h": -0.191,
+   "rapporto_oro_argento": 79.25
   },
   "etf": {
-   "gld_tonnellate_stimate": 1039.3,
+   "gld_tonnellate_stimate": 1039.5,
    "data": "2026-11-13",
    "giorni_di_storico": 5,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -354,6 +354,13 @@
      "ora_utc": "2026-11-18T19:00:00Z",
      "orario_indicativo": false,
      "dove": ""
+    },
+    {
+     "evento": "Discussion - Vice Chair Philip N. Jefferson",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-19T14:25:00Z",
+     "orario_indicativo": false,
+     "dove": "At the International Monetary Fund (IMF) and Central Bank of Brazil conference &"
     },
     {
      "evento": "Discussion - Governor Michael S. Barr",
