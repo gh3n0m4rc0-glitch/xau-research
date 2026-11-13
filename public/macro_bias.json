@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-13T17:46:31Z",
+ "timestamp_utc": "2026-11-13T18:02:04Z",
  "bias": 0.194,
  "confidence": 0.086,
  "regime": "moderatamente favorevole",
@@ -41,84 +41,84 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.88,
-    "ora": "2026-11-13T12:45:23.000-0500",
+    "ultimo": 2.89,
+    "ora": "2026-11-13T13:00:57.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
-    "var_4h": 1.4,
-    "var_24h": 0.1
+    "var_1h": 0.6,
+    "var_4h": 2.4,
+    "var_24h": 1.1
    },
    "tasso_10y": {
-    "ultimo": 5.131,
-    "ora": "2026-11-13T12:45:21.000-0500",
+    "ultimo": 5.141,
+    "ora": "2026-11-13T13:00:37.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
-    "var_4h": 0.2,
-    "var_24h": 2.8
+    "var_1h": 1.0,
+    "var_4h": 1.2,
+    "var_24h": 3.8
    },
    "tasso_2y": {
-    "ultimo": 4.85,
-    "ora": "2026-11-13T12:45:48.000-0500",
+    "ultimo": 4.855,
+    "ora": "2026-11-13T13:00:10.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
-    "var_4h": 0.0,
-    "var_24h": -1.4
+    "var_1h": 0.5,
+    "var_4h": 0.5,
+    "var_24h": -0.9
    },
    "dollaro_dxy": {
-    "ultimo": 103.394,
-    "ora": "2026-11-13T12:45:49.000-0500",
+    "ultimo": 103.403,
+    "ora": "2026-11-13T13:01:20.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.069,
-    "var_4h": 0.226,
-    "var_24h": 0.214
+    "var_1h": 0.045,
+    "var_4h": 0.235,
+    "var_24h": 0.223
    },
    "vix": {
-    "ultimo": 19.71,
-    "ora": "2026-11-13T12:45:46.000-0500",
+    "ultimo": 19.79,
+    "ora": "2026-11-13T13:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.41,
-    "var_4h": 1.93,
-    "var_24h": 1.01
+    "var_1h": -0.58,
+    "var_4h": 2.01,
+    "var_24h": 1.09
    },
    "oro_futures": {
-    "ultimo": 3886.7,
-    "ora": "2026-11-13T12:35:43.000-0500",
+    "ultimo": 3894.4,
+    "ora": "2026-11-13T12:51:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.126,
-    "var_4h": -0.356,
-    "var_24h": 0.036
+    "var_1h": 0.131,
+    "var_4h": -0.159,
+    "var_24h": 0.234
    },
    "argento": {
-    "ultimo": 49.085,
-    "ora": "2026-11-13T12:35:35.000-0500",
+    "ultimo": 49.175,
+    "ora": "2026-11-13T12:51:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.266,
-    "var_4h": -1.957,
-    "var_24h": -1.957
+    "var_1h": 0.092,
+    "var_4h": -1.778,
+    "var_24h": -1.778
    },
    "petrolio_wti": {
     "ultimo": 88.54,
-    "ora": "2026-11-13T12:35:45.000-0500",
+    "ora": "2026-11-13T12:51:13.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.606,
+    "var_1h": -0.135,
     "var_4h": 0.226,
     "var_24h": -0.225
    },
    "rame": {
-    "ultimo": 6.088,
-    "ora": "2026-11-13T12:35:47.000-0500",
+    "ultimo": 6.089,
+    "ora": "2026-11-13T12:51:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.205,
-    "var_4h": -1.345,
-    "var_24h": -1.743
+    "var_1h": -0.254,
+    "var_4h": -1.329,
+    "var_24h": -1.727
    },
    "gld": {
-    "ultimo": 356.22,
-    "ora": "2026-11-13T12:45:49.792-0500",
+    "ultimo": 355.87,
+    "ora": "2026-11-13T13:01:15.983-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.124,
-    "var_4h": 0.375,
-    "var_24h": 0.375
+    "var_1h": -0.045,
+    "var_4h": 0.276,
+    "var_24h": 0.276
    },
    "usdcny": {
     "ultimo": 6.671,
@@ -128,12 +128,12 @@
     "var_4h": 0.0,
     "var_24h": 0.009
    },
-   "punteggio_4h": -0.234,
-   "punteggio_24h": -0.148,
-   "rapporto_oro_argento": 79.18
+   "punteggio_4h": -0.317,
+   "punteggio_24h": -0.203,
+   "rapporto_oro_argento": 79.19
   },
   "etf": {
-   "gld_tonnellate_stimate": 1040.8,
+   "gld_tonnellate_stimate": 1037.7,
    "data": "2026-11-13",
    "giorni_di_storico": 5,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
@@ -314,13 +314,6 @@
    ],
    "agenda_7g": [
     {
-     "evento": "Discussion - Vice Chair for Supervision Michelle W. Bowman",
-     "tipo": "Speeches",
-     "ora_utc": "2026-11-13T15:50:00Z",
-     "orario_indicativo": false,
-     "dove": "At the Connecticut Bankers Association Annual Meeting and Conference 2026 (virtu"
-    },
-    {
      "evento": "Speech - Vice Chair Philip N. Jefferson",
      "tipo": "Speeches",
      "ora_utc": "2026-11-14T00:00:00Z",
@@ -432,11 +425,11 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.23); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.32); tagli Fed prezzati in calo"
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.23); tagli Fed prezzati in calo",
+ "extra_sintesi": "tassi/dollaro ultime 4h contro oro (-0.32); tagli Fed prezzati in calo",
  "ultimo_dato": "Core PPI m/m 0.3 (previsione 0.3%): in linea",
  "ultimo_dato_ora_utc": "2026-11-13T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
