@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-14T00:46:51Z",
+ "timestamp_utc": "2026-11-14T01:01:48Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -32,8 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "notizie banche centrali: 503 Server Error: Service Unavailable for url: https://news.",
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -46,7 +44,7 @@
     "ora": "2026-11-13T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -0.9,
+    "var_4h": -1.2,
     "var_24h": 0.0
    },
    "tasso_10y": {
@@ -54,7 +52,7 @@
     "ora": "2026-11-13T17:03:31.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -1.4,
+    "var_4h": -1.7,
     "var_24h": 3.6
    },
    "tasso_2y": {
@@ -62,7 +60,7 @@
     "ora": "2026-11-13T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -2.2,
+    "var_4h": -2.4,
     "var_24h": -1.2
    },
    "dollaro_dxy": {
@@ -70,7 +68,7 @@
     "ora": "2026-11-13T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.003,
+    "var_4h": -0.015,
     "var_24h": 0.231
    },
    "vix": {
@@ -78,7 +76,7 @@
     "ora": "2026-11-13T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": 0.17,
+    "var_4h": 0.09,
     "var_24h": 0.6
    },
    "oro_futures": {
@@ -86,7 +84,7 @@
     "ora": "2026-11-12",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.211,
+    "var_4h": 0.186,
     "var_24h": 0.059
    },
    "argento": {
@@ -94,7 +92,7 @@
     "ora": "2026-11-12",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.348,
+    "var_4h": -0.307,
     "var_24h": -2.826
    },
    "petrolio_wti": {
@@ -102,7 +100,7 @@
     "ora": "2026-11-13T18:13:44.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.203,
+    "var_4h": 0.169,
     "var_24h": 0.203
    },
    "rame": {
@@ -110,7 +108,7 @@
     "ora": "2026-11-12",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.23,
+    "var_4h": -0.181,
     "var_24h": -2.138
    },
    "gld": {
@@ -118,7 +116,7 @@
     "ora": "2026-11-13T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.011,
+    "var_4h": 0.096,
     "var_24h": 0.158
    },
    "usdcny": {
@@ -129,7 +127,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.105,
+   "punteggio_4h": 0.145,
    "punteggio_24h": -0.159,
    "rapporto_oro_argento": 79.91
   },
@@ -394,11 +392,57 @@
    "flusso_z": -0.44,
    "punteggio_flusso": -0.283
   },
-  "sintesi": "tagli Fed prezzati in calo"
+  "banche_centrali": {
+   "titoli_45g": [
+    {
+     "titolo": "China buys gold for two straight years as central bank demand remains a key pillar of support - Kitco",
+     "data": "2026-11-10"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg",
+     "data": "2026-11-07"
+    },
+    {
+     "titolo": "Central Banks Accelerated Gold Buying in Third Quarter - WSJ",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "China extends gold buying streak to 24 months as prices slump below $4,000 - Yahoo Finance",
+     "data": "2026-11-07"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-10-06"
+    },
+    {
+     "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
+     "data": "2026-10-07"
+    },
+    {
+     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "data": "2026-11-03"
+    }
+   ],
+   "pboc_mesi_di_acquisti": null,
+   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
+   "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 4.693,
+   "media_30g": 3.1106,
+   "z": 2.36,
+   "allarme": true,
+   "punteggio": 0.827
+  },
+  "sintesi": "tagli Fed prezzati in calo; picco di notizie di conflitto"
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tagli Fed prezzati in calo",
+ "extra_sintesi": "tagli Fed prezzati in calo; picco di notizie di conflitto",
  "ultimo_dato": "Core PPI m/m 0.3 (previsione 0.3%): in linea",
  "ultimo_dato_ora_utc": "2026-11-13T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
