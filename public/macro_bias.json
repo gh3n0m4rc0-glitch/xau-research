@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-14T07:16:37Z",
+ "timestamp_utc": "2026-11-14T07:31:51Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -405,6 +405,10 @@
      "data": "2026-11-07"
     },
     {
+     "titolo": "China Buys 26 Tonnes of Gold in October Despite 7% Price Drop, Extending Record Buying Streak - Brave New Coin",
+     "data": "2026-11-08"
+    },
+    {
      "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-10-06"
     },
@@ -415,13 +419,9 @@
     {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
      "data": "2026-10-11"
-    },
-    {
-     "titolo": "Central banks buy gold at fastest pace since 2024, WGC says - The Business Times",
-     "data": "2026-11-03"
     }
    ],
-   "pboc_mesi_di_acquisti": null,
+   "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
