@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-14T05:16:25Z",
+ "timestamp_utc": "2026-11-14T05:31:34Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -425,11 +424,18 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tagli Fed prezzati in calo"
+  "geopolitica": {
+   "intensita_24h": 4.693,
+   "media_30g": 3.1106,
+   "z": 2.36,
+   "allarme": true,
+   "punteggio": 0.827
+  },
+  "sintesi": "tagli Fed prezzati in calo; picco di notizie di conflitto"
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tagli Fed prezzati in calo",
+ "extra_sintesi": "tagli Fed prezzati in calo; picco di notizie di conflitto",
  "ultimo_dato": "Core PPI m/m 0.3 (previsione 0.3%): in linea",
  "ultimo_dato_ora_utc": "2026-11-13T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
