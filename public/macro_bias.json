@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-14T03:16:39Z",
+ "timestamp_utc": "2026-11-14T03:31:44Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -397,10 +397,6 @@
      "data": "2026-11-04"
     },
     {
-     "titolo": "Central Banks Accelerated Gold Buying in Third Quarter - WSJ",
-     "data": "2026-11-03"
-    },
-    {
      "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg",
      "data": "2026-11-07"
     },
@@ -419,6 +415,10 @@
     {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
      "data": "2026-10-11"
+    },
+    {
+     "titolo": "Central banks buy gold at fastest pace since 2024, WGC says - The Business Times",
+     "data": "2026-11-03"
     }
    ],
    "pboc_mesi_di_acquisti": null,
