@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-14T01:31:56Z",
+ "timestamp_utc": "2026-11-14T01:46:26Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -45,7 +45,7 @@
     "ora": "2026-11-13T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -0.6,
+    "var_4h": -0.4,
     "var_24h": 0.0
    },
    "tasso_10y": {
@@ -53,7 +53,7 @@
     "ora": "2026-11-13T17:03:31.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -0.6,
+    "var_4h": -0.4,
     "var_24h": 3.6
    },
    "tasso_2y": {
@@ -61,7 +61,7 @@
     "ora": "2026-11-13T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -0.9,
+    "var_4h": -0.7,
     "var_24h": -1.2
    },
    "dollaro_dxy": {
@@ -69,7 +69,7 @@
     "ora": "2026-11-13T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.003,
+    "var_4h": -0.017,
     "var_24h": 0.231
    },
    "vix": {
@@ -85,7 +85,7 @@
     "ora": "2026-11-12",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.196,
+    "var_4h": 0.299,
     "var_24h": 0.059
    },
    "argento": {
@@ -93,7 +93,7 @@
     "ora": "2026-11-12",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.082,
+    "var_4h": 0.496,
     "var_24h": -2.826
    },
    "petrolio_wti": {
@@ -101,7 +101,7 @@
     "ora": "2026-11-13T18:13:44.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.011,
+    "var_4h": -0.269,
     "var_24h": 0.203
    },
    "rame": {
@@ -109,7 +109,7 @@
     "ora": "2026-11-12",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.041,
+    "var_4h": 0.215,
     "var_24h": -2.138
    },
    "gld": {
@@ -128,7 +128,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.051,
+   "punteggio_4h": 0.041,
    "punteggio_24h": -0.159,
    "rapporto_oro_argento": 79.91
   },
