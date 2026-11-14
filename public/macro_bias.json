@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-14T10:46:24Z",
+ "timestamp_utc": "2026-11-14T11:02:13Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -401,10 +401,6 @@
      "data": "2026-11-07"
     },
     {
-     "titolo": "China extends gold buying streak to 24 months as prices slump below $4,000 - Yahoo Finance",
-     "data": "2026-11-07"
-    },
-    {
      "titolo": "China Buys 26 Tonnes of Gold in October Despite 7% Price Drop, Extending Record Buying Streak - Brave New Coin",
      "data": "2026-11-08"
     },
@@ -419,6 +415,10 @@
     {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
      "data": "2026-10-11"
+    },
+    {
+     "titolo": "China Boosts Gold Reserves as Prices Fall - Briefs Finance",
+     "data": "2026-11-07"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
