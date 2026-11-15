@@ -28,6 +28,7 @@ def test_full_cycle(tmp_path, monkeypatch):
     monkeypatch.setattr(terminale, "fred_api", lambda sid, start: (_ for _ in ()).throw(RuntimeError("offline")))
     monkeypatch.setattr(extra, "fetch_yahoo", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("offline")))
     monkeypatch.setattr(sources, "fetch_fred", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("offline")))
+    monkeypatch.setattr(extra, "fetch_cnbc", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("offline")))
     briefings = []
     (tmp_path / "market_snapshot.json").write_text(json.dumps({"timestamp_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "price": 4000}))
 

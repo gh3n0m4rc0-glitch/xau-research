@@ -210,7 +210,7 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
     if cfg.get("terminale_enabled", True):
         try:
             term, term_missing = terminale.run(cfg["knowledge_dir"], out_dir, now, extra.fetch_yahoo, sources.fetch_fred,
-                                               float(cfg.get("terminale_refresh_hours", 2)))
+                                               float(cfg.get("terminale_refresh_hours", 2)), cnbc_fetch=extra.fetch_cnbc)
             if term:
                 term["agli_analisti"] = bool(cfg.get("terminale_agli_analisti", False))
             log.info("Terminale: %s", term.get("sintesi", "non disponibile"))

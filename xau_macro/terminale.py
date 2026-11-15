@@ -1,8 +1,7 @@
 """Terminale macro settimanale dentro il servizio (peso zero: solo informazione).
 
-Ogni fine settimana l'analisi del terminale scrive due file in knowledge/:
-- terminale.json          verso e convinzione per i sei mercati, report delle banche centrali, COT, calendario
-- terminale_settimana.md  lo stesso in parole, letto dagli analisti AI tramite la knowledge base
+Ogni fine settimana (e dopo ogni decisione delle banche centrali) l'analisi del terminale scrive
+knowledge/terminale.json: verso e convinzione per i sei mercati, report delle banche centrali, COT, calendario.
 
 Questo modulo tiene viva la lettura durante la settimana, senza aspettare il venerdi':
 - COT dei fondi su oro (CFTC disaggregato) e su Nasdaq, Dow, euro, sterlina, yen (CFTC TFF, leveraged funds);
@@ -17,6 +16,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Callable
@@ -36,9 +36,12 @@ CODICI_TFF = {"20974+": "US100", "12460+": "US30", "099741": "EURUSD", "096742":
 # Il future dello yen e' yen contro dollaro: fondi corti sullo yen = scommettono su USDJPY in salita. Si gira il segno.
 SEGNO_COT = {"USDJPY": -1}
 
-# Prezzi: Yahoo (giornaliero, anche l'ultimo prezzo), poi FRED (giornaliero), poi le chiusure del venerdi' scritte nel file
+# Prezzi: Yahoo (giornaliero, anche l'ultimo prezzo), poi FRED (giornaliero, sui cambi arriva una settimana dopo),
+# sempre unite alle chiusure del venerdi' scritte nel file; l'ultimo prezzo dal vivo arriva da CNBC.
 YAHOO = {"XAUUSD": "GC=F", "US100": "^NDX", "US30": "^DJI", "EURUSD": "EURUSD=X", "GBPUSD": "GBPUSD=X", "USDJPY": "JPY=X"}
 FRED_PREZZI = {"US100": "NASDAQ100", "US30": "DJIA", "EURUSD": "DEXUSEU", "GBPUSD": "DEXUSUK", "USDJPY": "DEXJPUS"}
+CNBC = {"XAUUSD": "@GC.1", "US100": ".NDX", "US30": ".DJI", "EURUSD": "EUR=", "GBPUSD": "GBP=", "USDJPY": "JPY="}
+SCALA_CNBC = 0.2        # un prezzo CNBC a piu' del 20% dall'ultima chiusura della lettura e' un errore di simbolo o di unita'
 # Tasso ufficiale su FRED per accorgersi di un cambio: Fed = tetto della forchetta, BCE = tasso sui depositi
 FRED_TASSI = {"Fed": "DFEDTARU", "BCE": "ECBDFR"}
 FRED_API = "https://api.stlouisfed.org/fred/series/observations"
@@ -170,6 +173,59 @@ def fetch_prices(yahoo_fetch: Callable | None, fred_fetch: Callable | None, star
                 pass
         missing.append(f"terminale prezzi {m}: uso le chiusure del venerdi'")
     return out, fonte, missing
+
+
+def _cnbc_day(t) -> str | None:
+    """Giorno di mercato di un'ora CNBC ("2026-11-17T10:42:50.000-0500", ora di New York).
+    Dalle 18 di New York si apre gia' la seduta del giorno dopo (cambi e future)."""
+    m = re.match(r"(\d{4}-\d{2}-\d{2})(?:T(\d{2}))?", str(t or ""))
+    if not m:
+        return None
+    g = date.fromisoformat(m.group(1))
+    if m.group(2) and int(m.group(2)) >= 18:
+        g += timedelta(days=1)
+    return g.isoformat()
+
+
+def fetch_quotes(cnbc_fetch: Callable | None, reading: dict, now: datetime) -> tuple[dict, list[str]]:
+    """Ultimo prezzo di ogni mercato da CNBC: ({mercato: [giorno, prezzo]}, mancanti)."""
+    if not cnbc_fetch:
+        return {}, []
+    try:
+        q = cnbc_fetch(list(CNBC.values()))
+    except Exception as e:   # solo il tipo di errore, mai indirizzi
+        return {}, [f"terminale CNBC: non raggiunto ({type(e).__name__})"]
+    out, missing = {}, []
+    domani = (now + timedelta(days=1)).date().isoformat()
+    for m, sym in CNBC.items():
+        x = q.get(sym) or {}
+        day, last = _cnbc_day(x.get("time")), x.get("last")
+        if not day or not last or day > domani:
+            continue
+        ref = ((reading.get("prezzi_settimanali") or {}).get(m) or [[None, None]])[-1][1]
+        if ref and abs(float(last) / ref - 1) > SCALA_CNBC:
+            missing.append(f"terminale CNBC {m}: prezzo fuori scala, non usato")
+            continue
+        out[m] = [day, round(float(last), 6)]
+    return out, missing
+
+
+def merge_prices(lettura: list | None, rete: list | None, quota: list | None) -> tuple[list[list], list[str]]:
+    """Serie per i confronti e da dove arriva. Le chiusure della lettura vincono a parita' di giorno (bot e pagina danno
+    gli stessi numeri); dalla rete (Yahoo o FRED) si prendono i giorni che la lettura non ha, e l'ultimo prezzo CNBC
+    se e' piu' recente della lettura. Cosi' un FRED in ritardo non toglie mai le chiusure piu' nuove."""
+    d = {p[0]: p[1] for p in rete or []}
+    ultimo_rete = max(d) if d else ""
+    let = {p[0]: p[1] for p in lettura or []}
+    d.update(let)
+    parti = ["rete"] if rete else []
+    ultimo_let = max(let) if let else ""
+    if let and ultimo_let > ultimo_rete:
+        parti.append("lettura")
+    if quota and quota[0] > ultimo_let:
+        d[quota[0]] = quota[1]
+        parti.append("CNBC")
+    return [[k, d[k]] for k in sorted(d)], parti
 
 
 def price_at(points: list[list], day: str) -> float | None:
@@ -309,8 +365,14 @@ def changes(reading: dict, now: datetime, prezzi: dict, fed_now: dict | None, ta
 
 def build_block(reading: dict, now: datetime, remote: dict) -> dict:
     """Blocco "terminale" per macro_bias.json, dalla lettura settimanale e dai dati presi in rete (o dalla cache)."""
-    prezzi = dict(reading.get("prezzi_settimanali") or {})
-    prezzi.update(remote.get("prezzi") or {})
+    lettura, rete, quote = reading.get("prezzi_settimanali") or {}, remote.get("prezzi") or {}, remote.get("quote") or {}
+    prezzi, fonti = {}, {}
+    for m in MERCATI:
+        pts, parti = merge_prices(lettura.get(m), rete.get(m), quote.get(m))
+        if pts:
+            prezzi[m] = pts
+            nomi = {"rete": (remote.get("fonti_prezzi") or {}).get(m, "rete"), "lettura": "lettura", "CNBC": "CNBC"}
+            fonti[m] = "+".join(nomi[x] for x in parti)
     cot = remote.get("cot") or {}
     cot_out = {m: cot_summary(cot[m]) for m in cot if cot.get(m)}
     for c in reading.get("cot") or []:                       # COT non raggiunto: resta quello della lettura
@@ -342,7 +404,7 @@ def build_block(reading: dict, now: datetime, remote: dict) -> dict:
              "mercati": mercati, "banche": banche, "conferma_grafico": conf, "cambiamenti": camb,
              "resoconto": reading.get("resoconto") or [],
              "prossimi_eventi": [c for c in reading.get("calendario") or [] if c.get("quando", "") >= now.strftime("%Y-%m-%dT%H:%M:%SZ")][:8],
-             "fonti_prezzi": remote.get("fonti_prezzi") or {}, "dati_presi_utc": remote.get("preso_utc")}
+             "fonti_prezzi": fonti, "dati_presi_utc": remote.get("preso_utc")}
     block["sintesi"] = short_text(block)
     block["testo_analisti"] = long_text(block)
     return block
@@ -384,7 +446,8 @@ def long_text(b: dict) -> str:
 
 # ------------------------------------------------------------------ giro del servizio
 def run(knowledge_dir, out_dir, now: datetime, yahoo_fetch: Callable | None = None, fred_fetch: Callable | None = None,
-        refresh_hours: float = 2.0, cot_fetch: Callable | None = None, fred_obs: Callable | None = None) -> tuple[dict, list[str]]:
+        refresh_hours: float = 2.0, cot_fetch: Callable | None = None, fred_obs: Callable | None = None,
+        cnbc_fetch: Callable | None = None) -> tuple[dict, list[str]]:
     """Restituisce (blocco terminale, fonti mancanti). Le chiamate in rete partono solo se la cache e' piu' vecchia di refresh_hours."""
     cot_fetch, fred_obs = cot_fetch or fetch_cot_rows, fred_obs or fred_api
     reading = load_reading(Path(knowledge_dir) / "terminale.json")
@@ -415,7 +478,10 @@ def run(knowledge_dir, out_dir, now: datetime, yahoo_fetch: Callable | None = No
         prezzi, fonti, miss = fetch_prices(yahoo_fetch, fred_fetch, (now - timedelta(days=500)).strftime("%Y-%m-%d"))
         new["prezzi"] = {**(remote.get("prezzi") or {}), **prezzi}
         new["fonti_prezzi"] = {**(remote.get("fonti_prezzi") or {}), **fonti}
-        missing += miss
+        quote, miss_q = fetch_quotes(cnbc_fetch, reading, now)
+        new["quote"] = quote                      # niente quote vecchie: se CNBC non risponde restano le chiusure
+        # un mercato senza serie in rete ma con il prezzo CNBC e' a posto: chiusure della lettura + prezzo di oggi
+        missing += [x for x in miss if not any(f" {m}:" in x for m in quote)] + miss_q
         try:
             new["fed_proiezioni"] = fed_projections(fred_obs)
         except Exception as e:

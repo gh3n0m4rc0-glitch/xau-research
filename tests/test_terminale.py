@@ -120,7 +120,7 @@ def test_run_uses_cache_and_never_leaks_errors(tmp_path):
     block, missing = terminale.run(kdir, out, NOW, yahoo, None, 2, cot_fetch, fred_obs)
     assert calls == {"cot": 1, "yahoo": 6}
     assert block["mercati"]["XAUUSD"]["ultimo_prezzo"] == 3887.6          # Yahoo assente: chiusure del venerdi'
-    assert block["fonti_prezzi"].get("US100") == "Yahoo" and "XAUUSD" not in block["fonti_prezzi"]
+    assert block["fonti_prezzi"].get("US100") == "Yahoo" and block["fonti_prezzi"]["XAUUSD"] == "lettura"
     assert block["mercati"]["USDJPY"]["cot"]["percentile_3anni"] == 100
     assert block["vecchio"] is False and block["eta_giorni"] == 3
     assert [e["evento"] for e in block["prossimi_eventi"]] == ["verbali Fed"]
@@ -134,6 +134,53 @@ def test_run_uses_cache_and_never_leaks_errors(tmp_path):
     # tre ore dopo: si riprende tutto
     terminale.run(kdir, out, NOW + timedelta(hours=3), yahoo, None, 2, cot_fetch, fred_obs)
     assert calls == {"cot": 2, "yahoo": 12}
+
+
+def test_cnbc_day_uses_new_york_session():
+    assert terminale._cnbc_day("2026-11-13T17:00:00.000-0500") == "2026-11-13"     # chiusura del venerdi'
+    assert terminale._cnbc_day("2026-11-15T18:05:00.000-0500") == "2026-11-16"     # domenica sera = seduta di lunedi'
+    assert terminale._cnbc_day("2026-11-13") == "2026-11-13" and terminale._cnbc_day(None) is None
+
+
+def test_stale_fred_never_hides_newer_closes_and_cnbc_gives_today(tmp_path):
+    """Su GitHub Yahoo non risponde e FRED sui cambi arriva una settimana dopo: restano le chiusure della lettura
+    e l'ultimo prezzo arriva da CNBC (cosi' la conferma del grafico e' quella di oggi)."""
+    kdir, out = tmp_path / "knowledge", tmp_path / "public"
+    kdir.mkdir()
+    (kdir / "terminale.json").write_text(json.dumps(READING), encoding="utf-8")
+
+    def yahoo(sym, rng, interval):
+        raise RuntimeError("Yahoo 429")
+
+    def fred(sid, start):                     # DEXUSEU fermo al 6 novembre, piu' vecchio della lettura (13 novembre)
+        idx = pd.date_range("2026-01-02", "2026-11-06", freq="B")
+        return pd.Series([1.1154] * len(idx), index=idx)
+
+    def cnbc(symbols):
+        assert set(symbols) == set(terminale.CNBC.values())
+        return {"EUR=": {"last": 1.0950, "time": "2026-11-18T06:40:00.000-0500"},
+                "@GC.1": {"last": 3950.0, "time": "2026-11-18T06:41:00.000-0500"},
+                "JPY=": {"last": 0.00627, "time": "2026-11-18T06:41:00.000-0500"},     # unita' sbagliata: scartato
+                "GBP=": {"last": 1.32, "time": "2026-11-20T06:41:00.000-0500"}}        # nel futuro: scartato
+
+    block, missing = terminale.run(kdir, out, NOW, yahoo, fred, 2, lambda s: _cot_rows(), lambda sid, d: [], cnbc)
+    eu = block["mercati"]["EURUSD"]
+    assert (eu["ultimo_prezzo"], eu["ultimo_prezzo_data"]) == (1.095, "2026-11-18")
+    assert eu["da_venerdi_pct"] == terminale.pct(1.1021, 1.095)               # dal venerdi' della lettura, non da FRED
+    assert block["fonti_prezzi"]["EURUSD"] == "FRED+lettura+CNBC"
+    bce = [c for c in block["conferma_grafico"] if c["banca"] == "BCE"][0]
+    assert bce["da_allora_pct"] == terminale.pct(1.16, 1.095) and bce["fino_a"] == "2026-11-18"
+    assert block["mercati"]["XAUUSD"]["ultimo_prezzo"] == 3950.0 and block["fonti_prezzi"]["XAUUSD"] == "lettura+CNBC"
+    assert block["mercati"]["USDJPY"]["ultimo_prezzo"] == 159.66 and block["fonti_prezzi"]["USDJPY"] == "FRED+lettura"
+    assert block["mercati"]["GBPUSD"]["ultimo_prezzo_data"] == "2026-11-13"
+    assert not any("XAUUSD" in m for m in missing)                            # oro coperto da CNBC
+    assert any("CNBC USDJPY: prezzo fuori scala" in m for m in missing)
+    # CNBC fermo: niente errori con indirizzi, si torna alle chiusure
+    def cnbc_down(symbols):
+        raise ConnectionError("HTTPSConnectionPool(host='quote.cnbc.com') SEGRETO")
+    block2, missing2 = terminale.run(kdir, out, NOW + timedelta(hours=3), yahoo, fred, 2, lambda s: _cot_rows(), lambda sid, d: [], cnbc_down)
+    assert block2["mercati"]["EURUSD"]["ultimo_prezzo"] == 1.1021
+    assert "terminale CNBC: non raggiunto (ConnectionError)" in missing2 and "SEGRETO" not in json.dumps(missing2)
 
 
 def test_run_without_reading(tmp_path):
