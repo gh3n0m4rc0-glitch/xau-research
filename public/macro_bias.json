@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-15T20:02:16Z",
+ "timestamp_utc": "2026-11-15T20:16:40Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -408,20 +408,16 @@
   "banche_centrali": {
    "titoli_45g": [
     {
-     "titolo": "China buys gold for two straight years as central bank demand remains a key pillar of support - Kitco",
-     "data": "2026-11-10"
-    },
-    {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
-     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-10-06"
-    },
-    {
      "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
      "data": "2026-10-07"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-10-06"
     },
     {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
@@ -438,6 +434,10 @@
     {
      "titolo": "Central banks buy gold at fastest pace since 2024, WGC says - The Business Times",
      "data": "2026-11-03"
+    },
+    {
+     "titolo": "Gold Price Today: Central Banks Buy 321 Tonnes in Biggest Quarter Since 2024 - CaptainAltcoin",
+     "data": "2026-11-11"
     }
    ],
    "pboc_mesi_di_acquisti": null,
