@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-15T22:01:58Z",
+ "timestamp_utc": "2026-11-15T22:06:53Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -60,9 +60,11 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "notizie banche centrali: 503 Server Error: Service Unavailable for url: https://news.",
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
-  "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
+  "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato",
+  "terminale prezzi XAUUSD: uso le chiusure del venerdi'"
  ],
  "extra": {
   "peso_nel_bias": 0,
@@ -93,12 +95,12 @@
     "var_24h": -1.2
    },
    "dollaro_dxy": {
-    "ultimo": 103.412,
-    "ora": "2026-11-13",
+    "ultimo": 103.411,
+    "ora": "2026-11-15T17:03:23.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.001,
-    "var_4h": 0.001,
-    "var_24h": 0.0
+    "var_1h": 0.0,
+    "var_4h": 0.0,
+    "var_24h": -0.001
    },
    "vix": {
     "ultimo": 19.3,
@@ -156,8 +158,8 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.001,
-   "punteggio_24h": -0.015,
+   "punteggio_4h": 0.0,
+   "punteggio_24h": -0.014,
    "rapporto_oro_argento": 79.12
   },
   "etf": {
@@ -175,27 +177,7 @@
    "cpi_mm": 0.13506088225743,
    "core_cpi_mm": 0.21114452794251,
    "pce_mm": 0.212888180545715,
-   "core_pce_mm": 0.263952783409193,
-   "prossimi_cpi": [
-    {
-     "evento": "CPI m/m",
-     "ora_utc": "2026-11-16T13:30:00Z",
-     "mese_dato": "2026-10",
-     "previsione": 0.3,
-     "nowcast": 0.24,
-     "scarto": -0.06,
-     "rischio": "in linea"
-    },
-    {
-     "evento": "Core CPI m/m",
-     "ora_utc": "2026-11-16T13:30:00Z",
-     "mese_dato": "2026-10",
-     "previsione": 0.2,
-     "nowcast": 0.21,
-     "scarto": 0.01,
-     "rischio": "in linea"
-    }
-   ]
+   "core_pce_mm": 0.263952783409193
   },
   "aspettative_fed": {
    "effr": 3.88,
@@ -406,49 +388,366 @@
    "flusso_z": -0.43,
    "punteggio_flusso": -0.278
   },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
-     "data": "2026-10-07"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-10-06"
-    },
-    {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
-    },
-    {
-     "titolo": "China Central Bank Extends Gold-Buying Streak Amid Price Decline - BusinessToday Malaysia",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "China extends gold buying spree to two years as prices drop, adds 25.8 tonnes in October - Moneycontrol.com",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "Central banks buy gold at fastest pace since 2024, WGC says - The Business Times",
-     "data": "2026-11-03"
-    }
-   ],
-   "pboc_mesi_di_acquisti": null,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
-  },
   "sintesi": "tagli Fed prezzati in calo"
+ },
+ "terminale": {
+  "peso_nel_bias": 0,
+  "settimana": "16-20 novembre 2026",
+  "scritto_il": "2026-11-15",
+  "eta_giorni": 0,
+  "vecchio": false,
+  "mercati": {
+   "XAUUSD": {
+    "verso": "ribassista",
+    "convinzione": 55,
+    "frase": "Fed verso il rialzo e dollaro forte pesano sull'oro, ma i fondi hanno già venduto molto.",
+    "cosa_lo_smentisce": "chiusura settimanale sopra 4.000 $ oppure verbali Fed e Warsh meno duri del previsto",
+    "ultimo_prezzo": 3887.6,
+    "ultimo_prezzo_data": "2026-11-13",
+    "da_venerdi_pct": null,
+    "cot": {
+     "data": "2026-11-03",
+     "netto": 103614,
+     "var_settimana": -1948,
+     "netto_pct_oi": 25.96,
+     "percentile_3anni": 22,
+     "lettura": "fondi leggeri"
+    }
+   },
+   "US100": {
+    "verso": "neutro",
+    "convinzione": 35,
+    "frase": "Settimana decisa dai conti di Nvidia martedì sera: tassi al 5% e fondi già carichi frenano.",
+    "cosa_lo_smentisce": "chiusura sopra 28.400 (30 ottobre) = rialzista; sotto 27.000 (6 novembre) = ribassista",
+    "ultimo_prezzo": 27943.74,
+    "ultimo_prezzo_data": "2026-11-13",
+    "da_venerdi_pct": null,
+    "cot": {
+     "data": "2026-11-03",
+     "netto": 6114,
+     "var_settimana": 11733,
+     "netto_pct_oi": 1.99,
+     "percentile_3anni": 99,
+     "asset_netto": 74067,
+     "asset_percentile_3anni": 45,
+     "lettura": "fondi molto carichi: rischio prese di profitto"
+    }
+   },
+   "US30": {
+    "verso": "rialzista",
+    "convinzione": 45,
+    "frase": "Il Dow regge meglio del Nasdaq: i soldi passano dalla tecnologia ai titoli classici.",
+    "cosa_lo_smentisce": "chiusura settimanale sotto 51.300 (chiusura del 6 novembre)",
+    "ultimo_prezzo": 52347.55,
+    "ultimo_prezzo_data": "2026-11-13",
+    "da_venerdi_pct": null,
+    "cot": {
+     "data": "2026-11-03",
+     "netto": 3151,
+     "var_settimana": 1027,
+     "netto_pct_oi": 3.42,
+     "percentile_3anni": 71,
+     "asset_netto": 8197,
+     "asset_percentile_3anni": 58,
+     "lettura": "nella norma"
+    }
+   },
+   "EURUSD": {
+    "verso": "ribassista",
+    "convinzione": 50,
+    "frase": "La Fed alza e la BCE no: l'euro scende da quattro settimane.",
+    "cosa_lo_smentisce": "chiusura settimanale sopra 1,1150 oppure verbali Fed meno duri",
+    "ultimo_prezzo": 1.1154,
+    "ultimo_prezzo_data": "2026-11-06",
+    "da_venerdi_pct": null,
+    "cot": {
+     "data": "2026-11-03",
+     "netto": -78559,
+     "var_settimana": -6985,
+     "netto_pct_oi": -8.97,
+     "percentile_3anni": 1,
+     "asset_netto": 144925,
+     "asset_percentile_3anni": 1,
+     "lettura": "fondi molto corti: spazio per ricoperture"
+    }
+   },
+   "GBPUSD": {
+    "verso": "neutro",
+    "convinzione": 35,
+    "frase": "Banca d'Inghilterra contro Fed, entrambe alzano: decide l'inflazione inglese di mercoledì.",
+    "cosa_lo_smentisce": "CPI inglese sopra 3,7% = rialzista; sotto 3,4% = ribassista",
+    "ultimo_prezzo": 1.3371,
+    "ultimo_prezzo_data": "2026-11-06",
+    "da_venerdi_pct": null,
+    "cot": {
+     "data": "2026-11-03",
+     "netto": 26663,
+     "var_settimana": 9468,
+     "netto_pct_oi": 10.86,
+     "percentile_3anni": 33,
+     "asset_netto": -121163,
+     "asset_percentile_3anni": 9,
+     "lettura": "nella norma"
+    }
+   },
+   "USDJPY": {
+    "verso": "rialzista",
+    "convinzione": 40,
+    "frase": "Il dollaro rende molto più dello yen, ma a 160 il Giappone può intervenire.",
+    "cosa_lo_smentisce": "intervento del Giappone oppure chiusura sotto 157,50",
+    "ultimo_prezzo": 158.23,
+    "ultimo_prezzo_data": "2026-11-06",
+    "da_venerdi_pct": null,
+    "cot": {
+     "data": "2026-11-03",
+     "netto": 14817,
+     "var_settimana": 187,
+     "netto_pct_oi": 3.89,
+     "percentile_3anni": 24,
+     "asset_netto": -79387,
+     "asset_percentile_3anni": 15,
+     "lettura": "fondi leggeri"
+    }
+   }
+  },
+  "banche": [
+   {
+    "banca": "Fed",
+    "report": "Proiezioni economiche (dot plot)",
+    "tono": "falco",
+    "tasso": "3,75-4,00%",
+    "ultima": "2026-09-16",
+    "prossima": "2026-12-09",
+    "in_parole_semplici": "La Fed ha detto che i tassi saliranno ancora e resteranno alti fino al 2028. È il report che sta guidando tutti i mercati.",
+    "conferma_grafico": {
+     "XAUUSD": "conferma",
+     "US100": "conferma",
+     "US30": "neutro",
+     "EURUSD": "conferma",
+     "GBPUSD": "conferma",
+     "USDJPY": "conferma"
+    },
+    "da_rileggere": false
+   },
+   {
+    "banca": "BCE",
+    "report": "Proiezioni degli economisti BCE",
+    "tono": "falco",
+    "tasso": "deposito 2,50%",
+    "ultima": "2026-09-10",
+    "prossima": "2026-12-17",
+    "in_parole_semplici": "La BCE vede più inflazione di prima e lascia capire altri rialzi, ma il 29 ottobre è rimasta ferma al 2,50%.",
+    "conferma_grafico": {
+     "EURUSD": "smentisce"
+    },
+    "da_rileggere": false
+   },
+   {
+    "banca": "BoE",
+    "report": "Monetary Policy Report",
+    "tono": "falco",
+    "tasso": "4,00%",
+    "ultima": "2026-11-05",
+    "prossima": "2027-02-04",
+    "in_parole_semplici": "La Banca d'Inghilterra ha alzato i tassi e avverte che l'inflazione peggiorerà ancora: altri rialzi possibili.",
+    "conferma_grafico": {
+     "GBPUSD": "neutro"
+    },
+    "da_rileggere": false
+   },
+   {
+    "banca": "BoJ",
+    "report": "Outlook Report",
+    "tono": "falco",
+    "tasso": "1,25%",
+    "ultima": "2026-10-30",
+    "prossima": "2027-01-22",
+    "in_parole_semplici": "La Banca del Giappone non ha alzato, ma ha detto chiaro che lo farà. Il mercato non le crede ancora: lo yen continua a scendere.",
+    "conferma_grafico": {
+     "USDJPY": "smentisce"
+    },
+    "da_rileggere": false
+   }
+  ],
+  "conferma_grafico": [
+   {
+    "banca": "Fed",
+    "mercato": "XAUUSD",
+    "atteso": "giu",
+    "dal": "2026-09-11",
+    "fino_a": "2026-11-13",
+    "da_allora_pct": -10.6,
+    "esito": "conferma"
+   },
+   {
+    "banca": "Fed",
+    "mercato": "US100",
+    "atteso": "giu",
+    "dal": "2026-09-11",
+    "fino_a": "2026-11-13",
+    "da_allora_pct": -4.85,
+    "esito": "conferma"
+   },
+   {
+    "banca": "Fed",
+    "mercato": "US30",
+    "atteso": "giu",
+    "dal": "2026-09-11",
+    "fino_a": "2026-11-13",
+    "da_allora_pct": -0.43,
+    "esito": "neutro"
+   },
+   {
+    "banca": "Fed",
+    "mercato": "EURUSD",
+    "atteso": "giu",
+    "dal": "2026-09-11",
+    "fino_a": "2026-11-06",
+    "da_allora_pct": -3.88,
+    "esito": "conferma"
+   },
+   {
+    "banca": "Fed",
+    "mercato": "GBPUSD",
+    "atteso": "giu",
+    "dal": "2026-09-11",
+    "fino_a": "2026-11-06",
+    "da_allora_pct": -1.13,
+    "esito": "conferma"
+   },
+   {
+    "banca": "Fed",
+    "mercato": "USDJPY",
+    "atteso": "su",
+    "dal": "2026-09-11",
+    "fino_a": "2026-11-06",
+    "da_allora_pct": 2.94,
+    "esito": "conferma"
+   },
+   {
+    "banca": "BCE",
+    "mercato": "EURUSD",
+    "atteso": "su",
+    "dal": "2026-09-04",
+    "fino_a": "2026-11-06",
+    "da_allora_pct": -3.99,
+    "esito": "smentisce"
+   },
+   {
+    "banca": "BoE",
+    "mercato": "GBPUSD",
+    "atteso": "su",
+    "dal": "2026-10-30",
+    "fino_a": "2026-11-06",
+    "da_allora_pct": -0.2,
+    "esito": "neutro"
+   },
+   {
+    "banca": "BoJ",
+    "mercato": "USDJPY",
+    "atteso": "giu",
+    "dal": "2026-10-23",
+    "fino_a": "2026-11-06",
+    "da_allora_pct": 0.87,
+    "esito": "smentisce"
+   }
+  ],
+  "cambiamenti": [],
+  "resoconto": [
+   "Questa settimana comanda la Fed: tutti aspettano un rialzo dei tassi il 9 dicembre (86%) e il dollaro è il più forte da 19 mesi.",
+   "Dollaro forte vuol dire oro, euro e sterlina sotto pressione e dollaro/yen vicino a 160, dove il Giappone può intervenire.",
+   "Le borse hanno chiuso una buona settimana, ma venerdì la tecnologia è scesa: martedì sera i conti di Nvidia decidono il Nasdaq.",
+   "BCE, Banca d'Inghilterra e Banca del Giappone sono diventate più dure, ma le loro valute sono scese lo stesso: il grafico dà ragione solo alla Fed.",
+   "Date da segnare: lunedì Warsh, martedì vendite USA e Nvidia, mercoledì inflazione inglese e verbali Fed."
+  ],
+  "prossimi_eventi": [
+   {
+    "quando": "2026-11-15T23:50:00Z",
+    "evento": "PIL Giappone, 3° trimestre (prima stima)",
+    "impatto": "medio",
+    "previsione": "+0,1%",
+    "precedente": "+0,3%",
+    "perche": "crescita debole = BoJ più cauta",
+    "mercati": "USDJPY"
+   },
+   {
+    "quando": "2026-11-16T17:00:00Z",
+    "evento": "Parla Warsh, presidente della Fed",
+    "impatto": "alto",
+    "previsione": "",
+    "precedente": "",
+    "perche": "primo commento dopo il CPI caldo",
+    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+   },
+   {
+    "quando": "2026-11-17T07:00:00Z",
+    "evento": "Salari e disoccupazione Regno Unito",
+    "impatto": "medio",
+    "previsione": "3,5%",
+    "precedente": "3,7%",
+    "perche": "salari alti = BoE più dura",
+    "mercati": "GBPUSD"
+   },
+   {
+    "quando": "2026-11-17T13:30:00Z",
+    "evento": "Vendite al dettaglio USA (ottobre)",
+    "impatto": "alto",
+    "previsione": "+0,2%",
+    "precedente": "+0,8%",
+    "perche": "consumi forti = Fed più dura",
+    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+   },
+   {
+    "quando": "2026-11-17T14:10:00Z",
+    "evento": "Parla Waller (Fed)",
+    "impatto": "medio",
+    "previsione": "",
+    "precedente": "",
+    "perche": "ha aperto al rialzo da 50 pb",
+    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+   },
+   {
+    "quando": "2026-11-17T21:20:00Z",
+    "evento": "Conti di Nvidia (3° trimestre)",
+    "impatto": "alto",
+    "previsione": "",
+    "precedente": "",
+    "perche": "il titolo più pesante del Nasdaq, dopo l'uscita del CEO",
+    "mercati": "US100 US30"
+   },
+   {
+    "quando": "2026-11-18T07:00:00Z",
+    "evento": "Inflazione Regno Unito (ottobre)",
+    "impatto": "alto",
+    "previsione": "3,6%",
+    "precedente": "3,5%",
+    "perche": "sopra le attese = sterlina su",
+    "mercati": "GBPUSD"
+   },
+   {
+    "quando": "2026-11-18T07:30:00Z",
+    "evento": "Parla Bailey (BoE), due volte",
+    "impatto": "alto",
+    "previsione": "",
+    "precedente": "",
+    "perche": "dopo il dato sull'inflazione",
+    "mercati": "GBPUSD"
+   }
+  ],
+  "fonti_prezzi": {
+   "US100": "FRED",
+   "US30": "FRED",
+   "EURUSD": "FRED",
+   "GBPUSD": "FRED",
+   "USDJPY": "FRED"
+  },
+  "dati_presi_utc": "2026-11-15T22:05:35Z",
+  "sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (22/100)",
+  "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, COT fondi 22° pct. US100: neutro 35/100, COT fondi 99° pct. US30: rialzista 45/100, COT fondi 71° pct. EURUSD: ribassista 50/100, COT fondi 1° pct. GBPUSD: neutro 35/100, COT fondi 33° pct. USDJPY: rialzista 40/100, COT fondi 24° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 neutro, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD neutro. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
+  "agli_analisti": false
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (22/100) | tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
