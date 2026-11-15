@@ -1,6 +1,60 @@
 [
  {
-  "time_utc": "2026-11-10T09:00:00Z",
+  "time_utc": "2026-11-16T17:00:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Fed Chairman Warsh Speaks",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-11-17T13:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Core Retail Sales m/m",
+  "tier": 2,
+  "forecast": "0.4%",
+  "previous": "0.9%"
+ },
+ {
+  "time_utc": "2026-11-17T13:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Retail Sales m/m",
+  "tier": 2,
+  "forecast": "0.2%",
+  "previous": "0.8%"
+ },
+ {
+  "time_utc": "2026-11-18T19:00:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "FOMC Meeting Minutes",
+  "tier": 1,
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "time_utc": "2026-11-19T13:30:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Philly Fed Manufacturing Index",
+  "tier": 3,
+  "forecast": "19.2",
+  "previous": "20.9"
+ },
+ {
+  "time_utc": "2026-11-19T13:30:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Unemployment Claims",
+  "tier": 3,
+  "forecast": "199K",
+  "previous": "200K"
+ },
+ {
+  "time_utc": "2026-11-20T13:25:00Z",
   "currency": "USD",
   "impact": "Medium",
   "title": "FOMC Member Waller Speaks",
@@ -9,48 +63,21 @@
   "previous": ""
  },
  {
-  "time_utc": "2026-11-10T13:30:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "Core CPI m/m",
-  "tier": 1,
-  "forecast": "0.2%",
-  "previous": "0.3%"
- },
- {
-  "time_utc": "2026-11-10T13:30:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "CPI m/m",
-  "tier": 1,
-  "forecast": "0.3%",
-  "previous": "0.6%"
- },
- {
-  "time_utc": "2026-11-12T13:30:00Z",
+  "time_utc": "2026-11-20T15:00:00Z",
   "currency": "USD",
   "impact": "Medium",
-  "title": "Unemployment Claims",
+  "title": "Revised UoM Consumer Sentiment",
   "tier": 3,
-  "forecast": "194K",
-  "previous": "189K"
+  "forecast": "52.1",
+  "previous": "51.0"
  },
  {
-  "time_utc": "2026-11-13T13:30:00Z",
+  "time_utc": "2026-11-20T15:00:00Z",
   "currency": "USD",
-  "impact": "High",
-  "title": "Core PPI m/m",
-  "tier": 2,
-  "forecast": "0.3%",
-  "previous": "0.7%"
- },
- {
-  "time_utc": "2026-11-13T13:30:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "PPI m/m",
-  "tier": 2,
-  "forecast": "0.4%",
-  "previous": "1.3%"
+  "impact": "Medium",
+  "title": "Revised UoM Inflation Expectations",
+  "tier": 3,
+  "forecast": "",
+  "previous": "4.3%"
  }
 ]
