@@ -1,0 +1,1217 @@
+{
+ "versione": 2,
+ "settimana": "16-20 novembre 2026",
+ "scritto_il": "2026-11-15",
+ "venerdi": "2026-11-13",
+ "peso_nel_bot": 0,
+ "nota": "Lettura settimanale del terminale macro. Solo informazione: il bot la mostra e la registra, non la usa per decidere.",
+ "resoconto": [
+  "Questa settimana comanda la Fed: tutti aspettano un rialzo dei tassi il 9 dicembre (86%) e il dollaro è il più forte da 19 mesi.",
+  "Dollaro forte vuol dire oro, euro e sterlina sotto pressione e dollaro/yen vicino a 160, dove il Giappone può intervenire.",
+  "Le borse hanno chiuso una buona settimana, ma venerdì la tecnologia è scesa: martedì sera i conti di Nvidia decidono il Nasdaq.",
+  "BCE, Banca d'Inghilterra e Banca del Giappone sono diventate più dure, ma le loro valute sono scese lo stesso: il grafico dà ragione solo alla Fed.",
+  "Date da segnare: lunedì Warsh, martedì vendite USA e Nvidia, mercoledì inflazione inglese e verbali Fed."
+ ],
+ "mercati": [
+  {
+   "id": "XAUUSD",
+   "nome": "Oro",
+   "verso": "ribassista",
+   "convinzione": 55,
+   "frase": "Fed verso il rialzo e dollaro forte pesano sull'oro, ma i fondi hanno già venduto molto.",
+   "cosa_lo_smentisce": "chiusura settimanale sopra 4.000 $ oppure verbali Fed e Warsh meno duri del previsto",
+   "prezzo_venerdi": 3887.6,
+   "var_settimana_pct": -4.0
+  },
+  {
+   "id": "US100",
+   "nome": "Nasdaq 100",
+   "verso": "neutro",
+   "convinzione": 35,
+   "frase": "Settimana decisa dai conti di Nvidia martedì sera: tassi al 5% e fondi già carichi frenano.",
+   "cosa_lo_smentisce": "chiusura sopra 28.400 (30 ottobre) = rialzista; sotto 27.000 (6 novembre) = ribassista",
+   "prezzo_venerdi": 27943.74,
+   "var_settimana_pct": 3.53
+  },
+  {
+   "id": "US30",
+   "nome": "Dow Jones (US30)",
+   "verso": "rialzista",
+   "convinzione": 45,
+   "frase": "Il Dow regge meglio del Nasdaq: i soldi passano dalla tecnologia ai titoli classici.",
+   "cosa_lo_smentisce": "chiusura settimanale sotto 51.300 (chiusura del 6 novembre)",
+   "prezzo_venerdi": 52347.55,
+   "var_settimana_pct": 2.07
+  },
+  {
+   "id": "EURUSD",
+   "nome": "Euro / dollaro",
+   "verso": "ribassista",
+   "convinzione": 50,
+   "frase": "La Fed alza e la BCE no: l'euro scende da quattro settimane.",
+   "cosa_lo_smentisce": "chiusura settimanale sopra 1,1150 oppure verbali Fed meno duri",
+   "prezzo_venerdi": 1.1021,
+   "var_settimana_pct": -1.19
+  },
+  {
+   "id": "GBPUSD",
+   "nome": "Sterlina / dollaro",
+   "verso": "neutro",
+   "convinzione": 35,
+   "frase": "Banca d'Inghilterra contro Fed, entrambe alzano: decide l'inflazione inglese di mercoledì.",
+   "cosa_lo_smentisce": "CPI inglese sopra 3,7% = rialzista; sotto 3,4% = ribassista",
+   "prezzo_venerdi": 1.3215,
+   "var_settimana_pct": -1.17
+  },
+  {
+   "id": "USDJPY",
+   "nome": "Dollaro / yen",
+   "verso": "rialzista",
+   "convinzione": 40,
+   "frase": "Il dollaro rende molto più dello yen, ma a 160 il Giappone può intervenire.",
+   "cosa_lo_smentisce": "intervento del Giappone oppure chiusura sotto 157,50",
+   "prezzo_venerdi": 159.66,
+   "var_settimana_pct": 0.9
+  }
+ ],
+ "banche": [
+  {
+   "banca": "Fed",
+   "report": "Proiezioni economiche (dot plot)",
+   "ultima": "2026-09-16",
+   "prossima": "2026-12-09",
+   "tasso": "3,75-4,00%",
+   "tono": "falco",
+   "in_parole_semplici": "La Fed ha detto che i tassi saliranno ancora e resteranno alti fino al 2028. È il report che sta guidando tutti i mercati.",
+   "cosa_cambia": "I membri vedono i tassi al 4,1% a fine 2026 e a fine 2027 (a giugno 3,8% e 3,6%): più rialzi e più a lungo. Inflazione core 3,4%, disoccupazione 4,1%.",
+   "nota_prossima": "Il 9 dicembre decisione e nuove proiezioni insieme.",
+   "prossima_ora_utc": "2026-12-09T19:00:00Z",
+   "tasso_num": 4.0,
+   "prossima_decisione_utc": "2026-12-09T19:00:00Z"
+  },
+  {
+   "banca": "BCE",
+   "report": "Proiezioni degli economisti BCE",
+   "ultima": "2026-09-10",
+   "prossima": "2026-12-17",
+   "tasso": "deposito 2,50%",
+   "tono": "falco",
+   "in_parole_semplici": "La BCE vede più inflazione di prima e lascia capire altri rialzi, ma il 29 ottobre è rimasta ferma al 2,50%.",
+   "cosa_cambia": "Inflazione 2027 alzata al 2,5% (da 2,3%), core al 2,6%; crescita un po' migliore. Le ipotesi sui tassi salgono al 3% nel 2027.",
+   "nota_prossima": "Il 17 dicembre decisione e nuove proiezioni insieme.",
+   "prossima_ora_utc": "2026-12-17T13:15:00Z",
+   "tasso_num": 2.5,
+   "prossima_decisione_utc": "2026-12-17T13:15:00Z"
+  },
+  {
+   "banca": "BoE",
+   "report": "Monetary Policy Report",
+   "ultima": "2026-11-05",
+   "prossima": "2027-02-04",
+   "tasso": "4,00%",
+   "tono": "falco",
+   "in_parole_semplici": "La Banca d'Inghilterra ha alzato i tassi e avverte che l'inflazione peggiorerà ancora: altri rialzi possibili.",
+   "cosa_cambia": "Tasso alzato al 4% (8 voti a 1, Mann voleva +0,50). L'inflazione inglese, 3,5% a settembre, è vista salire verso il 5% a metà 2027.",
+   "nota_prossima": "A dicembre c'è una decisione senza report; il prossimo report esce il 4 febbraio.",
+   "prossima_ora_utc": "2027-02-04T12:00:00Z",
+   "tasso_num": 4.0,
+   "prossima_decisione_utc": "2026-12-17T12:00:00Z"
+  },
+  {
+   "banca": "BoJ",
+   "report": "Outlook Report",
+   "ultima": "2026-10-30",
+   "prossima": "2027-01-22",
+   "tasso": "1,25%",
+   "tono": "falco",
+   "in_parole_semplici": "La Banca del Giappone non ha alzato, ma ha detto chiaro che lo farà. Il mercato non le crede ancora: lo yen continua a scendere.",
+   "cosa_cambia": "Tassi fermi all'1,25% (8 a 1, Takata voleva 1,5%). Inflazione dell'anno fiscale 2027 alzata al 2,6% (da 2,4%). Nuova frase: l'inflazione di fondo «è» in linea con il 2%, prima «si avvicinava».",
+   "nota_prossima": "Il 17-18 dicembre decisione senza report: possibile rialzo.",
+   "prossima_ora_utc": "2027-01-22T03:00:00Z",
+   "tasso_num": 1.25,
+   "prossima_decisione_utc": "2026-12-18T03:00:00Z"
+  }
+ ],
+ "fed_proiezioni": {
+  "data_sep": "2026-09-16",
+  "mediana": {
+   "2026": 4.1,
+   "2027": 4.1,
+   "2028": 3.9,
+   "2029": 3.6,
+   "lungo": 3.2
+  }
+ },
+ "cot": [
+  {
+   "mercato": "XAUUSD",
+   "data": "2026-11-03",
+   "netto": 103614,
+   "var_settimana": -1948,
+   "netto_pct_oi": 25.96,
+   "percentile_3anni": 22,
+   "asset_netto": null,
+   "asset_percentile_3anni": null
+  },
+  {
+   "mercato": "US100",
+   "data": "2026-11-03",
+   "netto": 6114,
+   "var_settimana": 11733,
+   "netto_pct_oi": 1.99,
+   "percentile_3anni": 99,
+   "asset_netto": 74067,
+   "asset_percentile_3anni": 45
+  },
+  {
+   "mercato": "US30",
+   "data": "2026-11-03",
+   "netto": 3151,
+   "var_settimana": 1027,
+   "netto_pct_oi": 3.42,
+   "percentile_3anni": 71,
+   "asset_netto": 8197,
+   "asset_percentile_3anni": 58
+  },
+  {
+   "mercato": "EURUSD",
+   "data": "2026-11-03",
+   "netto": -78559,
+   "var_settimana": -6985,
+   "netto_pct_oi": -8.97,
+   "percentile_3anni": 1,
+   "asset_netto": 144925,
+   "asset_percentile_3anni": 1
+  },
+  {
+   "mercato": "GBPUSD",
+   "data": "2026-11-03",
+   "netto": 26663,
+   "var_settimana": 9468,
+   "netto_pct_oi": 10.86,
+   "percentile_3anni": 33,
+   "asset_netto": -121163,
+   "asset_percentile_3anni": 9
+  },
+  {
+   "mercato": "USDJPY",
+   "data": "2026-11-03",
+   "netto": 14817,
+   "var_settimana": 187,
+   "netto_pct_oi": 3.89,
+   "percentile_3anni": 24,
+   "asset_netto": -79387,
+   "asset_percentile_3anni": 15
+  }
+ ],
+ "conferma_grafico": [
+  {
+   "banca": "Fed",
+   "mercato": "XAUUSD",
+   "atteso": "giù",
+   "prima_settimana_pct": 0.64,
+   "da_allora_pct": -10.6,
+   "dal": "2026-09-11",
+   "esito": "conferma"
+  },
+  {
+   "banca": "Fed",
+   "mercato": "US100",
+   "atteso": "giù",
+   "prima_settimana_pct": 0.94,
+   "da_allora_pct": -4.85,
+   "dal": "2026-09-11",
+   "esito": "conferma"
+  },
+  {
+   "banca": "Fed",
+   "mercato": "US30",
+   "atteso": "giù",
+   "prima_settimana_pct": -1.69,
+   "da_allora_pct": -0.43,
+   "dal": "2026-09-11",
+   "esito": "neutro"
+  },
+  {
+   "banca": "Fed",
+   "mercato": "EURUSD",
+   "atteso": "giù",
+   "prima_settimana_pct": -1.21,
+   "da_allora_pct": -5.02,
+   "dal": "2026-09-11",
+   "esito": "conferma"
+  },
+  {
+   "banca": "Fed",
+   "mercato": "GBPUSD",
+   "atteso": "giù",
+   "prima_settimana_pct": -1.12,
+   "da_allora_pct": -2.28,
+   "dal": "2026-09-11",
+   "esito": "conferma"
+  },
+  {
+   "banca": "Fed",
+   "mercato": "USDJPY",
+   "atteso": "su",
+   "prima_settimana_pct": 2.06,
+   "da_allora_pct": 3.87,
+   "dal": "2026-09-11",
+   "esito": "conferma"
+  },
+  {
+   "banca": "BCE",
+   "mercato": "EURUSD",
+   "atteso": "su",
+   "prima_settimana_pct": -0.12,
+   "da_allora_pct": -5.14,
+   "dal": "2026-09-04",
+   "esito": "smentisce"
+  },
+  {
+   "banca": "BoE",
+   "mercato": "GBPUSD",
+   "atteso": "su",
+   "prima_settimana_pct": -0.2,
+   "da_allora_pct": -1.37,
+   "dal": "2026-10-30",
+   "esito": "smentisce"
+  },
+  {
+   "banca": "BoJ",
+   "mercato": "USDJPY",
+   "atteso": "giù",
+   "prima_settimana_pct": 0.38,
+   "da_allora_pct": 1.78,
+   "dal": "2026-10-23",
+   "esito": "smentisce"
+  }
+ ],
+ "effetto_falco": {
+  "Fed": {
+   "XAUUSD": -1,
+   "US100": -1,
+   "US30": -1,
+   "EURUSD": -1,
+   "GBPUSD": -1,
+   "USDJPY": 1
+  },
+  "BCE": {
+   "EURUSD": 1
+  },
+  "BoE": {
+   "GBPUSD": 1
+  },
+  "BoJ": {
+   "USDJPY": -1
+  }
+ },
+ "regola_conferma": "atteso = tono (falco +1, colomba -1) x effetto_falco; dal venerdi' prima della decisione all'ultimo prezzo: almeno +0,5% nel verso atteso = conferma, almeno -0,5% = smentisce, altrimenti neutro",
+ "prezzi_settimanali": {
+  "XAUUSD": [
+   [
+    "2026-04-24",
+    4716.45
+   ],
+   [
+    "2026-05-01",
+    4610.82
+   ],
+   [
+    "2026-05-08",
+    4724.01
+   ],
+   [
+    "2026-05-15",
+    4545.86
+   ],
+   [
+    "2026-05-22",
+    4508.22
+   ],
+   [
+    "2026-05-29",
+    4545.6
+   ],
+   [
+    "2026-06-05",
+    4318.52
+   ],
+   [
+    "2026-06-12",
+    4210.73
+   ],
+   [
+    "2026-06-19",
+    4152.52
+   ],
+   [
+    "2026-06-26",
+    4071.69
+   ],
+   [
+    "2026-07-03",
+    4171.97
+   ],
+   [
+    "2026-07-10",
+    4108.45
+   ],
+   [
+    "2026-07-17",
+    4015.15
+   ],
+   [
+    "2026-07-24",
+    4053.67
+   ],
+   [
+    "2026-07-31",
+    4050.77
+   ],
+   [
+    "2026-08-07",
+    4343.88
+   ],
+   [
+    "2026-08-14",
+    4376.0
+   ],
+   [
+    "2026-08-21",
+    4617.03
+   ],
+   [
+    "2026-08-28",
+    4458.28
+   ],
+   [
+    "2026-09-04",
+    4434.66
+   ],
+   [
+    "2026-09-11",
+    4348.46
+   ],
+   [
+    "2026-09-18",
+    4376.32
+   ],
+   [
+    "2026-09-25",
+    4291.11
+   ],
+   [
+    "2026-10-02",
+    4147.62
+   ],
+   [
+    "2026-10-09",
+    4195.2
+   ],
+   [
+    "2026-10-16",
+    4168.77
+   ],
+   [
+    "2026-10-23",
+    3999.79
+   ],
+   [
+    "2026-10-30",
+    3859.19
+   ],
+   [
+    "2026-11-06",
+    4065.82
+   ],
+   [
+    "2026-11-13",
+    3887.6
+   ]
+  ],
+  "US100": [
+   [
+    "2026-04-24",
+    27303.67
+   ],
+   [
+    "2026-05-01",
+    27710.36
+   ],
+   [
+    "2026-05-08",
+    29234.99
+   ],
+   [
+    "2026-05-15",
+    29125.2
+   ],
+   [
+    "2026-05-22",
+    29481.64
+   ],
+   [
+    "2026-05-29",
+    30333.18
+   ],
+   [
+    "2026-06-05",
+    28957.6
+   ],
+   [
+    "2026-06-12",
+    29635.95
+   ],
+   [
+    "2026-06-19",
+    30406.19
+   ],
+   [
+    "2026-06-26",
+    29118.24
+   ],
+   [
+    "2026-07-03",
+    29329.21
+   ],
+   [
+    "2026-07-10",
+    29825.11
+   ],
+   [
+    "2026-07-17",
+    28592.66
+   ],
+   [
+    "2026-07-24",
+    28128.34
+   ],
+   [
+    "2026-07-31",
+    28274.2
+   ],
+   [
+    "2026-08-07",
+    29722.3
+   ],
+   [
+    "2026-08-14",
+    30046.14
+   ],
+   [
+    "2026-08-21",
+    29308.86
+   ],
+   [
+    "2026-08-28",
+    29433.43
+   ],
+   [
+    "2026-09-04",
+    29544.16
+   ],
+   [
+    "2026-09-11",
+    29368.44
+   ],
+   [
+    "2026-09-18",
+    29644.17
+   ],
+   [
+    "2026-09-25",
+    30608.13
+   ],
+   [
+    "2026-10-02",
+    30807.93
+   ],
+   [
+    "2026-10-09",
+    30883.15
+   ],
+   [
+    "2026-10-16",
+    29187.55
+   ],
+   [
+    "2026-10-23",
+    28957.53
+   ],
+   [
+    "2026-10-30",
+    28384.85
+   ],
+   [
+    "2026-11-06",
+    26989.99
+   ],
+   [
+    "2026-11-13",
+    27943.74
+   ]
+  ],
+  "US30": [
+   [
+    "2026-04-24",
+    49230.71
+   ],
+   [
+    "2026-05-01",
+    49499.27
+   ],
+   [
+    "2026-05-08",
+    49609.16
+   ],
+   [
+    "2026-05-15",
+    49526.17
+   ],
+   [
+    "2026-05-22",
+    50579.7
+   ],
+   [
+    "2026-05-29",
+    51032.46
+   ],
+   [
+    "2026-06-05",
+    50866.78
+   ],
+   [
+    "2026-06-12",
+    51202.26
+   ],
+   [
+    "2026-06-19",
+    51564.7
+   ],
+   [
+    "2026-06-26",
+    51876.11
+   ],
+   [
+    "2026-07-03",
+    52900.07
+   ],
+   [
+    "2026-07-10",
+    52637.01
+   ],
+   [
+    "2026-07-17",
+    52146.42
+   ],
+   [
+    "2026-07-24",
+    51947.25
+   ],
+   [
+    "2026-07-31",
+    52485.03
+   ],
+   [
+    "2026-08-07",
+    54036.93
+   ],
+   [
+    "2026-08-14",
+    53732.41
+   ],
+   [
+    "2026-08-21",
+    53277.01
+   ],
+   [
+    "2026-08-28",
+    53559.99
+   ],
+   [
+    "2026-09-04",
+    53414.25
+   ],
+   [
+    "2026-09-11",
+    52573.29
+   ],
+   [
+    "2026-09-18",
+    51682.64
+   ],
+   [
+    "2026-09-25",
+    51828.62
+   ],
+   [
+    "2026-10-02",
+    51176.96
+   ],
+   [
+    "2026-10-09",
+    51654.95
+   ],
+   [
+    "2026-10-16",
+    52002.41
+   ],
+   [
+    "2026-10-23",
+    52215.16
+   ],
+   [
+    "2026-10-30",
+    51770.31
+   ],
+   [
+    "2026-11-06",
+    51285.73
+   ],
+   [
+    "2026-11-13",
+    52347.55
+   ]
+  ],
+  "EURUSD": [
+   [
+    "2026-04-24",
+    1.1718
+   ],
+   [
+    "2026-05-01",
+    1.1755
+   ],
+   [
+    "2026-05-08",
+    1.1773
+   ],
+   [
+    "2026-05-15",
+    1.1627
+   ],
+   [
+    "2026-05-22",
+    1.1603
+   ],
+   [
+    "2026-05-29",
+    1.1679
+   ],
+   [
+    "2026-06-05",
+    1.1533
+   ],
+   [
+    "2026-06-12",
+    1.1573
+   ],
+   [
+    "2026-06-19",
+    1.147
+   ],
+   [
+    "2026-06-26",
+    1.1403
+   ],
+   [
+    "2026-07-03",
+    1.1448
+   ],
+   [
+    "2026-07-10",
+    1.1438
+   ],
+   [
+    "2026-07-17",
+    1.144
+   ],
+   [
+    "2026-07-24",
+    1.1385
+   ],
+   [
+    "2026-07-31",
+    1.1519
+   ],
+   [
+    "2026-08-07",
+    1.1559
+   ],
+   [
+    "2026-08-14",
+    1.1581
+   ],
+   [
+    "2026-08-21",
+    1.1684
+   ],
+   [
+    "2026-08-28",
+    1.1598
+   ],
+   [
+    "2026-09-04",
+    1.1618
+   ],
+   [
+    "2026-09-11",
+    1.1604
+   ],
+   [
+    "2026-09-18",
+    1.1464
+   ],
+   [
+    "2026-09-25",
+    1.14
+   ],
+   [
+    "2026-10-02",
+    1.1259
+   ],
+   [
+    "2026-10-09",
+    1.1193
+   ],
+   [
+    "2026-10-16",
+    1.1231
+   ],
+   [
+    "2026-10-23",
+    1.1199
+   ],
+   [
+    "2026-10-30",
+    1.1163
+   ],
+   [
+    "2026-11-06",
+    1.1154
+   ],
+   [
+    "2026-11-13",
+    1.1021
+   ]
+  ],
+  "GBPUSD": [
+   [
+    "2026-04-24",
+    1.3518
+   ],
+   [
+    "2026-05-01",
+    1.3621
+   ],
+   [
+    "2026-05-08",
+    1.3625
+   ],
+   [
+    "2026-05-15",
+    1.3332
+   ],
+   [
+    "2026-05-22",
+    1.3439
+   ],
+   [
+    "2026-05-29",
+    1.3476
+   ],
+   [
+    "2026-06-05",
+    1.336
+   ],
+   [
+    "2026-06-12",
+    1.3414
+   ],
+   [
+    "2026-06-19",
+    1.3228
+   ],
+   [
+    "2026-06-26",
+    1.3223
+   ],
+   [
+    "2026-07-03",
+    1.3364
+   ],
+   [
+    "2026-07-10",
+    1.3421
+   ],
+   [
+    "2026-07-17",
+    1.3446
+   ],
+   [
+    "2026-07-24",
+    1.3344
+   ],
+   [
+    "2026-07-31",
+    1.347
+   ],
+   [
+    "2026-08-07",
+    1.3498
+   ],
+   [
+    "2026-08-14",
+    1.3556
+   ],
+   [
+    "2026-08-21",
+    1.3644
+   ],
+   [
+    "2026-08-28",
+    1.3555
+   ],
+   [
+    "2026-09-04",
+    1.3521
+   ],
+   [
+    "2026-09-11",
+    1.3524
+   ],
+   [
+    "2026-09-18",
+    1.3372
+   ],
+   [
+    "2026-09-25",
+    1.325
+   ],
+   [
+    "2026-10-02",
+    1.3234
+   ],
+   [
+    "2026-10-09",
+    1.3229
+   ],
+   [
+    "2026-10-16",
+    1.333
+   ],
+   [
+    "2026-10-23",
+    1.3375
+   ],
+   [
+    "2026-10-30",
+    1.3398
+   ],
+   [
+    "2026-11-06",
+    1.3371
+   ],
+   [
+    "2026-11-13",
+    1.3215
+   ]
+  ],
+  "USDJPY": [
+   [
+    "2026-04-24",
+    159.35
+   ],
+   [
+    "2026-05-01",
+    156.76
+   ],
+   [
+    "2026-05-08",
+    156.64
+   ],
+   [
+    "2026-05-15",
+    158.69
+   ],
+   [
+    "2026-05-22",
+    159.2
+   ],
+   [
+    "2026-05-29",
+    159.23
+   ],
+   [
+    "2026-06-05",
+    160.26
+   ],
+   [
+    "2026-06-12",
+    160.24
+   ],
+   [
+    "2026-06-19",
+    161.37
+   ],
+   [
+    "2026-06-26",
+    161.67
+   ],
+   [
+    "2026-07-03",
+    160.9
+   ],
+   [
+    "2026-07-10",
+    161.31
+   ],
+   [
+    "2026-07-17",
+    162.43
+   ],
+   [
+    "2026-07-24",
+    163.71
+   ],
+   [
+    "2026-07-31",
+    159.16
+   ],
+   [
+    "2026-08-07",
+    157.54
+   ],
+   [
+    "2026-08-14",
+    159.21
+   ],
+   [
+    "2026-08-21",
+    158.91
+   ],
+   [
+    "2026-08-28",
+    159.97
+   ],
+   [
+    "2026-09-04",
+    156.11
+   ],
+   [
+    "2026-09-11",
+    153.71
+   ],
+   [
+    "2026-09-18",
+    156.87
+   ],
+   [
+    "2026-09-25",
+    157.18
+   ],
+   [
+    "2026-10-02",
+    157.81
+   ],
+   [
+    "2026-10-09",
+    158.34
+   ],
+   [
+    "2026-10-16",
+    158.0
+   ],
+   [
+    "2026-10-23",
+    156.87
+   ],
+   [
+    "2026-10-30",
+    157.47
+   ],
+   [
+    "2026-11-06",
+    158.23
+   ],
+   [
+    "2026-11-13",
+    159.66
+   ]
+  ]
+ },
+ "calendario": [
+  {
+   "quando": "2026-11-15T23:50:00Z",
+   "evento": "PIL Giappone, 3° trimestre (prima stima)",
+   "impatto": "medio",
+   "previsione": "+0,1%",
+   "precedente": "+0,3%",
+   "perche": "crescita debole = BoJ più cauta",
+   "mercati": "USDJPY"
+  },
+  {
+   "quando": "2026-11-16T17:00:00Z",
+   "evento": "Parla Warsh, presidente della Fed",
+   "impatto": "alto",
+   "previsione": "",
+   "precedente": "",
+   "perche": "primo commento dopo il CPI caldo",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-11-17T07:00:00Z",
+   "evento": "Salari e disoccupazione Regno Unito",
+   "impatto": "medio",
+   "previsione": "3,5%",
+   "precedente": "3,7%",
+   "perche": "salari alti = BoE più dura",
+   "mercati": "GBPUSD"
+  },
+  {
+   "quando": "2026-11-17T13:30:00Z",
+   "evento": "Vendite al dettaglio USA (ottobre)",
+   "impatto": "alto",
+   "previsione": "+0,2%",
+   "precedente": "+0,8%",
+   "perche": "consumi forti = Fed più dura",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-11-17T14:10:00Z",
+   "evento": "Parla Waller (Fed)",
+   "impatto": "medio",
+   "previsione": "",
+   "precedente": "",
+   "perche": "ha aperto al rialzo da 50 pb",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-11-17T21:20:00Z",
+   "evento": "Conti di Nvidia (3° trimestre)",
+   "impatto": "alto",
+   "previsione": "",
+   "precedente": "",
+   "perche": "il titolo più pesante del Nasdaq, dopo l'uscita del CEO",
+   "mercati": "US100 US30"
+  },
+  {
+   "quando": "2026-11-18T07:00:00Z",
+   "evento": "Inflazione Regno Unito (ottobre)",
+   "impatto": "alto",
+   "previsione": "3,6%",
+   "precedente": "3,5%",
+   "perche": "sopra le attese = sterlina su",
+   "mercati": "GBPUSD"
+  },
+  {
+   "quando": "2026-11-18T07:30:00Z",
+   "evento": "Parla Bailey (BoE), due volte",
+   "impatto": "alto",
+   "previsione": "",
+   "precedente": "",
+   "perche": "dopo il dato sull'inflazione",
+   "mercati": "GBPUSD"
+  },
+  {
+   "quando": "2026-11-18T10:00:00Z",
+   "evento": "Inflazione area euro (dato finale)",
+   "impatto": "basso",
+   "previsione": "4,0%",
+   "precedente": "4,0%",
+   "perche": "conferma la pressione sulla BCE",
+   "mercati": "EURUSD"
+  },
+  {
+   "quando": "2026-11-18T14:25:00Z",
+   "evento": "Parla Lagarde (BCE), tre volte in tre giorni",
+   "impatto": "medio",
+   "previsione": "",
+   "precedente": "",
+   "perche": "cerca segnali sul rialzo di dicembre",
+   "mercati": "EURUSD"
+  },
+  {
+   "quando": "2026-11-18T18:00:00Z",
+   "evento": "Asta Treasury 20 anni (16 mld $)",
+   "impatto": "medio",
+   "previsione": "",
+   "precedente": "",
+   "perche": "asta debole = rendimenti su",
+   "mercati": "XAUUSD US100 US30"
+  },
+  {
+   "quando": "2026-11-18T19:00:00Z",
+   "evento": "Verbali della riunione Fed del 28 ottobre",
+   "impatto": "alto",
+   "previsione": "",
+   "precedente": "",
+   "perche": "quanti volevano già alzare",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-11-19T13:30:00Z",
+   "evento": "Sussidi di disoccupazione e Philly Fed",
+   "impatto": "medio",
+   "previsione": "199 mila / 19,2",
+   "precedente": "200 mila / 20,9",
+   "perche": "tenuta del lavoro",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-11-19T23:30:00Z",
+   "evento": "Inflazione Giappone (ottobre)",
+   "impatto": "medio",
+   "previsione": "2,3%",
+   "precedente": "2,1%",
+   "perche": "più alta = rialzo BoJ più vicino",
+   "mercati": "USDJPY"
+  },
+  {
+   "quando": "2026-11-20T00:55:00Z",
+   "evento": "Giorno gotobi, fixing di Tokyo (9:55)",
+   "impatto": "basso",
+   "previsione": "",
+   "precedente": "",
+   "perche": "nello studio indici il cambio tende a scendere fino alle 10:20 di Tokyo",
+   "mercati": "USDJPY"
+  },
+  {
+   "quando": "2026-11-20T07:00:00Z",
+   "evento": "Vendite al dettaglio Regno Unito",
+   "impatto": "medio",
+   "previsione": "0,0%",
+   "precedente": "-0,4%",
+   "perche": "consumi inglesi",
+   "mercati": "GBPUSD"
+  },
+  {
+   "quando": "2026-11-20T13:25:00Z",
+   "evento": "Parla Waller (Fed)",
+   "impatto": "medio",
+   "previsione": "",
+   "precedente": "",
+   "perche": "",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-11-20T15:00:00Z",
+   "evento": "Fiducia e inflazione attesa Michigan (finale)",
+   "impatto": "medio",
+   "previsione": "52,1",
+   "precedente": "51,0 / 4,3%",
+   "perche": "inflazione attesa dalle famiglie",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-11-20T20:30:00Z",
+   "evento": "COT della CFTC",
+   "impatto": "medio",
+   "previsione": "",
+   "precedente": "",
+   "perche": "posizioni dei fondi",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  }
+ ]
+}
