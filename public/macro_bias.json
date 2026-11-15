@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-15T18:46:24Z",
+ "timestamp_utc": "2026-11-15T19:02:02Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -110,7 +110,7 @@
    },
    "oro_futures": {
     "ultimo": 3886.3,
-    "ora": "2026-11-14",
+    "ora": "2026-11-15T13:42:50.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": -0.033,
@@ -118,7 +118,7 @@
    },
    "argento": {
     "ultimo": 49.121,
-    "ora": "2026-11-14",
+    "ora": "2026-11-15T13:43:07.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": 0.968,
@@ -126,7 +126,7 @@
    },
    "petrolio_wti": {
     "ultimo": 88.56,
-    "ora": "2026-11-14",
+    "ora": "2026-11-15T13:43:24.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": -0.405,
@@ -134,7 +134,7 @@
    },
    "rame": {
     "ultimo": 6.0905,
-    "ora": "2026-11-14",
+    "ora": "2026-11-15T13:43:02.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": 0.445,
