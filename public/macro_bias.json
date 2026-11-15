@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-15T22:16:30Z",
+ "timestamp_utc": "2026-11-15T22:31:41Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -401,10 +401,6 @@
      "data": "2026-10-06"
     },
     {
-     "titolo": "Central banks add 39 net tonnes of gold in August with China, Uzbekistan and Poland leading purchases – World Gold Council - Kitco",
-     "data": "2026-10-06"
-    },
-    {
      "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
      "data": "2026-11-03"
     },
@@ -419,6 +415,10 @@
     {
      "titolo": "China extends gold buying spree to two years as prices drop, adds 25.8 tonnes in October - Moneycontrol.com",
      "data": "2026-11-07"
+    },
+    {
+     "titolo": "Central banks buy gold at fastest pace since 2024, WGC says - The Business Times",
+     "data": "2026-11-03"
     }
    ],
    "pboc_mesi_di_acquisti": null,
@@ -494,8 +494,8 @@
     "convinzione": 50,
     "frase": "La Fed alza e la BCE no: l'euro scende da quattro settimane.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 1,1150 oppure verbali Fed meno duri",
-    "ultimo_prezzo": 1.1154,
-    "ultimo_prezzo_data": "2026-11-06",
+    "ultimo_prezzo": 1.1021,
+    "ultimo_prezzo_data": "2026-11-13",
     "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-03",
@@ -513,8 +513,8 @@
     "convinzione": 35,
     "frase": "Banca d'Inghilterra contro Fed, entrambe alzano: decide l'inflazione inglese di mercoledì.",
     "cosa_lo_smentisce": "CPI inglese sopra 3,7% = rialzista; sotto 3,4% = ribassista",
-    "ultimo_prezzo": 1.3371,
-    "ultimo_prezzo_data": "2026-11-06",
+    "ultimo_prezzo": 1.3215,
+    "ultimo_prezzo_data": "2026-11-13",
     "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-03",
@@ -532,8 +532,8 @@
     "convinzione": 40,
     "frase": "Il dollaro rende molto più dello yen, ma a 160 il Giappone può intervenire.",
     "cosa_lo_smentisce": "intervento del Giappone oppure chiusura sotto 157,50",
-    "ultimo_prezzo": 158.23,
-    "ultimo_prezzo_data": "2026-11-06",
+    "ultimo_prezzo": 159.66,
+    "ultimo_prezzo_data": "2026-11-13",
     "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-03",
@@ -588,7 +588,7 @@
     "prossima": "2027-02-04",
     "in_parole_semplici": "La Banca d'Inghilterra ha alzato i tassi e avverte che l'inflazione peggiorerà ancora: altri rialzi possibili.",
     "conferma_grafico": {
-     "GBPUSD": "neutro"
+     "GBPUSD": "smentisce"
     },
     "da_rileggere": false
    },
@@ -639,8 +639,8 @@
     "mercato": "EURUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-06",
-    "da_allora_pct": -3.88,
+    "fino_a": "2026-11-13",
+    "da_allora_pct": -5.02,
     "esito": "conferma"
    },
    {
@@ -648,8 +648,8 @@
     "mercato": "GBPUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-06",
-    "da_allora_pct": -1.13,
+    "fino_a": "2026-11-13",
+    "da_allora_pct": -2.28,
     "esito": "conferma"
    },
    {
@@ -657,8 +657,8 @@
     "mercato": "USDJPY",
     "atteso": "su",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-06",
-    "da_allora_pct": 2.94,
+    "fino_a": "2026-11-13",
+    "da_allora_pct": 3.87,
     "esito": "conferma"
    },
    {
@@ -666,8 +666,8 @@
     "mercato": "EURUSD",
     "atteso": "su",
     "dal": "2026-09-04",
-    "fino_a": "2026-11-06",
-    "da_allora_pct": -3.99,
+    "fino_a": "2026-11-13",
+    "da_allora_pct": -5.14,
     "esito": "smentisce"
    },
    {
@@ -675,17 +675,17 @@
     "mercato": "GBPUSD",
     "atteso": "su",
     "dal": "2026-10-30",
-    "fino_a": "2026-11-06",
-    "da_allora_pct": -0.2,
-    "esito": "neutro"
+    "fino_a": "2026-11-13",
+    "da_allora_pct": -1.37,
+    "esito": "smentisce"
    },
    {
     "banca": "BoJ",
     "mercato": "USDJPY",
     "atteso": "giu",
     "dal": "2026-10-23",
-    "fino_a": "2026-11-06",
-    "da_allora_pct": 0.87,
+    "fino_a": "2026-11-13",
+    "da_allora_pct": 1.78,
     "esito": "smentisce"
    }
   ],
@@ -772,15 +772,16 @@
    }
   ],
   "fonti_prezzi": {
+   "XAUUSD": "lettura",
    "US100": "FRED",
    "US30": "FRED",
-   "EURUSD": "FRED",
-   "GBPUSD": "FRED",
-   "USDJPY": "FRED"
+   "EURUSD": "FRED+lettura",
+   "GBPUSD": "FRED+lettura",
+   "USDJPY": "FRED+lettura"
   },
   "dati_presi_utc": "2026-11-15T22:05:35Z",
   "sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (22/100)",
-  "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, COT fondi 22° pct. US100: neutro 35/100, COT fondi 99° pct. US30: rialzista 45/100, COT fondi 71° pct. EURUSD: ribassista 50/100, COT fondi 1° pct. GBPUSD: neutro 35/100, COT fondi 33° pct. USDJPY: rialzista 40/100, COT fondi 24° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 neutro, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD neutro. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
+  "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, COT fondi 22° pct. US100: neutro 35/100, COT fondi 99° pct. US30: rialzista 45/100, COT fondi 71° pct. EURUSD: ribassista 50/100, COT fondi 1° pct. GBPUSD: neutro 35/100, COT fondi 33° pct. USDJPY: rialzista 40/100, COT fondi 24° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 neutro, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
  },
  "news_giudicate": false,
