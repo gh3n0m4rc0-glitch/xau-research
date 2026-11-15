@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-15T22:31:41Z",
+ "timestamp_utc": "2026-11-15T22:46:26Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -96,7 +96,7 @@
     "ultimo": 103.411,
     "ora": "2026-11-15T17:03:23.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
+    "var_1h": -0.001,
     "var_4h": 0.0,
     "var_24h": -0.001
    },
