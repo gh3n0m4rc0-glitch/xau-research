@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-14T23:46:27Z",
+ "timestamp_utc": "2026-11-15T00:02:05Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -17,7 +17,7 @@
  "risk_multiplier": 1.0,
  "halt_trading": false,
  "halt_reason": "",
- "data_age_days": 1,
+ "data_age_days": 2,
  "pre_news": [],
  "upcoming_events": [],
  "fonti": {
@@ -134,8 +134,8 @@
   },
   "etf": {
    "gld_tonnellate_stimate": 1038.3,
-   "data": "2026-11-14",
-   "giorni_di_storico": 6,
+   "data": "2026-11-15",
+   "giorni_di_storico": 7,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
    "flusso_5g_t": null,
    "flusso_20g_t": null,
@@ -383,8 +383,8 @@
    "netto_fondi_pct_oi": 26.0,
    "percentile_3anni": 0.24,
    "variazione_4sett_pct_oi": -2.1,
-   "flusso_z": -0.44,
-   "punteggio_flusso": -0.283
+   "flusso_z": -0.43,
+   "punteggio_flusso": -0.278
   },
   "banche_centrali": {
    "titoli_45g": [
