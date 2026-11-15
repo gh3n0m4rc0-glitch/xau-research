@@ -27,7 +27,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from . import committee, engine, extra, knowledge, llm, news, orderflow, prenews, sources
+from . import committee, engine, extra, knowledge, llm, news, orderflow, prenews, sources, terminale
 
 log = logging.getLogger("xau_macro")
 HERE = Path(__file__).resolve().parent.parent
@@ -49,6 +49,11 @@ DEFAULT_CONFIG = {
     ],
     "extra_enabled": True,
     "extra_budget_seconds": 300,
+    "terminale_enabled": True,          # terminale macro settimanale (knowledge/terminale.json), peso zero
+    "terminale_refresh_hours": 2,       # COT, prezzi e FRED del terminale si riprendono al massimo ogni 2 ore
+    # False = peso zero vero: il terminale va nel file e nel pannello dell'EA, ma NON agli analisti AI (che muovono il bias
+    # con le news e il comitato). Metterlo a true solo quando la pagella del terminale regge per 8-12 settimane.
+    "terminale_agli_analisti": False,
     "news_weight": 0.25,
     "history_start": "2015-01-01",
     "anthropic_model": "claude-sonnet-4-6",
@@ -200,6 +205,21 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
         for m in extra_missing:
             log.warning("fonte extra mancante: %s", m)
 
+    # 2c) terminale macro settimanale: sei mercati, banche centrali, COT, conferma del grafico (peso zero)
+    term, term_missing = {}, []
+    if cfg.get("terminale_enabled", True):
+        try:
+            term, term_missing = terminale.run(cfg["knowledge_dir"], out_dir, now, extra.fetch_yahoo, sources.fetch_fred,
+                                               float(cfg.get("terminale_refresh_hours", 2)))
+            if term:
+                term["agli_analisti"] = bool(cfg.get("terminale_agli_analisti", False))
+            log.info("Terminale: %s", term.get("sintesi", "non disponibile"))
+            for c in term.get("cambiamenti", []):
+                log.info("Terminale, cambiamento: %s", c["testo"])
+        except Exception as e:
+            log.warning("terminale non calcolato: %s", type(e).__name__)
+            term_missing = [f"terminale: errore {type(e).__name__}"]
+
     # 3) order flow CME (opzionale)
     of = read_json(out_dir / "volume_levels.json")
     last_of = state.get("last_orderflow")
@@ -214,7 +234,10 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
 
     # 4) news generali + Claude
     headlines = sources.fetch_headlines(cfg.get("news_feeds", []))
-    view = llm.analyze(headlines, macro.summary + " | Extra: " + str(extra_info.get("sintesi", "")), news.upcoming(calendar, now, 72, 3), cfg.get("anthropic_model"),
+    contesto = macro.summary + " | Extra: " + str(extra_info.get("sintesi", ""))
+    if term.get("agli_analisti") and term.get("testo_analisti"):
+        contesto += " | " + term["testo_analisti"]
+    view = llm.analyze(headlines, contesto, news.upcoming(calendar, now, 72, 3), cfg.get("anthropic_model"),
                        kb.context("oro news reazione Fed inflazione dollaro geopolitica", 4))
     result = blend(macro, view, float(cfg.get("news_weight", 0.25)))
 
@@ -228,12 +251,14 @@ def run_once(cfg: dict, force_committee: bool = False) -> dict:
     result["fonti"] = fonti
     result["fonti_mancanti"] = base_missing
     result["macro_incompleta"] = any(k in base_missing for k in ("real_yield_10y", "dollar_broad"))
-    result["fonti_extra_mancanti"] = extra_missing
+    result["fonti_extra_mancanti"] = extra_missing + term_missing
     result["extra"] = extra_info
+    result["terminale"] = term
     result["news_giudicate"] = bool(view)
     # testi brevi a primo livello per il pannello dell'EA (dalla 1.21)
     result["fonti_mancanti_testo"] = ", ".join(engine.LABELS_IT.get(k, k) for k in base_missing)
-    result["extra_sintesi"] = extra_info.get("sintesi", "")
+    # il pannello dell'EA legge i primi 160 caratteri: prima il terminale (breve), poi la sintesi extra
+    result["extra_sintesi"] = " | ".join(x for x in (term.get("sintesi", ""), extra_info.get("sintesi", "")) if x)
     ok = [d for d in extra_info.get("dati_usciti", []) if d.get("stato") == "ok"]
     result["ultimo_dato"] = ""
     if ok:

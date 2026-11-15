@@ -251,6 +251,11 @@ BLS_API = "https://api.bls.gov/publicAPI/v2/timeseries/data/"
 _alias = {"cpi m/m": ("ipc m/m",), "core cpi m/m": ("ipc core m/m", "ipc di base m/m")}
 
 
+def _usd(e: dict) -> bool:
+    """Il calendario ha tutte le valute (CPI del Canada, del Regno Unito...): per i dati USA conta solo USD."""
+    return (e.get("country") or e.get("currency") or "").upper() == "USD"
+
+
 def _release_key(title: str) -> str | None:
     t = (title or "").strip().lower()
     for k, al in _alias.items():
@@ -341,7 +346,7 @@ def surprises(calendar_raw: list[dict], now: datetime, data: dict[str, pd.Series
     """Per ogni dato USD uscito nelle ultime ore: dato vero, previsione, sorpresa normalizzata e verso per l'oro."""
     out = []
     for e in calendar_raw:
-        if (e.get("country") or e.get("currency") or "").upper() != "USD":
+        if not _usd(e):
             continue
         key = _release_key(e.get("title", ""))
         if not key:
@@ -391,7 +396,7 @@ def surprise_block(calendar_raw: list[dict], now: datetime, fred_fetch: Callable
             t = t.replace(tzinfo=timezone.utc)
         return now - timedelta(hours=72) <= t <= now
     # si interroga la fonte solo se un dato e' uscito nelle ultime 72 ore (BLS senza chiave: 25 richieste al giorno)
-    wanted = {RELEASES[k] for e in calendar_raw if (k := _release_key(e.get("title", ""))) and _recent(e)}
+    wanted = {RELEASES[k] for e in calendar_raw if _usd(e) and (k := _release_key(e.get("title", ""))) and _recent(e)}
     if not wanted:
         return [], missing
     data: dict[str, pd.Series] = {}
@@ -470,6 +475,8 @@ def nowcast_block(calendar_raw: list[dict], now: datetime) -> tuple[dict, list[s
     nc = {"fonte": "Cleveland Fed", "mese_corrente": last, **months[last]}
     # confronto con la previsione del prossimo CPI in calendario: nowcast sopra il consenso = rischio dato caldo
     for e in calendar_raw:
+        if not _usd(e):          # il 16 nov 2026 prendeva il CPI del Canada come se fosse quello USA
+            continue
         k = _release_key(e.get("title", ""))
         if k not in ("cpi m/m", "core cpi m/m"):
             continue

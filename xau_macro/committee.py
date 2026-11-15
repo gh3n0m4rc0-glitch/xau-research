@@ -58,6 +58,9 @@ def build_briefing(snapshot: dict | None, macro: dict, headlines: list[dict], ca
     else:
         parts.append("SNAPSHOT DEL cBot: non disponibile (bot fermo o file vecchio).")
     m = {k: macro.get(k) for k in ("bias", "confidence", "regime", "summary", "components", "risk_flags", "halt_trading", "extra")}
+    term = macro.get("terminale") or {}
+    if term.get("agli_analisti") and term.get("testo_analisti"):   # solo se acceso in config (terminale_agli_analisti)
+        m["terminale_settimanale"] = term["testo_analisti"]
     parts.append("MACRO:\n" + json.dumps(m, ensure_ascii=False))
     if orderflow:
         parts.append("ORDER FLOW FUTURES CME (prezzi futures, base rispetto allo spot indicata dal cBot):\n" + json.dumps(orderflow, ensure_ascii=False)[:2500])
