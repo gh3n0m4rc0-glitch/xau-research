@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-15T18:16:28Z",
+ "timestamp_utc": "2026-11-15T18:31:56Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -60,7 +60,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -112,7 +111,7 @@
     "ultimo": 3886.3,
     "ora": "2026-11-14",
     "unita_variazioni": "%",
-    "var_1h": -0.033,
+    "var_1h": 0.0,
     "var_4h": -0.033,
     "var_24h": 0.0
    },
@@ -120,7 +119,7 @@
     "ultimo": 49.121,
     "ora": "2026-11-14",
     "unita_variazioni": "%",
-    "var_1h": 0.968,
+    "var_1h": 0.0,
     "var_4h": 0.968,
     "var_24h": 0.0
    },
@@ -128,7 +127,7 @@
     "ultimo": 88.56,
     "ora": "2026-11-14",
     "unita_variazioni": "%",
-    "var_1h": -0.405,
+    "var_1h": 0.0,
     "var_4h": -0.405,
     "var_24h": 0.0
    },
@@ -136,7 +135,7 @@
     "ultimo": 6.0905,
     "ora": "2026-11-14",
     "unita_variazioni": "%",
-    "var_1h": 0.445,
+    "var_1h": 0.0,
     "var_4h": 0.445,
     "var_24h": 0.0
    },
@@ -444,6 +443,13 @@
    "pboc_mesi_di_acquisti": null,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 2.5924,
+   "media_30g": 3.1952,
+   "z": -0.86,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "tagli Fed prezzati in calo"
  },
