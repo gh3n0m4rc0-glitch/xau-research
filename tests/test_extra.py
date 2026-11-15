@@ -70,6 +70,26 @@ def test_nowcast_uses_month_before_release(monkeypatch):
     assert c["mese_dato"] == "2026-10" and c["nowcast"] == 0.45 and c["rischio"].startswith("dato caldo")
 
 
+def test_nowcast_ignores_other_currencies(monkeypatch):
+    # stessa settimana del 16 nov 2026: CPI del Canada lunedi', nessun CPI USA in calendario
+    data = [{"chart": {"subcaption": "2026-10"}, "dataset": [{"seriesname": "CPI Inflation", "data": [{"value": "0.45"}]}]}]
+    import json as _j
+    resp = type("R", (), {"content": _j.dumps(data).encode()})()
+    monkeypatch.setattr(extra, "_get", lambda *a, **k: resp)
+    cal = [{"title": "CPI m/m", "country": "CAD", "date": "2026-11-16T08:30:00-05:00", "forecast": "0.3%"},
+           {"title": "Core CPI m/m", "country": "CAD", "date": "2026-11-16T08:30:00-05:00", "forecast": "0.2%"},
+           {"title": "CPI y/y", "country": "GBP", "date": "2026-11-18T02:00:00-05:00", "forecast": "3.6%"}]
+    nc, miss = extra.nowcast_block(cal, datetime(2026, 11, 15, 19, tzinfo=timezone.utc))
+    assert "prossimi_cpi" not in nc and nc["mese_corrente"] == "2026-10"
+
+
+def test_surprise_block_skips_other_currencies():
+    calls = []
+    cal = [{"title": "CPI m/m", "country": "CAD", "date": "2026-11-16T08:30:00-05:00", "forecast": "0.3%"}]
+    res, miss = extra.surprise_block(cal, datetime(2026, 11, 16, 16, tzinfo=timezone.utc), lambda *a: calls.append(a))
+    assert res == [] and calls == []
+
+
 def test_fed_rss_with_bom_and_calendar():
     xml = b"\xef\xbb\xbf<?xml version='1.0' encoding='utf-8'?><rss><channel><item><title>Speech by Governor X</title><pubDate>Mon, 09 Nov 2026 15:00:00 GMT</pubDate></item></channel></rss>"
     assert extra.parse_rss_items(xml)[0]["titolo"] == "Speech by Governor X"

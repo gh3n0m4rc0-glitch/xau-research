@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 import numpy as np
 import pandas as pd
 
-from xau_macro import forums, llm, service, sources
+from xau_macro import extra, forums, llm, service, sources, terminale
 from tests.test_engine import series_gold_bullish
 
 # campi che il cBot legge (vedi RefreshMacro / RefreshAi / RefreshExternalVolume in XauCommitteeBot.cs)
@@ -23,11 +23,18 @@ def test_full_cycle(tmp_path, monkeypatch):
     monkeypatch.setattr(sources, "fetch_headlines", lambda feeds, max_per_feed=25: [{"title": "Gold climbs as yields slip", "published": "", "source": "x"}])
     monkeypatch.setattr(forums, "news_previews", lambda t, extra="gold": [{"title": "CPI preview: core seen cooling"}])
     monkeypatch.setattr(forums, "reddit_search", lambda q, **k: [])
+    # terminale settimanale offline: resta la lettura di knowledge/terminale.json
+    monkeypatch.setattr(terminale, "fetch_cot_rows", lambda start: (_ for _ in ()).throw(RuntimeError("offline")))
+    monkeypatch.setattr(terminale, "fred_api", lambda sid, start: (_ for _ in ()).throw(RuntimeError("offline")))
+    monkeypatch.setattr(extra, "fetch_yahoo", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("offline")))
+    monkeypatch.setattr(sources, "fetch_fred", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("offline")))
+    briefings = []
     (tmp_path / "market_snapshot.json").write_text(json.dumps({"timestamp_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "price": 4000}))
 
     def transport(system, user, model, max_tokens):
         if "pre-news" in system:
             return json.dumps({"gold_direction": 1, "confidence": 0.6, "continuation_plan": "sopra VAH con volume"})
+        briefings.append(user)
         if "CIO" in system:
             return json.dumps({"stance": "long", "conviction": 0.7, "preferred_playbook": "trend", "summary_it": "rialzo", "dissent": "-"})
         if "RUOLO" in system:
@@ -48,6 +55,11 @@ def test_full_cycle(tmp_path, monkeypatch):
     cal = json.loads((tmp_path / "news_calendar.json").read_text())
     assert cal[0]["tier"] == 1 and cal[0]["time_utc"].endswith("Z")
     assert (tmp_path / "committee_minutes.md").exists()
+    # il terminale settimanale arriva al pannello dell'EA e agli analisti AI
+    assert macro["terminale"]["peso_nel_bias"] == 0 and len(macro["terminale"]["mercati"]) == 6
+    assert "terminale" in macro["extra_sintesi"].lower() and macro["extra_sintesi"].isascii()
+    # peso zero: con la config di base gli analisti AI non lo vedono
+    assert macro["terminale"]["agli_analisti"] is False and not any("Terminale settimanale" in b for b in briefings)
     # secondo ciclo subito dopo: il comitato NON si riunisce di nuovo... tranne che con tier1 entro 10h e >1h trascorsa
     st = json.loads((tmp_path / "service_state.json").read_text())
     assert "last_committee" in st
