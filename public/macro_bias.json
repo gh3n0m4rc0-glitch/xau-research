@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-16T07:16:28Z",
+ "timestamp_utc": "2026-11-16T07:31:37Z",
  "bias": 0.022,
  "confidence": 0.01,
  "regime": "neutro / misto",
@@ -60,7 +60,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -69,36 +68,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.903,
-    "ora": "2026-11-16T02:15:38.000-0500",
+    "ultimo": 2.904,
+    "ora": "2026-11-16T02:30:39.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.4,
-    "var_4h": -0.4,
-    "var_24h": 1.0
+    "var_1h": 0.5,
+    "var_4h": -0.2,
+    "var_24h": 1.1
    },
    "tasso_10y": {
     "ultimo": 5.137,
-    "ora": "2026-11-16T02:15:37.000-0500",
+    "ora": "2026-11-16T02:30:35.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
+    "var_1h": -0.2,
     "var_4h": -0.8,
     "var_24h": -1.6
    },
    "tasso_2y": {
     "ultimo": 4.855,
-    "ora": "2026-11-16T02:15:18.000-0500",
+    "ora": "2026-11-16T02:30:59.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -0.2,
     "var_4h": -1.0,
     "var_24h": -1.9
    },
    "dollaro_dxy": {
-    "ultimo": 103.417,
-    "ora": "2026-11-16T02:15:48.000-0500",
+    "ultimo": 103.421,
+    "ora": "2026-11-16T02:31:08.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.027,
-    "var_4h": -0.028,
-    "var_24h": 0.005
+    "var_1h": -0.018,
+    "var_4h": -0.025,
+    "var_24h": 0.009
    },
    "vix": {
     "ultimo": 19.3,
@@ -109,63 +108,63 @@
     "var_24h": 0.0
    },
    "oro_futures": {
-    "ultimo": 3856.4,
-    "ora": "2026-11-16T02:05:44.000-0500",
+    "ultimo": 3858.1,
+    "ora": "2026-11-16T02:21:03.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.036,
-    "var_4h": -0.447,
-    "var_24h": -0.769
+    "var_1h": -0.153,
+    "var_4h": -0.315,
+    "var_24h": -0.726
    },
    "argento": {
-    "ultimo": 47.49,
-    "ora": "2026-11-16T02:05:47.000-0500",
+    "ultimo": 47.315,
+    "ora": "2026-11-16T02:21:02.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.158,
-    "var_4h": 0.084,
-    "var_24h": -3.32
+    "var_1h": -0.421,
+    "var_4h": -0.2,
+    "var_24h": -3.677
    },
    "petrolio_wti": {
-    "ultimo": 89.12,
-    "ora": "2026-11-16T02:05:36.000-0500",
+    "ultimo": 89.05,
+    "ora": "2026-11-16T02:21:02.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.428,
-    "var_4h": 1.631,
-    "var_24h": 0.632
+    "var_1h": 0.079,
+    "var_4h": 1.343,
+    "var_24h": 0.553
    },
    "rame": {
-    "ultimo": 6.025,
-    "ora": "2026-11-16T02:05:46.000-0500",
+    "ultimo": 6.0215,
+    "ora": "2026-11-16T02:21:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.116,
-    "var_4h": 0.341,
-    "var_24h": -1.075
+    "var_1h": 0.0,
+    "var_4h": -0.149,
+    "var_24h": -1.133
    },
    "gld": {
     "ultimo": 355.45,
-    "ora": "2026-11-13",
+    "ora": "2026-11-12",
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": 0.0,
     "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.6694,
-    "ora": "2026-11-16T02:15:00.000-0500",
+    "ultimo": 6.6691,
+    "ora": "2026-11-16T02:31:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.001,
-    "var_4h": -0.015,
-    "var_24h": -0.024
+    "var_1h": 0.0,
+    "var_4h": -0.018,
+    "var_24h": -0.028
    },
-   "punteggio_4h": 0.147,
-   "punteggio_24h": -0.01,
-   "rapporto_oro_argento": 81.2
+   "punteggio_4h": 0.12,
+   "punteggio_24h": -0.02,
+   "rapporto_oro_argento": 81.54
   },
   "etf": {
-   "gld_tonnellate_stimate": 1046.7,
+   "gld_tonnellate_stimate": 1046.2,
    "data": "2026-11-16",
    "giorni_di_storico": 8,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 8.3,
+   "flusso_5g_t": 7.9,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -424,6 +423,13 @@
    "pboc_mesi_di_acquisti": null,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 2.5924,
+   "media_30g": 3.2039,
+   "z": -0.85,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "tagli Fed prezzati in calo"
  },
