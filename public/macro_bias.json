@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-16T19:01:51Z",
+ "timestamp_utc": "2026-11-16T19:16:23Z",
  "bias": -0.005,
  "confidence": 0.001,
  "regime": "neutro / misto",
@@ -68,84 +68,84 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.906,
-    "ora": "2026-11-16T14:00:53.000-0500",
+    "ultimo": 2.908,
+    "ora": "2026-11-16T14:15:09.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.2,
-    "var_4h": 0.1,
-    "var_24h": 1.3
+    "var_1h": 0.0,
+    "var_4h": 1.7,
+    "var_24h": 1.5
    },
    "tasso_10y": {
-    "ultimo": 5.119,
-    "ora": "2026-11-16T14:00:38.000-0500",
+    "ultimo": 5.117,
+    "ora": "2026-11-16T14:15:54.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.0,
-    "var_4h": -1.8,
-    "var_24h": -3.4
+    "var_1h": -1.2,
+    "var_4h": -0.4,
+    "var_24h": -3.6
    },
    "tasso_2y": {
-    "ultimo": 4.819,
-    "ora": "2026-11-16T14:00:29.000-0500",
+    "ultimo": 4.821,
+    "ora": "2026-11-16T14:15:53.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.7,
-    "var_4h": -3.4,
-    "var_24h": -5.5
+    "var_1h": -1.5,
+    "var_4h": -1.5,
+    "var_24h": -5.3
    },
    "dollaro_dxy": {
-    "ultimo": 103.586,
-    "ora": "2026-11-16T14:01:23.000-0500",
+    "ultimo": 103.576,
+    "ora": "2026-11-16T14:15:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.046,
-    "var_4h": 0.086,
-    "var_24h": 0.168
+    "var_1h": 0.037,
+    "var_4h": 0.051,
+    "var_24h": 0.159
    },
    "vix": {
-    "ultimo": 22.96,
-    "ora": "2026-11-16T14:01:16.000-0500",
+    "ultimo": 23.29,
+    "ora": "2026-11-16T14:15:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.73,
-    "var_4h": 2.4,
-    "var_24h": 3.66
+    "var_1h": 1.06,
+    "var_4h": 1.95,
+    "var_24h": 3.99
    },
    "oro_futures": {
-    "ultimo": 3857.3,
-    "ora": "2026-11-16T13:51:20.000-0500",
+    "ultimo": 3857.5,
+    "ora": "2026-11-16T14:05:54.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.098,
-    "var_4h": -0.726,
-    "var_24h": -0.746
+    "var_1h": -0.093,
+    "var_4h": -0.746,
+    "var_24h": -0.741
    },
    "argento": {
-    "ultimo": 46.96,
-    "ora": "2026-11-16T13:51:19.000-0500",
+    "ultimo": 46.915,
+    "ora": "2026-11-16T14:05:36.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.138,
-    "var_4h": -0.677,
-    "var_24h": -4.399
+    "var_1h": -0.234,
+    "var_4h": -0.477,
+    "var_24h": -4.491
    },
    "petrolio_wti": {
-    "ultimo": 85.53,
-    "ora": "2026-11-16T13:51:22.000-0500",
+    "ultimo": 85.49,
+    "ora": "2026-11-16T14:05:54.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.708,
-    "var_4h": -1.497,
-    "var_24h": -3.421
+    "var_1h": -0.755,
+    "var_4h": -1.6,
+    "var_24h": -3.467
    },
    "rame": {
-    "ultimo": 6.0015,
-    "ora": "2026-11-16T13:51:22.000-0500",
+    "ultimo": 5.999,
+    "ora": "2026-11-16T14:05:43.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.249,
-    "var_4h": -0.965,
-    "var_24h": -1.461
+    "var_1h": -0.291,
+    "var_4h": -1.047,
+    "var_24h": -1.502
    },
    "gld": {
-    "ultimo": 353.26,
-    "ora": "2026-11-16T14:01:21.960-0500",
+    "ultimo": 353.42,
+    "ora": "2026-11-16T14:15:53.868-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.045,
-    "var_4h": -0.658,
-    "var_24h": -0.616
+    "var_1h": 0.091,
+    "var_4h": -0.61,
+    "var_24h": -0.571
    },
    "usdcny": {
     "ultimo": 6.6642,
@@ -155,16 +155,16 @@
     "var_4h": -0.003,
     "var_24h": -0.102
    },
-   "punteggio_4h": -0.057,
-   "punteggio_24h": -0.134,
-   "rapporto_oro_argento": 82.14
+   "punteggio_4h": -0.163,
+   "punteggio_24h": -0.133,
+   "rapporto_oro_argento": 82.22
   },
   "etf": {
-   "gld_tonnellate_stimate": 1040.0,
+   "gld_tonnellate_stimate": 1040.4,
    "data": "2026-11-16",
    "giorni_di_storico": 8,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 1.6,
+   "flusso_5g_t": 2.1,
    "flusso_20g_t": null,
    "punteggio": null
   },
