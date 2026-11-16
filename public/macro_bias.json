@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-16T22:16:24Z",
+ "timestamp_utc": "2026-11-16T22:31:59Z",
  "bias": -0.288,
  "confidence": 0.577,
  "regime": "moderatamente sfavorevole",
@@ -87,23 +87,23 @@
     "ultimo": 4.831,
     "ora": "2026-11-16T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.5,
+    "var_1h": -0.3,
     "var_4h": -1.3,
     "var_24h": -4.3
    },
    "dollaro_dxy": {
-    "ultimo": 103.566,
-    "ora": "2026-11-16T17:15:51.000-0500",
+    "ultimo": 103.582,
+    "ora": "2026-11-16T17:31:08.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.036,
-    "var_4h": -0.041,
-    "var_24h": 0.149
+    "var_1h": -0.009,
+    "var_4h": -0.025,
+    "var_24h": 0.164
    },
    "vix": {
     "ultimo": 22.91,
     "ora": "2026-11-16T16:15:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.38,
+    "var_1h": 0.0,
     "var_4h": 0.64,
     "var_24h": 3.61
    },
@@ -111,7 +111,7 @@
     "ultimo": 3859.0,
     "ora": "2026-11-16T16:59:58.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.101,
+    "var_1h": 0.117,
     "var_4h": 0.213,
     "var_24h": -0.702
    },
@@ -119,7 +119,7 @@
     "ultimo": 46.91,
     "ora": "2026-11-16T16:59:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.064,
+    "var_1h": 0.032,
     "var_4h": 0.021,
     "var_24h": -4.501
    },
@@ -127,7 +127,7 @@
     "ultimo": 85.06,
     "ora": "2026-11-16T16:59:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.561,
+    "var_1h": -0.351,
     "var_4h": -1.024,
     "var_24h": -3.952
    },
@@ -135,7 +135,7 @@
     "ultimo": 5.9855,
     "ora": "2026-11-16T16:59:53.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.05,
+    "var_1h": -0.142,
     "var_4h": -0.316,
     "var_24h": -1.724
    },
@@ -143,7 +143,7 @@
     "ultimo": 352.93,
     "ora": "2026-11-16T16:10:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.009,
+    "var_1h": 0.0,
     "var_4h": 0.139,
     "var_24h": -0.709
    },
@@ -155,8 +155,8 @@
     "var_4h": 0.017,
     "var_24h": 0.017
    },
-   "punteggio_4h": 0.058,
-   "punteggio_24h": -0.183,
+   "punteggio_4h": 0.04,
+   "punteggio_24h": -0.192,
    "rapporto_oro_argento": 82.26
   },
   "etf": {
@@ -394,12 +394,12 @@
      "data": "2026-10-06"
     },
     {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
-     "data": "2026-11-03"
-    },
-    {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
      "data": "2026-10-11"
+    },
+    {
+     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "data": "2026-11-03"
     },
     {
      "titolo": "China Boosts Gold Reserves as Prices Fall - Briefs Finance",
