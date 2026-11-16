@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-16T16:46:47Z",
+ "timestamp_utc": "2026-11-16T17:02:26Z",
  "bias": -0.005,
  "confidence": 0.001,
  "regime": "neutro / misto",
@@ -20,15 +20,6 @@
  "data_age_days": 3,
  "pre_news": [],
  "upcoming_events": [
-  {
-   "time_utc": "2026-11-16T17:00:00Z",
-   "currency": "USD",
-   "impact": "High",
-   "title": "Fed Chairman Warsh Speaks",
-   "tier": 1,
-   "forecast": "",
-   "previous": ""
-  },
   {
    "time_utc": "2026-11-17T13:30:00Z",
    "currency": "USD",
@@ -69,84 +60,84 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.916,
-    "ora": "2026-11-16T11:45:44.000-0500",
+    "ultimo": 2.914,
+    "ora": "2026-11-16T12:01:02.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.5,
-    "var_4h": 2.3,
-    "var_24h": 2.3
+    "var_1h": 1.4,
+    "var_4h": 2.1,
+    "var_24h": 2.1
    },
    "tasso_10y": {
-    "ultimo": 5.145,
-    "ora": "2026-11-16T11:45:43.000-0500",
+    "ultimo": 5.139,
+    "ora": "2026-11-16T12:01:23.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 2.0,
-    "var_4h": 1.2,
-    "var_24h": -0.8
+    "var_1h": 0.8,
+    "var_4h": 0.6,
+    "var_24h": -1.4
    },
    "tasso_2y": {
     "ultimo": 4.855,
-    "ora": "2026-11-16T11:44:43.000-0500",
+    "ora": "2026-11-16T12:01:24.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 1.1,
     "var_4h": 1.7,
     "var_24h": -1.9
    },
    "dollaro_dxy": {
-    "ultimo": 103.532,
-    "ora": "2026-11-16T11:45:56.000-0500",
+    "ultimo": 103.535,
+    "ora": "2026-11-16T12:01:30.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.014,
-    "var_4h": 0.048,
-    "var_24h": 0.116
+    "var_1h": -0.015,
+    "var_4h": 0.051,
+    "var_24h": 0.119
    },
    "vix": {
-    "ultimo": 21.09,
-    "ora": "2026-11-16T11:45:46.000-0500",
+    "ultimo": 21.07,
+    "ora": "2026-11-16T12:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.24,
-    "var_4h": 0.6,
-    "var_24h": 1.79
+    "var_1h": 0.24,
+    "var_4h": 0.58,
+    "var_24h": 1.77
    },
    "oro_futures": {
-    "ultimo": 3860.0,
-    "ora": "2026-11-16T11:35:54.000-0500",
+    "ultimo": 3861.8,
+    "ora": "2026-11-16T11:51:22.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.212,
-    "var_4h": -0.297,
-    "var_24h": -0.677
+    "var_1h": -0.124,
+    "var_4h": -0.251,
+    "var_24h": -0.63
    },
    "argento": {
-    "ultimo": 46.85,
-    "ora": "2026-11-16T11:35:55.000-0500",
+    "ultimo": 46.94,
+    "ora": "2026-11-16T11:51:25.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.59,
-    "var_4h": -1.4,
-    "var_24h": -4.623
+    "var_1h": 0.417,
+    "var_4h": -1.21,
+    "var_24h": -4.44
    },
    "petrolio_wti": {
-    "ultimo": 86.6,
-    "ora": "2026-11-16T11:35:53.000-0500",
+    "ultimo": 86.38,
+    "ora": "2026-11-16T11:51:26.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.138,
-    "var_4h": -1.513,
-    "var_24h": -2.213
+    "var_1h": -0.678,
+    "var_4h": -1.763,
+    "var_24h": -2.462
    },
    "rame": {
-    "ultimo": 6.0345,
-    "ora": "2026-11-16T11:35:52.000-0500",
+    "ultimo": 6.0205,
+    "ora": "2026-11-16T11:51:24.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.231,
-    "var_4h": -0.008,
-    "var_24h": -0.919
+    "var_1h": -0.537,
+    "var_4h": -0.24,
+    "var_24h": -1.149
    },
    "gld": {
-    "ultimo": 353.5,
-    "ora": "2026-11-16T11:45:56.504-0500",
+    "ultimo": 354.6,
+    "ora": "2026-11-16T12:01:29.869-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.215,
-    "var_4h": -0.549,
-    "var_24h": -0.549
+    "var_1h": 0.294,
+    "var_4h": -0.239,
+    "var_24h": -0.239
    },
    "usdcny": {
     "ultimo": 6.6642,
@@ -156,16 +147,16 @@
     "var_4h": -0.042,
     "var_24h": -0.102
    },
-   "punteggio_4h": -0.268,
-   "punteggio_24h": -0.179,
-   "rapporto_oro_argento": 82.39
+   "punteggio_4h": -0.257,
+   "punteggio_24h": -0.172,
+   "rapporto_oro_argento": 82.27
   },
   "etf": {
-   "gld_tonnellate_stimate": 1040.0,
+   "gld_tonnellate_stimate": 1042.7,
    "data": "2026-11-16",
    "giorni_di_storico": 8,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 1.6,
+   "flusso_5g_t": 4.4,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -260,6 +251,11 @@
    ],
    "discorsi": [
     {
+     "titolo": "Warsh, Opening Remarks",
+     "link": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+     "data": "Mon, 16 Nov 2026 17:00:00 GMT"
+    },
+    {
      "titolo": "Barr, Some Potential Financial Stability Implications of Artificial Intelligence",
      "link": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
      "data": "Mon, 16 Nov 2026 10:00:00 GMT"
@@ -278,11 +274,6 @@
      "titolo": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
      "data": "Tue, 10 Nov 2026 20:30:00 GMT"
-    },
-    {
-     "titolo": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
-     "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
-     "data": "Tue, 10 Nov 2026 09:00:00 GMT"
     }
    ],
    "testimonianze": [
@@ -418,7 +409,7 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.27); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.26); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -692,15 +683,6 @@
   ],
   "prossimi_eventi": [
    {
-    "quando": "2026-11-16T17:00:00Z",
-    "evento": "Parla Warsh, presidente della Fed",
-    "impatto": "alto",
-    "previsione": "",
-    "precedente": "",
-    "perche": "primo commento dopo il CPI caldo",
-    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
-   },
-   {
     "quando": "2026-11-17T07:00:00Z",
     "evento": "Salari e disoccupazione Regno Unito",
     "impatto": "medio",
@@ -762,6 +744,15 @@
     "precedente": "4,0%",
     "perche": "conferma la pressione sulla BCE",
     "mercati": "EURUSD"
+   },
+   {
+    "quando": "2026-11-18T14:25:00Z",
+    "evento": "Parla Lagarde (BCE), tre volte in tre giorni",
+    "impatto": "medio",
+    "previsione": "",
+    "precedente": "",
+    "perche": "cerca segnali sul rialzo di dicembre",
+    "mercati": "EURUSD"
    }
   ],
   "fonti_prezzi": {
@@ -779,6 +770,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (22/100) | tassi/dollaro ultime 4h contro oro (-0.27); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (22/100) | tassi/dollaro ultime 4h contro oro (-0.26); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
