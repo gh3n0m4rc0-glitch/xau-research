@@ -41,7 +41,7 @@
   "impact": "Medium",
   "title": "Philly Fed Manufacturing Index",
   "tier": 3,
-  "forecast": "19.2",
+  "forecast": "20.6",
   "previous": "20.9"
  },
  {
@@ -50,7 +50,7 @@
   "impact": "Medium",
   "title": "Unemployment Claims",
   "tier": 3,
-  "forecast": "199K",
+  "forecast": "198K",
   "previous": "200K"
  },
  {
@@ -59,7 +59,7 @@
   "impact": "Medium",
   "title": "Revised UoM Consumer Sentiment",
   "tier": 3,
-  "forecast": "52.1",
+  "forecast": "51.7",
   "previous": "51.0"
  },
  {
