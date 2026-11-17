@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-17T15:16:33Z",
+ "timestamp_utc": "2026-11-17T15:32:09Z",
  "bias": -0.249,
  "confidence": 0.431,
  "regime": "moderatamente sfavorevole",
@@ -51,103 +51,103 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.923,
-    "ora": "2026-11-17T10:14:51.000-0500",
+    "ultimo": 2.914,
+    "ora": "2026-11-17T10:31:05.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.3,
-    "var_4h": 1.6,
-    "var_24h": 0.6
+    "var_1h": -0.9,
+    "var_4h": 0.6,
+    "var_24h": -0.3
    },
    "tasso_10y": {
-    "ultimo": 5.143,
-    "ora": "2026-11-17T10:15:31.000-0500",
+    "ultimo": 5.133,
+    "ora": "2026-11-17T10:31:17.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.4,
-    "var_4h": 2.6,
-    "var_24h": 2.2
+    "var_1h": -1.2,
+    "var_4h": 1.6,
+    "var_24h": 1.2
    },
    "tasso_2y": {
-    "ultimo": 4.842,
-    "ora": "2026-11-17T10:15:36.000-0500",
+    "ultimo": 4.834,
+    "ora": "2026-11-17T10:31:14.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.5,
-    "var_4h": 3.6,
-    "var_24h": 1.5
+    "var_1h": -1.9,
+    "var_4h": 2.4,
+    "var_24h": 0.7
    },
    "dollaro_dxy": {
-    "ultimo": 103.613,
-    "ora": "2026-11-17T10:15:56.000-0500",
+    "ultimo": 103.587,
+    "ora": "2026-11-17T10:31:21.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.014,
-    "var_4h": 0.015,
-    "var_24h": 0.062
+    "var_1h": -0.003,
+    "var_4h": 0.014,
+    "var_24h": 0.037
    },
    "vix": {
-    "ultimo": 22.84,
-    "ora": "2026-11-17T10:15:46.000-0500",
+    "ultimo": 23.19,
+    "ora": "2026-11-17T10:31:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.06,
-    "var_4h": -0.48,
-    "var_24h": -0.07
+    "var_1h": 0.17,
+    "var_4h": 0.15,
+    "var_24h": 0.28
    },
    "oro_futures": {
-    "ultimo": 3858.8,
-    "ora": "2026-11-17T10:05:55.000-0500",
+    "ultimo": 3861.5,
+    "ora": "2026-11-17T10:21:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.08,
-    "var_4h": -0.005,
-    "var_24h": 0.151
+    "var_1h": -0.039,
+    "var_4h": 0.039,
+    "var_24h": 0.221
    },
    "argento": {
-    "ultimo": 47.58,
-    "ora": "2026-11-17T10:05:55.000-0500",
+    "ultimo": 47.54,
+    "ora": "2026-11-17T10:21:06.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.475,
-    "var_4h": 0.38,
-    "var_24h": 1.539
+    "var_1h": 0.105,
+    "var_4h": 0.285,
+    "var_24h": 1.453
    },
    "petrolio_wti": {
-    "ultimo": 86.83,
-    "ora": "2026-11-17T10:05:52.000-0500",
+    "ultimo": 86.63,
+    "ora": "2026-11-17T10:21:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.321,
-    "var_4h": 0.989,
-    "var_24h": 1.295
+    "var_1h": -0.699,
+    "var_4h": 0.639,
+    "var_24h": 1.062
    },
    "rame": {
-    "ultimo": 5.9885,
-    "ora": "2026-11-17T10:05:47.000-0500",
+    "ultimo": 5.997,
+    "ora": "2026-11-17T10:21:18.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.201,
-    "var_4h": -0.05,
-    "var_24h": -0.316
+    "var_1h": 0.226,
+    "var_4h": 0.125,
+    "var_24h": -0.175
    },
    "gld": {
-    "ultimo": 353.39,
-    "ora": "2026-11-17T10:15:53.122-0500",
+    "ultimo": 354.38,
+    "ora": "2026-11-17T10:31:18.782-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.13,
-    "var_4h": 0.13,
-    "var_24h": 0.13
+    "var_1h": 0.167,
+    "var_4h": 0.411,
+    "var_24h": 0.411
    },
    "usdcny": {
     "ultimo": 6.6659,
     "ora": "2026-11-17T09:58:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.002,
-    "var_4h": -0.002,
+    "var_4h": 0.002,
     "var_24h": 0.026
    },
-   "punteggio_4h": -0.147,
-   "punteggio_24h": -0.053,
-   "rapporto_oro_argento": 81.1
+   "punteggio_4h": -0.044,
+   "punteggio_24h": 0.019,
+   "rapporto_oro_argento": 81.23
   },
   "etf": {
-   "gld_tonnellate_stimate": 1043.7,
+   "gld_tonnellate_stimate": 1045.9,
    "data": "2026-11-17",
    "giorni_di_storico": 9,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 6.1,
+   "flusso_5g_t": 8.3,
    "flusso_20g_t": null,
    "punteggio": null
   },
