@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-17T10:17:04Z",
+ "timestamp_utc": "2026-11-17T10:31:43Z",
  "bias": -0.288,
  "confidence": 0.577,
  "regime": "moderatamente sfavorevole",
@@ -69,75 +69,75 @@
   "intraday": {
    "tasso_reale_10y": {
     "ultimo": 2.888,
-    "ora": "2026-11-17T05:15:50.000-0500",
+    "ora": "2026-11-17T05:30:43.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.6,
-    "var_4h": -3.4,
+    "var_1h": 0.5,
+    "var_4h": -3.2,
     "var_24h": -2.9
    },
    "tasso_10y": {
     "ultimo": 5.097,
-    "ora": "2026-11-17T05:16:00.000-0500",
+    "ora": "2026-11-17T05:31:07.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.6,
-    "var_4h": -2.8,
+    "var_1h": 0.4,
+    "var_4h": -2.6,
     "var_24h": -2.4
    },
    "tasso_2y": {
-    "ultimo": 4.791,
-    "ora": "2026-11-17T05:15:58.000-0500",
+    "ultimo": 4.796,
+    "ora": "2026-11-17T05:31:06.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.7,
-    "var_4h": -2.6,
-    "var_24h": -3.6
+    "var_1h": 1.3,
+    "var_4h": -1.7,
+    "var_24h": -3.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.575,
-    "ora": "2026-11-17T05:16:01.000-0500",
+    "ultimo": 103.542,
+    "ora": "2026-11-17T05:31:08.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.097,
-    "var_4h": 0.073,
-    "var_24h": 0.025
+    "var_1h": 0.066,
+    "var_4h": 0.032,
+    "var_24h": -0.007
    },
    "vix": {
-    "ultimo": 23.61,
-    "ora": "2026-11-17T05:16:01.000-0500",
+    "ultimo": 23.54,
+    "ora": "2026-11-17T05:31:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.41,
-    "var_4h": 0.7,
-    "var_24h": 0.7
+    "var_1h": -0.59,
+    "var_4h": 0.63,
+    "var_24h": 0.63
    },
    "oro_futures": {
-    "ultimo": 3864.2,
-    "ora": "2026-11-17T05:05:56.000-0500",
+    "ultimo": 3859.1,
+    "ora": "2026-11-17T05:21:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.194,
-    "var_4h": -0.364,
-    "var_24h": 0.291
+    "var_1h": -0.114,
+    "var_4h": -0.387,
+    "var_24h": 0.158
    },
    "argento": {
-    "ultimo": 47.305,
-    "ora": "2026-11-17T05:05:57.000-0500",
+    "ultimo": 47.265,
+    "ora": "2026-11-17T05:20:53.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.021,
-    "var_4h": -0.431,
-    "var_24h": 0.952
+    "var_1h": -0.085,
+    "var_4h": -0.306,
+    "var_24h": 0.866
    },
    "petrolio_wti": {
-    "ultimo": 85.92,
-    "ora": "2026-11-17T05:05:57.000-0500",
+    "ultimo": 85.81,
+    "ora": "2026-11-17T05:21:06.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.14,
-    "var_4h": 1.106,
-    "var_24h": 0.233
+    "var_1h": 0.128,
+    "var_4h": 0.763,
+    "var_24h": 0.105
    },
    "rame": {
-    "ultimo": 5.9715,
-    "ora": "2026-11-17T05:06:00.000-0500",
+    "ultimo": 5.978,
+    "ora": "2026-11-17T05:21:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.109,
-    "var_4h": -0.167,
-    "var_24h": -0.599
+    "var_1h": 0.033,
+    "var_4h": 0.042,
+    "var_24h": -0.491
    },
    "gld": {
     "ultimo": 352.93,
@@ -149,22 +149,22 @@
    },
    "usdcny": {
     "ultimo": 6.6656,
-    "ora": "2026-11-17T05:13:00.000-0500",
+    "ora": "2026-11-17T05:29:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.011,
+    "var_1h": 0.009,
     "var_4h": 0.008,
     "var_24h": 0.021
    },
-   "punteggio_4h": 0.265,
-   "punteggio_24h": 0.158,
-   "rapporto_oro_argento": 81.69
+   "punteggio_4h": 0.281,
+   "punteggio_24h": 0.174,
+   "rapporto_oro_argento": 81.65
   },
   "etf": {
-   "gld_tonnellate_stimate": 1037.2,
+   "gld_tonnellate_stimate": 1038.5,
    "data": "2026-11-17",
    "giorni_di_storico": 9,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -0.4,
+   "flusso_5g_t": 0.9,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -394,12 +394,12 @@
      "data": "2026-10-06"
     },
     {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
-    },
-    {
      "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
      "data": "2026-11-03"
+    },
+    {
+     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
+     "data": "2026-10-11"
     },
     {
      "titolo": "China Boosts Gold Reserves as Prices Fall - Briefs Finance",
@@ -417,7 +417,7 @@
    "allarme": false,
    "punteggio": 0.0
   },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.27); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.28); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -778,6 +778,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro ribassista 55/100 | tassi/dollaro ultime 4h pro oro (+0.27); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro ribassista 55/100 | tassi/dollaro ultime 4h pro oro (+0.28); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
