@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-17T03:02:05Z",
+ "timestamp_utc": "2026-11-17T03:16:36Z",
  "bias": -0.288,
  "confidence": 0.577,
  "regime": "moderatamente sfavorevole",
@@ -61,7 +61,6 @@
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
   "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -71,35 +70,35 @@
   "intraday": {
    "tasso_reale_10y": {
     "ultimo": 2.93,
-    "ora": "2026-11-16T22:01:02.000-0500",
+    "ora": "2026-11-16T22:15:45.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.2,
+    "var_1h": 0.2,
     "var_4h": 1.3,
     "var_24h": 1.3
    },
    "tasso_10y": {
     "ultimo": 5.133,
-    "ora": "2026-11-16T22:00:45.000-0500",
+    "ora": "2026-11-16T22:15:35.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
+    "var_1h": 0.4,
     "var_4h": 0.4,
     "var_24h": 1.2
    },
    "tasso_2y": {
     "ultimo": 4.825,
-    "ora": "2026-11-16T22:01:02.000-0500",
+    "ora": "2026-11-16T22:14:28.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.2,
+    "var_1h": 0.2,
     "var_4h": -0.6,
     "var_24h": -0.2
    },
    "dollaro_dxy": {
-    "ultimo": 103.545,
-    "ora": "2026-11-16T22:01:19.000-0500",
+    "ultimo": 103.519,
+    "ora": "2026-11-16T22:15:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.09,
-    "var_4h": -0.016,
-    "var_24h": -0.004
+    "var_1h": -0.077,
+    "var_4h": -0.065,
+    "var_24h": -0.029
    },
    "vix": {
     "ultimo": 22.91,
@@ -110,36 +109,36 @@
     "var_24h": 3.61
    },
    "oro_futures": {
-    "ultimo": 3866.2,
-    "ora": "2026-11-16T21:51:07.000-0500",
+    "ultimo": 3873.4,
+    "ora": "2026-11-16T22:05:48.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.07,
-    "var_4h": 0.343,
-    "var_24h": 0.343
+    "var_1h": 0.158,
+    "var_4h": 0.412,
+    "var_24h": 0.529
    },
    "argento": {
-    "ultimo": 47.35,
-    "ora": "2026-11-16T21:51:20.000-0500",
+    "ultimo": 47.41,
+    "ora": "2026-11-16T22:05:45.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.36,
-    "var_4h": 1.048,
-    "var_24h": 1.048
+    "var_1h": 0.541,
+    "var_4h": 1.001,
+    "var_24h": 1.176
    },
    "petrolio_wti": {
-    "ultimo": 85.03,
-    "ora": "2026-11-16T21:51:08.000-0500",
+    "ultimo": 85.14,
+    "ora": "2026-11-16T22:05:44.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.129,
-    "var_4h": -0.805,
-    "var_24h": -0.805
+    "var_1h": 0.129,
+    "var_4h": -0.328,
+    "var_24h": -0.677
    },
    "rame": {
-    "ultimo": 5.99,
-    "ora": "2026-11-16T21:51:13.000-0500",
+    "ultimo": 5.9975,
+    "ora": "2026-11-16T22:05:48.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.008,
-    "var_4h": -0.291,
-    "var_24h": -0.291
+    "var_1h": 0.108,
+    "var_4h": 0.175,
+    "var_24h": -0.166
    },
    "gld": {
     "ultimo": 352.93,
@@ -151,22 +150,22 @@
    },
    "usdcny": {
     "ultimo": 6.665,
-    "ora": "2026-11-16T22:01:00.000-0500",
+    "ora": "2026-11-16T22:15:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": -0.005,
     "var_24h": 0.012
    },
-   "punteggio_4h": -0.123,
-   "punteggio_24h": -0.008,
-   "rapporto_oro_argento": 81.65
+   "punteggio_4h": -0.043,
+   "punteggio_24h": 0.013,
+   "rapporto_oro_argento": 81.7
   },
   "etf": {
-   "gld_tonnellate_stimate": 1036.6,
+   "gld_tonnellate_stimate": 1034.7,
    "data": "2026-11-17",
    "giorni_di_storico": 9,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -1.0,
+   "flusso_5g_t": -2.9,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -372,6 +371,13 @@
    "variazione_4sett_pct_oi": 0.7,
    "flusso_z": 0.24,
    "punteggio_flusso": 0.161
+  },
+  "geopolitica": {
+   "intensita_24h": 2.5924,
+   "media_30g": 3.236,
+   "z": -0.89,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "tagli Fed prezzati in calo"
  },
