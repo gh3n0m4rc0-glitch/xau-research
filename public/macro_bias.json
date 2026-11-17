@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-17T13:16:31Z",
+ "timestamp_utc": "2026-11-17T13:31:55Z",
  "bias": -0.288,
  "confidence": 0.577,
  "regime": "moderatamente sfavorevole",
@@ -20,24 +20,6 @@
  "data_age_days": 1,
  "pre_news": [],
  "upcoming_events": [
-  {
-   "time_utc": "2026-11-17T13:30:00Z",
-   "currency": "USD",
-   "impact": "High",
-   "title": "Core Retail Sales m/m",
-   "tier": 2,
-   "forecast": "0.4%",
-   "previous": "0.9%"
-  },
-  {
-   "time_utc": "2026-11-17T13:30:00Z",
-   "currency": "USD",
-   "impact": "High",
-   "title": "Retail Sales m/m",
-   "tier": 2,
-   "forecast": "0.1%",
-   "previous": "0.8%"
-  },
   {
    "time_utc": "2026-11-18T19:00:00Z",
    "currency": "USD",
@@ -69,76 +51,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.908,
-    "ora": "2026-11-17T08:15:06.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": 0.2,
-    "var_4h": 1.4,
-    "var_24h": -0.9
-   },
-   "tasso_10y": {
-    "ultimo": 5.121,
-    "ora": "2026-11-17T08:15:45.000-0500",
+    "ultimo": 2.909,
+    "ora": "2026-11-17T08:31:03.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.4,
-    "var_4h": 1.8,
-    "var_24h": 0.0
+    "var_4h": 2.6,
+    "var_24h": -0.8
    },
-   "tasso_2y": {
-    "ultimo": 4.825,
-    "ora": "2026-11-17T08:15:45.000-0500",
+   "tasso_10y": {
+    "ultimo": 5.129,
+    "ora": "2026-11-17T08:31:06.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 1.2,
-    "var_4h": 2.7,
-    "var_24h": -0.2
+    "var_4h": 3.6,
+    "var_24h": 0.8
+   },
+   "tasso_2y": {
+    "ultimo": 4.838,
+    "ora": "2026-11-17T08:31:05.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": 2.1,
+    "var_4h": 5.5,
+    "var_24h": 1.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.625,
-    "ora": "2026-11-17T08:15:48.000-0500",
+    "ultimo": 103.671,
+    "ora": "2026-11-17T08:31:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.034,
-    "var_4h": 0.145,
-    "var_24h": 0.073
+    "var_1h": 0.058,
+    "var_4h": 0.19,
+    "var_24h": 0.118
    },
    "vix": {
-    "ultimo": 22.79,
-    "ora": "2026-11-17T08:15:46.000-0500",
+    "ultimo": 22.91,
+    "ora": "2026-11-17T08:31:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.16,
-    "var_4h": -1.23,
-    "var_24h": -0.12
+    "var_1h": 0.22,
+    "var_4h": -1.22,
+    "var_24h": 0.0
    },
    "oro_futures": {
-    "ultimo": 3863.4,
-    "ora": "2026-11-17T08:05:45.000-0500",
+    "ultimo": 3856.5,
+    "ora": "2026-11-17T08:21:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.178,
-    "var_4h": -0.214,
-    "var_24h": 0.27
+    "var_1h": -0.238,
+    "var_4h": -0.181,
+    "var_24h": 0.091
    },
    "argento": {
-    "ultimo": 47.655,
-    "ora": "2026-11-17T08:05:39.000-0500",
+    "ultimo": 47.455,
+    "ora": "2026-11-17T08:21:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.147,
-    "var_4h": 0.761,
-    "var_24h": 1.699
+    "var_1h": -0.231,
+    "var_4h": 0.317,
+    "var_24h": 1.272
    },
    "petrolio_wti": {
-    "ultimo": 86.4,
-    "ora": "2026-11-17T08:05:47.000-0500",
+    "ultimo": 86.54,
+    "ora": "2026-11-17T08:21:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.29,
-    "var_4h": 0.699,
-    "var_24h": 0.793
+    "var_1h": 0.371,
+    "var_4h": 0.98,
+    "var_24h": 0.957
    },
    "rame": {
-    "ultimo": 5.981,
-    "ora": "2026-11-17T08:05:39.000-0500",
+    "ultimo": 5.9735,
+    "ora": "2026-11-17T08:20:57.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.025,
-    "var_4h": 0.05,
-    "var_24h": -0.441
+    "var_1h": -0.159,
+    "var_4h": -0.042,
+    "var_24h": -0.566
    },
    "gld": {
     "ultimo": 352.93,
@@ -152,23 +134,39 @@
     "ultimo": 6.6658,
     "ora": "2026-11-17T08:11:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.003,
-    "var_4h": 0.014,
+    "var_1h": -0.002,
+    "var_4h": 0.012,
     "var_24h": 0.024
    },
-   "punteggio_4h": -0.308,
-   "punteggio_24h": 0.01,
-   "rapporto_oro_argento": 81.07
+   "punteggio_4h": -0.432,
+   "punteggio_24h": -0.023,
+   "rapporto_oro_argento": 81.27
   },
   "etf": {
-   "gld_tonnellate_stimate": 1041.1,
+   "gld_tonnellate_stimate": 1042.9,
    "data": "2026-11-17",
    "giorni_di_storico": 9,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 3.5,
+   "flusso_5g_t": 5.3,
    "flusso_20g_t": null,
    "punteggio": null
   },
+  "dati_usciti": [
+   {
+    "evento": "Core Retail Sales m/m",
+    "ora_utc": "2026-11-17T13:30:00Z",
+    "previsione": "0.4%",
+    "fonte": "fred RSFSXMV",
+    "stato": "dato non ancora disponibile alla fonte"
+   },
+   {
+    "evento": "Retail Sales m/m",
+    "ora_utc": "2026-11-17T13:30:00Z",
+    "previsione": "0.1%",
+    "fonte": "fred RSAFS",
+    "stato": "dato non ancora disponibile alla fonte"
+   }
+  ],
   "nowcast_inflazione": {
    "fonte": "Cleveland Fed",
    "mese_corrente": "2026-11",
@@ -411,7 +409,7 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.31); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.43); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -685,15 +683,6 @@
   ],
   "prossimi_eventi": [
    {
-    "quando": "2026-11-17T13:30:00Z",
-    "evento": "Vendite al dettaglio USA (ottobre)",
-    "impatto": "alto",
-    "previsione": "+0,2%",
-    "precedente": "+0,8%",
-    "perche": "consumi forti = Fed più dura",
-    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
-   },
-   {
     "quando": "2026-11-17T14:10:00Z",
     "evento": "Parla Waller (Fed)",
     "impatto": "medio",
@@ -755,6 +744,15 @@
     "precedente": "",
     "perche": "asta debole = rendimenti su",
     "mercati": "XAUUSD US100 US30"
+   },
+   {
+    "quando": "2026-11-18T19:00:00Z",
+    "evento": "Verbali della riunione Fed del 28 ottobre",
+    "impatto": "alto",
+    "previsione": "",
+    "precedente": "",
+    "perche": "quanti volevano già alzare",
+    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
    }
   ],
   "fonti_prezzi": {
@@ -772,6 +770,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro ribassista 55/100 | tassi/dollaro ultime 4h contro oro (-0.31); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro ribassista 55/100 | tassi/dollaro ultime 4h contro oro (-0.43); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
