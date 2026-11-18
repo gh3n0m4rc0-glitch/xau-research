@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-18T23:31:50Z",
+ "timestamp_utc": "2026-11-18T23:35:06Z",
  "bias": -0.137,
  "confidence": 0.075,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -41,83 +40,83 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.877,
-    "ora": "2026-11-18T16:59:01.000-0500",
+    "ultimo": 2.879,
+    "ora": "2026-11-18T18:33:19.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
-    "var_4h": 1.9,
-    "var_24h": -0.7
+    "var_1h": 0.2,
+    "var_4h": 1.5,
+    "var_24h": 0.2
    },
    "tasso_10y": {
-    "ultimo": 5.07,
-    "ora": "2026-11-18T17:01:33.000-0500",
+    "ultimo": 5.074,
+    "ora": "2026-11-18T18:33:03.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
+    "var_1h": 0.4,
     "var_4h": 0.6,
-    "var_24h": -3.3
+    "var_24h": 0.8
    },
    "tasso_2y": {
-    "ultimo": 4.811,
-    "ora": "2026-11-18T17:01:05.000-0500",
+    "ultimo": 4.815,
+    "ora": "2026-11-18T18:34:20.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.7,
+    "var_1h": 1.1,
     "var_4h": 1.5,
-    "var_24h": 2.2
+    "var_24h": 1.5
    },
    "dollaro_dxy": {
-    "ultimo": 103.799,
-    "ora": "2026-11-18T17:01:26.000-0500",
+    "ultimo": 103.863,
+    "ora": "2026-11-18",
     "unita_variazioni": "%",
-    "var_1h": 0.016,
-    "var_4h": -0.035,
-    "var_24h": 0.303
+    "var_1h": 0.078,
+    "var_4h": 0.013,
+    "var_24h": 0.0
    },
    "vix": {
     "ultimo": 24.56,
     "ora": "2026-11-18T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": 0.31,
+    "var_4h": 0.26,
     "var_24h": -0.9
    },
    "oro_futures": {
-    "ultimo": 3727.1,
-    "ora": "2026-11-18T16:51:08.000-0500",
+    "ultimo": 3741.8,
+    "ora": "2026-11-18T18:24:28.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.019,
-    "var_4h": -0.23,
-    "var_24h": -3.548
+    "var_1h": 0.376,
+    "var_4h": 0.271,
+    "var_24h": -0.003
    },
    "argento": {
-    "ultimo": 44.975,
-    "ora": "2026-11-18T16:51:13.000-0500",
+    "ultimo": 45.375,
+    "ora": "2026-11-18T18:24:31.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": -0.2,
-    "var_24h": -5.03
+    "var_1h": 0.889,
+    "var_4h": 0.856,
+    "var_24h": 0.701
    },
    "petrolio_wti": {
-    "ultimo": 82.96,
-    "ora": "2026-11-18T16:51:19.000-0500",
+    "ultimo": 83.01,
+    "ora": "2026-11-18T18:24:26.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.109,
-    "var_4h": 0.193,
-    "var_24h": -3.546
+    "var_1h": 0.169,
+    "var_4h": -0.192,
+    "var_24h": -0.3
    },
    "rame": {
-    "ultimo": 5.6705,
-    "ora": "2026-11-18T16:51:13.000-0500",
+    "ultimo": 5.6795,
+    "ora": "2026-11-18T18:24:30.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.141,
-    "var_4h": -0.141,
-    "var_24h": -5.271
+    "var_1h": 0.3,
+    "var_4h": 0.097,
+    "var_24h": 0.194
    },
    "gld": {
     "ultimo": 341.19,
     "ora": "2026-11-18T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.138,
+    "var_4h": -0.07,
     "var_24h": -3.203
    },
    "usdcny": {
@@ -128,16 +127,16 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.073,
-   "punteggio_24h": -0.239,
-   "rapporto_oro_argento": 82.87
+   "punteggio_4h": -0.127,
+   "punteggio_24h": -0.056,
+   "rapporto_oro_argento": 82.46
   },
   "etf": {
-   "gld_tonnellate_stimate": 1043.3,
+   "gld_tonnellate_stimate": 1039.2,
    "data": "2026-11-18",
    "giorni_di_storico": 10,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 1.8,
+   "flusso_5g_t": -2.3,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -384,6 +383,13 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
+  "geopolitica": {
+   "intensita_24h": 2.5924,
+   "media_30g": 3.2531,
+   "z": -0.9,
+   "allarme": false,
+   "punteggio": 0.0
+  },
   "sintesi": "nessun segnale extra forte"
  },
  "terminale": {
@@ -398,9 +404,9 @@
     "convinzione": 55,
     "frase": "Fed verso il rialzo e dollaro forte pesano sull'oro, ma i fondi hanno già venduto molto.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 4.000 $ oppure verbali Fed e Warsh meno duri del previsto",
-    "ultimo_prezzo": 3729.8,
-    "ultimo_prezzo_data": "2026-11-18",
-    "da_venerdi_pct": -4.06,
+    "ultimo_prezzo": 3742.9,
+    "ultimo_prezzo_data": "2026-11-19",
+    "da_venerdi_pct": -3.72,
     "cot": {
      "data": "2026-11-10",
      "netto": 112341,
@@ -453,8 +459,8 @@
     "convinzione": 50,
     "frase": "La Fed alza e la BCE no: l'euro scende da quattro settimane.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 1,1150 oppure verbali Fed meno duri",
-    "ultimo_prezzo": 1.0972,
-    "ultimo_prezzo_data": "2026-11-18",
+    "ultimo_prezzo": 1.0973,
+    "ultimo_prezzo_data": "2026-11-19",
     "da_venerdi_pct": -0.44,
     "cot": {
      "data": "2026-11-10",
@@ -473,7 +479,7 @@
     "frase": "Banca d'Inghilterra contro Fed, entrambe alzano: decide l'inflazione inglese di mercoledì.",
     "cosa_lo_smentisce": "CPI inglese sopra 3,7% = rialzista; sotto 3,4% = ribassista",
     "ultimo_prezzo": 1.3144,
-    "ultimo_prezzo_data": "2026-11-18",
+    "ultimo_prezzo_data": "2026-11-19",
     "da_venerdi_pct": -0.54,
     "cot": {
      "data": "2026-11-10",
@@ -491,9 +497,9 @@
     "convinzione": 40,
     "frase": "Il dollaro rende molto più dello yen, ma a 160 il Giappone può intervenire.",
     "cosa_lo_smentisce": "intervento del Giappone oppure chiusura sotto 157,50",
-    "ultimo_prezzo": 159.36,
-    "ultimo_prezzo_data": "2026-11-18",
-    "da_venerdi_pct": -0.19,
+    "ultimo_prezzo": 159.38,
+    "ultimo_prezzo_data": "2026-11-19",
+    "da_venerdi_pct": -0.18,
     "cot": {
      "data": "2026-11-10",
      "netto": 16855,
@@ -571,8 +577,8 @@
     "mercato": "XAUUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-18",
-    "da_allora_pct": -14.23,
+    "fino_a": "2026-11-19",
+    "da_allora_pct": -13.93,
     "esito": "conferma"
    },
    {
@@ -598,8 +604,8 @@
     "mercato": "EURUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-18",
-    "da_allora_pct": -5.45,
+    "fino_a": "2026-11-19",
+    "da_allora_pct": -5.44,
     "esito": "conferma"
    },
    {
@@ -607,7 +613,7 @@
     "mercato": "GBPUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-18",
+    "fino_a": "2026-11-19",
     "da_allora_pct": -2.81,
     "esito": "conferma"
    },
@@ -616,8 +622,8 @@
     "mercato": "USDJPY",
     "atteso": "su",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-18",
-    "da_allora_pct": 3.68,
+    "fino_a": "2026-11-19",
+    "da_allora_pct": 3.69,
     "esito": "conferma"
    },
    {
@@ -625,8 +631,8 @@
     "mercato": "EURUSD",
     "atteso": "su",
     "dal": "2026-09-04",
-    "fino_a": "2026-11-18",
-    "da_allora_pct": -5.56,
+    "fino_a": "2026-11-19",
+    "da_allora_pct": -5.55,
     "esito": "smentisce"
    },
    {
@@ -634,7 +640,7 @@
     "mercato": "GBPUSD",
     "atteso": "su",
     "dal": "2026-10-30",
-    "fino_a": "2026-11-18",
+    "fino_a": "2026-11-19",
     "da_allora_pct": -1.9,
     "esito": "smentisce"
    },
@@ -643,8 +649,8 @@
     "mercato": "USDJPY",
     "atteso": "giu",
     "dal": "2026-10-23",
-    "fino_a": "2026-11-18",
-    "da_allora_pct": 1.59,
+    "fino_a": "2026-11-19",
+    "da_allora_pct": 1.6,
     "esito": "smentisce"
    }
   ],
@@ -729,9 +735,9 @@
    "GBPUSD": "FRED+CNBC",
    "USDJPY": "FRED+CNBC"
   },
-  "dati_presi_utc": "2026-11-18T21:31:08Z",
+  "dati_presi_utc": "2026-11-18T23:34:29Z",
   "sintesi": "Terminale: oro ribassista 55/100",
-  "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, da venerdi' -4.06%, COT fondi 33° pct. US100: neutro 35/100, da venerdi' -2.96%, COT fondi 100° pct. US30: rialzista 45/100, da venerdi' -4.11%, COT fondi 61° pct. EURUSD: ribassista 50/100, da venerdi' -0.44%, COT fondi 1° pct. GBPUSD: neutro 35/100, da venerdi' -0.54%, COT fondi 57° pct. USDJPY: rialzista 40/100, da venerdi' -0.19%, COT fondi 26° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
+  "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, da venerdi' -3.72%, COT fondi 33° pct. US100: neutro 35/100, da venerdi' -2.96%, COT fondi 100° pct. US30: rialzista 45/100, da venerdi' -4.11%, COT fondi 61° pct. EURUSD: ribassista 50/100, da venerdi' -0.44%, COT fondi 1° pct. GBPUSD: neutro 35/100, da venerdi' -0.54%, COT fondi 57° pct. USDJPY: rialzista 40/100, da venerdi' -0.18%, COT fondi 26° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
  },
  "news_giudicate": false,
