@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-18T22:31:58Z",
+ "timestamp_utc": "2026-11-18T22:46:28Z",
  "bias": -0.137,
  "confidence": 0.075,
  "regime": "moderatamente sfavorevole",
@@ -44,7 +44,7 @@
     "ultimo": 2.877,
     "ora": "2026-11-18T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.1,
+    "var_1h": 0.0,
     "var_4h": 2.4,
     "var_24h": -0.7
    },
@@ -52,7 +52,7 @@
     "ultimo": 5.07,
     "ora": "2026-11-18T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
+    "var_1h": -0.2,
     "var_4h": 1.0,
     "var_24h": -3.3
    },
@@ -60,15 +60,15 @@
     "ultimo": 4.804,
     "ora": "2026-11-18T17:05:00.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.2,
+    "var_1h": 0.0,
     "var_4h": 2.1,
     "var_24h": 1.5
    },
    "dollaro_dxy": {
     "ultimo": 103.782,
-    "ora": "2026-11-18T17:31:12.000-0500",
+    "ora": "2026-11-18T17:45:49.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.012,
+    "var_1h": -0.02,
     "var_4h": 0.021,
     "var_24h": 0.287
    },
@@ -84,7 +84,7 @@
     "ultimo": 3727.8,
     "ora": "2026-11-18T16:59:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.019,
+    "var_1h": -0.029,
     "var_4h": -0.348,
     "var_24h": -3.53
    },
@@ -92,7 +92,7 @@
     "ultimo": 44.975,
     "ora": "2026-11-18T16:59:40.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.022,
+    "var_1h": -0.133,
     "var_4h": -0.011,
     "var_24h": -5.03
    },
@@ -100,7 +100,7 @@
     "ultimo": 82.87,
     "ora": "2026-11-18T16:59:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.109,
+    "var_1h": -0.301,
     "var_4h": 0.791,
     "var_24h": -3.651
    },
@@ -108,7 +108,7 @@
     "ultimo": 5.6625,
     "ora": "2026-11-18T16:59:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.176,
+    "var_1h": -0.211,
     "var_4h": -0.387,
     "var_24h": -5.404
    },
@@ -348,8 +348,8 @@
   "banche_centrali": {
    "titoli_45g": [
     {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
     },
     {
      "titolo": "China buys gold for two straight years as central bank demand remains a key pillar of support - Kitco",
@@ -360,8 +360,8 @@
      "data": "2026-11-17"
     },
     {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
     },
     {
      "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
