@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-18T06:46:24Z",
+ "timestamp_utc": "2026-11-18T07:02:06Z",
  "bias": -0.3,
  "confidence": 0.519,
  "regime": "sfavorevole: reali e dollaro in salita",
@@ -51,36 +51,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.881,
-    "ora": "2026-11-18T01:45:19.000-0500",
+    "ultimo": 2.868,
+    "ora": "2026-11-18T02:00:53.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.7,
-    "var_4h": 0.3,
-    "var_24h": -0.3
+    "var_1h": -0.8,
+    "var_4h": -1.0,
+    "var_24h": -1.6
    },
    "tasso_10y": {
-    "ultimo": 5.097,
-    "ora": "2026-11-18T01:45:21.000-0500",
+    "ultimo": 5.091,
+    "ora": "2026-11-18T02:01:12.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.8,
-    "var_4h": 0.4,
-    "var_24h": -0.6
+    "var_1h": 0.0,
+    "var_4h": -0.2,
+    "var_24h": -1.2
    },
    "tasso_2y": {
-    "ultimo": 4.796,
-    "ora": "2026-11-18T01:44:50.000-0500",
+    "ultimo": 4.791,
+    "ora": "2026-11-18T02:01:01.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.5,
-    "var_4h": 0.0,
-    "var_24h": 0.7
+    "var_1h": 0.0,
+    "var_4h": -0.5,
+    "var_24h": 0.2
    },
    "dollaro_dxy": {
-    "ultimo": 103.689,
-    "ora": "2026-11-18T01:45:46.000-0500",
+    "ultimo": 103.695,
+    "ora": "2026-11-18T02:01:18.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.016,
-    "var_4h": 0.088,
-    "var_24h": 0.197
+    "var_1h": 0.037,
+    "var_4h": 0.094,
+    "var_24h": 0.203
    },
    "vix": {
     "ultimo": 25.46,
@@ -88,39 +88,39 @@
     "unita_variazioni": "punti",
     "var_1h": 0.0,
     "var_4h": 0.0,
-    "var_24h": 2.55
+    "var_24h": 0.0
    },
    "oro_futures": {
-    "ultimo": 3780.9,
-    "ora": "2026-11-18T01:35:42.000-0500",
+    "ultimo": 3779.9,
+    "ora": "2026-11-18T01:51:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.319,
-    "var_4h": -0.605,
-    "var_24h": -2.156
+    "var_1h": -0.351,
+    "var_4h": -0.631,
+    "var_24h": -2.182
    },
    "argento": {
-    "ultimo": 45.865,
-    "ora": "2026-11-18T01:35:43.000-0500",
+    "ultimo": 45.945,
+    "ora": "2026-11-18T01:51:13.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.402,
-    "var_4h": -0.564,
-    "var_24h": -3.151
+    "var_1h": -0.498,
+    "var_4h": -0.39,
+    "var_24h": -2.982
    },
    "petrolio_wti": {
-    "ultimo": 84.45,
-    "ora": "2026-11-18T01:35:03.000-0500",
+    "ultimo": 84.3,
+    "ora": "2026-11-18T01:51:14.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.635,
-    "var_4h": -0.822,
-    "var_24h": -1.814
+    "var_1h": -0.613,
+    "var_4h": -0.998,
+    "var_24h": -1.988
    },
    "rame": {
-    "ultimo": 5.813,
-    "ora": "2026-11-18T01:35:38.000-0500",
+    "ultimo": 5.8205,
+    "ora": "2026-11-18T01:51:13.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.441,
-    "var_4h": -2.187,
-    "var_24h": -2.89
+    "var_1h": -0.818,
+    "var_4h": -2.061,
+    "var_24h": -2.765
    },
    "gld": {
     "ultimo": 352.48,
@@ -132,22 +132,22 @@
    },
    "usdcny": {
     "ultimo": 6.6658,
-    "ora": "2026-11-18T01:45:00.000-0500",
+    "ora": "2026-11-18T02:01:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.008,
+    "var_1h": 0.002,
     "var_4h": -0.027,
     "var_24h": -0.002
    },
-   "punteggio_4h": -0.171,
-   "punteggio_24h": -0.097,
-   "rapporto_oro_argento": 82.44
+   "punteggio_4h": -0.081,
+   "punteggio_24h": -0.112,
+   "rapporto_oro_argento": 82.27
   },
   "etf": {
-   "gld_tonnellate_stimate": 1062.4,
+   "gld_tonnellate_stimate": 1062.7,
    "data": "2026-11-18",
    "giorni_di_storico": 10,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 21.0,
+   "flusso_5g_t": 21.3,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -688,15 +688,6 @@
   ],
   "prossimi_eventi": [
    {
-    "quando": "2026-11-18T07:00:00Z",
-    "evento": "Inflazione Regno Unito (ottobre)",
-    "impatto": "alto",
-    "previsione": "3,6%",
-    "precedente": "3,5%",
-    "perche": "sopra le attese = sterlina su",
-    "mercati": "GBPUSD"
-   },
-   {
     "quando": "2026-11-18T07:30:00Z",
     "evento": "Parla Bailey (BoE), due volte",
     "impatto": "alto",
@@ -757,6 +748,15 @@
     "previsione": "2,3%",
     "precedente": "2,1%",
     "perche": "più alta = rialzo BoJ più vicino",
+    "mercati": "USDJPY"
+   },
+   {
+    "quando": "2026-11-20T00:55:00Z",
+    "evento": "Giorno gotobi, fixing di Tokyo (9:55)",
+    "impatto": "basso",
+    "previsione": "",
+    "precedente": "",
+    "perche": "nello studio indici il cambio tende a scendere fino alle 10:20 di Tokyo",
     "mercati": "USDJPY"
    }
   ],
