@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-19T23:16:36Z",
+ "timestamp_utc": "2026-11-19T23:31:47Z",
  "bias": -0.164,
  "confidence": 0.182,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "Fed NY EFFR: Expecting value: line 1 column 1 (char 0)",
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -41,36 +41,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.862,
-    "ora": "2026-11-19T17:05:00.000-0500",
+    "ultimo": 2.859,
+    "ora": "2026-11-19T18:30:32.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
-    "var_4h": -0.3,
-    "var_24h": 0.0
+    "var_1h": -0.3,
+    "var_4h": -0.6,
+    "var_24h": -0.3
    },
    "tasso_10y": {
     "ultimo": 5.05,
-    "ora": "2026-11-19T17:05:00.000-0500",
+    "ora": "2026-11-19T18:30:30.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
     "var_4h": -0.8,
     "var_24h": -0.2
    },
    "tasso_2y": {
-    "ultimo": 4.77,
-    "ora": "2026-11-19T17:05:00.000-0500",
+    "ultimo": 4.771,
+    "ora": "2026-11-19T18:30:06.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
-    "var_4h": -0.7,
-    "var_24h": -0.9
+    "var_1h": 0.1,
+    "var_4h": -0.6,
+    "var_24h": -0.8
    },
    "dollaro_dxy": {
-    "ultimo": 103.924,
-    "ora": "2026-11-19T18:05:00.000-0500",
+    "ultimo": 103.895,
+    "ora": "2026-11-19",
     "unita_variazioni": "%",
-    "var_1h": -0.009,
-    "var_4h": 0.039,
-    "var_24h": 0.059
+    "var_1h": -0.034,
+    "var_4h": 0.011,
+    "var_24h": 0.0
    },
    "vix": {
     "ultimo": 28.44,
@@ -81,20 +81,20 @@
     "var_24h": 3.88
    },
    "oro_futures": {
-    "ultimo": 3635.2,
-    "ora": "2026-11-19T18:05:50.000-0500",
+    "ultimo": 3629.7,
+    "ora": "2026-11-19T18:20:58.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.223,
-    "var_4h": -1.105,
-    "var_24h": -1.365
+    "var_1h": 0.05,
+    "var_4h": -1.254,
+    "var_24h": -1.514
    },
    "argento": {
-    "ultimo": 43.1,
-    "ora": "2026-11-19T18:05:40.000-0500",
+    "ultimo": 42.9,
+    "ora": "2026-11-19T18:20:50.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.607,
-    "var_4h": -2.522,
-    "var_24h": -2.838
+    "var_1h": 0.152,
+    "var_4h": -2.974,
+    "var_24h": -3.289
    },
    "petrolio_wti": {
     "ultimo": 83.21,
@@ -105,12 +105,12 @@
     "var_24h": 0.0
    },
    "rame": {
-    "ultimo": 5.58,
-    "ora": "2026-11-19T18:05:51.000-0500",
+    "ultimo": 5.574,
+    "ora": "2026-11-19T18:20:54.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.072,
-    "var_4h": -0.668,
-    "var_24h": -0.95
+    "var_1h": -0.322,
+    "var_4h": -0.774,
+    "var_24h": -1.056
    },
    "gld": {
     "ultimo": 335.18,
@@ -128,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.031,
-   "punteggio_24h": 0.047,
-   "rapporto_oro_argento": 84.34
+   "punteggio_4h": 0.023,
+   "punteggio_24h": 0.101,
+   "rapporto_oro_argento": 84.61
   },
   "etf": {
-   "gld_tonnellate_stimate": 1052.5,
+   "gld_tonnellate_stimate": 1054.1,
    "data": "2026-11-19",
    "giorni_di_storico": 11,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 13.1,
+   "flusso_5g_t": 14.7,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -180,7 +180,10 @@
   "aspettative_fed": {
    "effr": 3.88,
    "data_effr": "2026-11-18",
-   "forchetta_fed": null,
+   "forchetta_fed": [
+    3.75,
+    4.0
+   ],
    "tagli_prezzati_3m": -1.84,
    "variazione_20g_3m": -0.36,
    "tagli_prezzati_6m": -2.16,
@@ -331,12 +334,24 @@
   "banche_centrali": {
    "titoli_45g": [
     {
+     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
+     "data": "2026-11-19"
+    },
+    {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
     },
     {
      "titolo": "China buys gold for two straight years as central bank demand remains a key pillar of support - Kitco",
      "data": "2026-11-10"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
+    },
+    {
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     },
     {
      "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
@@ -349,30 +364,11 @@
     {
      "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
      "data": "2026-10-07"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-10-06"
-    },
-    {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
-    },
-    {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
-     "data": "2026-11-03"
     }
    ],
-   "pboc_mesi_di_acquisti": null,
+   "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 3.244,
-   "media_30g": 3.1001,
-   "z": 0.17,
-   "allarme": false,
-   "punteggio": 0.082
   },
   "sintesi": "nessun segnale extra forte"
  },
@@ -647,15 +643,6 @@
    "Date da segnare: lunedì Warsh, martedì vendite USA e Nvidia, mercoledì inflazione inglese e verbali Fed."
   ],
   "prossimi_eventi": [
-   {
-    "quando": "2026-11-19T23:30:00Z",
-    "evento": "Inflazione Giappone (ottobre)",
-    "impatto": "medio",
-    "previsione": "2,3%",
-    "precedente": "2,1%",
-    "perche": "più alta = rialzo BoJ più vicino",
-    "mercati": "USDJPY"
-   },
    {
     "quando": "2026-11-20T00:55:00Z",
     "evento": "Giorno gotobi, fixing di Tokyo (9:55)",
