@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-19T19:46:28Z",
+ "timestamp_utc": "2026-11-19T20:02:13Z",
  "bias": -0.137,
  "confidence": 0.075,
  "regime": "moderatamente sfavorevole",
@@ -41,84 +41,84 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.869,
-    "ora": "2026-11-19T14:45:35.000-0500",
+    "ultimo": 2.857,
+    "ora": "2026-11-19T15:01:01.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.1,
-    "var_4h": -0.4,
-    "var_24h": -0.8
+    "var_1h": -0.5,
+    "var_4h": -1.6,
+    "var_24h": -2.0
    },
    "tasso_10y": {
-    "ultimo": 5.06,
-    "ora": "2026-11-19T14:45:46.000-0500",
+    "ultimo": 5.046,
+    "ora": "2026-11-19T15:01:06.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.4,
-    "var_4h": -0.6,
-    "var_24h": -0.6
+    "var_1h": -0.6,
+    "var_4h": -2.0,
+    "var_24h": -2.0
    },
    "tasso_2y": {
-    "ultimo": 4.785,
-    "ora": "2026-11-19T14:45:26.000-0500",
+    "ultimo": 4.772,
+    "ora": "2026-11-19T15:01:05.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.6,
-    "var_4h": -2.2,
-    "var_24h": -1.5
+    "var_1h": 0.0,
+    "var_4h": -3.5,
+    "var_24h": -2.8
    },
    "dollaro_dxy": {
-    "ultimo": 103.889,
-    "ora": "2026-11-19T14:45:48.000-0500",
+    "ultimo": 103.887,
+    "ora": "2026-11-19T15:01:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.018,
-    "var_4h": 0.089,
-    "var_24h": 0.025
+    "var_1h": 0.039,
+    "var_4h": 0.087,
+    "var_24h": 0.023
    },
    "vix": {
-    "ultimo": 27.01,
-    "ora": "2026-11-19T14:45:46.000-0500",
+    "ultimo": 28.4,
+    "ora": "2026-11-19T15:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.01,
-    "var_4h": 1.54,
-    "var_24h": 2.45
+    "var_1h": 1.35,
+    "var_4h": 2.93,
+    "var_24h": 3.84
    },
    "oro_futures": {
-    "ultimo": 3677.9,
-    "ora": "2026-11-19T14:35:38.000-0500",
+    "ultimo": 3668.2,
+    "ora": "2026-11-19T14:51:14.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.046,
-    "var_4h": -0.225,
-    "var_24h": -1.71
+    "var_1h": -0.426,
+    "var_4h": -0.488,
+    "var_24h": -1.97
    },
    "argento": {
-    "ultimo": 44.23,
-    "ora": "2026-11-19T14:35:35.000-0500",
+    "ultimo": 44.035,
+    "ora": "2026-11-19T14:51:11.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.293,
-    "var_4h": -0.763,
-    "var_24h": -1.84
+    "var_1h": -0.867,
+    "var_4h": -1.2,
+    "var_24h": -2.273
    },
    "petrolio_wti": {
-    "ultimo": 83.38,
-    "ora": "2026-11-19T14:33:01.000-0500",
+    "ultimo": 83.68,
+    "ora": "2026-11-19T14:51:03.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.891,
-    "var_4h": -0.679,
-    "var_24h": 0.144
+    "var_1h": -0.582,
+    "var_4h": -0.322,
+    "var_24h": 0.504
    },
    "rame": {
-    "ultimo": 5.6325,
-    "ora": "2026-11-19T14:35:30.000-0500",
+    "ultimo": 5.6215,
+    "ora": "2026-11-19T14:51:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.231,
-    "var_4h": -0.213,
-    "var_24h": -0.635
+    "var_1h": -0.301,
+    "var_4h": -0.407,
+    "var_24h": -0.829
    },
    "gld": {
-    "ultimo": 336.48,
-    "ora": "2026-11-19T14:45:45.323-0500",
+    "ultimo": 335.44,
+    "ora": "2026-11-19T15:01:16.361-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.273,
-    "var_4h": -0.441,
-    "var_24h": -1.38
+    "var_1h": -0.469,
+    "var_4h": -0.749,
+    "var_24h": -1.685
    },
    "usdcny": {
     "ultimo": 6.6665,
@@ -128,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": -0.016
    },
-   "punteggio_4h": -0.028,
-   "punteggio_24h": 0.096,
-   "rapporto_oro_argento": 83.15
+   "punteggio_4h": 0.121,
+   "punteggio_24h": 0.192,
+   "rapporto_oro_argento": 83.3
   },
   "etf": {
-   "gld_tonnellate_stimate": 1044.3,
+   "gld_tonnellate_stimate": 1043.8,
    "data": "2026-11-19",
    "giorni_di_storico": 11,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 4.9,
+   "flusso_5g_t": 4.4,
    "flusso_20g_t": null,
    "punteggio": null
   },
