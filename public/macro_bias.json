@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-19T11:02:24Z",
+ "timestamp_utc": "2026-11-19T11:16:32Z",
  "bias": -0.137,
  "confidence": 0.075,
  "regime": "moderatamente sfavorevole",
@@ -40,76 +40,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.895,
-    "ora": "2026-11-19T06:01:08.000-0500",
+    "ultimo": 2.897,
+    "ora": "2026-11-19T05:44:41.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.1,
-    "var_4h": 1.1,
-    "var_24h": 1.8
+    "var_1h": 0.2,
+    "var_4h": 1.8,
+    "var_24h": 2.0
    },
    "tasso_10y": {
     "ultimo": 5.089,
-    "ora": "2026-11-19T06:01:27.000-0500",
+    "ora": "2026-11-19T05:45:37.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.2,
-    "var_4h": 2.1,
+    "var_4h": 1.7,
     "var_24h": 2.3
    },
    "tasso_2y": {
-    "ultimo": 4.815,
-    "ora": "2026-11-19T06:01:27.000-0500",
+    "ultimo": 4.817,
+    "ora": "2026-11-19T05:43:25.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.2,
+    "var_1h": 0.2,
     "var_4h": 1.3,
-    "var_24h": 1.5
+    "var_24h": 1.7
    },
    "dollaro_dxy": {
-    "ultimo": 103.61,
-    "ora": "2026-11-19T06:01:29.000-0500",
+    "ultimo": 103.602,
+    "ora": "2026-11-19T05:45:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.108,
-    "var_4h": -0.246,
-    "var_24h": -0.244
+    "var_1h": -0.077,
+    "var_4h": -0.198,
+    "var_24h": -0.251
    },
    "vix": {
-    "ultimo": 22.0,
-    "ora": "2026-11-19T06:01:16.000-0500",
+    "ultimo": 22.05,
+    "ora": "2026-11-19T05:45:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.29,
-    "var_4h": -2.56,
-    "var_24h": -2.56
+    "var_1h": -0.11,
+    "var_4h": -2.51,
+    "var_24h": -2.51
    },
    "oro_futures": {
-    "ultimo": 3734.7,
-    "ora": "2026-11-19T05:51:20.000-0500",
+    "ultimo": 3730.9,
+    "ora": "2026-11-19T05:35:51.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.088,
-    "var_4h": -0.094,
-    "var_24h": -0.192
+    "var_1h": 0.011,
+    "var_4h": -0.219,
+    "var_24h": -0.294
    },
    "argento": {
-    "ultimo": 45.145,
-    "ora": "2026-11-19T05:51:28.000-0500",
+    "ultimo": 45.085,
+    "ora": "2026-11-19T05:35:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.044,
-    "var_4h": -0.342,
-    "var_24h": 0.191
+    "var_1h": -0.299,
+    "var_4h": -0.792,
+    "var_24h": 0.058
    },
    "petrolio_wti": {
-    "ultimo": 83.33,
-    "ora": "2026-11-19T05:51:23.000-0500",
+    "ultimo": 83.58,
+    "ora": "2026-11-19T05:31:38.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.168,
-    "var_4h": 0.012,
-    "var_24h": 0.084
+    "var_1h": -0.036,
+    "var_4h": 0.336,
+    "var_24h": 0.384
    },
    "rame": {
-    "ultimo": 5.681,
-    "ora": "2026-11-19T05:51:23.000-0500",
+    "ultimo": 5.6695,
+    "ora": "2026-11-19T05:35:49.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.176,
-    "var_4h": 0.168,
-    "var_24h": 0.221
+    "var_1h": -0.194,
+    "var_4h": -0.334,
+    "var_24h": 0.018
    },
    "gld": {
     "ultimo": 341.19,
@@ -123,20 +123,20 @@
     "ultimo": 6.6669,
     "ora": "2026-11-19T05:12:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.001,
-    "var_4h": 0.018,
+    "var_1h": 0.0,
+    "var_4h": 0.024,
     "var_24h": -0.01
    },
-   "punteggio_4h": 0.035,
-   "punteggio_24h": -0.008,
-   "rapporto_oro_argento": 82.73
+   "punteggio_4h": -0.021,
+   "punteggio_24h": -0.002,
+   "rapporto_oro_argento": 82.75
   },
   "etf": {
-   "gld_tonnellate_stimate": 1041.1,
+   "gld_tonnellate_stimate": 1042.2,
    "data": "2026-11-19",
    "giorni_di_storico": 11,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 1.7,
+   "flusso_5g_t": 2.7,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -347,8 +347,8 @@
   "banche_centrali": {
    "titoli_45g": [
     {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
     },
     {
      "titolo": "China buys gold for two straight years as central bank demand remains a key pillar of support - Kitco",
@@ -367,12 +367,12 @@
      "data": "2026-10-11"
     },
     {
-     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-10-06"
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
     },
     {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
+     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-10-06"
     },
     {
      "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
