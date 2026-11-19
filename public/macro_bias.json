@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-19T10:31:55Z",
+ "timestamp_utc": "2026-11-19T10:46:31Z",
  "bias": -0.137,
  "confidence": 0.075,
  "regime": "moderatamente sfavorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -41,75 +42,75 @@
   "intraday": {
    "tasso_reale_10y": {
     "ultimo": 2.897,
-    "ora": "2026-11-19T05:27:50.000-0500",
+    "ora": "2026-11-19T05:44:41.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.1,
-    "var_4h": 1.7,
+    "var_1h": 0.5,
+    "var_4h": 1.3,
     "var_24h": 2.0
    },
    "tasso_10y": {
     "ultimo": 5.089,
-    "ora": "2026-11-19T05:31:01.000-0500",
+    "ora": "2026-11-19T05:45:37.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.1,
-    "var_4h": 2.5,
+    "var_1h": 0.4,
+    "var_4h": 2.1,
     "var_24h": 2.3
    },
    "tasso_2y": {
-    "ultimo": 4.819,
-    "ora": "2026-11-19T05:30:09.000-0500",
+    "ultimo": 4.817,
+    "ora": "2026-11-19T05:43:25.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 1.0,
-    "var_4h": 2.1,
-    "var_24h": 1.9
+    "var_1h": 0.2,
+    "var_4h": 1.5,
+    "var_24h": 1.7
    },
    "dollaro_dxy": {
-    "ultimo": 103.674,
-    "ora": "2026-11-19T05:31:08.000-0500",
+    "ultimo": 103.602,
+    "ora": "2026-11-19T05:45:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.033,
-    "var_4h": -0.176,
-    "var_24h": -0.182
+    "var_1h": -0.098,
+    "var_4h": -0.253,
+    "var_24h": -0.251
    },
    "vix": {
-    "ultimo": 22.09,
-    "ora": "2026-11-19T05:31:01.000-0500",
+    "ultimo": 22.05,
+    "ora": "2026-11-19T05:45:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.29,
-    "var_4h": -2.47,
-    "var_24h": -2.47
+    "var_1h": -0.11,
+    "var_4h": -2.51,
+    "var_24h": -2.51
    },
    "oro_futures": {
-    "ultimo": 3731.8,
-    "ora": "2026-11-19T05:21:05.000-0500",
+    "ultimo": 3730.9,
+    "ora": "2026-11-19T05:35:51.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.078,
-    "var_4h": -0.238,
-    "var_24h": -0.27
+    "var_1h": -0.043,
+    "var_4h": -0.195,
+    "var_24h": -0.294
    },
    "argento": {
-    "ultimo": 45.27,
-    "ora": "2026-11-19T05:21:06.000-0500",
+    "ultimo": 45.085,
+    "ora": "2026-11-19T05:35:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.555,
-    "var_4h": -0.242,
-    "var_24h": 0.468
+    "var_1h": -0.122,
+    "var_4h": -0.475,
+    "var_24h": 0.058
    },
    "petrolio_wti": {
-    "ultimo": 83.59,
-    "ora": "2026-11-19T05:20:14.000-0500",
+    "ultimo": 83.58,
+    "ora": "2026-11-19T05:31:38.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.131,
-    "var_4h": 0.384,
-    "var_24h": 0.396
+    "var_1h": 0.372,
+    "var_4h": 0.312,
+    "var_24h": 0.384
    },
    "rame": {
-    "ultimo": 5.6835,
-    "ora": "2026-11-19T05:21:03.000-0500",
+    "ultimo": 5.6695,
+    "ora": "2026-11-19T05:35:49.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.397,
-    "var_4h": 0.159,
-    "var_24h": 0.265
+    "var_1h": -0.044,
+    "var_4h": -0.035,
+    "var_24h": 0.018
    },
    "gld": {
     "ultimo": 341.19,
@@ -123,20 +124,20 @@
     "ultimo": 6.6669,
     "ora": "2026-11-19T05:12:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.015,
+    "var_1h": 0.009,
     "var_4h": 0.018,
     "var_24h": -0.01
    },
-   "punteggio_4h": -0.041,
-   "punteggio_24h": -0.041,
-   "rapporto_oro_argento": 82.43
+   "punteggio_4h": 0.043,
+   "punteggio_24h": -0.002,
+   "rapporto_oro_argento": 82.75
   },
   "etf": {
-   "gld_tonnellate_stimate": 1041.9,
+   "gld_tonnellate_stimate": 1042.2,
    "data": "2026-11-19",
    "giorni_di_storico": 11,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 2.5,
+   "flusso_5g_t": 2.7,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -359,16 +360,16 @@
      "data": "2026-11-17"
     },
     {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
      "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
      "data": "2026-10-07"
     },
     {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
      "data": "2026-10-11"
+    },
+    {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
     },
     {
      "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
@@ -382,13 +383,6 @@
    "pboc_mesi_di_acquisti": null,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 2.5924,
-   "media_30g": 3.2562,
-   "z": -0.88,
-   "allarme": false,
-   "punteggio": 0.0
   },
   "sintesi": "nessun segnale extra forte"
  },
