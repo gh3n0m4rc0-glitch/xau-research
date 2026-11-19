@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-19T22:31:50Z",
+ "timestamp_utc": "2026-11-19T22:46:30Z",
  "bias": -0.164,
  "confidence": 0.182,
  "regime": "moderatamente sfavorevole",
@@ -46,7 +46,7 @@
     "ora": "2026-11-19T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -0.2,
-    "var_4h": -0.7,
+    "var_4h": 0.0,
     "var_24h": -1.5
    },
    "tasso_10y": {
@@ -54,7 +54,7 @@
     "ora": "2026-11-19T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -0.2,
-    "var_4h": 0.2,
+    "var_4h": -0.2,
     "var_24h": -1.6
    },
    "tasso_2y": {
@@ -62,23 +62,23 @@
     "ora": "2026-11-19T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.2,
-    "var_4h": -0.5,
+    "var_4h": -0.2,
     "var_24h": -3.0
    },
    "dollaro_dxy": {
-    "ultimo": 103.929,
-    "ora": "2026-11-19T17:31:02.000-0500",
+    "ultimo": 103.933,
+    "ora": "2026-11-19T17:45:50.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.029,
-    "var_4h": 0.056,
-    "var_24h": 0.064
+    "var_1h": -0.025,
+    "var_4h": 0.083,
+    "var_24h": 0.067
    },
    "vix": {
     "ultimo": 28.44,
     "ora": "2026-11-19T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": 0.52,
+    "var_4h": 1.39,
     "var_24h": 3.88
    },
    "oro_futures": {
@@ -86,7 +86,7 @@
     "ora": "2026-11-19T17:00:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.671,
-    "var_4h": -1.451,
+    "var_4h": -1.52,
     "var_24h": -3.047
    },
    "argento": {
@@ -94,7 +94,7 @@
     "ora": "2026-11-19T16:59:58.000-0500",
     "unita_variazioni": "%",
     "var_1h": -1.732,
-    "var_4h": -3.481,
+    "var_4h": -3.568,
     "var_24h": -4.936
    },
    "petrolio_wti": {
@@ -102,7 +102,7 @@
     "ora": "2026-11-19T16:51:43.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.131,
-    "var_4h": -0.427,
+    "var_4h": -0.333,
     "var_24h": 0.757
    },
    "rame": {
@@ -110,7 +110,7 @@
     "ora": "2026-11-19T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.098,
-    "var_4h": -0.71,
+    "var_4h": -0.825,
     "var_24h": -1.35
    },
    "gld": {
@@ -118,7 +118,7 @@
     "ora": "2026-11-19T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.472,
+    "var_4h": -0.546,
     "var_24h": -1.761
    },
    "usdcny": {
@@ -129,8 +129,8 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.012,
-   "punteggio_24h": 0.147,
+   "punteggio_4h": -0.045,
+   "punteggio_24h": 0.145,
    "rapporto_oro_argento": 84.69
   },
   "etf": {
@@ -344,12 +344,12 @@
      "data": "2026-11-17"
     },
     {
-     "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
-     "data": "2026-10-07"
-    },
-    {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
+    },
+    {
+     "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
+     "data": "2026-10-07"
     },
     {
      "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
