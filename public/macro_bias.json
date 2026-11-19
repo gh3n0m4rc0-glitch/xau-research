@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-19T18:46:38Z",
+ "timestamp_utc": "2026-11-19T19:16:35Z",
  "bias": -0.137,
  "confidence": 0.075,
  "regime": "moderatamente sfavorevole",
@@ -41,84 +41,84 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.862,
-    "ora": "2026-11-19T13:44:35.000-0500",
+    "ultimo": 2.865,
+    "ora": "2026-11-19T14:15:17.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.6,
-    "var_4h": -1.7,
-    "var_24h": -1.5
+    "var_1h": -2.4,
+    "var_4h": -1.8,
+    "var_24h": -1.2
    },
    "tasso_10y": {
-    "ultimo": 5.052,
-    "ora": "2026-11-19T13:45:45.000-0500",
+    "ultimo": 5.058,
+    "ora": "2026-11-19T14:15:51.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.8,
+    "var_1h": -0.6,
     "var_4h": -3.9,
-    "var_24h": -1.4
+    "var_24h": -0.8
    },
    "tasso_2y": {
-    "ultimo": 4.772,
-    "ora": "2026-11-19T13:45:46.000-0500",
+    "ultimo": 4.777,
+    "ora": "2026-11-19T14:15:52.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.7,
-    "var_4h": -6.4,
-    "var_24h": -2.8
+    "var_1h": -1.5,
+    "var_4h": -6.2,
+    "var_24h": -2.3
    },
    "dollaro_dxy": {
-    "ultimo": 103.847,
-    "ora": "2026-11-19T13:45:50.000-0500",
+    "ultimo": 103.884,
+    "ora": "2026-11-19T14:15:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.019,
-    "var_4h": 0.185,
-    "var_24h": -0.015
+    "var_1h": 0.014,
+    "var_4h": 0.137,
+    "var_24h": 0.02
    },
    "vix": {
-    "ultimo": 27.05,
-    "ora": "2026-11-19T13:45:46.000-0500",
+    "ultimo": 27.9,
+    "ora": "2026-11-19T14:15:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.51,
-    "var_4h": 4.57,
-    "var_24h": 2.49
+    "var_1h": 0.7,
+    "var_4h": 5.09,
+    "var_24h": 3.34
    },
    "oro_futures": {
-    "ultimo": 3683.9,
-    "ora": "2026-11-19T13:35:47.000-0500",
+    "ultimo": 3675.8,
+    "ora": "2026-11-19T14:05:53.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.211,
-    "var_4h": -0.674,
-    "var_24h": -1.55
+    "var_1h": -0.22,
+    "var_4h": -0.916,
+    "var_24h": -1.766
    },
    "argento": {
-    "ultimo": 44.42,
-    "ora": "2026-11-19T13:35:47.000-0500",
+    "ultimo": 44.215,
+    "ora": "2026-11-19T14:05:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.359,
-    "var_4h": -1.453,
-    "var_24h": -1.418
+    "var_1h": -0.495,
+    "var_4h": -2.427,
+    "var_24h": -1.873
    },
    "petrolio_wti": {
-    "ultimo": 84.17,
-    "ora": "2026-11-19T13:35:36.000-0500",
+    "ultimo": 84.04,
+    "ora": "2026-11-19T14:05:50.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.095,
-    "var_4h": -0.684,
-    "var_24h": 1.093
+    "var_1h": -0.273,
+    "var_4h": -0.826,
+    "var_24h": 0.937
    },
    "rame": {
-    "ultimo": 5.6385,
-    "ora": "2026-11-19T13:35:44.000-0500",
+    "ultimo": 5.6175,
+    "ora": "2026-11-19T14:05:36.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.159,
-    "var_4h": -0.52,
-    "var_24h": -0.529
+    "var_1h": -0.311,
+    "var_4h": -0.654,
+    "var_24h": -0.9
    },
    "gld": {
-    "ultimo": 337.02,
-    "ora": "2026-11-19T13:45:47.665-0500",
+    "ultimo": 336.6,
+    "ora": "2026-11-19T14:15:52.428-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.116,
-    "var_4h": -0.92,
-    "var_24h": -1.222
+    "var_1h": -0.113,
+    "var_4h": -0.962,
+    "var_24h": -1.345
    },
    "usdcny": {
     "ultimo": 6.6665,
@@ -128,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": -0.016
    },
-   "punteggio_4h": 0.047,
-   "punteggio_24h": 0.192,
-   "rapporto_oro_argento": 82.93
+   "punteggio_4h": 0.089,
+   "punteggio_24h": 0.157,
+   "rapporto_oro_argento": 83.13
   },
   "etf": {
-   "gld_tonnellate_stimate": 1044.3,
+   "gld_tonnellate_stimate": 1045.3,
    "data": "2026-11-19",
    "giorni_di_storico": 11,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 4.8,
+   "flusso_5g_t": 5.8,
    "flusso_20g_t": null,
    "punteggio": null
   },
