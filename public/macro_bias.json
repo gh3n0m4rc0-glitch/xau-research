@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-20T00:46:48Z",
+ "timestamp_utc": "2026-11-20T01:02:17Z",
  "bias": -0.164,
  "confidence": 0.182,
  "regime": "moderatamente sfavorevole",
@@ -40,83 +40,83 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.845,
-    "ora": "2026-11-19T19:45:31.000-0500",
+    "ultimo": 2.847,
+    "ora": "2026-11-19T20:01:18.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.4,
-    "var_4h": -1.6,
-    "var_24h": -1.7
+    "var_1h": -0.8,
+    "var_4h": -1.2,
+    "var_24h": -1.5
    },
    "tasso_10y": {
-    "ultimo": 5.024,
-    "ora": "2026-11-19T19:45:57.000-0500",
+    "ultimo": 5.02,
+    "ora": "2026-11-19T20:01:01.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.6,
+    "var_1h": -2.2,
     "var_4h": -2.4,
-    "var_24h": -2.8
-   },
-   "tasso_2y": {
-    "ultimo": 4.747,
-    "ora": "2026-11-19T19:45:57.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": -2.4,
-    "var_4h": -2.1,
     "var_24h": -3.2
    },
+   "tasso_2y": {
+    "ultimo": 4.739,
+    "ora": "2026-11-19T20:01:01.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": -2.5,
+    "var_4h": -2.3,
+    "var_24h": -4.0
+   },
    "dollaro_dxy": {
-    "ultimo": 103.881,
-    "ora": "2026-11-19T19:45:57.000-0500",
+    "ultimo": 103.866,
+    "ora": "2026-11-19T20:01:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.013,
-    "var_4h": -0.006,
-    "var_24h": -0.013
+    "var_1h": -0.028,
+    "var_4h": -0.026,
+    "var_24h": -0.028
    },
    "vix": {
     "ultimo": 28.44,
     "ora": "2026-11-19T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": -0.05,
+    "var_4h": -0.63,
     "var_24h": 3.88
    },
    "oro_futures": {
-    "ultimo": 3607.3,
-    "ora": "2026-11-19T19:35:55.000-0500",
+    "ultimo": 3587.0,
+    "ora": "2026-11-19T19:51:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.617,
-    "var_4h": -1.743,
-    "var_24h": -2.122
+    "var_1h": -0.303,
+    "var_4h": -2.192,
+    "var_24h": -2.673
    },
    "argento": {
-    "ultimo": 42.655,
-    "ora": "2026-11-19T19:35:47.000-0500",
+    "ultimo": 42.255,
+    "ora": "2026-11-19T19:51:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.571,
-    "var_4h": -3.134,
-    "var_24h": -3.841
+    "var_1h": -0.26,
+    "var_4h": -3.889,
+    "var_24h": -4.743
    },
    "petrolio_wti": {
     "ultimo": 83.65,
     "ora": "2026-11-19T19:33:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.529,
-    "var_4h": -0.191,
+    "var_1h": -0.131,
+    "var_4h": -0.31,
     "var_24h": 0.529
    },
    "rame": {
-    "ultimo": 5.5795,
-    "ora": "2026-11-19T19:35:52.000-0500",
+    "ultimo": 5.554,
+    "ora": "2026-11-19T19:51:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.099,
-    "var_4h": -0.632,
-    "var_24h": -0.959
+    "var_1h": -0.305,
+    "var_4h": -1.113,
+    "var_24h": -1.411
    },
    "gld": {
     "ultimo": 335.18,
     "ora": "2026-11-19T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.164,
+    "var_4h": 0.0,
     "var_24h": -1.761
    },
    "usdcny": {
@@ -127,16 +127,16 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.144,
-   "punteggio_24h": 0.213,
-   "rapporto_oro_argento": 84.57
+   "punteggio_4h": 0.103,
+   "punteggio_24h": 0.219,
+   "rapporto_oro_argento": 84.89
   },
   "etf": {
-   "gld_tonnellate_stimate": 1060.6,
+   "gld_tonnellate_stimate": 1066.6,
    "data": "2026-11-20",
    "giorni_di_storico": 12,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 22.4,
+   "flusso_5g_t": 28.4,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -333,12 +333,24 @@
   "banche_centrali": {
    "titoli_45g": [
     {
+     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
+     "data": "2026-11-19"
+    },
+    {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
     },
     {
      "titolo": "China buys gold for two straight years as central bank demand remains a key pillar of support - Kitco",
      "data": "2026-11-10"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
+    },
+    {
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     },
     {
      "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
@@ -351,30 +363,18 @@
     {
      "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
      "data": "2026-10-07"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-10-06"
-    },
-    {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
-    },
-    {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
-     "data": "2026-11-03"
     }
    ],
-   "pboc_mesi_di_acquisti": null,
+   "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
   "geopolitica": {
-   "intensita_24h": 3.4249,
+   "intensita_24h": 3.4824,
    "media_30g": 3.1173,
-   "z": 0.35,
+   "z": 0.42,
    "allarme": false,
-   "punteggio": 0.174
+   "punteggio": 0.206
   },
   "sintesi": "nessun segnale extra forte"
  },
@@ -649,15 +649,6 @@
    "Date da segnare: lunedì Warsh, martedì vendite USA e Nvidia, mercoledì inflazione inglese e verbali Fed."
   ],
   "prossimi_eventi": [
-   {
-    "quando": "2026-11-20T00:55:00Z",
-    "evento": "Giorno gotobi, fixing di Tokyo (9:55)",
-    "impatto": "basso",
-    "previsione": "",
-    "precedente": "",
-    "perche": "nello studio indici il cambio tende a scendere fino alle 10:20 di Tokyo",
-    "mercati": "USDJPY"
-   },
    {
     "quando": "2026-11-20T07:00:00Z",
     "evento": "Vendite al dettaglio Regno Unito",
