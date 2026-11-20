@@ -70,5 +70,14 @@
   "tier": 3,
   "forecast": "",
   "previous": "4.3%"
+ },
+ {
+  "time_utc": "2026-11-20T17:00:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "President Trump Speaks",
+  "tier": 3,
+  "forecast": "",
+  "previous": ""
  }
 ]
