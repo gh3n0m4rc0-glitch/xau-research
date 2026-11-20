@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-20T22:46:46Z",
+ "timestamp_utc": "2026-11-20T23:02:26Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
@@ -46,15 +45,15 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -0.1,
-    "var_24h": -7.5
+    "var_4h": 0.6,
+    "var_24h": 0.0
    },
    "tasso_10y": {
     "ultimo": 4.95,
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -0.2,
-    "var_4h": 0.8,
+    "var_4h": 1.0,
     "var_24h": -10.2
    },
    "tasso_2y": {
@@ -70,7 +69,7 @@
     "ora": "2026-11-20T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.057,
-    "var_4h": 0.007,
+    "var_4h": -0.035,
     "var_24h": -0.053
    },
    "vix": {
@@ -78,23 +77,23 @@
     "ora": "2026-11-20T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": 3.61,
+    "var_4h": 3.96,
     "var_24h": 7.45
    },
    "oro_futures": {
     "ultimo": 3539.0,
-    "ora": "2026-11-20T16:59:57.000-0500",
+    "ora": "2026-11-20T17:39:24.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.326,
-    "var_4h": 0.3,
+    "var_4h": 0.514,
     "var_24h": -3.975
    },
    "argento": {
     "ultimo": 41.08,
-    "ora": "2026-11-20T16:59:58.000-0500",
+    "ora": "2026-11-20T17:38:55.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.391,
-    "var_4h": -0.158,
+    "var_4h": -0.049,
     "var_24h": -7.392
    },
    "petrolio_wti": {
@@ -102,15 +101,15 @@
     "ora": "2026-11-20T14:30:37.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.779,
+    "var_4h": 0.61,
     "var_24h": 1.058
    },
    "rame": {
     "ultimo": 5.465,
-    "ora": "2026-11-20T16:59:55.000-0500",
+    "ora": "2026-11-20T17:40:29.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.027,
-    "var_4h": -0.609,
+    "var_4h": -0.492,
     "var_24h": -2.991
    },
    "gld": {
@@ -118,7 +117,7 @@
     "ora": "2026-11-20T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.258,
+    "var_4h": 0.492,
     "var_24h": -3.673
    },
    "usdcny": {
@@ -129,8 +128,8 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.123,
-   "punteggio_24h": 0.503,
+   "punteggio_4h": 0.111,
+   "punteggio_24h": 0.246,
    "rapporto_oro_argento": 86.15
   },
   "etf": {
@@ -288,6 +287,45 @@
    "variazione_4sett_pct_oi": -0.7,
    "flusso_z": -0.09,
    "punteggio_flusso": -0.062
+  },
+  "banche_centrali": {
+   "titoli_45g": [
+    {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
+     "data": "2026-10-07"
+    },
+    {
+     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
+     "data": "2026-10-11"
+    },
+    {
+     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
+     "data": "2026-11-18"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to 24 Months as Beijing Bucks the Price Slump - ad-hoc-news.de",
+     "data": "2026-11-19"
+    }
+   ],
+   "pboc_mesi_di_acquisti": null,
+   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
+   "nota": "regime di fondo, mensile: informativo"
   },
   "sintesi": "nessun segnale extra forte"
  },
