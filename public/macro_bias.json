@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-20T00:31:59Z",
+ "timestamp_utc": "2026-11-20T00:46:48Z",
  "bias": -0.164,
  "confidence": 0.182,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -41,36 +40,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.858,
-    "ora": "2026-11-19T19:30:48.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": -0.1,
-    "var_4h": -0.3,
-    "var_24h": -0.4
-   },
-   "tasso_10y": {
-    "ultimo": 5.036,
-    "ora": "2026-11-19T19:30:58.000-0500",
+    "ultimo": 2.845,
+    "ora": "2026-11-19T19:45:31.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -1.4,
-    "var_4h": -1.2,
-    "var_24h": -1.6
-   },
-   "tasso_2y": {
-    "ultimo": 4.762,
-    "ora": "2026-11-19T19:30:45.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": -0.9,
-    "var_4h": -0.6,
+    "var_4h": -1.6,
     "var_24h": -1.7
    },
+   "tasso_10y": {
+    "ultimo": 5.024,
+    "ora": "2026-11-19T19:45:57.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": -2.6,
+    "var_4h": -2.4,
+    "var_24h": -2.8
+   },
+   "tasso_2y": {
+    "ultimo": 4.747,
+    "ora": "2026-11-19T19:45:57.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": -2.4,
+    "var_4h": -2.1,
+    "var_24h": -3.2
+   },
    "dollaro_dxy": {
-    "ultimo": 103.895,
-    "ora": "2026-11-19",
+    "ultimo": 103.881,
+    "ora": "2026-11-19T19:45:57.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.008,
-    "var_24h": 0.0
+    "var_1h": -0.013,
+    "var_4h": -0.006,
+    "var_24h": -0.013
    },
    "vix": {
     "ultimo": 28.44,
@@ -81,36 +80,36 @@
     "var_24h": 3.88
    },
    "oro_futures": {
-    "ultimo": 3620.6,
-    "ora": "2026-11-19T19:21:10.000-0500",
+    "ultimo": 3607.3,
+    "ora": "2026-11-19T19:35:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.251,
-    "var_4h": -1.381,
-    "var_24h": -1.761
+    "var_1h": -0.617,
+    "var_4h": -1.743,
+    "var_24h": -2.122
    },
    "argento": {
-    "ultimo": 42.88,
-    "ora": "2026-11-19T19:21:09.000-0500",
+    "ultimo": 42.655,
+    "ora": "2026-11-19T19:35:47.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.047,
-    "var_4h": -2.623,
-    "var_24h": -3.334
+    "var_1h": -0.571,
+    "var_4h": -3.134,
+    "var_24h": -3.841
    },
    "petrolio_wti": {
     "ultimo": 83.65,
-    "ora": "2026-11-19T19:11:48.000-0500",
+    "ora": "2026-11-19T19:33:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.529,
     "var_4h": -0.191,
     "var_24h": 0.529
    },
    "rame": {
-    "ultimo": 5.591,
-    "ora": "2026-11-19T19:21:10.000-0500",
+    "ultimo": 5.5795,
+    "ora": "2026-11-19T19:35:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.305,
-    "var_4h": -0.427,
-    "var_24h": -0.754
+    "var_1h": 0.099,
+    "var_4h": -0.632,
+    "var_24h": -0.959
    },
    "gld": {
     "ultimo": 335.18,
@@ -128,16 +127,16 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.019,
-   "punteggio_24h": 0.137,
-   "rapporto_oro_argento": 84.44
+   "punteggio_4h": 0.144,
+   "punteggio_24h": 0.213,
+   "rapporto_oro_argento": 84.57
   },
   "etf": {
-   "gld_tonnellate_stimate": 1056.8,
+   "gld_tonnellate_stimate": 1060.6,
    "data": "2026-11-20",
    "giorni_di_storico": 12,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 18.5,
+   "flusso_5g_t": 22.4,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -369,6 +368,13 @@
    "pboc_mesi_di_acquisti": null,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 3.4249,
+   "media_30g": 3.1173,
+   "z": 0.35,
+   "allarme": false,
+   "punteggio": 0.174
   },
   "sintesi": "nessun segnale extra forte"
  },
