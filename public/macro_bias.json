@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-20T08:16:18Z",
+ "timestamp_utc": "2026-11-20T08:31:25Z",
  "bias": -0.164,
  "confidence": 0.182,
  "regime": "moderatamente sfavorevole",
@@ -40,76 +40,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.832,
-    "ora": "2026-11-20T03:15:15.000-0500",
+    "ultimo": 2.823,
+    "ora": "2026-11-20T03:30:56.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.6,
-    "var_4h": -0.9,
-    "var_24h": -3.0
+    "var_1h": -0.3,
+    "var_4h": -1.8,
+    "var_24h": -3.9
    },
    "tasso_10y": {
-    "ultimo": 5.02,
-    "ora": "2026-11-20T03:15:33.000-0500",
+    "ultimo": 5.01,
+    "ora": "2026-11-20T03:30:43.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.6,
-    "var_4h": 0.0,
-    "var_24h": -3.2
-   },
-   "tasso_2y": {
-    "ultimo": 4.737,
-    "ora": "2026-11-20T03:15:33.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": 0.5,
-    "var_4h": -0.2,
+    "var_1h": -0.4,
+    "var_4h": -1.0,
     "var_24h": -4.2
    },
+   "tasso_2y": {
+    "ultimo": 4.73,
+    "ora": "2026-11-20T03:30:31.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": -0.2,
+    "var_4h": -0.9,
+    "var_24h": -4.9
+   },
    "dollaro_dxy": {
-    "ultimo": 103.802,
-    "ora": "2026-11-20T03:15:49.000-0500",
+    "ultimo": 103.795,
+    "ora": "2026-11-20T03:30:58.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.059,
-    "var_4h": -0.013,
-    "var_24h": -0.09
+    "var_1h": 0.052,
+    "var_4h": -0.019,
+    "var_24h": -0.096
    },
    "vix": {
-    "ultimo": 28.62,
-    "ora": "2026-11-20T03:15:46.000-0500",
+    "ultimo": 28.54,
+    "ora": "2026-11-20T03:30:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.18,
-    "var_4h": 0.18,
-    "var_24h": 0.18
+    "var_1h": 0.1,
+    "var_4h": 0.1,
+    "var_24h": 0.1
    },
    "oro_futures": {
-    "ultimo": 3576.1,
-    "ora": "2026-11-20T03:05:46.000-0500",
+    "ultimo": 3579.0,
+    "ora": "2026-11-20T03:20:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.639,
-    "var_4h": 0.889,
-    "var_24h": -2.968
+    "var_1h": 0.72,
+    "var_4h": 0.97,
+    "var_24h": -2.89
    },
    "argento": {
-    "ultimo": 42.25,
-    "ora": "2026-11-20T03:05:40.000-0500",
+    "ultimo": 42.275,
+    "ora": "2026-11-20T03:20:57.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.932,
-    "var_4h": 1.368,
-    "var_24h": -4.754
+    "var_1h": 0.991,
+    "var_4h": 1.428,
+    "var_24h": -4.698
    },
    "petrolio_wti": {
-    "ultimo": 83.7,
-    "ora": "2026-11-20T02:25:48.000-0500",
+    "ultimo": 83.13,
+    "ora": "2026-11-20T03:18:28.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.012,
-    "var_4h": 0.288,
-    "var_24h": 0.589
+    "var_1h": -0.669,
+    "var_4h": -0.395,
+    "var_24h": -0.096
    },
    "rame": {
-    "ultimo": 5.5305,
-    "ora": "2026-11-20T03:05:47.000-0500",
+    "ultimo": 5.547,
+    "ora": "2026-11-20T03:20:55.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.208,
-    "var_4h": 0.345,
-    "var_24h": -1.828
+    "var_1h": 0.507,
+    "var_4h": 0.644,
+    "var_24h": -1.535
    },
    "gld": {
     "ultimo": 335.18,
@@ -120,23 +120,23 @@
     "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.6743,
-    "ora": "2026-11-20T03:15:00.000-0500",
+    "ultimo": 6.6735,
+    "ora": "2026-11-20T03:30:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.043,
-    "var_4h": 0.049,
-    "var_24h": 0.117
+    "var_1h": 0.031,
+    "var_4h": 0.037,
+    "var_24h": 0.105
    },
-   "punteggio_4h": 0.106,
-   "punteggio_24h": 0.244,
-   "rapporto_oro_argento": 84.64
+   "punteggio_4h": 0.148,
+   "punteggio_24h": 0.264,
+   "rapporto_oro_argento": 84.66
   },
   "etf": {
-   "gld_tonnellate_stimate": 1069.9,
+   "gld_tonnellate_stimate": 1069.0,
    "data": "2026-11-20",
    "giorni_di_storico": 12,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 31.6,
+   "flusso_5g_t": 30.7,
    "flusso_20g_t": null,
    "punteggio": null
   },
