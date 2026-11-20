@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-20T15:16:34Z",
+ "timestamp_utc": "2026-11-20T15:31:49Z",
  "bias": -0.163,
  "confidence": 0.181,
  "regime": "moderatamente sfavorevole",
@@ -40,103 +40,103 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.806,
-    "ora": "2026-11-20T10:15:36.000-0500",
+    "ultimo": 2.799,
+    "ora": "2026-11-20T10:30:49.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.0,
-    "var_4h": 0.1,
-    "var_24h": -5.6
+    "var_1h": -2.5,
+    "var_4h": 0.4,
+    "var_24h": -6.3
    },
    "tasso_10y": {
-    "ultimo": 4.972,
-    "ora": "2026-11-20T10:15:45.000-0500",
+    "ultimo": 4.956,
+    "ora": "2026-11-20T10:31:15.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.6,
-    "var_4h": -2.0,
-    "var_24h": -8.0
+    "var_1h": -2.8,
+    "var_4h": -2.8,
+    "var_24h": -9.6
    },
    "tasso_2y": {
-    "ultimo": 4.681,
-    "ora": "2026-11-20T10:15:45.000-0500",
+    "ultimo": 4.664,
+    "ora": "2026-11-20T10:31:17.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.9,
-    "var_4h": -3.6,
-    "var_24h": -9.8
+    "var_1h": -2.6,
+    "var_4h": -4.5,
+    "var_24h": -11.5
    },
    "dollaro_dxy": {
-    "ultimo": 103.694,
-    "ora": "2026-11-20T10:15:52.000-0500",
+    "ultimo": 103.716,
+    "ora": "2026-11-20T10:31:18.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.006,
-    "var_4h": -0.181,
-    "var_24h": -0.193
+    "var_1h": 0.014,
+    "var_4h": -0.125,
+    "var_24h": -0.172
    },
    "vix": {
-    "ultimo": 28.25,
-    "ora": "2026-11-20T10:15:46.000-0500",
+    "ultimo": 29.8,
+    "ora": "2026-11-20T10:31:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -1.54,
-    "var_4h": -0.61,
-    "var_24h": -0.19
+    "var_1h": 0.11,
+    "var_4h": 0.21,
+    "var_24h": 1.36
    },
    "oro_futures": {
-    "ultimo": 3570.3,
-    "ora": "2026-11-20T10:05:50.000-0500",
+    "ultimo": 3543.0,
+    "ora": "2026-11-20T10:21:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.064,
-    "var_4h": -0.513,
-    "var_24h": -3.126
+    "var_1h": -1.097,
+    "var_4h": -1.227,
+    "var_24h": -3.867
    },
    "argento": {
-    "ultimo": 42.105,
-    "ora": "2026-11-20T10:05:51.000-0500",
+    "ultimo": 41.465,
+    "ora": "2026-11-20T10:21:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.537,
-    "var_4h": -1.208,
-    "var_24h": -5.081
+    "var_1h": -1.297,
+    "var_4h": -2.24,
+    "var_24h": -6.524
    },
    "petrolio_wti": {
-    "ultimo": 82.75,
-    "ora": "2026-11-20T10:04:53.000-0500",
+    "ultimo": 82.26,
+    "ora": "2026-11-20T10:20:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.121,
-    "var_4h": 0.878,
-    "var_24h": -0.553
+    "var_1h": -0.592,
+    "var_4h": -0.17,
+    "var_24h": -1.142
    },
    "rame": {
-    "ultimo": 5.558,
-    "ora": "2026-11-20T10:05:48.000-0500",
+    "ultimo": 5.516,
+    "ora": "2026-11-20T10:21:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.072,
-    "var_4h": -0.153,
-    "var_24h": -1.34
+    "var_1h": -0.657,
+    "var_4h": -0.595,
+    "var_24h": -2.086
    },
    "gld": {
-    "ultimo": 325.84,
-    "ora": "2026-11-20T10:15:53.042-0500",
+    "ultimo": 323.97,
+    "ora": "2026-11-20T10:31:18.875-0500",
     "unita_variazioni": "%",
-    "var_1h": -2.787,
-    "var_4h": -2.787,
-    "var_24h": -2.787
+    "var_1h": -0.987,
+    "var_4h": -3.344,
+    "var_24h": -3.344
    },
    "usdcny": {
     "ultimo": 6.677,
     "ora": "2026-11-20T07:49:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.012,
+    "var_4h": -0.028,
     "var_24h": 0.158
    },
-   "punteggio_4h": 0.226,
-   "punteggio_24h": 0.382,
-   "rapporto_oro_argento": 84.8
+   "punteggio_4h": 0.155,
+   "punteggio_24h": 0.426,
+   "rapporto_oro_argento": 85.45
   },
   "etf": {
-   "gld_tonnellate_stimate": 1039.8,
+   "gld_tonnellate_stimate": 1041.8,
    "data": "2026-11-20",
    "giorni_di_storico": 12,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 1.5,
+   "flusso_5g_t": 3.5,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -279,13 +279,6 @@
    ],
    "agenda_7g": [
     {
-     "evento": "Speech - Governor Christopher J. Waller",
-     "tipo": "Speeches",
-     "ora_utc": "2026-11-20T13:25:00Z",
-     "orario_indicativo": false,
-     "dove": "At the College Fed Challenge Finals"
-    },
-    {
      "evento": "Speech - Governor Lisa D. Cook",
      "tipo": "Speeches",
      "ora_utc": "2026-11-20T17:15:00Z",
@@ -348,7 +341,7 @@
    "allarme": false,
    "punteggio": 0.104
   },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.23)"
+  "sintesi": "nessun segnale extra forte"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -646,6 +639,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro ribassista 55/100 | tassi/dollaro ultime 4h pro oro (+0.23)",
+ "extra_sintesi": "Terminale: oro ribassista 55/100 | nessun segnale extra forte",
  "ultimo_dato": ""
 }
