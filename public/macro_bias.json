@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-21T07:02:09Z",
+ "timestamp_utc": "2026-11-21T07:16:33Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -99,7 +99,7 @@
     "ultimo": 83.62,
     "ora": "2026-11-21T18:47:32.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.559,
+    "var_1h": 0.0,
     "var_4h": -0.559,
     "var_24h": 1.431
    },
@@ -327,11 +327,11 @@
    "nota": "regime di fondo, mensile: informativo"
   },
   "geopolitica": {
-   "intensita_24h": 3.6814,
+   "intensita_24h": 4.2717,
    "media_30g": 3.1202,
-   "z": 0.64,
+   "z": 1.32,
    "allarme": false,
-   "punteggio": 0.31
+   "punteggio": 0.577
   },
   "sintesi": "nessun segnale extra forte"
  },
