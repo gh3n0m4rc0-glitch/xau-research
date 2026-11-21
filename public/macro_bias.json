@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-21T02:02:07Z",
+ "timestamp_utc": "2026-11-21T02:09:18Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -45,7 +45,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.0,
+    "var_4h": 0.3,
     "var_24h": 0.0
    },
    "tasso_10y": {
@@ -53,7 +53,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -0.2,
+    "var_4h": 0.2,
     "var_24h": -10.2
    },
    "tasso_2y": {
@@ -61,7 +61,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.0,
+    "var_4h": -0.6,
     "var_24h": -13.0
    },
    "dollaro_dxy": {
@@ -69,7 +69,7 @@
     "ora": "2026-11-20T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.057,
+    "var_4h": 0.0,
     "var_24h": -0.053
    },
    "vix": {
@@ -85,7 +85,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.326,
+    "var_4h": 0.173,
     "var_24h": -3.975
    },
    "argento": {
@@ -93,7 +93,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.391,
+    "var_4h": 0.11,
     "var_24h": -7.392
    },
    "petrolio_wti": {
@@ -109,7 +109,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.027,
+    "var_4h": -0.027,
     "var_24h": -2.991
    },
    "gld": {
@@ -128,7 +128,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.069,
+   "punteggio_4h": -0.025,
    "punteggio_24h": 0.246,
    "rapporto_oro_argento": 86.15
   },
@@ -295,35 +295,35 @@
      "data": "2026-11-17"
     },
     {
+     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
+     "data": "2026-11-19"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
+    },
+    {
      "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
      "data": "2026-10-07"
     },
     {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     },
     {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
+     "titolo": "China Buys 26 Tonnes of Gold in October Despite 7% Price Drop, Extending Record Buying Streak - Brave New Coin",
+     "data": "2026-11-09"
     },
     {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
      "data": "2026-11-03"
-    },
-    {
-     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
-     "data": "2026-11-18"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to 24 Months as Beijing Bucks the Price Slump - ad-hoc-news.de",
-     "data": "2026-11-19"
     }
    ],
-   "pboc_mesi_di_acquisti": null,
+   "pboc_mesi_di_acquisti": 23,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
