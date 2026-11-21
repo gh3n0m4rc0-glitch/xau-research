@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-21T01:46:32Z",
+ "timestamp_utc": "2026-11-21T02:02:07Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -45,7 +45,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.2,
+    "var_4h": 0.0,
     "var_24h": 0.0
    },
    "tasso_10y": {
@@ -53,7 +53,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.2,
+    "var_4h": -0.2,
     "var_24h": -10.2
    },
    "tasso_2y": {
@@ -69,7 +69,7 @@
     "ora": "2026-11-20T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.055,
+    "var_4h": -0.057,
     "var_24h": -0.053
    },
    "vix": {
@@ -85,7 +85,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.585,
+    "var_4h": 0.326,
     "var_24h": -3.975
    },
    "argento": {
@@ -93,7 +93,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.896,
+    "var_4h": 0.391,
     "var_24h": -7.392
    },
    "petrolio_wti": {
@@ -109,7 +109,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.128,
+    "var_4h": 0.027,
     "var_24h": -2.991
    },
    "gld": {
@@ -128,7 +128,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.046,
+   "punteggio_4h": 0.069,
    "punteggio_24h": 0.246,
    "rapporto_oro_argento": 86.15
   },
