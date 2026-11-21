@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-21T05:02:02Z",
+ "timestamp_utc": "2026-11-21T05:16:43Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
@@ -289,6 +288,45 @@
    "flusso_z": -0.09,
    "punteggio_flusso": -0.062
   },
+  "banche_centrali": {
+   "titoli_45g": [
+    {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
+     "data": "2026-10-07"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
+     "data": "2026-10-11"
+    },
+    {
+     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
+     "data": "2026-11-18"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to 24 Months as Beijing Bucks the Price Slump - ad-hoc-news.de",
+     "data": "2026-11-19"
+    }
+   ],
+   "pboc_mesi_di_acquisti": null,
+   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
+   "nota": "regime di fondo, mensile: informativo"
+  },
   "sintesi": "nessun segnale extra forte"
  },
  "terminale": {
@@ -304,7 +342,7 @@
     "frase": "Fed verso il rialzo e dollaro forte pesano sull'oro, ma i fondi hanno già venduto molto.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 4.000 $ oppure verbali Fed e Warsh meno duri del previsto",
     "ultimo_prezzo": 3539.0,
-    "ultimo_prezzo_data": "2026-11-21",
+    "ultimo_prezzo_data": "2026-11-22",
     "da_venerdi_pct": -8.97,
     "cot": {
      "data": "2026-11-17",
@@ -476,7 +514,7 @@
     "mercato": "XAUUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-21",
+    "fino_a": "2026-11-22",
     "da_allora_pct": -18.61,
     "esito": "conferma"
    },
@@ -570,7 +608,7 @@
    "GBPUSD": "FRED+CNBC",
    "USDJPY": "FRED+CNBC"
   },
-  "dati_presi_utc": "2026-11-21T03:15:45Z",
+  "dati_presi_utc": "2026-11-21T05:15:58Z",
   "sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (21/100)",
   "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, da venerdi' -8.97%, COT fondi 21° pct. US100: neutro 35/100, da venerdi' -10.43%, COT fondi 88° pct. US30: rialzista 45/100, da venerdi' -8.02%, COT fondi 68° pct. EURUSD: ribassista 50/100, da venerdi' -0.49%, COT fondi 1° pct. GBPUSD: neutro 35/100, da venerdi' -1.01%, COT fondi 39° pct. USDJPY: rialzista 40/100, da venerdi' -0.71%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
