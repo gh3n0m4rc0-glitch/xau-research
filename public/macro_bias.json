@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-21T09:02:03Z",
+ "timestamp_utc": "2026-11-21T09:16:31Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -331,19 +331,19 @@
  },
  "terminale": {
   "peso_nel_bias": 0,
-  "settimana": "16-20 novembre 2026",
-  "scritto_il": "2026-11-15",
-  "eta_giorni": 6,
+  "settimana": "23-27 novembre 2026",
+  "scritto_il": "2026-11-21",
+  "eta_giorni": 0,
   "vecchio": false,
   "mercati": {
    "XAUUSD": {
-    "verso": "ribassista",
-    "convinzione": 55,
-    "frase": "Fed verso il rialzo e dollaro forte pesano sull'oro, ma i fondi hanno già venduto molto.",
-    "cosa_lo_smentisce": "chiusura settimanale sopra 4.000 $ oppure verbali Fed e Warsh meno duri del previsto",
+    "verso": "rialzista",
+    "convinzione": 35,
+    "frase": "Dopo il -9% della settimana è più probabile un rimbalzo: le vendite forzate finiscono e i rendimenti scendono, ma la Fed resta contro.",
+    "cosa_lo_smentisce": "chiusura settimanale sotto 3.450 $ oppure PCE di mercoledì sopra lo 0,4% sul mese",
     "ultimo_prezzo": 3539.0,
     "ultimo_prezzo_data": "2026-11-22",
-    "da_venerdi_pct": -8.97,
+    "da_venerdi_pct": 0.0,
     "cot": {
      "data": "2026-11-17",
      "netto": 102942,
@@ -354,13 +354,13 @@
     }
    },
    "US100": {
-    "verso": "neutro",
-    "convinzione": 35,
-    "frase": "Settimana decisa dai conti di Nvidia martedì sera: tassi al 5% e fondi già carichi frenano.",
-    "cosa_lo_smentisce": "chiusura sopra 28.400 (30 ottobre) = rialzista; sotto 27.000 (6 novembre) = ribassista",
-    "ultimo_prezzo": 25028.982,
+    "verso": "rialzista",
+    "convinzione": 30,
+    "frase": "Dopo la settimana peggiore dal 2020 un rimbalzo è possibile, ma l'intelligenza artificiale resta sotto vendita.",
+    "cosa_lo_smentisce": "chiusura settimanale sotto 24.500 oppure conti di Dell e HP deludenti martedì sera",
+    "ultimo_prezzo": 25028.98,
     "ultimo_prezzo_data": "2026-11-20",
-    "da_venerdi_pct": -10.43,
+    "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-17",
      "netto": -12468,
@@ -374,12 +374,12 @@
    },
    "US30": {
     "verso": "rialzista",
-    "convinzione": 45,
-    "frase": "Il Dow regge meglio del Nasdaq: i soldi passano dalla tecnologia ai titoli classici.",
-    "cosa_lo_smentisce": "chiusura settimanale sotto 51.300 (chiusura del 6 novembre)",
+    "convinzione": 35,
+    "frase": "Il Dow ha perso l'8%, il peggio dal 2020: ha meno tecnologia del Nasdaq e con i rendimenti in calo può recuperare.",
+    "cosa_lo_smentisce": "chiusura settimanale sotto 47.500",
     "ultimo_prezzo": 48147.33,
     "ultimo_prezzo_data": "2026-11-20",
-    "da_venerdi_pct": -8.02,
+    "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-17",
      "netto": 2626,
@@ -392,13 +392,13 @@
     }
    },
    "EURUSD": {
-    "verso": "ribassista",
-    "convinzione": 50,
-    "frase": "La Fed alza e la BCE no: l'euro scende da quattro settimane.",
-    "cosa_lo_smentisce": "chiusura settimanale sopra 1,1150 oppure verbali Fed meno duri",
+    "verso": "neutro",
+    "convinzione": 35,
+    "frase": "Fed che alza contro fondi già venduti al massimo: in una settimana corta l'euro più probabilmente resta fermo.",
+    "cosa_lo_smentisce": "chiusura settimanale sotto 1,0900 = ribassista; sopra 1,1050 = rialzista",
     "ultimo_prezzo": 1.0967,
     "ultimo_prezzo_data": "2026-11-20",
-    "da_venerdi_pct": -0.49,
+    "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-17",
      "netto": -76587,
@@ -411,13 +411,13 @@
     }
    },
    "GBPUSD": {
-    "verso": "neutro",
-    "convinzione": 35,
-    "frase": "Banca d'Inghilterra contro Fed, entrambe alzano: decide l'inflazione inglese di mercoledì.",
-    "cosa_lo_smentisce": "CPI inglese sopra 3,7% = rialzista; sotto 3,4% = ribassista",
+    "verso": "ribassista",
+    "convinzione": 40,
+    "frase": "Inflazione inglese sotto le stime della BoE e disoccupazione in salita: la sterlina perde la spinta dei tassi.",
+    "cosa_lo_smentisce": "chiusura settimanale sopra 1,3215 (chiusura del 13 novembre)",
     "ultimo_prezzo": 1.3081,
     "ultimo_prezzo_data": "2026-11-20",
-    "da_venerdi_pct": -1.01,
+    "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-17",
      "netto": 28790,
@@ -430,13 +430,13 @@
     }
    },
    "USDJPY": {
-    "verso": "rialzista",
-    "convinzione": 40,
-    "frase": "Il dollaro rende molto più dello yen, ma a 160 il Giappone può intervenire.",
-    "cosa_lo_smentisce": "intervento del Giappone oppure chiusura sotto 157,50",
+    "verso": "ribassista",
+    "convinzione": 35,
+    "frase": "La Banca del Giappone va verso il rialzo di dicembre e il governo difende quota 160: più probabile giù.",
+    "cosa_lo_smentisce": "chiusura settimanale sopra 160,00 senza intervento",
     "ultimo_prezzo": 158.53,
     "ultimo_prezzo_data": "2026-11-20",
-    "da_venerdi_pct": -0.71,
+    "da_venerdi_pct": null,
     "cot": {
      "data": "2026-11-17",
      "netto": 23790,
@@ -488,7 +488,7 @@
     "tasso": "4,00%",
     "ultima": "2026-11-05",
     "prossima": "2027-02-04",
-    "in_parole_semplici": "La Banca d'Inghilterra ha alzato i tassi e avverte che l'inflazione peggiorerà ancora: altri rialzi possibili.",
+    "in_parole_semplici": "La Banca d'Inghilterra ha alzato i tassi e avverte che l'inflazione peggiorerà ancora. Ma l'inflazione di ottobre (3,6%) è uscita sotto le sue stime.",
     "conferma_grafico": {
      "GBPUSD": "smentisce"
     },
@@ -501,7 +501,7 @@
     "tasso": "1,25%",
     "ultima": "2026-10-30",
     "prossima": "2027-01-22",
-    "in_parole_semplici": "La Banca del Giappone non ha alzato, ma ha detto chiaro che lo farà. Il mercato non le crede ancora: lo yen continua a scendere.",
+    "in_parole_semplici": "La Banca del Giappone non ha alzato, ma ha detto chiaro che lo farà. Ora la maggior parte degli economisti si aspetta il rialzo all'1,5% il 18 dicembre.",
     "conferma_grafico": {
      "USDJPY": "smentisce"
     },
@@ -593,28 +593,101 @@
   ],
   "cambiamenti": [],
   "resoconto": [
-   "Questa settimana comanda la Fed: tutti aspettano un rialzo dei tassi il 9 dicembre (86%) e il dollaro è il più forte da 19 mesi.",
-   "Dollaro forte vuol dire oro, euro e sterlina sotto pressione e dollaro/yen vicino a 160, dove il Giappone può intervenire.",
-   "Le borse hanno chiuso una buona settimana, ma venerdì la tecnologia è scesa: martedì sera i conti di Nvidia decidono il Nasdaq.",
-   "BCE, Banca d'Inghilterra e Banca del Giappone sono diventate più dure, ma le loro valute sono scese lo stesso: il grafico dà ragione solo alla Fed.",
-   "Date da segnare: lunedì Warsh, martedì vendite USA e Nvidia, mercoledì inflazione inglese e verbali Fed."
+   "Settimana di crollo: il Nasdaq ha perso il 10% (peggio dal 2020), Dow e S&P 500 sono in correzione. L'arrivo in borsa di Anthropic non ha convinto e Nvidia ha perso il 23%.",
+   "Anche l'oro è crollato (-9%, minimo da 14 mesi): chi perdeva in borsa ha venduto oro, e la Fed alzerà i tassi il 9 dicembre (92%).",
+   "Venerdì però i rendimenti USA sono scesi e il rialzo della Fed è già tutto nei prezzi: per questa settimana è più probabile un rimbalzo, ma è una lettura debole.",
+   "Banche: i verbali della Fed confermano altri rialzi; la Banca del Giappone va verso l'1,5% il 18 dicembre (yen su); l'inflazione inglese è sotto le stime della BoE (sterlina giù).",
+   "Settimana corta: giovedì Ringraziamento con borse USA chiuse. Date da segnare: lunedì PMI, martedì sera Dell e HP, mercoledì PCE e PIL alle 14:30 italiane."
   ],
-  "prossimi_eventi": [],
+  "prossimi_eventi": [
+   {
+    "quando": "2026-11-23T00:00:00Z",
+    "evento": "Giappone chiuso (festa del Lavoro)",
+    "impatto": "basso",
+    "previsione": "",
+    "precedente": "",
+    "perche": "pochi scambi sullo yen in Asia",
+    "mercati": "USDJPY"
+   },
+   {
+    "quando": "2026-11-23T09:00:00Z",
+    "evento": "PMI area euro (novembre, prima stima)",
+    "impatto": "medio",
+    "previsione": "",
+    "precedente": "",
+    "perche": "tenuta dell'economia europea",
+    "mercati": "EURUSD"
+   },
+   {
+    "quando": "2026-11-23T09:30:00Z",
+    "evento": "PMI Regno Unito (novembre, prima stima)",
+    "impatto": "medio",
+    "previsione": "",
+    "precedente": "",
+    "perche": "dopo inflazione e lavoro più deboli",
+    "mercati": "GBPUSD"
+   },
+   {
+    "quando": "2026-11-23T14:45:00Z",
+    "evento": "PMI USA (novembre, prima stima)",
+    "impatto": "medio",
+    "previsione": "",
+    "precedente": "55,9 composito",
+    "perche": "sopra 56 = Fed più dura; sotto 54 = timori sulla crescita",
+    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+   },
+   {
+    "quando": "2026-11-23T21:05:00Z",
+    "evento": "Conti di HP Enterprise e Zoom",
+    "impatto": "basso",
+    "previsione": "",
+    "precedente": "",
+    "perche": "primi conti tecnologici dopo il crollo",
+    "mercati": "US100"
+   },
+   {
+    "quando": "2026-11-24T09:00:00Z",
+    "evento": "Ifo Germania (fiducia delle imprese)",
+    "impatto": "medio",
+    "previsione": "",
+    "precedente": "",
+    "perche": "economia tedesca",
+    "mercati": "EURUSD"
+   },
+   {
+    "quando": "2026-11-24T15:00:00Z",
+    "evento": "Fiducia dei consumatori USA (Conference Board)",
+    "impatto": "medio",
+    "previsione": "",
+    "precedente": "",
+    "perche": "effetto del crollo di borsa sulle famiglie",
+    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+   },
+   {
+    "quando": "2026-11-24T21:05:00Z",
+    "evento": "Conti di Dell, HP, Workday e Autodesk",
+    "impatto": "alto",
+    "previsione": "",
+    "precedente": "",
+    "perche": "dicono se la spesa in IA tiene dopo il crollo di Nvidia (la mattina Analog Devices)",
+    "mercati": "US100 US30"
+   }
+  ],
   "fonti_prezzi": {
    "XAUUSD": "lettura+CNBC",
-   "US100": "FRED+CNBC",
-   "US30": "FRED+CNBC",
-   "EURUSD": "FRED+CNBC",
-   "GBPUSD": "FRED+CNBC",
-   "USDJPY": "FRED+CNBC"
+   "US100": "FRED+lettura",
+   "US30": "FRED",
+   "EURUSD": "FRED+lettura",
+   "GBPUSD": "FRED+lettura",
+   "USDJPY": "FRED+lettura"
   },
   "dati_presi_utc": "2026-11-21T07:31:02Z",
-  "sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (21/100)",
-  "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, da venerdi' -8.97%, COT fondi 21° pct. US100: neutro 35/100, da venerdi' -10.43%, COT fondi 88° pct. US30: rialzista 45/100, da venerdi' -8.02%, COT fondi 68° pct. EURUSD: ribassista 50/100, da venerdi' -0.49%, COT fondi 1° pct. GBPUSD: neutro 35/100, da venerdi' -1.01%, COT fondi 39° pct. USDJPY: rialzista 40/100, da venerdi' -0.71%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
+  "sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100)",
+  "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' +0.00%, COT fondi 21° pct. US100: rialzista 30/100, COT fondi 88° pct. US30: rialzista 35/100, COT fondi 68° pct. EURUSD: neutro 35/100, COT fondi 1° pct. GBPUSD: ribassista 40/100, COT fondi 39° pct. USDJPY: ribassista 35/100, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (21/100) | nessun segnale extra forte",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | nessun segnale extra forte",
  "ultimo_dato": ""
 }
