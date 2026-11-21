@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-21T00:46:13Z",
+ "timestamp_utc": "2026-11-21T01:02:19Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -44,7 +44,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 2.4,
+    "var_4h": 2.2,
     "var_24h": 0.0
    },
    "tasso_10y": {
@@ -52,7 +52,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 3.0,
+    "var_4h": 2.6,
     "var_24h": -10.2
    },
    "tasso_2y": {
@@ -60,7 +60,7 @@
     "ora": "2026-11-20T17:05:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 2.8,
+    "var_4h": 2.3,
     "var_24h": -13.0
    },
    "dollaro_dxy": {
@@ -68,7 +68,7 @@
     "ora": "2026-11-20T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.006,
+    "var_4h": -0.017,
     "var_24h": -0.053
    },
    "vix": {
@@ -76,7 +76,7 @@
     "ora": "2026-11-20T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": -1.83,
+    "var_4h": -3.64,
     "var_24h": 7.45
    },
    "oro_futures": {
@@ -84,7 +84,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.921,
+    "var_4h": 0.4,
     "var_24h": -3.975
    },
    "argento": {
@@ -92,7 +92,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 1.008,
+    "var_4h": 0.366,
     "var_24h": -7.392
    },
    "petrolio_wti": {
@@ -108,7 +108,7 @@
     "ora": "2026-11-20T18:47:32.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.284,
+    "var_4h": 0.092,
     "var_24h": -2.991
    },
    "gld": {
@@ -116,7 +116,7 @@
     "ora": "2026-11-20T16:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.32,
+    "var_4h": -0.05,
     "var_24h": -3.673
    },
    "usdcny": {
@@ -127,7 +127,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.278,
+   "punteggio_4h": -0.268,
    "punteggio_24h": 0.246,
    "rapporto_oro_argento": 86.15
   },
@@ -298,12 +298,12 @@
      "data": "2026-10-07"
     },
     {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
      "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
      "data": "2026-11-17"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
     },
     {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
@@ -327,13 +327,13 @@
    "nota": "regime di fondo, mensile: informativo"
   },
   "geopolitica": {
-   "intensita_24h": 3.3373,
-   "media_30g": 3.1113,
-   "z": 0.25,
+   "intensita_24h": 3.6814,
+   "media_30g": 3.1202,
+   "z": 0.64,
    "allarme": false,
-   "punteggio": 0.126
+   "punteggio": 0.31
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.28)"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.27)"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -348,7 +348,7 @@
     "frase": "Fed verso il rialzo e dollaro forte pesano sull'oro, ma i fondi hanno già venduto molto.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 4.000 $ oppure verbali Fed e Warsh meno duri del previsto",
     "ultimo_prezzo": 3539.0,
-    "ultimo_prezzo_data": "2026-11-20",
+    "ultimo_prezzo_data": "2026-11-21",
     "da_venerdi_pct": -8.97,
     "cot": {
      "data": "2026-11-17",
@@ -520,7 +520,7 @@
     "mercato": "XAUUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-20",
+    "fino_a": "2026-11-21",
     "da_allora_pct": -18.61,
     "esito": "conferma"
    },
@@ -614,13 +614,13 @@
    "GBPUSD": "FRED+CNBC",
    "USDJPY": "FRED+CNBC"
   },
-  "dati_presi_utc": "2026-11-20T22:45:47Z",
+  "dati_presi_utc": "2026-11-21T01:01:21Z",
   "sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (21/100)",
   "testo_analisti": "Terminale settimanale 16-20 novembre 2026 (scritto il 2026-11-15, peso zero). XAUUSD: ribassista 55/100, da venerdi' -8.97%, COT fondi 21° pct. US100: neutro 35/100, da venerdi' -10.43%, COT fondi 88° pct. US30: rialzista 45/100, da venerdi' -8.02%, COT fondi 68° pct. EURUSD: ribassista 50/100, da venerdi' -0.49%, COT fondi 1° pct. GBPUSD: neutro 35/100, da venerdi' -1.01%, COT fondi 39° pct. USDJPY: rialzista 40/100, da venerdi' -0.71%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h contro oro (-0.28)",
+ "extra_sintesi": "Terminale: oro ribassista 55/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h contro oro (-0.27)",
  "ultimo_dato": ""
 }
