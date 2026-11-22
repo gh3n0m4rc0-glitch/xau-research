@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T07:02:09Z",
+ "timestamp_utc": "2026-11-22T07:16:28Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -290,6 +290,10 @@
   },
   "banche_centrali": {
    "titoli_45g": [
+    {
+     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
+     "data": "2026-11-22"
+    },
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
