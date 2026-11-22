@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T23:02:35Z",
+ "timestamp_utc": "2026-11-22T23:16:10Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -32,8 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -66,12 +64,12 @@
     "var_24h": 3.6
    },
    "dollaro_dxy": {
-    "ultimo": 103.824,
-    "ora": "2026-11-22T18:01:16.000-0500",
+    "ultimo": 103.819,
+    "ora": "2026-11-22T18:15:48.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.016,
-    "var_4h": -0.015,
-    "var_24h": 0.016
+    "var_1h": -0.02,
+    "var_4h": -0.02,
+    "var_24h": 0.012
    },
    "vix": {
     "ultimo": 35.89,
@@ -82,36 +80,36 @@
     "var_24h": 7.45
    },
    "oro_futures": {
-    "ultimo": 3515.4,
-    "ora": "2026-11-22T17:31:40.000-0500",
+    "ultimo": 3574.8,
+    "ora": "2026-11-22T18:05:44.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.0,
-    "var_24h": 0.0
+    "var_1h": 1.69,
+    "var_4h": 1.69,
+    "var_24h": 1.69
    },
    "argento": {
-    "ultimo": 41.07,
-    "ora": "2026-11-22T17:32:02.000-0500",
+    "ultimo": 41.98,
+    "ora": "2026-11-22T18:05:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.0,
-    "var_24h": 0.0
+    "var_1h": 2.216,
+    "var_4h": 2.216,
+    "var_24h": 2.216
    },
    "petrolio_wti": {
-    "ultimo": 83.41,
-    "ora": "2026-11-22T17:32:14.000-0500",
+    "ultimo": 83.26,
+    "ora": "2026-11-22T18:05:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.0,
-    "var_24h": 0.0
+    "var_1h": -0.18,
+    "var_4h": -0.18,
+    "var_24h": -0.18
    },
    "rame": {
-    "ultimo": 5.485,
-    "ora": "2026-11-22T17:31:53.000-0500",
+    "ultimo": 5.5115,
+    "ora": "2026-11-22T18:05:47.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.0,
-    "var_24h": 0.0
+    "var_1h": 0.483,
+    "var_4h": 0.483,
+    "var_24h": 0.483
    },
    "gld": {
     "ultimo": 322.87,
@@ -129,16 +127,16 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.017,
-   "punteggio_24h": 0.051,
-   "rapporto_oro_argento": 85.6
+   "punteggio_4h": 0.013,
+   "punteggio_24h": 0.048,
+   "rapporto_oro_argento": 85.15
   },
   "etf": {
-   "gld_tonnellate_stimate": 1046.4,
+   "gld_tonnellate_stimate": 1029.0,
    "data": "2026-11-22",
    "giorni_di_storico": 14,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 11.6,
+   "flusso_5g_t": -5.8,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -288,6 +286,52 @@
    "variazione_4sett_pct_oi": -0.7,
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
+  },
+  "banche_centrali": {
+   "titoli_45g": [
+    {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
+     "data": "2026-11-22"
+    },
+    {
+     "titolo": "Libya ranks Second in Africa for Central Bank Gold Reserves - The Libya Observer",
+     "data": "2026-11-22"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
+     "data": "2026-10-11"
+    },
+    {
+     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
+     "data": "2026-11-21"
+    },
+    {
+     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
+     "data": "2026-11-18"
+    }
+   ],
+   "pboc_mesi_di_acquisti": 24,
+   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
+   "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 2.6841,
+   "media_30g": 3.1333,
+   "z": -0.52,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "nessun segnale extra forte"
  },
