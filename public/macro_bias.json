@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T13:16:27Z",
+ "timestamp_utc": "2026-11-22T13:32:05Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
+  "GDELT: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (rea",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
