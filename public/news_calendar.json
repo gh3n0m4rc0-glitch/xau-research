@@ -1,83 +1,65 @@
 [
  {
-  "time_utc": "2026-11-16T17:00:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "Fed Chairman Warsh Speaks",
-  "tier": 1,
-  "forecast": "",
-  "previous": ""
- },
- {
-  "time_utc": "2026-11-17T13:30:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "Core Retail Sales m/m",
-  "tier": 2,
-  "forecast": "0.4%",
-  "previous": "0.9%"
- },
- {
-  "time_utc": "2026-11-17T13:30:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "Retail Sales m/m",
-  "tier": 2,
-  "forecast": "0.1%",
-  "previous": "0.8%"
- },
- {
-  "time_utc": "2026-11-18T19:00:00Z",
-  "currency": "USD",
-  "impact": "High",
-  "title": "FOMC Meeting Minutes",
-  "tier": 1,
-  "forecast": "",
-  "previous": ""
- },
- {
-  "time_utc": "2026-11-19T13:30:00Z",
+  "time_utc": "2026-11-23T14:45:00Z",
   "currency": "USD",
   "impact": "Medium",
-  "title": "Philly Fed Manufacturing Index",
+  "title": "Flash Manufacturing PMI",
   "tier": 3,
-  "forecast": "20.6",
-  "previous": "20.9"
+  "forecast": "54.5",
+  "previous": "56.0"
  },
  {
-  "time_utc": "2026-11-19T13:30:00Z",
+  "time_utc": "2026-11-23T14:45:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Flash Services PMI",
+  "tier": 3,
+  "forecast": "55.6",
+  "previous": "57.9"
+ },
+ {
+  "time_utc": "2026-11-24T15:00:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "CB Consumer Confidence",
+  "tier": 3,
+  "forecast": "92.1",
+  "previous": "91.7"
+ },
+ {
+  "time_utc": "2026-11-25T13:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Core PCE Price Index m/m",
+  "tier": 1,
+  "forecast": "0.3%",
+  "previous": "0.3%"
+ },
+ {
+  "time_utc": "2026-11-25T13:30:00Z",
+  "currency": "USD",
+  "impact": "High",
+  "title": "Prelim GDP q/q",
+  "tier": 2,
+  "forecast": "3.5%",
+  "previous": "3.4%"
+ },
+ {
+  "time_utc": "2026-11-25T13:30:00Z",
+  "currency": "USD",
+  "impact": "Medium",
+  "title": "Prelim GDP Price Index q/q",
+  "tier": 3,
+  "forecast": "2.3%",
+  "previous": "2.3%"
+ },
+ {
+  "time_utc": "2026-11-25T13:30:00Z",
   "currency": "USD",
   "impact": "Medium",
   "title": "Unemployment Claims",
   "tier": 3,
-  "forecast": "198K",
-  "previous": "200K"
- },
- {
-  "time_utc": "2026-11-20T15:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "Revised UoM Consumer Sentiment",
-  "tier": 3,
-  "forecast": "51.7",
-  "previous": "51.0"
- },
- {
-  "time_utc": "2026-11-20T15:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "Revised UoM Inflation Expectations",
-  "tier": 3,
-  "forecast": "",
-  "previous": "4.3%"
- },
- {
-  "time_utc": "2026-11-20T17:00:00Z",
-  "currency": "USD",
-  "impact": "Medium",
-  "title": "President Trump Speaks",
-  "tier": 3,
-  "forecast": "",
-  "previous": ""
+  "forecast": "201K",
+  "previous": "203K"
  }
 ]
