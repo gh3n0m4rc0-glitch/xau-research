@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T18:16:19Z",
+ "timestamp_utc": "2026-11-22T18:31:44Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -347,9 +347,9 @@
     "convinzione": 35,
     "frase": "Dopo il -9% della settimana è più probabile un rimbalzo: le vendite forzate finiscono e i rendimenti scendono, ma la Fed resta contro.",
     "cosa_lo_smentisce": "chiusura settimanale sotto 3.450 $ oppure PCE di mercoledì sopra lo 0,4% sul mese",
-    "ultimo_prezzo": 3539.0,
+    "ultimo_prezzo": 3515.4,
     "ultimo_prezzo_data": "2026-11-21",
-    "da_venerdi_pct": 0.0,
+    "da_venerdi_pct": -0.67,
     "cot": {
      "data": "2026-11-17",
      "netto": 102942,
@@ -421,9 +421,9 @@
     "convinzione": 40,
     "frase": "Inflazione inglese sotto le stime della BoE e disoccupazione in salita: la sterlina perde la spinta dei tassi.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 1,3215 (chiusura del 13 novembre)",
-    "ultimo_prezzo": 1.3081,
-    "ultimo_prezzo_data": "2026-11-20",
-    "da_venerdi_pct": null,
+    "ultimo_prezzo": 1.3086,
+    "ultimo_prezzo_data": "2026-11-22",
+    "da_venerdi_pct": 0.04,
     "cot": {
      "data": "2026-11-17",
      "netto": 28790,
@@ -440,9 +440,9 @@
     "convinzione": 35,
     "frase": "La Banca del Giappone va verso il rialzo di dicembre e il governo difende quota 160: più probabile giù.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 160,00 senza intervento",
-    "ultimo_prezzo": 158.53,
-    "ultimo_prezzo_data": "2026-11-20",
-    "da_venerdi_pct": null,
+    "ultimo_prezzo": 158.57,
+    "ultimo_prezzo_data": "2026-11-22",
+    "da_venerdi_pct": 0.03,
     "cot": {
      "data": "2026-11-17",
      "netto": 23790,
@@ -521,7 +521,7 @@
     "atteso": "giu",
     "dal": "2026-09-11",
     "fino_a": "2026-11-21",
-    "da_allora_pct": -18.61,
+    "da_allora_pct": -19.16,
     "esito": "conferma"
    },
    {
@@ -556,8 +556,8 @@
     "mercato": "GBPUSD",
     "atteso": "giu",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-20",
-    "da_allora_pct": -3.28,
+    "fino_a": "2026-11-22",
+    "da_allora_pct": -3.24,
     "esito": "conferma"
    },
    {
@@ -565,8 +565,8 @@
     "mercato": "USDJPY",
     "atteso": "su",
     "dal": "2026-09-11",
-    "fino_a": "2026-11-20",
-    "da_allora_pct": 3.14,
+    "fino_a": "2026-11-22",
+    "da_allora_pct": 3.16,
     "esito": "conferma"
    },
    {
@@ -583,8 +583,8 @@
     "mercato": "GBPUSD",
     "atteso": "su",
     "dal": "2026-10-30",
-    "fino_a": "2026-11-20",
-    "da_allora_pct": -2.37,
+    "fino_a": "2026-11-22",
+    "da_allora_pct": -2.33,
     "esito": "smentisce"
    },
    {
@@ -592,8 +592,8 @@
     "mercato": "USDJPY",
     "atteso": "giu",
     "dal": "2026-10-23",
-    "fino_a": "2026-11-20",
-    "da_allora_pct": 1.06,
+    "fino_a": "2026-11-22",
+    "da_allora_pct": 1.08,
     "esito": "smentisce"
    }
   ],
@@ -684,12 +684,12 @@
    "US100": "FRED+lettura",
    "US30": "FRED",
    "EURUSD": "FRED+lettura",
-   "GBPUSD": "FRED+lettura",
-   "USDJPY": "FRED+lettura"
+   "GBPUSD": "FRED+lettura+CNBC",
+   "USDJPY": "FRED+lettura+CNBC"
   },
-  "dati_presi_utc": "2026-11-22T16:30:57Z",
+  "dati_presi_utc": "2026-11-22T18:31:00Z",
   "sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100)",
-  "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' +0.00%, COT fondi 21° pct. US100: rialzista 30/100, COT fondi 88° pct. US30: rialzista 35/100, COT fondi 68° pct. EURUSD: neutro 35/100, COT fondi 1° pct. GBPUSD: ribassista 40/100, COT fondi 39° pct. USDJPY: ribassista 35/100, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
+  "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' -0.67%, COT fondi 21° pct. US100: rialzista 30/100, COT fondi 88° pct. US30: rialzista 35/100, COT fondi 68° pct. EURUSD: neutro 35/100, COT fondi 1° pct. GBPUSD: ribassista 40/100, da venerdi' +0.04%, COT fondi 39° pct. USDJPY: ribassista 35/100, da venerdi' +0.03%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
  },
  "news_giudicate": false,
