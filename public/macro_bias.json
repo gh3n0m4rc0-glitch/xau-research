@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T22:02:05Z",
+ "timestamp_utc": "2026-11-22T22:16:24Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -65,12 +65,12 @@
     "var_24h": -13.0
    },
    "dollaro_dxy": {
-    "ultimo": 103.807,
-    "ora": "2026-11-20",
+    "ultimo": 103.84,
+    "ora": "2026-11-22T17:03:42.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.032,
-    "var_4h": -0.032,
-    "var_24h": 0.0
+    "var_1h": 0.0,
+    "var_4h": 0.0,
+    "var_24h": 0.032
    },
    "vix": {
     "ultimo": 35.89,
@@ -128,8 +128,8 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.037,
-   "punteggio_24h": 0.176,
+   "punteggio_4h": 0.0,
+   "punteggio_24h": 0.153,
    "rapporto_oro_argento": 85.6
   },
   "etf": {
