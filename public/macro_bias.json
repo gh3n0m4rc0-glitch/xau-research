@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T21:02:02Z",
+ "timestamp_utc": "2026-11-22T21:31:53Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -65,12 +65,12 @@
     "var_24h": -13.0
    },
    "dollaro_dxy": {
-    "ultimo": 103.84,
+    "ultimo": 103.807,
     "ora": "2026-11-20",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.0,
-    "var_24h": -0.053
+    "var_1h": -0.032,
+    "var_4h": -0.032,
+    "var_24h": 0.0
    },
    "vix": {
     "ultimo": 35.89,
@@ -85,7 +85,7 @@
     "ora": "2026-11-21",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.667,
+    "var_4h": 0.0,
     "var_24h": 0.0
    },
    "argento": {
@@ -93,7 +93,7 @@
     "ora": "2026-11-21",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.024,
+    "var_4h": 0.0,
     "var_24h": 0.0
    },
    "petrolio_wti": {
@@ -101,7 +101,7 @@
     "ora": "2026-11-21",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.251,
+    "var_4h": 0.0,
     "var_24h": 0.0
    },
    "rame": {
@@ -109,7 +109,7 @@
     "ora": "2026-11-21",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.366,
+    "var_4h": 0.0,
     "var_24h": 0.0
    },
    "gld": {
@@ -128,8 +128,8 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.014,
-   "punteggio_24h": 0.213,
+   "punteggio_4h": 0.037,
+   "punteggio_24h": 0.176,
    "rapporto_oro_argento": 85.6
   },
   "etf": {
@@ -291,6 +291,10 @@
   "banche_centrali": {
    "titoli_45g": [
     {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
+    },
+    {
      "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
      "data": "2026-11-22"
     },
@@ -301,10 +305,6 @@
     {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
-    },
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
     },
     {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
