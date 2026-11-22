@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T16:16:23Z",
+ "timestamp_utc": "2026-11-22T16:31:48Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -681,7 +681,7 @@
    "GBPUSD": "FRED+lettura",
    "USDJPY": "FRED+lettura"
   },
-  "dati_presi_utc": "2026-11-22T14:15:45Z",
+  "dati_presi_utc": "2026-11-22T16:30:57Z",
   "sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100)",
   "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' +0.00%, COT fondi 21° pct. US100: rialzista 30/100, COT fondi 88° pct. US30: rialzista 35/100, COT fondi 68° pct. EURUSD: neutro 35/100, COT fondi 1° pct. GBPUSD: ribassista 40/100, COT fondi 39° pct. USDJPY: ribassista 35/100, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
