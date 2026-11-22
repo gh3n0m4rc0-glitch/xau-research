@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T12:17:06Z",
+ "timestamp_utc": "2026-11-22T12:31:54Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -34,8 +34,7 @@
  "fonti_extra_mancanti": [
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
-  "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato",
-  "terminale COT: non raggiunto (ReadTimeout)"
+  "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
  "extra": {
   "peso_nel_bias": 0,
