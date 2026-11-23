@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-23T12:46:36Z",
+ "timestamp_utc": "2026-11-23T13:02:19Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -41,76 +41,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.768,
-    "ora": "2026-11-23T07:45:29.000-0500",
+    "ultimo": 2.77,
+    "ora": "2026-11-23T08:01:03.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.3,
-    "var_4h": -3.1,
-    "var_24h": -1.9
+    "var_1h": -2.6,
+    "var_4h": -2.8,
+    "var_24h": -1.7
    },
    "tasso_10y": {
-    "ultimo": 4.932,
-    "ora": "2026-11-23T07:45:53.000-0500",
+    "ultimo": 4.942,
+    "ora": "2026-11-23T08:01:29.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.2,
-    "var_4h": -3.2,
-    "var_24h": 2.0
+    "var_1h": -1.6,
+    "var_4h": -2.0,
+    "var_24h": 3.0
    },
    "tasso_2y": {
-    "ultimo": 4.664,
-    "ora": "2026-11-23T07:45:55.000-0500",
+    "ultimo": 4.666,
+    "ora": "2026-11-23T08:01:26.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.1,
-    "var_4h": -2.8,
-    "var_24h": 5.1
+    "var_1h": -2.4,
+    "var_4h": -2.4,
+    "var_24h": 5.3
    },
    "dollaro_dxy": {
-    "ultimo": 103.991,
-    "ora": "2026-11-23T07:45:56.000-0500",
+    "ultimo": 104.04,
+    "ora": "2026-11-23T08:01:32.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.068,
-    "var_4h": 0.314,
-    "var_24h": 0.177
+    "var_1h": 0.123,
+    "var_4h": 0.327,
+    "var_24h": 0.224
    },
    "vix": {
-    "ultimo": 31.48,
-    "ora": "2026-11-23T07:45:46.000-0500",
+    "ultimo": 31.31,
+    "ora": "2026-11-23T08:01:31.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 1.53,
-    "var_4h": 0.39,
-    "var_24h": -4.41
+    "var_1h": 1.11,
+    "var_4h": 0.7,
+    "var_24h": -4.58
    },
    "oro_futures": {
-    "ultimo": 3620.8,
-    "ora": "2026-11-23T07:35:53.000-0500",
+    "ultimo": 3615.7,
+    "ora": "2026-11-23T07:51:30.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.028,
-    "var_4h": 0.31,
-    "var_24h": 2.998
+    "var_1h": -0.146,
+    "var_4h": 0.119,
+    "var_24h": 2.853
    },
    "argento": {
-    "ultimo": 42.265,
-    "ora": "2026-11-23T07:35:52.000-0500",
+    "ultimo": 42.05,
+    "ora": "2026-11-23T07:51:32.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.271,
-    "var_4h": 0.012,
-    "var_24h": 2.91
+    "var_1h": -0.837,
+    "var_4h": -0.837,
+    "var_24h": 2.386
    },
    "petrolio_wti": {
-    "ultimo": 82.16,
-    "ora": "2026-11-23T07:35:55.000-0500",
+    "ultimo": 82.14,
+    "ora": "2026-11-23T07:51:31.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.146,
-    "var_4h": -0.749,
-    "var_24h": -1.499
+    "var_1h": 0.024,
+    "var_4h": -0.581,
+    "var_24h": -1.523
    },
    "rame": {
-    "ultimo": 5.5105,
-    "ora": "2026-11-23T07:35:55.000-0500",
+    "ultimo": 5.492,
+    "ora": "2026-11-23T07:51:30.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.1,
-    "var_4h": -0.1,
-    "var_24h": 0.465
+    "var_1h": -0.543,
+    "var_4h": -0.471,
+    "var_24h": 0.128
    },
    "gld": {
     "ultimo": 322.87,
@@ -128,16 +128,16 @@
     "var_4h": 0.005,
     "var_24h": -0.19
    },
-   "punteggio_4h": -0.043,
-   "punteggio_24h": -0.193,
-   "rapporto_oro_argento": 85.67
+   "punteggio_4h": -0.057,
+   "punteggio_24h": -0.241,
+   "rapporto_oro_argento": 85.99
   },
   "etf": {
-   "gld_tonnellate_stimate": 1010.1,
+   "gld_tonnellate_stimate": 1011.5,
    "data": "2026-11-23",
    "giorni_di_storico": 15,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -29.4,
+   "flusso_5g_t": -27.9,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -315,12 +315,12 @@
      "data": "2026-11-17"
     },
     {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
+     "titolo": "China extends gold buying spree to two years as prices drop, adds 25.8 tonnes in October - Moneycontrol.com",
+     "data": "2026-11-07"
     },
     {
-     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertainty? - The Economic Times",
-     "data": "2026-11-18"
+     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
+     "data": "2026-11-21"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
