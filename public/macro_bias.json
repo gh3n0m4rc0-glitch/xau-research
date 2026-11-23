@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-23T04:01:43Z",
+ "timestamp_utc": "2026-11-23T04:16:26Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -64,12 +65,12 @@
     "var_24h": 3.6
    },
    "dollaro_dxy": {
-    "ultimo": 103.769,
-    "ora": "2026-11-22T23:01:21.000-0500",
+    "ultimo": 103.794,
+    "ora": "2026-11-22T23:15:47.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.007,
-    "var_4h": -0.054,
-    "var_24h": -0.037
+    "var_1h": 0.031,
+    "var_4h": -0.05,
+    "var_24h": -0.013
    },
    "vix": {
     "ultimo": 35.89,
@@ -80,36 +81,36 @@
     "var_24h": 7.45
    },
    "oro_futures": {
-    "ultimo": 3603.6,
-    "ora": "2026-11-22T22:51:21.000-0500",
+    "ultimo": 3605.8,
+    "ora": "2026-11-22T23:05:43.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.524,
-    "var_4h": 0.586,
-    "var_24h": 2.509
+    "var_1h": 0.586,
+    "var_4h": 0.69,
+    "var_24h": 2.572
    },
    "argento": {
-    "ultimo": 41.995,
-    "ora": "2026-11-22T22:51:21.000-0500",
+    "ultimo": 41.96,
+    "ora": "2026-11-22T23:05:35.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 1.254,
-    "var_4h": -0.356,
-    "var_24h": 2.252
+    "var_1h": 1.169,
+    "var_4h": -0.297,
+    "var_24h": 2.167
    },
    "petrolio_wti": {
-    "ultimo": 83.22,
-    "ora": "2026-11-22T22:50:05.000-0500",
+    "ultimo": 83.41,
+    "ora": "2026-11-22T23:05:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.338,
-    "var_4h": 0.447,
-    "var_24h": -0.228
+    "var_1h": 0.567,
+    "var_4h": 0.664,
+    "var_24h": 0.0
    },
    "rame": {
-    "ultimo": 5.5255,
-    "ora": "2026-11-22T22:51:20.000-0500",
+    "ultimo": 5.5235,
+    "ora": "2026-11-22T23:05:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 1.572,
-    "var_4h": -0.656,
-    "var_24h": 0.738
+    "var_1h": 1.535,
+    "var_4h": -0.549,
+    "var_24h": 0.702
    },
    "gld": {
     "ultimo": 322.87,
@@ -117,26 +118,26 @@
     "unita_variazioni": "%",
     "var_1h": 0.0,
     "var_4h": 0.0,
-    "var_24h": -3.673
+    "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.6741,
-    "ora": "2026-11-22T23:01:00.000-0500",
+    "ultimo": 6.6739,
+    "ora": "2026-11-22T23:15:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.006,
-    "var_4h": -0.043,
-    "var_24h": -0.043
+    "var_1h": 0.003,
+    "var_4h": -0.046,
+    "var_24h": -0.046
    },
-   "punteggio_4h": 0.087,
-   "punteggio_24h": 0.081,
-   "rapporto_oro_argento": 85.81
+   "punteggio_4h": 0.093,
+   "punteggio_24h": 0.071,
+   "rapporto_oro_argento": 85.93
   },
   "etf": {
-   "gld_tonnellate_stimate": 1020.8,
+   "gld_tonnellate_stimate": 1020.2,
    "data": "2026-11-23",
    "giorni_di_storico": 15,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -18.7,
+   "flusso_5g_t": -19.3,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -294,6 +295,10 @@
      "data": "2026-11-17"
     },
     {
+     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
+     "data": "2026-11-19"
+    },
+    {
      "titolo": "Libya ranks Second in Africa for Central Bank Gold Reserves - The Libya Observer",
      "data": "2026-11-22"
     },
@@ -302,36 +307,25 @@
      "data": "2026-11-22"
     },
     {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
+    },
+    {
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
+    },
+    {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
-    },
-    {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
-    },
-    {
-     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
-     "data": "2026-11-18"
+     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
+     "data": "2026-11-03"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 2.1169,
-   "media_30g": 3.1174,
-   "z": -1.15,
-   "allarme": false,
-   "punteggio": 0.0
   },
   "sintesi": "nessun segnale extra forte"
  },
