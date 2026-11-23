@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-22T23:46:27Z",
+ "timestamp_utc": "2026-11-23T00:02:16Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -17,7 +17,7 @@
  "risk_multiplier": 1.0,
  "halt_trading": false,
  "halt_reason": "",
- "data_age_days": 2,
+ "data_age_days": 3,
  "pre_news": [],
  "upcoming_events": [],
  "fonti": {
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -64,12 +65,12 @@
     "var_24h": 3.6
    },
    "dollaro_dxy": {
-    "ultimo": 103.825,
-    "ora": "2026-11-22T18:45:48.000-0500",
+    "ultimo": 103.846,
+    "ora": "2026-11-22T19:01:28.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.014,
-    "var_4h": -0.014,
-    "var_24h": 0.017
+    "var_1h": 0.021,
+    "var_4h": 0.006,
+    "var_24h": 0.038
    },
    "vix": {
     "ultimo": 35.89,
@@ -80,36 +81,36 @@
     "var_24h": 7.45
    },
    "oro_futures": {
-    "ultimo": 3582.6,
-    "ora": "2026-11-22T18:35:45.000-0500",
+    "ultimo": 3581.1,
+    "ora": "2026-11-22T18:51:25.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 1.912,
-    "var_4h": 1.912,
-    "var_24h": 1.912
+    "var_1h": 1.869,
+    "var_4h": 1.869,
+    "var_24h": 1.869
    },
    "argento": {
-    "ultimo": 42.145,
-    "ora": "2026-11-22T18:35:46.000-0500",
+    "ultimo": 42.085,
+    "ora": "2026-11-22T18:51:27.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 2.617,
-    "var_4h": 2.617,
-    "var_24h": 2.617
+    "var_1h": 2.471,
+    "var_4h": 2.471,
+    "var_24h": 2.471
    },
    "petrolio_wti": {
-    "ultimo": 82.85,
-    "ora": "2026-11-22T18:35:31.000-0500",
+    "ultimo": 82.86,
+    "ora": "2026-11-22T18:51:27.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.671,
-    "var_4h": -0.671,
-    "var_24h": -0.671
+    "var_1h": -0.659,
+    "var_4h": -0.659,
+    "var_24h": -0.659
    },
    "rame": {
-    "ultimo": 5.562,
-    "ora": "2026-11-22T18:35:47.000-0500",
+    "ultimo": 5.554,
+    "ora": "2026-11-22T18:51:21.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 1.404,
-    "var_4h": 1.404,
-    "var_24h": 1.404
+    "var_1h": 1.258,
+    "var_4h": 1.258,
+    "var_24h": 1.258
    },
    "gld": {
     "ultimo": 322.87,
@@ -127,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.019,
-   "punteggio_24h": 0.028,
-   "rapporto_oro_argento": 85.01
+   "punteggio_4h": -0.042,
+   "punteggio_24h": 0.014,
+   "rapporto_oro_argento": 85.09
   },
   "etf": {
-   "gld_tonnellate_stimate": 1026.8,
-   "data": "2026-11-22",
-   "giorni_di_storico": 14,
+   "gld_tonnellate_stimate": 1027.2,
+   "data": "2026-11-23",
+   "giorni_di_storico": 15,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -8.0,
+   "flusso_5g_t": -12.3,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -326,20 +327,13 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "geopolitica": {
-   "intensita_24h": 2.6841,
-   "media_30g": 3.1333,
-   "z": -0.52,
-   "allarme": false,
-   "punteggio": 0.0
-  },
   "sintesi": "nessun segnale extra forte"
  },
  "terminale": {
   "peso_nel_bias": 0,
   "settimana": "23-27 novembre 2026",
   "scritto_il": "2026-11-21",
-  "eta_giorni": 1,
+  "eta_giorni": 2,
   "vecchio": false,
   "mercati": {
    "XAUUSD": {
@@ -607,15 +601,6 @@
   ],
   "prossimi_eventi": [
    {
-    "quando": "2026-11-23T00:00:00Z",
-    "evento": "Giappone chiuso (festa del Lavoro)",
-    "impatto": "basso",
-    "previsione": "",
-    "precedente": "",
-    "perche": "pochi scambi sullo yen in Asia",
-    "mercati": "USDJPY"
-   },
-   {
     "quando": "2026-11-23T09:00:00Z",
     "evento": "PMI area euro (novembre, prima stima)",
     "impatto": "medio",
@@ -677,6 +662,15 @@
     "precedente": "",
     "perche": "dicono se la spesa in IA tiene dopo il crollo di Nvidia (la mattina Analog Devices)",
     "mercati": "US100 US30"
+   },
+   {
+    "quando": "2026-11-25T00:55:00Z",
+    "evento": "Giorno gotobi, fixing di Tokyo (9:55)",
+    "impatto": "basso",
+    "previsione": "",
+    "precedente": "",
+    "perche": "nello studio indici il cambio tende a scendere fino alle 10:20 di Tokyo",
+    "mercati": "USDJPY"
    }
   ],
   "fonti_prezzi": {
