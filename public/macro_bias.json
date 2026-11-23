@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-23T08:46:31Z",
+ "timestamp_utc": "2026-11-23T09:01:54Z",
  "bias": -0.144,
  "confidence": 0.16,
  "regime": "moderatamente sfavorevole",
@@ -40,76 +40,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.799,
-    "ora": "2026-11-23T03:45:30.000-0500",
+    "ultimo": 2.798,
+    "ora": "2026-11-23T03:57:25.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.6,
-    "var_4h": 1.2,
-    "var_24h": 1.2
+    "var_1h": 0.2,
+    "var_4h": 1.1,
+    "var_24h": 1.1
    },
    "tasso_10y": {
-    "ultimo": 4.964,
-    "ora": "2026-11-23T03:45:44.000-0500",
+    "ultimo": 4.962,
+    "ora": "2026-11-23T04:00:01.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.8,
-    "var_4h": 1.4,
-    "var_24h": 5.2
+    "var_1h": 0.2,
+    "var_4h": 1.2,
+    "var_24h": 5.0
    },
    "tasso_2y": {
-    "ultimo": 4.692,
-    "ora": "2026-11-23T03:45:15.000-0500",
+    "ultimo": 4.69,
+    "ora": "2026-11-23T03:57:46.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 2.0,
-    "var_4h": 4.3,
-    "var_24h": 7.9
+    "var_1h": 0.9,
+    "var_4h": 4.1,
+    "var_24h": 7.7
    },
    "dollaro_dxy": {
-    "ultimo": 103.666,
-    "ora": "2026-11-23T03:45:48.000-0500",
+    "ultimo": 103.701,
+    "ora": "2026-11-23T04:01:23.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.048,
-    "var_4h": -0.123,
-    "var_24h": -0.136
+    "var_1h": 0.09,
+    "var_4h": -0.066,
+    "var_24h": -0.102
    },
    "vix": {
-    "ultimo": 31.09,
-    "ora": "2026-11-23T03:45:46.000-0500",
+    "ultimo": 30.61,
+    "ora": "2026-11-23T04:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -4.8,
-    "var_4h": -4.8,
-    "var_24h": -4.8
+    "var_1h": -5.28,
+    "var_4h": -5.28,
+    "var_24h": -5.28
    },
    "oro_futures": {
-    "ultimo": 3609.6,
-    "ora": "2026-11-23T03:35:45.000-0500",
+    "ultimo": 3611.4,
+    "ora": "2026-11-23T03:51:20.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.68,
-    "var_4h": 0.003,
-    "var_24h": 2.68
+    "var_1h": -0.408,
+    "var_4h": -0.028,
+    "var_24h": 2.731
    },
    "argento": {
-    "ultimo": 42.26,
-    "ora": "2026-11-23T03:35:43.000-0500",
+    "ultimo": 42.405,
+    "ora": "2026-11-23T03:51:10.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.996,
-    "var_4h": 0.511,
-    "var_24h": 2.897
+    "var_1h": -0.376,
+    "var_4h": 0.736,
+    "var_24h": 3.251
    },
    "petrolio_wti": {
-    "ultimo": 82.78,
-    "ora": "2026-11-23T03:35:45.000-0500",
+    "ultimo": 82.62,
+    "ora": "2026-11-23T03:51:21.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.337,
-    "var_4h": -0.993,
-    "var_24h": -0.755
+    "var_1h": -0.422,
+    "var_4h": -1.018,
+    "var_24h": -0.947
    },
    "rame": {
-    "ultimo": 5.516,
-    "ora": "2026-11-23T03:35:42.000-0500",
+    "ultimo": 5.518,
+    "ora": "2026-11-23T03:51:20.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.325,
-    "var_4h": -0.199,
-    "var_24h": 0.565
+    "var_1h": -0.226,
+    "var_4h": -0.081,
+    "var_24h": 0.602
    },
    "gld": {
     "ultimo": 322.87,
@@ -121,22 +121,22 @@
    },
    "usdcny": {
     "ultimo": 6.664,
-    "ora": "2026-11-23T03:45:00.000-0500",
+    "ora": "2026-11-23T04:01:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.005,
-    "var_4h": -0.139,
+    "var_1h": -0.003,
+    "var_4h": -0.13,
     "var_24h": -0.195
    },
-   "punteggio_4h": -0.122,
-   "punteggio_24h": -0.124,
-   "rapporto_oro_argento": 85.41
+   "punteggio_4h": -0.173,
+   "punteggio_24h": -0.148,
+   "rapporto_oro_argento": 85.16
   },
   "etf": {
-   "gld_tonnellate_stimate": 1019.1,
+   "gld_tonnellate_stimate": 1018.6,
    "data": "2026-11-23",
    "giorni_di_storico": 15,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -20.4,
+   "flusso_5g_t": -20.9,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -607,15 +607,6 @@
   ],
   "prossimi_eventi": [
    {
-    "quando": "2026-11-23T09:00:00Z",
-    "evento": "PMI area euro (novembre, prima stima)",
-    "impatto": "medio",
-    "previsione": "",
-    "precedente": "",
-    "perche": "tenuta dell'economia europea",
-    "mercati": "EURUSD"
-   },
-   {
     "quando": "2026-11-23T09:30:00Z",
     "evento": "PMI Regno Unito (novembre, prima stima)",
     "impatto": "medio",
@@ -677,6 +668,15 @@
     "precedente": "",
     "perche": "nello studio indici il cambio tende a scendere fino alle 10:20 di Tokyo",
     "mercati": "USDJPY"
+   },
+   {
+    "quando": "2026-11-25T07:00:00Z",
+    "evento": "PIL Germania, 3° trimestre (dato finale)",
+    "impatto": "basso",
+    "previsione": "",
+    "precedente": "",
+    "perche": "conferma della crescita tedesca",
+    "mercati": "EURUSD"
    }
   ],
   "fonti_prezzi": {
