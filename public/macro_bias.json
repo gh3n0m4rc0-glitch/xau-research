@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-23T19:16:28Z",
+ "timestamp_utc": "2026-11-23T19:31:51Z",
  "bias": -0.14,
  "confidence": 0.156,
  "regime": "moderatamente sfavorevole",
@@ -59,103 +59,103 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.785,
-    "ora": "2026-11-23T14:14:06.000-0500",
+    "ultimo": 2.79,
+    "ora": "2026-11-23T14:31:03.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.5,
-    "var_4h": -0.6,
-    "var_24h": -0.2
+    "var_1h": 0.9,
+    "var_4h": 0.2,
+    "var_24h": 0.3
    },
    "tasso_10y": {
-    "ultimo": 4.932,
-    "ora": "2026-11-23T14:14:59.000-0500",
+    "ultimo": 4.93,
+    "ora": "2026-11-23T14:31:14.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.4,
-    "var_4h": -1.8,
-    "var_24h": 2.0
+    "var_1h": -0.6,
+    "var_4h": -3.2,
+    "var_24h": 1.8
    },
    "tasso_2y": {
-    "ultimo": 4.679,
-    "ora": "2026-11-23T14:13:25.000-0500",
+    "ultimo": 4.677,
+    "ora": "2026-11-23T14:31:04.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.5,
-    "var_4h": -2.3,
-    "var_24h": 6.6
+    "var_1h": -1.9,
+    "var_4h": -4.2,
+    "var_24h": 6.4
    },
    "dollaro_dxy": {
-    "ultimo": 104.388,
-    "ora": "2026-11-23T14:16:05.000-0500",
+    "ultimo": 104.356,
+    "ora": "2026-11-23T14:31:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.074,
-    "var_4h": 0.047,
-    "var_24h": 0.56
+    "var_1h": -0.104,
+    "var_4h": 0.036,
+    "var_24h": 0.529
    },
    "vix": {
-    "ultimo": 26.65,
-    "ora": "2026-11-23T14:16:01.000-0500",
+    "ultimo": 27.59,
+    "ora": "2026-11-23T11:27:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.11,
-    "var_4h": -0.65,
-    "var_24h": -9.24
+    "var_1h": 1.33,
+    "var_4h": 1.42,
+    "var_24h": -8.3
    },
    "oro_futures": {
-    "ultimo": 3655.9,
-    "ora": "2026-11-23T14:06:03.000-0500",
+    "ultimo": 3656.3,
+    "ora": "2026-11-23T14:21:11.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.118,
-    "var_4h": -0.452,
-    "var_24h": 3.997
+    "var_1h": 0.049,
+    "var_4h": -0.333,
+    "var_24h": 4.008
    },
    "argento": {
-    "ultimo": 43.22,
-    "ora": "2026-11-23T14:06:02.000-0500",
+    "ultimo": 43.2,
+    "ora": "2026-11-23T14:21:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.162,
-    "var_4h": -0.678,
-    "var_24h": 5.235
+    "var_1h": -0.023,
+    "var_4h": -0.917,
+    "var_24h": 5.186
    },
    "petrolio_wti": {
-    "ultimo": 80.59,
-    "ora": "2026-11-23T14:06:04.000-0500",
+    "ultimo": 80.12,
+    "ora": "2026-11-23T14:21:16.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.617,
-    "var_4h": -0.849,
-    "var_24h": -3.381
+    "var_1h": -1.172,
+    "var_4h": -1.415,
+    "var_24h": -3.944
    },
    "rame": {
-    "ultimo": 5.6445,
-    "ora": "2026-11-23T14:05:58.000-0500",
+    "ultimo": 5.6425,
+    "ora": "2026-11-23T14:21:17.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.106,
-    "var_4h": -1.449,
-    "var_24h": 2.908
+    "var_1h": -0.071,
+    "var_4h": -1.389,
+    "var_24h": 2.871
    },
    "gld": {
-    "ultimo": 334.82,
-    "ora": "2026-11-23T14:16:03.433-0500",
+    "ultimo": 334.37,
+    "ora": "2026-11-23T14:31:17.810-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.003,
-    "var_4h": -0.149,
-    "var_24h": 3.701
+    "var_1h": -0.054,
+    "var_4h": -0.754,
+    "var_24h": 3.562
    },
    "usdcny": {
     "ultimo": 6.6643,
     "ora": "2026-11-23T04:31:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.026,
+    "var_1h": 0.0,
     "var_4h": 0.0,
     "var_24h": -0.19
    },
-   "punteggio_4h": -0.06,
-   "punteggio_24h": -0.474,
-   "rapporto_oro_argento": 84.59
+   "punteggio_4h": -0.007,
+   "punteggio_24h": -0.491,
+   "rapporto_oro_argento": 84.64
   },
   "etf": {
-   "gld_tonnellate_stimate": 1037.4,
+   "gld_tonnellate_stimate": 1035.9,
    "data": "2026-11-23",
    "giorni_di_storico": 15,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -2.0,
+   "flusso_5g_t": -3.5,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -325,12 +325,12 @@
      "data": "2026-11-04"
     },
     {
-     "titolo": "Libya ranks Second in Africa for Central Bank Gold Reserves - The Libya Observer",
-     "data": "2026-11-22"
-    },
-    {
      "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
      "data": "2026-10-11"
+    },
+    {
+     "titolo": "Libya ranks Second in Africa for Central Bank Gold Reserves - The Libya Observer",
+     "data": "2026-11-22"
     },
     {
      "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
