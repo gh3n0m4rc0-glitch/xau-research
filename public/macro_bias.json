@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-23T15:46:14Z",
+ "timestamp_utc": "2026-11-23T16:02:16Z",
  "bias": -0.14,
  "confidence": 0.156,
  "regime": "moderatamente sfavorevole",
@@ -51,111 +51,63 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "CNBC US2Y: assente",
+  "CNBC .DXY: assente",
+  "CNBC .VIX: assente",
+  "CNBC @SI.1: assente",
+  "CNBC @CL.1: assente",
+  "CNBC @HG.1: assente",
+  "CNBC CNY=: assente",
+  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
-  "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
+  "premio Shanghai: manca il cambio USDCNY"
  ],
  "extra": {
   "peso_nel_bias": 0,
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.788,
-    "ora": "2026-11-23T10:41:45.000-0500",
+    "ultimo": 2.778,
+    "ora": "2026-11-23T11:01:06.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.6,
-    "var_4h": -0.3,
-    "var_24h": 0.1
+    "var_1h": 0.4,
+    "var_4h": -1.8,
+    "var_24h": -0.9
    },
    "tasso_10y": {
-    "ultimo": 4.962,
-    "ora": "2026-11-23T09:35:02.000-0500",
+    "ultimo": 4.944,
+    "ora": "2026-11-23T11:01:05.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.4,
-    "var_4h": 0.8,
-    "var_24h": 5.0
-   },
-   "tasso_2y": {
-    "ultimo": 4.719,
-    "ora": "2026-11-23T09:33:48.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": -0.5,
-    "var_4h": 3.4,
-    "var_24h": 10.6
-   },
-   "dollaro_dxy": {
-    "ultimo": 104.268,
-    "ora": "2026-11-23T10:33:36.000-0500",
-    "unita_variazioni": "%",
-    "var_1h": 0.154,
-    "var_4h": 0.335,
-    "var_24h": 0.444
-   },
-   "vix": {
-    "ultimo": 26.99,
-    "ora": "2026-11-23T10:43:31.000-0500",
-    "unita_variazioni": "punti",
-    "var_1h": 0.23,
-    "var_4h": -2.96,
-    "var_24h": -8.9
+    "var_1h": -0.2,
+    "var_4h": -1.4,
+    "var_24h": 3.2
    },
    "oro_futures": {
-    "ultimo": 3674.1,
-    "ora": "2026-11-23T10:34:27.000-0500",
+    "ultimo": 3671.6,
+    "ora": "2026-11-23T10:51:27.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.125,
-    "var_4h": 1.444,
-    "var_24h": 4.514
-   },
-   "argento": {
-    "ultimo": 43.615,
-    "ora": "2026-11-23T10:33:38.000-0500",
-    "unita_variazioni": "%",
-    "var_1h": 0.195,
-    "var_4h": 2.914,
-    "var_24h": 6.197
-   },
-   "petrolio_wti": {
-    "ultimo": 81.27,
-    "ora": "2026-11-23T10:04:25.000-0500",
-    "unita_variazioni": "%",
-    "var_1h": -0.975,
-    "var_4h": -0.939,
-    "var_24h": -2.566
-   },
-   "rame": {
-    "ultimo": 5.722,
-    "ora": "2026-11-23T09:44:15.000-0500",
-    "unita_variazioni": "%",
-    "var_1h": 0.201,
-    "var_4h": 3.735,
-    "var_24h": 4.321
+    "var_1h": -0.071,
+    "var_4h": 1.397,
+    "var_24h": 4.443
    },
    "gld": {
-    "ultimo": 336.25,
-    "ora": "2026-11-23T10:45:35.605-0500",
+    "ultimo": 336.62,
+    "ora": "2026-11-23T11:01:24.177-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.347,
-    "var_4h": 4.144,
-    "var_24h": 4.144
+    "var_1h": 0.152,
+    "var_4h": 4.259,
+    "var_24h": 4.259
    },
-   "usdcny": {
-    "ultimo": 6.6643,
-    "ora": "2026-11-23T04:31:00.000-0500",
-    "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.0,
-    "var_24h": -0.19
-   },
-   "punteggio_4h": -0.414,
-   "punteggio_24h": -0.468,
-   "rapporto_oro_argento": 84.24
+   "punteggio_4h": null,
+   "punteggio_24h": null
   },
   "etf": {
-   "gld_tonnellate_stimate": 1036.7,
+   "gld_tonnellate_stimate": 1038.6,
    "data": "2026-11-23",
    "giorni_di_storico": 15,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -2.8,
+   "flusso_5g_t": -0.9,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -306,53 +258,7 @@
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
   },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
-     "data": "2026-11-19"
-    },
-    {
-     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
-     "data": "2026-11-22"
-    },
-    {
-     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
-     "data": "2026-10-16"
-    },
-    {
-     "titolo": "Libya ranks Second in Africa for Central Bank Gold Reserves - The Libya Observer",
-     "data": "2026-11-22"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    }
-   ],
-   "pboc_mesi_di_acquisti": 24,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 2.1169,
-   "media_30g": 3.1174,
-   "z": -1.15,
-   "allarme": false,
-   "punteggio": 0.0
-  },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.41)"
+  "sintesi": "nessun segnale extra forte"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -713,6 +619,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h contro oro (-0.41)",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | nessun segnale extra forte",
  "ultimo_dato": ""
 }
