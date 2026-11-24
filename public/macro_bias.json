@@ -1,13 +1,13 @@
 {
- "timestamp_utc": "2026-11-24T21:16:33Z",
- "bias": -0.257,
- "confidence": 0.285,
+ "timestamp_utc": "2026-11-24T21:32:02Z",
+ "bias": -0.24,
+ "confidence": 0.267,
  "regime": "moderatamente sfavorevole",
- "summary": "Macro ribassista (bias -0.26, conf 0.28): inflazione attesa contro oro (-0.93); VIX pro oro (+0.86); dollaro contro oro (-0.72); tasso 2y (Fed) pro oro (+0.36) | reale 10y 2.77%",
+ "summary": "Macro ribassista (bias -0.24, conf 0.27): inflazione attesa contro oro (-0.93); VIX pro oro (+0.86); dollaro contro oro (-0.72); tasso 2y (Fed) pro oro (+0.48) | reale 10y 2.79%",
  "components": {
-  "real_yield_10y": -0.229,
+  "real_yield_10y": -0.23,
   "dollar_broad": -0.724,
-  "nominal_2y": 0.364,
+  "nominal_2y": 0.477,
   "breakeven_10y": -0.93,
   "vix": 0.856,
   "cot": 0.0
@@ -51,6 +51,8 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -59,82 +61,82 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.808,
-    "ora": "2026-11-24T16:15:48.000-0500",
+    "ultimo": 2.811,
+    "ora": "2026-11-24T16:30:46.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 2.9,
-    "var_4h": 3.4,
-    "var_24h": 0.5
+    "var_1h": 2.5,
+    "var_4h": 3.7,
+    "var_24h": 0.8
    },
    "tasso_10y": {
-    "ultimo": 4.932,
-    "ora": "2026-11-24T16:15:48.000-0500",
+    "ultimo": 4.936,
+    "ora": "2026-11-24T16:31:05.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 3.0,
-    "var_4h": 3.8,
-    "var_24h": 1.2
+    "var_4h": 4.2,
+    "var_24h": 1.6
    },
    "tasso_2y": {
     "ultimo": 4.691,
-    "ora": "2026-11-24T16:15:48.000-0500",
+    "ora": "2026-11-24T16:30:46.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 2.0,
+    "var_1h": 1.8,
     "var_4h": 2.5,
     "var_24h": 2.5
    },
    "dollaro_dxy": {
-    "ultimo": 103.822,
-    "ora": "2026-11-24T16:15:48.000-0500",
+    "ultimo": 103.831,
+    "ora": "2026-11-24T16:31:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.012,
-    "var_4h": -0.031,
-    "var_24h": -0.475
+    "var_1h": 0.033,
+    "var_4h": -0.022,
+    "var_24h": -0.467
    },
    "vix": {
     "ultimo": 26.36,
     "ora": "2026-11-24T16:15:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.97,
+    "var_1h": -1.23,
     "var_4h": -0.76,
     "var_24h": -0.26
    },
    "oro_futures": {
-    "ultimo": 3549.1,
-    "ora": "2026-11-24T16:05:43.000-0500",
+    "ultimo": 3552.7,
+    "ora": "2026-11-24T16:21:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.242,
-    "var_4h": -0.474,
-    "var_24h": -2.802
+    "var_1h": -0.087,
+    "var_4h": -0.373,
+    "var_24h": -2.703
    },
    "argento": {
-    "ultimo": 40.51,
-    "ora": "2026-11-24T16:05:29.000-0500",
+    "ultimo": 40.625,
+    "ora": "2026-11-24T16:21:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.54,
-    "var_4h": -0.442,
-    "var_24h": -6.173
+    "var_1h": 0.012,
+    "var_4h": -0.16,
+    "var_24h": -5.906
    },
    "petrolio_wti": {
-    "ultimo": 81.43,
-    "ora": "2026-11-24T16:05:33.000-0500",
+    "ultimo": 81.46,
+    "ora": "2026-11-24T16:21:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.379,
-    "var_4h": 1.105,
-    "var_24h": 1.572
+    "var_1h": -0.037,
+    "var_4h": 1.142,
+    "var_24h": 1.609
    },
    "rame": {
-    "ultimo": 5.4,
-    "ora": "2026-11-24T16:05:17.000-0500",
+    "ultimo": 5.3985,
+    "ora": "2026-11-24T16:20:58.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.223,
-    "var_4h": 1.124,
-    "var_24h": -4.153
+    "var_4h": 1.096,
+    "var_24h": -4.18
    },
    "gld": {
     "ultimo": 325.45,
     "ora": "2026-11-24T16:10:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.061,
+    "var_1h": -0.107,
     "var_4h": -0.416,
     "var_24h": -2.273
    },
@@ -146,16 +148,16 @@
     "var_4h": 0.0,
     "var_24h": -0.005
    },
-   "punteggio_4h": -0.219,
-   "punteggio_24h": 0.265,
-   "rapporto_oro_argento": 87.61
+   "punteggio_4h": -0.245,
+   "punteggio_24h": 0.246,
+   "rapporto_oro_argento": 87.45
   },
   "etf": {
-   "gld_tonnellate_stimate": 1035.1,
+   "gld_tonnellate_stimate": 1034.0,
    "data": "2026-11-24",
    "giorni_di_storico": 16,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -7.3,
+   "flusso_5g_t": -8.4,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -314,53 +316,7 @@
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
   },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
-     "data": "2026-11-20"
-    },
-    {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg",
-     "data": "2026-11-06"
-    },
-    {
-     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
-     "data": "2026-11-19"
-    },
-    {
-     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
-     "data": "2026-11-22"
-    }
-   ],
-   "pboc_mesi_di_acquisti": 24,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 2.4943,
-   "media_30g": 3.0818,
-   "z": -0.66,
-   "allarme": false,
-   "punteggio": 0.0
-  },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.22); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.24); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -721,6 +677,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h contro oro (-0.22); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h contro oro (-0.24); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
