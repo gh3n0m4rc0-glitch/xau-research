@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-24T18:46:31Z",
+ "timestamp_utc": "2026-11-24T19:01:42Z",
  "bias": -0.257,
  "confidence": 0.285,
  "regime": "moderatamente sfavorevole",
@@ -60,83 +60,83 @@
   "intraday": {
    "tasso_reale_10y": {
     "ultimo": 2.787,
-    "ora": "2026-11-24T13:45:38.000-0500",
+    "ora": "2026-11-24T14:01:11.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.2,
-    "var_4h": 1.3,
+    "var_1h": 0.2,
+    "var_4h": 1.5,
     "var_24h": -1.6
    },
    "tasso_10y": {
-    "ultimo": 4.936,
-    "ora": "2026-11-23T11:22:08.000-0500",
+    "ultimo": 4.906,
+    "ora": "2026-11-24T14:01:12.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 2.8,
-    "var_4h": 2.8,
-    "var_24h": 2.4
+    "var_1h": 0.0,
+    "var_4h": -0.2,
+    "var_24h": -1.4
    },
    "tasso_2y": {
-    "ultimo": 4.685,
-    "ora": "2026-11-24T13:45:34.000-0500",
+    "ultimo": 4.683,
+    "ora": "2026-11-24T14:01:14.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.6,
-    "var_4h": 1.9,
-    "var_24h": 1.9
+    "var_1h": 0.2,
+    "var_4h": 1.2,
+    "var_24h": 1.7
    },
    "dollaro_dxy": {
-    "ultimo": 103.808,
-    "ora": "2026-11-24T13:45:48.000-0500",
+    "ultimo": 103.821,
+    "ora": "2026-11-24T14:01:14.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.017,
-    "var_4h": -0.025,
-    "var_24h": -0.489
+    "var_1h": 0.033,
+    "var_4h": 0.055,
+    "var_24h": -0.476
    },
    "vix": {
-    "ultimo": 26.46,
-    "ora": "2026-11-24T13:45:46.000-0500",
+    "ultimo": 27.59,
+    "ora": "2026-11-23",
     "unita_variazioni": "punti",
-    "var_1h": 0.11,
-    "var_4h": -2.88,
-    "var_24h": -0.16
+    "var_1h": 1.06,
+    "var_4h": -0.26,
+    "var_24h": -8.3
    },
    "oro_futures": {
-    "ultimo": 3563.8,
-    "ora": "2026-11-24T13:35:47.000-0500",
+    "ultimo": 3557.1,
+    "ora": "2026-11-24T13:51:10.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.045,
-    "var_4h": -1.381,
-    "var_24h": -2.399
+    "var_1h": -0.126,
+    "var_4h": -1.689,
+    "var_24h": -2.583
    },
    "argento": {
-    "ultimo": 40.885,
-    "ora": "2026-11-24T13:35:44.000-0500",
+    "ultimo": 40.71,
+    "ora": "2026-11-24T13:51:11.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.418,
-    "var_4h": -2.481,
-    "var_24h": -5.304
+    "var_1h": -0.147,
+    "var_4h": -3.21,
+    "var_24h": -5.709
    },
    "petrolio_wti": {
-    "ultimo": 81.92,
-    "ora": "2026-11-24T13:35:48.000-0500",
+    "ultimo": 81.89,
+    "ora": "2026-11-24T13:51:10.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.812,
-    "var_4h": 0.986,
-    "var_24h": 2.183
+    "var_1h": 0.479,
+    "var_4h": 0.887,
+    "var_24h": 2.145
    },
    "rame": {
-    "ultimo": 5.3785,
-    "ora": "2026-11-24T13:35:01.000-0500",
+    "ultimo": 5.38,
+    "ora": "2026-11-24T13:51:11.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.476,
-    "var_4h": -1.203,
-    "var_24h": -4.535
+    "var_1h": 0.252,
+    "var_4h": -1.239,
+    "var_24h": -4.508
    },
    "gld": {
-    "ultimo": 325.49,
-    "ora": "2026-11-24T13:45:48.382-0500",
+    "ultimo": 325.79,
+    "ora": "2026-11-24T14:01:13.093-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.386,
-    "var_4h": -1.84,
-    "var_24h": -2.261
+    "var_1h": -0.227,
+    "var_4h": -2.039,
+    "var_24h": -2.171
    },
    "usdcny": {
     "ultimo": 6.664,
@@ -146,16 +146,16 @@
     "var_4h": 0.0,
     "var_24h": -0.005
    },
-   "punteggio_4h": -0.149,
-   "punteggio_24h": 0.366,
-   "rapporto_oro_argento": 87.17
+   "punteggio_4h": -0.135,
+   "punteggio_24h": 0.304,
+   "rapporto_oro_argento": 87.38
   },
   "etf": {
-   "gld_tonnellate_stimate": 1030.9,
+   "gld_tonnellate_stimate": 1033.8,
    "data": "2026-11-24",
    "giorni_di_storico": 16,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -11.5,
+   "flusso_5g_t": -8.6,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -217,6 +217,11 @@
   "fed": {
    "comunicati": [
     {
+     "titolo": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+     "data": "Tue, 24 Nov 2026 19:00:00 GMT"
+    },
+    {
      "titolo": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
      "data": "Wed, 18 Nov 2026 19:00:00 GMT"
@@ -235,11 +240,6 @@
      "titolo": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
      "data": "Tue, 13 Oct 2026 18:00:00 GMT"
-    },
-    {
-     "titolo": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-     "data": "Wed, 7 Oct 2026 18:00:00 GMT"
     }
    ],
    "discorsi": [
@@ -337,7 +337,7 @@
      "data": "2026-11-03"
     },
     {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg",
      "data": "2026-11-06"
     },
     {
