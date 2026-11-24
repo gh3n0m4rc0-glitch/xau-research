@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-24T02:46:21Z",
+ "timestamp_utc": "2026-11-24T03:02:09Z",
  "bias": -0.25,
  "confidence": 0.278,
  "regime": "moderatamente sfavorevole",
@@ -51,6 +51,8 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -59,76 +61,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.789,
-    "ora": "2026-11-23T21:45:36.000-0500",
+    "ultimo": 2.783,
+    "ora": "2026-11-23T22:00:23.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.6,
-    "var_4h": -1.4,
-    "var_24h": -1.4
+    "var_1h": -1.0,
+    "var_4h": -2.0,
+    "var_24h": -2.0
    },
    "tasso_10y": {
-    "ultimo": 4.92,
-    "ora": "2026-11-23T21:44:46.000-0500",
+    "ultimo": 4.918,
+    "ora": "2026-11-23T22:00:28.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.2,
-    "var_4h": -2.2,
-    "var_24h": 0.0
+    "var_1h": -1.8,
+    "var_4h": -2.4,
+    "var_24h": -0.2
    },
    "tasso_2y": {
     "ultimo": 4.671,
-    "ora": "2026-11-23T21:45:37.000-0500",
+    "ora": "2026-11-23T22:00:34.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.2,
+    "var_1h": -1.0,
     "var_4h": -2.1,
     "var_24h": 0.5
    },
    "dollaro_dxy": {
-    "ultimo": 104.259,
-    "ora": "2026-11-23T21:45:58.000-0500",
+    "ultimo": 104.267,
+    "ora": "2026-11-23T22:01:15.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.046,
-    "var_4h": -0.076,
-    "var_24h": -0.057
+    "var_1h": 0.042,
+    "var_4h": -0.068,
+    "var_24h": -0.049
    },
    "vix": {
     "ultimo": 27.59,
     "ora": "2026-11-23T11:27:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.0,
+    "var_1h": 0.97,
     "var_4h": 0.97,
     "var_24h": -8.3
    },
    "oro_futures": {
-    "ultimo": 3650.5,
-    "ora": "2026-11-23T21:35:58.000-0500",
+    "ultimo": 3638.3,
+    "ora": "2026-11-23T21:51:12.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.656,
-    "var_4h": 0.443,
-    "var_24h": -0.025
+    "var_1h": -0.712,
+    "var_4h": 0.107,
+    "var_24h": -0.359
    },
    "argento": {
-    "ultimo": 42.985,
-    "ora": "2026-11-23T21:35:26.000-0500",
+    "ultimo": 42.665,
+    "ora": "2026-11-23T21:51:11.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.411,
-    "var_4h": -0.012,
-    "var_24h": -0.44
+    "var_1h": -1.432,
+    "var_4h": -0.756,
+    "var_24h": -1.181
    },
    "petrolio_wti": {
-    "ultimo": 79.87,
-    "ora": "2026-11-23T21:35:54.000-0500",
+    "ultimo": 79.94,
+    "ora": "2026-11-23T21:51:12.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.113,
-    "var_4h": -0.474,
-    "var_24h": -0.374
+    "var_1h": 0.1,
+    "var_4h": -0.386,
+    "var_24h": -0.287
    },
    "rame": {
-    "ultimo": 5.5575,
-    "ora": "2026-11-23T21:35:56.000-0500",
+    "ultimo": 5.521,
+    "ora": "2026-11-23T21:51:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.617,
-    "var_4h": -0.971,
-    "var_24h": -1.358
+    "var_1h": -0.889,
+    "var_4h": -1.622,
+    "var_24h": -2.006
    },
    "gld": {
     "ultimo": 333.02,
@@ -139,23 +141,23 @@
     "var_24h": 3.144
    },
    "usdcny": {
-    "ultimo": 6.6611,
-    "ora": "2026-11-23T21:45:00.000-0500",
+    "ultimo": 6.6607,
+    "ora": "2026-11-23T22:01:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.003,
-    "var_4h": -0.048,
-    "var_24h": -0.048
+    "var_1h": -0.006,
+    "var_4h": -0.054,
+    "var_24h": -0.054
    },
-   "punteggio_4h": 0.245,
-   "punteggio_24h": -0.011,
-   "rapporto_oro_argento": 84.92
+   "punteggio_4h": 0.282,
+   "punteggio_24h": 0.013,
+   "rapporto_oro_argento": 85.28
   },
   "etf": {
-   "gld_tonnellate_stimate": 1033.4,
+   "gld_tonnellate_stimate": 1036.9,
    "data": "2026-11-24",
    "giorni_di_storico": 16,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -9.0,
+   "flusso_5g_t": -5.5,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -306,53 +308,7 @@
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
   },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
-     "data": "2026-11-20"
-    },
-    {
-     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
-     "data": "2026-11-19"
-    },
-    {
-     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
-     "data": "2026-11-22"
-    },
-    {
-     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
-     "data": "2026-10-16"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
-     "data": "2026-11-07"
-    },
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    }
-   ],
-   "pboc_mesi_di_acquisti": 24,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 2.702,
-   "media_30g": 3.0818,
-   "z": -0.42,
-   "allarme": false,
-   "punteggio": 0.0
-  },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.24); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.28); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -366,9 +322,9 @@
     "convinzione": 35,
     "frase": "Dopo il -9% della settimana è più probabile un rimbalzo: le vendite forzate finiscono e i rendimenti scendono, ma la Fed resta contro.",
     "cosa_lo_smentisce": "chiusura settimanale sotto 3.450 $ oppure PCE di mercoledì sopra lo 0,4% sul mese",
-    "ultimo_prezzo": 3659.8,
+    "ultimo_prezzo": 3638.0,
     "ultimo_prezzo_data": "2026-11-24",
-    "da_venerdi_pct": 3.41,
+    "da_venerdi_pct": 2.8,
     "cot": {
      "data": "2026-11-17",
      "netto": 102942,
@@ -421,9 +377,9 @@
     "convinzione": 35,
     "frase": "Fed che alza contro fondi già venduti al massimo: in una settimana corta l'euro più probabilmente resta fermo.",
     "cosa_lo_smentisce": "chiusura settimanale sotto 1,0900 = ribassista; sopra 1,1050 = rialzista",
-    "ultimo_prezzo": 1.0909,
+    "ultimo_prezzo": 1.091,
     "ultimo_prezzo_data": "2026-11-24",
-    "da_venerdi_pct": -0.53,
+    "da_venerdi_pct": -0.52,
     "cot": {
      "data": "2026-11-17",
      "netto": -76587,
@@ -540,7 +496,7 @@
     "atteso": "giu",
     "dal": "2026-09-11",
     "fino_a": "2026-11-24",
-    "da_allora_pct": -15.84,
+    "da_allora_pct": -16.34,
     "esito": "conferma"
    },
    {
@@ -567,7 +523,7 @@
     "atteso": "giu",
     "dal": "2026-09-11",
     "fino_a": "2026-11-24",
-    "da_allora_pct": -5.99,
+    "da_allora_pct": -5.98,
     "esito": "conferma"
    },
    {
@@ -594,7 +550,7 @@
     "atteso": "su",
     "dal": "2026-09-04",
     "fino_a": "2026-11-24",
-    "da_allora_pct": -6.1,
+    "da_allora_pct": -6.09,
     "esito": "smentisce"
    },
    {
@@ -706,13 +662,13 @@
    "GBPUSD": "FRED+CNBC",
    "USDJPY": "FRED+CNBC"
   },
-  "dati_presi_utc": "2026-11-24T01:01:08Z",
+  "dati_presi_utc": "2026-11-24T03:01:12Z",
   "sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100)",
-  "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' +3.41%, COT fondi 21° pct. US100: rialzista 30/100, da venerdi' +6.86%, COT fondi 88° pct. US30: rialzista 35/100, da venerdi' +3.01%, COT fondi 68° pct. EURUSD: neutro 35/100, da venerdi' -0.53%, COT fondi 1° pct. GBPUSD: ribassista 40/100, da venerdi' -0.34%, COT fondi 39° pct. USDJPY: ribassista 35/100, da venerdi' +0.25%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
+  "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' +2.80%, COT fondi 21° pct. US100: rialzista 30/100, da venerdi' +6.86%, COT fondi 88° pct. US30: rialzista 35/100, da venerdi' +3.01%, COT fondi 68° pct. EURUSD: neutro 35/100, da venerdi' -0.52%, COT fondi 1° pct. GBPUSD: ribassista 40/100, da venerdi' -0.34%, COT fondi 39° pct. USDJPY: ribassista 35/100, da venerdi' +0.25%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.24); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.28); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
