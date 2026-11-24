@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-24T14:16:19Z",
+ "timestamp_utc": "2026-11-24T14:31:37Z",
  "bias": -0.25,
  "confidence": 0.278,
  "regime": "moderatamente sfavorevole",
@@ -59,84 +59,84 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.763,
-    "ora": "2026-11-24T09:15:38.000-0500",
+    "ultimo": 2.774,
+    "ora": "2026-11-24T09:31:04.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.1,
-    "var_4h": -1.1,
-    "var_24h": -4.0
+    "var_1h": 0.0,
+    "var_4h": 0.6,
+    "var_24h": -2.9
    },
    "tasso_10y": {
-    "ultimo": 4.936,
-    "ora": "2026-11-23T11:22:08.000-0500",
+    "ultimo": 4.908,
+    "ora": "2026-11-24T09:31:01.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 4.8,
-    "var_4h": 2.4,
-    "var_24h": 2.4
-   },
-   "tasso_2y": {
-    "ultimo": 4.654,
-    "ora": "2026-11-24T09:15:41.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": 1.5,
-    "var_4h": -1.0,
+    "var_1h": 2.0,
+    "var_4h": -2.8,
     "var_24h": -1.2
    },
+   "tasso_2y": {
+    "ultimo": 4.666,
+    "ora": "2026-11-24T09:31:06.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": 2.7,
+    "var_4h": 0.6,
+    "var_24h": 0.0
+   },
    "dollaro_dxy": {
-    "ultimo": 103.864,
-    "ora": "2026-11-24T09:15:56.000-0500",
+    "ultimo": 103.834,
+    "ora": "2026-11-24T09:31:06.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.023,
-    "var_4h": -0.312,
-    "var_24h": -0.435
+    "var_1h": -0.052,
+    "var_4h": -0.323,
+    "var_24h": -0.464
    },
    "vix": {
-    "ultimo": 29.17,
-    "ora": "2026-11-24T09:15:46.000-0500",
+    "ultimo": 29.34,
+    "ora": "2026-11-24T09:25:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -1.13,
-    "var_4h": 1.42,
-    "var_24h": 2.55
+    "var_1h": -0.96,
+    "var_4h": 1.43,
+    "var_24h": 2.72
    },
    "oro_futures": {
-    "ultimo": 3617.7,
-    "ora": "2026-11-24T09:05:56.000-0500",
+    "ultimo": 3613.7,
+    "ora": "2026-11-24T09:21:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.47,
-    "var_4h": -0.116,
-    "var_24h": -0.923
+    "var_1h": -0.58,
+    "var_4h": -0.24,
+    "var_24h": -1.032
    },
    "argento": {
-    "ultimo": 41.89,
-    "ora": "2026-11-24T09:05:55.000-0500",
+    "ultimo": 41.925,
+    "ora": "2026-11-24T09:21:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.805,
-    "var_4h": 0.06,
-    "var_24h": -2.976
+    "var_1h": -0.722,
+    "var_4h": 0.239,
+    "var_24h": -2.895
    },
    "petrolio_wti": {
-    "ultimo": 81.01,
-    "ora": "2026-11-24T09:05:54.000-0500",
+    "ultimo": 81.12,
+    "ora": "2026-11-24T09:21:06.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.909,
-    "var_4h": 1.351,
-    "var_24h": 1.048
+    "var_1h": 1.046,
+    "var_4h": 1.261,
+    "var_24h": 1.185
    },
    "rame": {
-    "ultimo": 5.4315,
-    "ora": "2026-11-24T09:05:55.000-0500",
+    "ultimo": 5.444,
+    "ora": "2026-11-24T09:20:57.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.055,
-    "var_4h": -0.367,
-    "var_24h": -3.594
+    "var_1h": 0.175,
+    "var_4h": 0.037,
+    "var_24h": -3.372
    },
    "gld": {
-    "ultimo": 333.02,
-    "ora": "2026-11-23",
+    "ultimo": 331.59,
+    "ora": "2026-11-24T09:31:06.242-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.0,
-    "var_4h": 0.0,
-    "var_24h": 0.0
+    "var_1h": -0.429,
+    "var_4h": -0.429,
+    "var_24h": -0.429
    },
    "usdcny": {
     "ultimo": 6.664,
@@ -146,16 +146,16 @@
     "var_4h": 0.0,
     "var_24h": -0.005
    },
-   "punteggio_4h": 0.442,
-   "punteggio_24h": 0.486,
-   "rapporto_oro_argento": 86.36
+   "punteggio_4h": 0.404,
+   "punteggio_24h": 0.498,
+   "rapporto_oro_argento": 86.19
   },
   "etf": {
-   "gld_tonnellate_stimate": 1039.0,
+   "gld_tonnellate_stimate": 1035.7,
    "data": "2026-11-24",
    "giorni_di_storico": 16,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -3.3,
+   "flusso_5g_t": -6.6,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -296,7 +296,15 @@
      "data": "Tue, 2 Dec 2025 15:00:00 GMT"
     }
    ],
-   "agenda_7g": []
+   "agenda_7g": [
+    {
+     "evento": "Speech - Vice Chair for Supervision Michelle W. Bowman",
+     "tipo": "Speeches",
+     "ora_utc": "2026-11-25T12:25:00Z",
+     "orario_indicativo": false,
+     "dove": "At a meeting with the Association of Supervisors of Banks of the Americas, Basel"
+    }
+   ]
   },
   "cot_flusso": {
    "data": "2026-11-17",
@@ -352,7 +360,7 @@
    "allarme": false,
    "punteggio": 0.0
   },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.44); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.40); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -713,6 +721,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.44); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.40); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
