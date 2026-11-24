@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-24T02:16:43Z",
+ "timestamp_utc": "2026-11-24T02:31:52Z",
  "bias": -0.25,
  "confidence": 0.278,
  "regime": "moderatamente sfavorevole",
@@ -60,76 +60,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.788,
-    "ora": "2026-11-23T21:15:29.000-0500",
+    "ultimo": 2.785,
+    "ora": "2026-11-23T21:30:24.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.6,
-    "var_4h": -1.5,
-    "var_24h": -1.5
+    "var_1h": -1.8,
+    "var_4h": -1.8,
+    "var_24h": -1.8
    },
    "tasso_10y": {
-    "ultimo": 4.936,
-    "ora": "2026-11-23T11:22:08.000-0500",
+    "ultimo": 4.92,
+    "ora": "2026-11-23T21:30:05.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.4,
-    "var_4h": -0.6,
-    "var_24h": 2.4
+    "var_1h": -2.0,
+    "var_4h": -1.6,
+    "var_24h": 0.0
    },
    "tasso_2y": {
     "ultimo": 4.673,
-    "ora": "2026-11-23T21:15:40.000-0500",
+    "ora": "2026-11-23T21:30:13.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.8,
+    "var_1h": -2.0,
     "var_4h": -1.9,
     "var_24h": 0.7
    },
    "dollaro_dxy": {
-    "ultimo": 104.208,
-    "ora": "2026-11-23T21:15:45.000-0500",
+    "ultimo": 104.232,
+    "ora": "2026-11-23T21:31:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.059,
-    "var_4h": -0.141,
-    "var_24h": -0.105
+    "var_1h": -0.037,
+    "var_4h": -0.102,
+    "var_24h": -0.082
    },
    "vix": {
     "ultimo": 26.62,
     "ora": "2026-11-23T16:15:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": -0.97,
+    "var_4h": 0.0,
     "var_24h": -9.27
    },
    "oro_futures": {
-    "ultimo": 3646.1,
-    "ora": "2026-11-23T21:05:44.000-0500",
+    "ultimo": 3654.4,
+    "ora": "2026-11-23T21:20:57.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.361,
-    "var_4h": 0.322,
-    "var_24h": -0.145
+    "var_1h": -0.016,
+    "var_4h": 0.55,
+    "var_24h": 0.082
    },
    "argento": {
-    "ultimo": 42.945,
-    "ora": "2026-11-23T21:05:42.000-0500",
+    "ultimo": 43.085,
+    "ora": "2026-11-23T21:20:57.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.401,
-    "var_4h": -0.105,
-    "var_24h": -0.533
+    "var_1h": -0.497,
+    "var_4h": 0.221,
+    "var_24h": -0.208
    },
    "petrolio_wti": {
-    "ultimo": 80.02,
-    "ora": "2026-11-23T21:05:43.000-0500",
+    "ultimo": 79.97,
+    "ora": "2026-11-23T21:20:58.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.435,
-    "var_4h": -0.287,
-    "var_24h": -0.187
+    "var_1h": -0.658,
+    "var_4h": -0.349,
+    "var_24h": -0.249
    },
    "rame": {
-    "ultimo": 5.5375,
-    "ora": "2026-11-23T21:05:40.000-0500",
+    "ultimo": 5.561,
+    "ora": "2026-11-23T21:20:40.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.547,
-    "var_4h": -1.328,
-    "var_24h": -1.713
+    "var_1h": -0.829,
+    "var_4h": -0.909,
+    "var_24h": -1.296
    },
    "gld": {
     "ultimo": 333.02,
@@ -140,23 +140,23 @@
     "var_24h": 3.144
    },
    "usdcny": {
-    "ultimo": 6.6616,
-    "ora": "2026-11-23T21:15:00.000-0500",
+    "ultimo": 6.6613,
+    "ora": "2026-11-23T21:30:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.041,
-    "var_4h": -0.041,
-    "var_24h": -0.041
+    "var_1h": -0.045,
+    "var_4h": -0.045,
+    "var_24h": -0.045
    },
-   "punteggio_4h": 0.204,
-   "punteggio_24h": 0.008,
-   "rapporto_oro_argento": 84.9
+   "punteggio_4h": 0.247,
+   "punteggio_24h": 0.026,
+   "rapporto_oro_argento": 84.82
   },
   "etf": {
-   "gld_tonnellate_stimate": 1034.6,
+   "gld_tonnellate_stimate": 1032.3,
    "data": "2026-11-24",
    "giorni_di_storico": 16,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -7.7,
+   "flusso_5g_t": -10.1,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -322,16 +322,16 @@
      "data": "2026-11-19"
     },
     {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
-     "data": "2026-11-06"
-    },
-    {
      "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
      "data": "2026-11-22"
     },
     {
      "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
      "data": "2026-10-16"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-07"
     },
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
@@ -346,7 +346,7 @@
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.20); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.25); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -707,6 +707,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.20); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.25); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
