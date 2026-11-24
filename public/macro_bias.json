@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-24T09:16:33Z",
+ "timestamp_utc": "2026-11-24T09:31:49Z",
  "bias": -0.25,
  "confidence": 0.278,
  "regime": "moderatamente sfavorevole",
@@ -51,6 +51,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -59,76 +60,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.774,
-    "ora": "2026-11-24T04:15:36.000-0500",
+    "ultimo": 2.778,
+    "ora": "2026-11-24T04:30:52.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.1,
-    "var_4h": -0.8,
-    "var_24h": -2.9
+    "var_1h": -2.0,
+    "var_4h": -0.6,
+    "var_24h": -2.5
    },
    "tasso_10y": {
-    "ultimo": 4.912,
-    "ora": "2026-11-24T04:15:01.000-0500",
+    "ultimo": 4.936,
+    "ora": "2026-11-23T11:22:08.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.4,
-    "var_4h": -0.4,
-    "var_24h": -0.8
+    "var_1h": 0.0,
+    "var_4h": 1.6,
+    "var_24h": 2.4
    },
    "tasso_2y": {
-    "ultimo": 4.662,
-    "ora": "2026-11-24T04:15:25.000-0500",
+    "ultimo": 4.666,
+    "ora": "2026-11-24T04:30:02.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -2.7,
-    "var_4h": -0.6,
-    "var_24h": -0.4
+    "var_1h": -2.1,
+    "var_4h": -0.7,
+    "var_24h": 0.0
    },
    "dollaro_dxy": {
-    "ultimo": 104.252,
-    "ora": "2026-11-24T04:15:45.000-0500",
+    "ultimo": 104.238,
+    "ora": "2026-11-24T04:31:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.079,
-    "var_4h": -0.021,
-    "var_24h": -0.063
+    "var_1h": -0.082,
+    "var_4h": -0.041,
+    "var_24h": -0.077
    },
    "vix": {
-    "ultimo": 27.56,
-    "ora": "2026-11-24T04:15:31.000-0500",
+    "ultimo": 27.41,
+    "ora": "2026-11-24T04:31:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.94,
-    "var_4h": 0.94,
-    "var_24h": 0.94
+    "var_1h": 0.9,
+    "var_4h": -0.18,
+    "var_24h": 0.79
    },
    "oro_futures": {
-    "ultimo": 3618.0,
-    "ora": "2026-11-24T04:05:27.000-0500",
+    "ultimo": 3615.9,
+    "ora": "2026-11-24T04:21:02.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.099,
-    "var_4h": -0.501,
-    "var_24h": -0.915
+    "var_1h": -0.185,
+    "var_4h": -0.498,
+    "var_24h": -0.972
    },
    "argento": {
-    "ultimo": 41.77,
-    "ora": "2026-11-24T04:05:43.000-0500",
+    "ultimo": 41.73,
+    "ora": "2026-11-24T04:20:58.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.124,
-    "var_4h": -1.879,
-    "var_24h": -3.254
+    "var_1h": -1.137,
+    "var_4h": -1.719,
+    "var_24h": -3.347
    },
    "petrolio_wti": {
-    "ultimo": 79.43,
-    "ora": "2026-11-24T04:05:42.000-0500",
+    "ultimo": 79.78,
+    "ora": "2026-11-24T04:21:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.985,
-    "var_4h": -0.251,
-    "var_24h": -0.923
+    "var_1h": -0.25,
+    "var_4h": 0.466,
+    "var_24h": -0.486
    },
    "rame": {
-    "ultimo": 5.459,
-    "ora": "2026-11-24T04:05:38.000-0500",
+    "ultimo": 5.4635,
+    "ora": "2026-11-24T04:20:20.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.329,
-    "var_4h": -0.89,
-    "var_24h": -3.106
+    "var_1h": -0.736,
+    "var_4h": -0.691,
+    "var_24h": -3.026
    },
    "gld": {
     "ultimo": 333.02,
@@ -139,23 +140,23 @@
     "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.6638,
-    "ora": "2026-11-24T04:15:00.000-0500",
+    "ultimo": 6.664,
+    "ora": "2026-11-24T04:30:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.018,
-    "var_4h": 0.044,
-    "var_24h": -0.008
+    "var_1h": -0.021,
+    "var_4h": 0.05,
+    "var_24h": -0.005
    },
-   "punteggio_4h": 0.123,
-   "punteggio_24h": 0.174,
-   "rapporto_oro_argento": 86.62
+   "punteggio_4h": 0.08,
+   "punteggio_24h": 0.146,
+   "rapporto_oro_argento": 86.65
   },
   "etf": {
-   "gld_tonnellate_stimate": 1042.7,
+   "gld_tonnellate_stimate": 1043.3,
    "data": "2026-11-24",
    "giorni_di_storico": 16,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 0.3,
+   "flusso_5g_t": 0.9,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -313,8 +314,24 @@
      "data": "2026-11-20"
     },
     {
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
+     "data": "2026-11-19"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
+    },
+    {
      "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
      "data": "2026-11-22"
+    },
+    {
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     },
     {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
@@ -323,34 +340,11 @@
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
-    },
-    {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
-    },
-    {
-     "titolo": "Libya ranks Second in Africa for Central Bank Gold Reserves - The Libya Observer",
-     "data": "2026-11-22"
-    },
-    {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "China extends gold buying spree to two years as prices drop, adds 25.8 tonnes in October - Moneycontrol.com",
-     "data": "2026-11-07"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 2.5492,
-   "media_30g": 3.0818,
-   "z": -0.6,
-   "allarme": false,
-   "punteggio": 0.0
   },
   "sintesi": "tagli Fed prezzati in calo"
  },
