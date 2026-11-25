@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-25T20:02:09Z",
+ "timestamp_utc": "2026-11-25T20:09:51Z",
  "bias": -0.239,
  "confidence": 0.266,
  "regime": "moderatamente sfavorevole",
@@ -42,83 +42,83 @@
   "intraday": {
    "tasso_reale_10y": {
     "ultimo": 2.725,
-    "ora": "2026-11-25T15:01:21.000-0500",
+    "ora": "2026-11-25T15:05:57.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.6,
-    "var_4h": -0.7,
+    "var_4h": 0.8,
     "var_24h": -8.1
    },
    "tasso_10y": {
     "ultimo": 4.852,
-    "ora": "2026-11-25T15:01:21.000-0500",
+    "ora": "2026-11-25T15:09:06.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 1.6,
-    "var_4h": 3.0,
+    "var_4h": 4.7,
     "var_24h": -5.0
    },
    "tasso_2y": {
     "ultimo": 4.639,
-    "ora": "2026-11-25T15:01:18.000-0500",
+    "ora": "2026-11-25T15:09:07.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.8,
-    "var_4h": 4.3,
+    "var_4h": 5.1,
     "var_24h": -3.2
    },
    "dollaro_dxy": {
-    "ultimo": 103.665,
-    "ora": "2026-11-25T15:01:22.000-0500",
+    "ultimo": 103.671,
+    "ora": "2026-11-25T15:09:10.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.051,
-    "var_4h": -0.307,
-    "var_24h": -0.144
+    "var_1h": 0.057,
+    "var_4h": -0.244,
+    "var_24h": -0.138
    },
    "vix": {
-    "ultimo": 27.82,
-    "ora": "2026-11-25T15:01:16.000-0500",
+    "ultimo": 27.98,
+    "ora": "2026-11-25T15:09:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.13,
-    "var_4h": -5.77,
-    "var_24h": 1.46
+    "var_1h": 0.03,
+    "var_4h": -5.24,
+    "var_24h": 1.62
    },
    "oro_futures": {
-    "ultimo": 3539.3,
-    "ora": "2026-11-25T14:50:36.000-0500",
+    "ultimo": 3545.8,
+    "ora": "2026-11-25T14:59:01.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.093,
-    "var_4h": 3.099,
-    "var_24h": -0.634
+    "var_1h": 0.09,
+    "var_4h": 3.073,
+    "var_24h": -0.452
    },
    "argento": {
-    "ultimo": 40.4,
-    "ora": "2026-11-25T14:50:19.000-0500",
+    "ultimo": 40.58,
+    "ora": "2026-11-25T14:56:01.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.41,
-    "var_4h": 6.274,
-    "var_24h": -0.937
+    "var_1h": 0.857,
+    "var_4h": 5.87,
+    "var_24h": -0.495
    },
    "petrolio_wti": {
-    "ultimo": 83.55,
-    "ora": "2026-11-25T14:51:15.000-0500",
+    "ultimo": 83.77,
+    "ora": "2026-11-25T14:59:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.251,
-    "var_4h": 0.469,
-    "var_24h": 1.828
+    "var_1h": 0.012,
+    "var_4h": 0.867,
+    "var_24h": 2.096
    },
    "rame": {
-    "ultimo": 5.373,
-    "ora": "2026-11-25T14:48:59.000-0500",
+    "ultimo": 5.388,
+    "ora": "2026-11-25T14:54:24.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.019,
-    "var_4h": 2.715,
-    "var_24h": 0.075
+    "var_1h": 0.298,
+    "var_4h": 2.717,
+    "var_24h": 0.354
    },
    "gld": {
-    "ultimo": 325.5,
-    "ora": "2026-11-25T15:01:21.240-0500",
+    "ultimo": 326.29,
+    "ora": "2026-11-25T15:09:08.874-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.376,
-    "var_4h": 3.228,
-    "var_24h": 0.015
+    "var_1h": 0.62,
+    "var_4h": 3.341,
+    "var_24h": 0.258
    },
    "usdcny": {
     "ultimo": 6.6752,
@@ -128,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": 0.168
    },
-   "punteggio_4h": 0.2,
-   "punteggio_24h": 0.512,
-   "rapporto_oro_argento": 87.61
+   "punteggio_4h": 0.057,
+   "punteggio_24h": 0.518,
+   "rapporto_oro_argento": 87.38
   },
   "etf": {
-   "gld_tonnellate_stimate": 1034.9,
+   "gld_tonnellate_stimate": 1035.5,
    "data": "2026-11-25",
    "giorni_di_storico": 17,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -3.9,
+   "flusso_5g_t": -3.3,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -314,43 +314,43 @@
   "banche_centrali": {
    "titoli_45g": [
     {
+     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
+     "data": "2026-11-20"
+    },
+    {
      "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
      "data": "2026-11-24"
+    },
+    {
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "data": "2026-11-03"
     },
     {
      "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
      "data": "2026-11-24"
     },
     {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
+     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
+     "data": "2026-11-19"
+    },
+    {
+     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
+     "data": "2026-11-22"
     },
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
     },
     {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
-    },
-    {
-     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
-     "data": "2026-11-18"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to 24 Months as Beijing Bucks the Price Slump - ad-hoc-news.de",
-     "data": "2026-11-19"
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.20); tagli Fed prezzati in calo"
+  "sintesi": "tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -684,7 +684,7 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.20); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tagli Fed prezzati in calo",
  "ultimo_dato": "Core PCE Price Index m/m 0.3 (previsione 0.3%): in linea",
  "ultimo_dato_ora_utc": "2026-11-25T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
