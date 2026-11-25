@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-25T12:16:19Z",
+ "timestamp_utc": "2026-11-25T12:31:40Z",
  "bias": -0.241,
  "confidence": 0.268,
  "regime": "moderatamente sfavorevole",
@@ -59,76 +59,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.734,
-    "ora": "2026-11-25T07:14:08.000-0500",
+    "ultimo": 2.748,
+    "ora": "2026-11-25T07:30:42.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.6,
-    "var_4h": -0.6,
-    "var_24h": -7.2
+    "var_1h": 2.0,
+    "var_4h": 0.8,
+    "var_24h": -5.8
    },
    "tasso_10y": {
-    "ultimo": 4.844,
-    "ora": "2026-11-25T07:15:50.000-0500",
+    "ultimo": 4.848,
+    "ora": "2026-11-25T07:31:04.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.8,
-    "var_4h": -1.8,
-    "var_24h": -5.8
+    "var_1h": -0.4,
+    "var_4h": -1.4,
+    "var_24h": -5.4
    },
    "tasso_2y": {
     "ultimo": 4.604,
-    "ora": "2026-11-25T07:15:43.000-0500",
+    "ora": "2026-11-25T07:30:41.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -1.1,
     "var_4h": -1.9,
     "var_24h": -6.7
    },
    "dollaro_dxy": {
-    "ultimo": 103.942,
-    "ora": "2026-11-25T07:15:50.000-0500",
+    "ultimo": 103.921,
+    "ora": "2026-11-25T07:31:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.059,
-    "var_4h": -0.113,
-    "var_24h": 0.123
+    "var_1h": -0.079,
+    "var_4h": -0.134,
+    "var_24h": 0.103
    },
    "vix": {
-    "ultimo": 30.79,
-    "ora": "2026-11-25T07:15:46.000-0500",
+    "ultimo": 30.84,
+    "ora": "2026-11-25T07:31:01.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 1.15,
-    "var_4h": 2.62,
-    "var_24h": 4.43
+    "var_1h": 1.2,
+    "var_4h": 2.67,
+    "var_24h": 4.48
    },
    "oro_futures": {
-    "ultimo": 3499.1,
-    "ora": "2026-11-25T07:05:48.000-0500",
+    "ultimo": 3516.5,
+    "ora": "2026-11-25T07:21:02.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.763,
-    "var_4h": -0.5,
-    "var_24h": -1.763
+    "var_1h": -0.269,
+    "var_4h": -0.006,
+    "var_24h": -1.275
    },
    "argento": {
-    "ultimo": 39.235,
-    "ora": "2026-11-25T07:05:41.000-0500",
+    "ultimo": 39.56,
+    "ora": "2026-11-25T07:20:56.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -1.998,
-    "var_4h": -1.79,
-    "var_24h": -3.793
+    "var_1h": -1.186,
+    "var_4h": -0.976,
+    "var_24h": -2.996
    },
    "petrolio_wti": {
-    "ultimo": 81.73,
-    "ora": "2026-11-25T07:05:48.000-0500",
+    "ultimo": 82.52,
+    "ora": "2026-11-25T07:21:04.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.529,
-    "var_4h": 1.857,
-    "var_24h": -0.39
+    "var_1h": 1.501,
+    "var_4h": 2.841,
+    "var_24h": 0.573
    },
    "rame": {
-    "ultimo": 5.295,
-    "ora": "2026-11-25T07:05:32.000-0500",
+    "ultimo": 5.3135,
+    "ora": "2026-11-25T07:20:56.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.32,
-    "var_4h": -0.442,
-    "var_24h": -1.378
+    "var_1h": 0.028,
+    "var_4h": -0.094,
+    "var_24h": -1.034
    },
    "gld": {
     "ultimo": 325.45,
@@ -146,16 +146,16 @@
     "var_4h": 0.042,
     "var_24h": 0.168
    },
-   "punteggio_4h": 0.366,
-   "punteggio_24h": 0.296,
-   "rapporto_oro_argento": 89.18
+   "punteggio_4h": 0.294,
+   "punteggio_24h": 0.304,
+   "rapporto_oro_argento": 88.89
   },
   "etf": {
-   "gld_tonnellate_stimate": 1046.7,
+   "gld_tonnellate_stimate": 1041.5,
    "data": "2026-11-25",
    "giorni_di_storico": 17,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 7.8,
+   "flusso_5g_t": 2.6,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -244,6 +244,11 @@
    ],
    "discorsi": [
     {
+     "titolo": "Bowman, Modernizing Banking Supervision: A Shared Agenda for the Americas",
+     "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261125a.htm",
+     "data": "Wed, 25 Nov 2026 12:25:00 GMT"
+    },
+    {
      "titolo": "Cook, The U.S. Economy in Global Context",
      "link": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
      "data": "Fri, 20 Nov 2026 17:15:00 GMT"
@@ -262,11 +267,6 @@
      "titolo": "Barr, Investing in America’s Underserved Communities",
      "link": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",
      "data": "Wed, 18 Nov 2026 18:35:00 GMT"
-    },
-    {
-     "titolo": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
-     "link": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
-     "data": "Tue, 17 Nov 2026 14:10:00 GMT"
     }
    ],
    "testimonianze": [
@@ -360,7 +360,7 @@
    "allarme": false,
    "punteggio": 0.0
   },
-  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.37); tagli Fed prezzati in calo"
+  "sintesi": "tassi/dollaro ultime 4h pro oro (+0.29); tagli Fed prezzati in calo"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -712,6 +712,6 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.37); tagli Fed prezzati in calo",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h pro oro (+0.29); tagli Fed prezzati in calo",
  "ultimo_dato": ""
 }
