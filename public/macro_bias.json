@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-25T06:46:26Z",
+ "timestamp_utc": "2026-11-25T07:02:04Z",
  "bias": -0.241,
  "confidence": 0.268,
  "regime": "moderatamente sfavorevole",
@@ -60,36 +60,36 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.772,
-    "ora": "2026-11-25T01:45:43.000-0500",
+    "ultimo": 2.748,
+    "ora": "2026-11-25T02:00:44.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.7,
-    "var_4h": -1.8,
-    "var_24h": -3.4
+    "var_1h": -3.1,
+    "var_4h": -3.8,
+    "var_24h": -5.8
    },
    "tasso_10y": {
-    "ultimo": 4.88,
-    "ora": "2026-11-25T01:45:36.000-0500",
+    "ultimo": 4.872,
+    "ora": "2026-11-25T02:00:30.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.2,
-    "var_4h": -2.6,
-    "var_24h": -2.2
+    "var_1h": -2.0,
+    "var_4h": -2.8,
+    "var_24h": -3.0
    },
    "tasso_2y": {
-    "ultimo": 4.642,
-    "ora": "2026-11-25T01:45:18.000-0500",
+    "ultimo": 4.633,
+    "ora": "2026-11-25T02:01:18.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.6,
-    "var_4h": -1.8,
-    "var_24h": -2.9
+    "var_1h": -1.5,
+    "var_4h": -2.3,
+    "var_24h": -3.8
    },
    "dollaro_dxy": {
-    "ultimo": 104.047,
-    "ora": "2026-11-25T01:45:45.000-0500",
+    "ultimo": 104.06,
+    "ora": "2026-11-25T02:01:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.036,
-    "var_4h": 0.201,
-    "var_24h": 0.224
+    "var_1h": 0.048,
+    "var_4h": 0.16,
+    "var_24h": 0.237
    },
    "vix": {
     "ultimo": 26.36,
@@ -97,39 +97,39 @@
     "unita_variazioni": "punti",
     "var_1h": 0.0,
     "var_4h": 0.0,
-    "var_24h": -0.26
+    "var_24h": 0.0
    },
    "oro_futures": {
-    "ultimo": 3521.0,
-    "ora": "2026-11-25T01:35:41.000-0500",
+    "ultimo": 3517.8,
+    "ora": "2026-11-25T01:51:14.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.444,
-    "var_4h": -1.207,
-    "var_24h": -1.148
+    "var_1h": -0.534,
+    "var_4h": -0.977,
+    "var_24h": -1.238
    },
    "argento": {
-    "ultimo": 40.15,
-    "ora": "2026-11-25T01:35:07.000-0500",
+    "ultimo": 40.195,
+    "ora": "2026-11-25T01:50:36.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.471,
-    "var_4h": -2.537,
-    "var_24h": -1.55
+    "var_1h": -0.359,
+    "var_4h": -1.01,
+    "var_24h": -1.439
    },
    "petrolio_wti": {
-    "ultimo": 80.57,
-    "ora": "2026-11-25T01:35:38.000-0500",
+    "ultimo": 80.55,
+    "ora": "2026-11-25T01:51:16.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.062,
-    "var_4h": -0.445,
-    "var_24h": -1.804
+    "var_1h": -0.087,
+    "var_4h": -0.285,
+    "var_24h": -1.828
    },
    "rame": {
-    "ultimo": 5.304,
-    "ora": "2026-11-25T01:35:43.000-0500",
+    "ultimo": 5.298,
+    "ora": "2026-11-25T01:51:12.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.739,
-    "var_4h": -1.878,
-    "var_24h": -1.211
+    "var_1h": -0.852,
+    "var_4h": -1.734,
+    "var_24h": -1.322
    },
    "gld": {
     "ultimo": 325.45,
@@ -140,23 +140,23 @@
     "var_24h": 0.0
    },
    "usdcny": {
-    "ultimo": 6.6707,
-    "ora": "2026-11-25T01:45:00.000-0500",
+    "ultimo": 6.6715,
+    "ora": "2026-11-25T02:01:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.025,
-    "var_4h": 0.171,
-    "var_24h": 0.101
+    "var_1h": 0.037,
+    "var_4h": 0.131,
+    "var_24h": 0.113
    },
-   "punteggio_4h": -0.063,
-   "punteggio_24h": -0.047,
-   "rapporto_oro_argento": 87.7
+   "punteggio_4h": 0.088,
+   "punteggio_24h": 0.037,
+   "rapporto_oro_argento": 87.52
   },
   "etf": {
-   "gld_tonnellate_stimate": 1043.3,
+   "gld_tonnellate_stimate": 1044.3,
    "data": "2026-11-25",
    "giorni_di_storico": 17,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": 4.5,
+   "flusso_5g_t": 5.4,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -322,32 +322,32 @@
      "data": "2026-11-24"
     },
     {
+     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
+     "data": "2026-11-20"
+    },
+    {
      "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
      "data": "2026-11-24"
     },
     {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Why China is importing a record amount of gold — and what it means for prices - CNBC",
-     "data": "2026-10-11"
-    },
-    {
-     "titolo": "Gold and the Composition of Global Reserves in 2026 - Voronoi by Visual Capitalist",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
      "data": "2026-11-03"
     },
     {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
+    },
+    {
+     "titolo": "World Gold Council: Global central banks reported net gold purchases of 61 tonnes in September, marking the highest monthly total since 2026. - Moomoo",
+     "data": "2026-11-19"
+    },
+    {
+     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
+     "data": "2026-11-22"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
@@ -627,15 +627,6 @@
    "Settimana corta: giovedì Ringraziamento con borse USA chiuse. Date da segnare: lunedì PMI, martedì sera Dell e HP, mercoledì PCE e PIL alle 14:30 italiane."
   ],
   "prossimi_eventi": [
-   {
-    "quando": "2026-11-25T07:00:00Z",
-    "evento": "PIL Germania, 3° trimestre (dato finale)",
-    "impatto": "basso",
-    "previsione": "",
-    "precedente": "",
-    "perche": "conferma della crescita tedesca",
-    "mercati": "EURUSD"
-   },
    {
     "quando": "2026-11-25T13:30:00Z",
     "evento": "PCE di ottobre, PIL 3° trimestre (2ª stima), beni durevoli e sussidi",
