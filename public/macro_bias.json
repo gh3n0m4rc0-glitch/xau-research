@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T16:46:41Z",
+ "timestamp_utc": "2026-11-26T17:02:40Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -65,52 +64,52 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.789,
-    "ora": "2026-11-26T11:46:03.000-0500",
+    "ultimo": 103.779,
+    "ora": "2026-11-26T12:01:35.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.024,
-    "var_4h": 0.053,
-    "var_24h": 0.12
+    "var_1h": 0.015,
+    "var_4h": 0.047,
+    "var_24h": 0.11
    },
    "vix": {
     "ultimo": 26.8,
     "ora": "2026-11-26T11:30:00.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.07,
-    "var_4h": 0.01,
+    "var_1h": 0.19,
+    "var_4h": -0.33,
     "var_24h": -1.49
    },
    "oro_futures": {
-    "ultimo": 3569.7,
-    "ora": "2026-11-26T11:35:32.000-0500",
+    "ultimo": 3570.9,
+    "ora": "2026-11-26T11:50:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.101,
-    "var_4h": -0.003,
-    "var_24h": 0.959
+    "var_1h": 0.02,
+    "var_4h": 0.149,
+    "var_24h": 0.993
    },
    "argento": {
-    "ultimo": 41.305,
-    "ora": "2026-11-26T11:29:10.000-0500",
+    "ultimo": 41.36,
+    "ora": "2026-11-26T11:43:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.242,
-    "var_4h": -0.157,
-    "var_24h": 3.113
+    "var_1h": 0.133,
+    "var_4h": -0.085,
+    "var_24h": 3.25
    },
    "petrolio_wti": {
-    "ultimo": 85.05,
-    "ora": "2026-11-26T11:35:51.000-0500",
+    "ultimo": 84.62,
+    "ora": "2026-11-26T11:51:30.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.259,
-    "var_4h": 0.556,
-    "var_24h": 1.637
+    "var_1h": -0.576,
+    "var_4h": 0.024,
+    "var_24h": 1.123
    },
    "rame": {
-    "ultimo": 5.345,
-    "ora": "2026-11-26T11:34:09.000-0500",
+    "ultimo": 5.3585,
+    "ora": "2026-11-26T11:46:40.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.641,
-    "var_4h": -0.66,
-    "var_24h": 0.159
+    "var_1h": -0.251,
+    "var_4h": -0.584,
+    "var_24h": 0.412
    },
    "gld": {
     "ultimo": 327.45,
@@ -128,16 +127,16 @@
     "var_4h": 0.0,
     "var_24h": -0.232
    },
-   "punteggio_4h": -0.031,
-   "punteggio_24h": -0.042,
-   "rapporto_oro_argento": 86.42
+   "punteggio_4h": -0.071,
+   "punteggio_24h": -0.05,
+   "rapporto_oro_argento": 86.34
   },
   "etf": {
-   "gld_tonnellate_stimate": 1028.3,
+   "gld_tonnellate_stimate": 1027.9,
    "data": "2026-11-26",
    "giorni_di_storico": 18,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -29.6,
+   "flusso_5g_t": -30.0,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -318,33 +317,44 @@
      "data": "2026-11-24"
     },
     {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
+     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
+     "data": "2026-11-20"
     },
     {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
      "data": "2026-11-03"
     },
     {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
     },
     {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
+     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
+     "data": "2026-11-24"
+    },
+    {
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
+    },
+    {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 2.3694,
+   "media_30g": 3.102,
+   "z": -0.83,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "nessun segnale extra forte"
  },
@@ -360,9 +370,9 @@
     "convinzione": 35,
     "frase": "Dopo il -9% della settimana è più probabile un rimbalzo: le vendite forzate finiscono e i rendimenti scendono, ma la Fed resta contro.",
     "cosa_lo_smentisce": "chiusura settimanale sotto 3.450 $ oppure PCE di mercoledì sopra lo 0,4% sul mese",
-    "ultimo_prezzo": 3574.1,
+    "ultimo_prezzo": 3570.9,
     "ultimo_prezzo_data": "2026-11-26",
-    "da_venerdi_pct": 0.99,
+    "da_venerdi_pct": 0.9,
     "cot": {
      "data": "2026-11-17",
      "netto": 102942,
@@ -415,9 +425,9 @@
     "convinzione": 35,
     "frase": "Fed che alza contro fondi già venduti al massimo: in una settimana corta l'euro più probabilmente resta fermo.",
     "cosa_lo_smentisce": "chiusura settimanale sotto 1,0900 = ribassista; sopra 1,1050 = rialzista",
-    "ultimo_prezzo": 1.098,
+    "ultimo_prezzo": 1.0969,
     "ultimo_prezzo_data": "2026-11-26",
-    "da_venerdi_pct": 0.12,
+    "da_venerdi_pct": 0.02,
     "cot": {
      "data": "2026-11-17",
      "netto": -76587,
@@ -434,9 +444,9 @@
     "convinzione": 40,
     "frase": "Inflazione inglese sotto le stime della BoE e disoccupazione in salita: la sterlina perde la spinta dei tassi.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 1,3215 (chiusura del 13 novembre)",
-    "ultimo_prezzo": 1.311,
+    "ultimo_prezzo": 1.3102,
     "ultimo_prezzo_data": "2026-11-26",
-    "da_venerdi_pct": 0.22,
+    "da_venerdi_pct": 0.16,
     "cot": {
      "data": "2026-11-17",
      "netto": 28790,
@@ -453,9 +463,9 @@
     "convinzione": 35,
     "frase": "La Banca del Giappone va verso il rialzo di dicembre e il governo difende quota 160: più probabile giù.",
     "cosa_lo_smentisce": "chiusura settimanale sopra 160,00 senza intervento",
-    "ultimo_prezzo": 159.21,
+    "ultimo_prezzo": 159.28,
     "ultimo_prezzo_data": "2026-11-26",
-    "da_venerdi_pct": 0.43,
+    "da_venerdi_pct": 0.47,
     "cot": {
      "data": "2026-11-17",
      "netto": 23790,
@@ -534,7 +544,7 @@
     "atteso": "giu",
     "dal": "2026-09-11",
     "fino_a": "2026-11-26",
-    "da_allora_pct": -17.81,
+    "da_allora_pct": -17.88,
     "esito": "conferma"
    },
    {
@@ -561,7 +571,7 @@
     "atteso": "giu",
     "dal": "2026-09-11",
     "fino_a": "2026-11-26",
-    "da_allora_pct": -5.38,
+    "da_allora_pct": -5.47,
     "esito": "conferma"
    },
    {
@@ -570,7 +580,7 @@
     "atteso": "giu",
     "dal": "2026-09-11",
     "fino_a": "2026-11-26",
-    "da_allora_pct": -3.06,
+    "da_allora_pct": -3.12,
     "esito": "conferma"
    },
    {
@@ -579,7 +589,7 @@
     "atteso": "su",
     "dal": "2026-09-11",
     "fino_a": "2026-11-26",
-    "da_allora_pct": 3.58,
+    "da_allora_pct": 3.62,
     "esito": "conferma"
    },
    {
@@ -588,7 +598,7 @@
     "atteso": "su",
     "dal": "2026-09-04",
     "fino_a": "2026-11-26",
-    "da_allora_pct": -5.49,
+    "da_allora_pct": -5.59,
     "esito": "smentisce"
    },
    {
@@ -597,7 +607,7 @@
     "atteso": "su",
     "dal": "2026-10-30",
     "fino_a": "2026-11-26",
-    "da_allora_pct": -2.15,
+    "da_allora_pct": -2.21,
     "esito": "smentisce"
    },
    {
@@ -606,7 +616,7 @@
     "atteso": "giu",
     "dal": "2026-10-23",
     "fino_a": "2026-11-26",
-    "da_allora_pct": 1.49,
+    "da_allora_pct": 1.54,
     "esito": "smentisce"
    }
   ],
@@ -646,9 +656,9 @@
    "GBPUSD": "FRED+CNBC",
    "USDJPY": "FRED+CNBC"
   },
-  "dati_presi_utc": "2026-11-26T15:01:17Z",
+  "dati_presi_utc": "2026-11-26T17:01:24Z",
   "sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100)",
-  "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' +0.99%, COT fondi 21° pct. US100: rialzista 30/100, da venerdi' +4.07%, COT fondi 88° pct. US30: rialzista 35/100, da venerdi' +4.23%, COT fondi 68° pct. EURUSD: neutro 35/100, da venerdi' +0.12%, COT fondi 1° pct. GBPUSD: ribassista 40/100, da venerdi' +0.22%, COT fondi 39° pct. USDJPY: ribassista 35/100, da venerdi' +0.43%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
+  "testo_analisti": "Terminale settimanale 23-27 novembre 2026 (scritto il 2026-11-21, peso zero). XAUUSD: rialzista 35/100, da venerdi' +0.90%, COT fondi 21° pct. US100: rialzista 30/100, da venerdi' +4.07%, COT fondi 88° pct. US30: rialzista 35/100, da venerdi' +4.23%, COT fondi 68° pct. EURUSD: neutro 35/100, da venerdi' +0.02%, COT fondi 1° pct. GBPUSD: ribassista 40/100, da venerdi' +0.16%, COT fondi 39° pct. USDJPY: ribassista 35/100, da venerdi' +0.47%, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
  },
  "news_giudicate": false,
