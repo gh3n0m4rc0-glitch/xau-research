@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T12:19:17Z",
+ "timestamp_utc": "2026-11-26T12:31:49Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
@@ -65,51 +66,51 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.776,
-    "ora": "2026-11-26T07:18:38.000-0500",
+    "ultimo": 103.758,
+    "ora": "2026-11-26T07:31:03.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.022,
-    "var_4h": 0.03,
-    "var_24h": 0.107
+    "var_1h": 0.005,
+    "var_4h": 0.018,
+    "var_24h": 0.09
    },
    "vix": {
     "ultimo": 26.88,
-    "ora": "2026-11-26T07:18:31.000-0500",
+    "ora": "2026-11-26T07:31:01.000-0500",
     "unita_variazioni": "punti",
     "var_1h": -0.37,
-    "var_4h": -0.36,
+    "var_4h": -0.12,
     "var_24h": -1.41
    },
    "oro_futures": {
-    "ultimo": 3572.0,
-    "ora": "2026-11-26T07:08:11.000-0500",
+    "ultimo": 3568.0,
+    "ora": "2026-11-26T07:20:02.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.382,
-    "var_4h": 0.095,
-    "var_24h": 1.024
+    "var_1h": 0.27,
+    "var_4h": 0.084,
+    "var_24h": 0.911
    },
    "argento": {
     "ultimo": 41.245,
     "ora": "2026-11-26T07:02:01.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.255,
-    "var_4h": 0.426,
+    "var_4h": 0.328,
     "var_24h": 2.963
    },
    "petrolio_wti": {
-    "ultimo": 84.36,
-    "ora": "2026-11-26T07:08:33.000-0500",
+    "ultimo": 84.57,
+    "ora": "2026-11-26T07:20:52.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.166,
-    "var_4h": 0.632,
-    "var_24h": 0.813
+    "var_1h": 0.083,
+    "var_4h": 0.583,
+    "var_24h": 1.064
    },
    "rame": {
     "ultimo": 5.372,
     "ora": "2026-11-26T06:40:42.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.149,
-    "var_4h": -0.047,
+    "var_4h": -0.139,
     "var_24h": 0.665
    },
    "gld": {
@@ -125,19 +126,19 @@
     "ora": "2026-11-26T04:31:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.005,
+    "var_4h": 0.002,
     "var_24h": -0.232
    },
-   "punteggio_4h": -0.021,
-   "punteggio_24h": -0.055,
-   "rapporto_oro_argento": 86.6
+   "punteggio_4h": 0.004,
+   "punteggio_24h": -0.036,
+   "rapporto_oro_argento": 86.51
   },
   "etf": {
-   "gld_tonnellate_stimate": 1027.6,
+   "gld_tonnellate_stimate": 1028.8,
    "data": "2026-11-26",
    "giorni_di_storico": 18,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -30.3,
+   "flusso_5g_t": -29.1,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -310,45 +311,6 @@
    "variazione_4sett_pct_oi": -0.7,
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
-  },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
-     "data": "2026-11-20"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
-     "data": "2026-11-06"
-    },
-    {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
-     "data": "2026-10-16"
-    },
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    }
-   ],
-   "pboc_mesi_di_acquisti": 24,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
   },
   "sintesi": "nessun segnale extra forte"
  },
@@ -623,15 +585,6 @@
    "Settimana corta: giovedì Ringraziamento con borse USA chiuse. Date da segnare: lunedì PMI, martedì sera Dell e HP, mercoledì PCE e PIL alle 14:30 italiane."
   ],
   "prossimi_eventi": [
-   {
-    "quando": "2026-11-26T12:30:00Z",
-    "evento": "Verbali della BCE (riunione del 29 ottobre)",
-    "impatto": "basso",
-    "previsione": "",
-    "precedente": "",
-    "perche": "quanti volevano già alzare",
-    "mercati": "EURUSD"
-   },
    {
     "quando": "2026-11-26T23:30:00Z",
     "evento": "Inflazione di Tokyo (novembre)",
