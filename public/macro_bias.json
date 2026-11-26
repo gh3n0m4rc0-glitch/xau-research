@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T20:02:13Z",
+ "timestamp_utc": "2026-11-26T20:16:19Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -65,27 +64,27 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.765,
-    "ora": "2026-11-26T15:01:24.000-0500",
+    "ultimo": 103.771,
+    "ora": "2026-11-26T15:15:56.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.009,
-    "var_4h": 0.001,
-    "var_24h": 0.096
+    "var_4h": 0.008,
+    "var_24h": 0.102
    },
    "vix": {
     "ultimo": 26.8,
     "ora": "2026-11-26T11:30:00.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": 0.07,
+    "var_4h": 0.19,
     "var_24h": -1.49
    },
    "oro_futures": {
     "ultimo": 3566.2,
     "ora": "2026-11-26T14:01:58.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.048,
-    "var_4h": -0.199,
+    "var_1h": 0.0,
+    "var_4h": -0.112,
     "var_24h": 0.86
    },
    "argento": {
@@ -93,15 +92,15 @@
     "ora": "2026-11-26T14:26:26.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.157,
-    "var_4h": -0.411,
+    "var_4h": -0.169,
     "var_24h": 2.938
    },
    "petrolio_wti": {
     "ultimo": 84.91,
     "ora": "2026-11-26T14:29:50.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.024,
-    "var_4h": 0.094,
+    "var_1h": -0.047,
+    "var_4h": -0.235,
     "var_24h": 1.47
    },
    "rame": {
@@ -109,7 +108,7 @@
     "ora": "2026-11-26T14:29:08.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.056,
-    "var_4h": -0.586,
+    "var_4h": -0.447,
     "var_24h": 0.215
    },
    "gld": {
@@ -128,8 +127,8 @@
     "var_4h": 0.0,
     "var_24h": -0.232
    },
-   "punteggio_4h": 0.008,
-   "punteggio_24h": -0.031,
+   "punteggio_4h": -0.012,
+   "punteggio_24h": -0.035,
    "rapporto_oro_argento": 86.48
   },
   "etf": {
@@ -318,16 +317,16 @@
      "data": "2026-11-24"
     },
     {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
-    },
-    {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
+    },
+    {
+     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
+     "data": "2026-11-24"
     },
     {
      "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
@@ -345,6 +344,13 @@
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 2.4644,
+   "media_30g": 3.102,
+   "z": -0.72,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "nessun segnale extra forte"
  },
