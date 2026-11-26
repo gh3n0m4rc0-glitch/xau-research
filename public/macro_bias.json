@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T22:02:32Z",
+ "timestamp_utc": "2026-11-26T22:16:09Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -64,12 +64,12 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.785,
-    "ora": "2026-11-26T17:01:23.000-0500",
+    "ultimo": 103.778,
+    "ora": "2026-11-26T17:15:45.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.013,
-    "var_4h": -0.001,
-    "var_24h": 0.116
+    "var_1h": 0.002,
+    "var_4h": 0.004,
+    "var_24h": 0.109
    },
    "vix": {
     "ultimo": 26.8,
@@ -84,7 +84,7 @@
     "ora": "2026-11-26T14:01:58.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.02,
+    "var_4h": -0.008,
     "var_24h": 0.86
    },
    "argento": {
@@ -92,7 +92,7 @@
     "ora": "2026-11-26T14:26:26.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.157,
+    "var_4h": -0.085,
     "var_24h": 2.938
    },
    "petrolio_wti": {
@@ -100,7 +100,7 @@
     "ora": "2026-11-26T14:29:50.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.035,
+    "var_4h": 0.224,
     "var_24h": 1.47
    },
    "rame": {
@@ -127,8 +127,8 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.003,
-   "punteggio_24h": -0.044,
+   "punteggio_4h": 0.008,
+   "punteggio_24h": -0.039,
    "rapporto_oro_argento": 86.48
   },
   "etf": {
@@ -317,16 +317,16 @@
      "data": "2026-11-24"
     },
     {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
-    },
-    {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
+    },
+    {
+     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
+     "data": "2026-11-24"
     },
     {
      "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
