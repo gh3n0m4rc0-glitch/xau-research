@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T17:46:28Z",
+ "timestamp_utc": "2026-11-26T18:02:13Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -65,50 +65,50 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.786,
-    "ora": "2026-11-26T12:45:48.000-0500",
+    "ultimo": 103.774,
+    "ora": "2026-11-26T13:01:22.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.028,
-    "var_4h": 0.08,
-    "var_24h": 0.117
+    "var_1h": -0.014,
+    "var_4h": 0.078,
+    "var_24h": 0.105
    },
    "vix": {
     "ultimo": 26.8,
     "ora": "2026-11-26T11:30:00.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": -0.15,
+    "var_4h": -0.11,
     "var_24h": -1.49
    },
    "oro_futures": {
-    "ultimo": 3566.9,
-    "ora": "2026-11-26T12:34:27.000-0500",
+    "ultimo": 3566.5,
+    "ora": "2026-11-26T12:48:25.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.254,
-    "var_4h": 0.107,
-    "var_24h": 0.88
+    "var_1h": -0.09,
+    "var_4h": -0.126,
+    "var_24h": 0.868
    },
    "argento": {
-    "ultimo": 41.3,
-    "ora": "2026-11-26T12:25:07.000-0500",
+    "ultimo": 41.27,
+    "ora": "2026-11-26T12:43:29.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.458,
-    "var_4h": 0.352,
-    "var_24h": 3.101
+    "var_1h": -0.085,
+    "var_4h": 0.206,
+    "var_24h": 3.026
    },
    "petrolio_wti": {
-    "ultimo": 84.88,
-    "ora": "2026-11-26T12:35:49.000-0500",
+    "ultimo": 84.72,
+    "ora": "2026-11-26T12:51:20.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.188,
-    "var_4h": 0.462,
-    "var_24h": 1.434
+    "var_1h": -0.388,
+    "var_4h": 0.118,
+    "var_24h": 1.243
    },
    "rame": {
     "ultimo": 5.351,
     "ora": "2026-11-26T12:12:41.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.14,
+    "var_1h": 0.112,
     "var_4h": -0.363,
     "var_24h": 0.272
    },
@@ -128,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": -0.232
    },
-   "punteggio_4h": -0.074,
-   "punteggio_24h": -0.046,
-   "rapporto_oro_argento": 86.37
+   "punteggio_4h": -0.089,
+   "punteggio_24h": -0.043,
+   "rapporto_oro_argento": 86.42
   },
   "etf": {
-   "gld_tonnellate_stimate": 1029.1,
+   "gld_tonnellate_stimate": 1029.2,
    "data": "2026-11-26",
    "giorni_di_storico": 18,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -28.8,
+   "flusso_5g_t": -28.7,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -330,6 +330,10 @@
      "data": "2026-11-03"
     },
     {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
+    },
+    {
      "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
      "data": "2026-11-24"
     },
@@ -340,10 +344,6 @@
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
-    },
-    {
-     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
-     "data": "2026-11-03"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
