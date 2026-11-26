@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T13:46:37Z",
+ "timestamp_utc": "2026-11-26T14:02:14Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -65,52 +65,52 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.693,
-    "ora": "2026-11-26T08:45:58.000-0500",
+    "ultimo": 103.662,
+    "ora": "2026-11-26T09:01:25.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.04,
-    "var_4h": -0.04,
-    "var_24h": 0.027
+    "var_1h": -0.069,
+    "var_4h": -0.069,
+    "var_24h": -0.003
    },
    "vix": {
-    "ultimo": 26.91,
-    "ora": "2026-11-26T08:45:46.000-0500",
+    "ultimo": 27.1,
+    "ora": "2026-11-26T09:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 0.12,
-    "var_4h": -0.06,
-    "var_24h": -1.38
+    "var_1h": 0.31,
+    "var_4h": 0.13,
+    "var_24h": -1.19
    },
    "oro_futures": {
-    "ultimo": 3571.0,
-    "ora": "2026-11-26T08:35:45.000-0500",
+    "ultimo": 3569.7,
+    "ora": "2026-11-26T08:46:14.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.034,
-    "var_4h": -0.067,
-    "var_24h": 0.996
+    "var_1h": -0.003,
+    "var_4h": -0.104,
+    "var_24h": 0.959
    },
    "argento": {
-    "ultimo": 41.185,
-    "ora": "2026-11-26T08:35:32.000-0500",
+    "ultimo": 41.1,
+    "ora": "2026-11-26T08:47:13.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.447,
-    "var_4h": -0.411,
-    "var_24h": 2.813
+    "var_1h": -0.653,
+    "var_4h": -0.617,
+    "var_24h": 2.601
    },
    "petrolio_wti": {
-    "ultimo": 84.62,
-    "ora": "2026-11-26T08:35:55.000-0500",
+    "ultimo": 84.49,
+    "ora": "2026-11-26T08:51:23.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.047,
-    "var_4h": 1.451,
-    "var_24h": 1.123
+    "var_1h": -0.106,
+    "var_4h": 1.295,
+    "var_24h": 0.968
    },
    "rame": {
-    "ultimo": 5.3705,
-    "ora": "2026-11-26T08:07:34.000-0500",
+    "ultimo": 5.385,
+    "ora": "2026-11-26T08:49:01.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.186,
-    "var_4h": -0.13,
-    "var_24h": 0.637
+    "var_1h": 0.084,
+    "var_4h": 0.139,
+    "var_24h": 0.909
    },
    "gld": {
     "ultimo": 327.45,
@@ -128,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": -0.232
    },
-   "punteggio_4h": 0.11,
-   "punteggio_24h": 0.01,
-   "rapporto_oro_argento": 86.71
+   "punteggio_4h": 0.148,
+   "punteggio_24h": 0.032,
+   "rapporto_oro_argento": 86.85
   },
   "etf": {
-   "gld_tonnellate_stimate": 1027.9,
+   "gld_tonnellate_stimate": 1028.3,
    "data": "2026-11-26",
    "giorni_di_storico": 18,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -30.0,
+   "flusso_5g_t": -29.6,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -318,32 +318,28 @@
      "data": "2026-11-24"
     },
     {
-     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
-     "data": "2026-11-20"
+     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
+     "data": "2026-11-24"
     },
     {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
-     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
      "data": "2026-11-03"
     },
     {
-     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
-     "data": "2026-11-06"
-    },
-    {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
-     "data": "2026-10-16"
-    },
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
      "data": "2026-11-17"
+    },
+    {
+     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
+     "data": "2026-11-21"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
