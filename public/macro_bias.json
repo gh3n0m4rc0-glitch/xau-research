@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T20:46:35Z",
+ "timestamp_utc": "2026-11-26T21:02:19Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
+  "notizie banche centrali: 503 Server Error: Service Unavailable for url: https://news.",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -65,12 +65,12 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.771,
-    "ora": "2026-11-26T15:45:37.000-0500",
+    "ultimo": 103.776,
+    "ora": "2026-11-26T16:01:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.004,
-    "var_4h": 0.013,
-    "var_24h": 0.102
+    "var_1h": 0.001,
+    "var_4h": -0.013,
+    "var_24h": 0.107
    },
    "vix": {
     "ultimo": 26.8,
@@ -85,7 +85,7 @@
     "ora": "2026-11-26T14:01:58.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.274,
+    "var_4h": -0.098,
     "var_24h": 0.86
    },
    "argento": {
@@ -93,7 +93,7 @@
     "ora": "2026-11-26T14:26:26.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.615,
+    "var_4h": -0.169,
     "var_24h": 2.938
    },
    "petrolio_wti": {
@@ -101,7 +101,7 @@
     "ora": "2026-11-26T14:29:50.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.153,
+    "var_4h": -0.165,
     "var_24h": 1.47
    },
    "rame": {
@@ -109,7 +109,7 @@
     "ora": "2026-11-26T14:29:08.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.196,
+    "var_4h": 0.056,
     "var_24h": 0.215
    },
    "gld": {
@@ -128,8 +128,8 @@
     "var_4h": 0.0,
     "var_24h": -0.232
    },
-   "punteggio_4h": -0.024,
-   "punteggio_24h": -0.035,
+   "punteggio_4h": 0.006,
+   "punteggio_24h": -0.038,
    "rapporto_oro_argento": 86.48
   },
   "etf": {
@@ -311,40 +311,12 @@
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
   },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
-    }
-   ],
-   "pboc_mesi_di_acquisti": 24,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
+  "geopolitica": {
+   "intensita_24h": 2.4644,
+   "media_30g": 3.102,
+   "z": -0.72,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "nessun segnale extra forte"
  },
