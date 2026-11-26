@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T00:31:54Z",
+ "timestamp_utc": "2026-11-26T00:46:32Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -65,12 +65,12 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.665,
-    "ora": "2026-11-25",
+    "ultimo": 103.726,
+    "ora": "2026-11-25T19:45:50.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.03,
-    "var_4h": -0.002,
-    "var_24h": 0.0
+    "var_1h": 0.059,
+    "var_4h": 0.057,
+    "var_24h": 0.059
    },
    "vix": {
     "ultimo": 28.29,
@@ -81,36 +81,36 @@
     "var_24h": 1.93
    },
    "oro_futures": {
-    "ultimo": 3575.1,
-    "ora": "2026-11-25T19:20:59.000-0500",
+    "ultimo": 3576.7,
+    "ora": "2026-11-25T19:35:48.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.011,
-    "var_4h": 0.098,
-    "var_24h": 1.111
+    "var_1h": 0.151,
+    "var_4h": 0.143,
+    "var_24h": 1.157
    },
    "argento": {
-    "ultimo": 41.235,
-    "ora": "2026-11-25T19:19:46.000-0500",
+    "ultimo": 41.28,
+    "ora": "2026-11-25T19:35:25.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.635,
-    "var_4h": 1.377,
-    "var_24h": 2.938
+    "var_1h": 0.304,
+    "var_4h": 1.487,
+    "var_24h": 3.051
    },
    "petrolio_wti": {
-    "ultimo": 84.09,
-    "ora": "2026-11-25T19:20:33.000-0500",
+    "ultimo": 84.04,
+    "ora": "2026-11-25T19:35:46.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.238,
-    "var_4h": 0.071,
-    "var_24h": 0.49
+    "var_1h": 0.048,
+    "var_4h": 0.012,
+    "var_24h": 0.43
    },
    "rame": {
-    "ultimo": 5.4025,
-    "ora": "2026-11-25T19:08:49.000-0500",
+    "ultimo": 5.408,
+    "ora": "2026-11-25T19:24:51.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 1.237,
-    "var_4h": 0.26,
-    "var_24h": 1.237
+    "var_1h": 1.34,
+    "var_4h": 0.362,
+    "var_24h": 1.34
    },
    "gld": {
     "ultimo": 327.45,
@@ -128,16 +128,16 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.136,
-   "punteggio_24h": 0.109,
-   "rapporto_oro_argento": 86.7
+   "punteggio_4h": -0.207,
+   "punteggio_24h": 0.066,
+   "rapporto_oro_argento": 86.64
   },
   "etf": {
-   "gld_tonnellate_stimate": 1030.7,
+   "gld_tonnellate_stimate": 1030.2,
    "data": "2026-11-26",
    "giorni_di_storico": 18,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -27.2,
+   "flusso_5g_t": -27.6,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -314,39 +314,43 @@
   "banche_centrali": {
    "titoli_45g": [
     {
+     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
+     "data": "2026-11-20"
+    },
+    {
      "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
      "data": "2026-11-24"
+    },
+    {
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+     "data": "2026-11-06"
     },
     {
      "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
      "data": "2026-11-24"
     },
     {
+     "titolo": "Libya ranks second in Africa for central bank gold reserves - Libyan Express",
+     "data": "2026-11-22"
+    },
+    {
      "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
      "data": "2026-11-04"
     },
     {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
-    },
-    {
-     "titolo": "China Extends Gold-Buying Streak to 24 Months as Beijing Bucks the Price Slump - ad-hoc-news.de",
-     "data": "2026-11-19"
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
-  "sintesi": "nessun segnale extra forte"
+  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.21)"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -671,7 +675,7 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | nessun segnale extra forte",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h contro oro (-0.21)",
  "ultimo_dato": "Core PCE Price Index m/m 0.3 (previsione 0.3%): in linea",
  "ultimo_dato_ora_utc": "2026-11-25T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
