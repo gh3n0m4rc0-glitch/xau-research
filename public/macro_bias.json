@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-26T20:16:19Z",
+ "timestamp_utc": "2026-11-26T20:31:42Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -64,19 +64,19 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.771,
-    "ora": "2026-11-26T15:15:56.000-0500",
+    "ultimo": 103.764,
+    "ora": "2026-11-26T15:31:03.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.009,
-    "var_4h": 0.008,
-    "var_24h": 0.102
+    "var_1h": -0.015,
+    "var_4h": 0.005,
+    "var_24h": 0.095
    },
    "vix": {
     "ultimo": 26.8,
     "ora": "2026-11-26T11:30:00.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": 0.19,
+    "var_4h": 0.16,
     "var_24h": -1.49
    },
    "oro_futures": {
@@ -84,7 +84,7 @@
     "ora": "2026-11-26T14:01:58.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.112,
+    "var_4h": -0.199,
     "var_24h": 0.86
    },
    "argento": {
@@ -92,7 +92,7 @@
     "ora": "2026-11-26T14:26:26.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.157,
-    "var_4h": -0.169,
+    "var_4h": -0.157,
     "var_24h": 2.938
    },
    "petrolio_wti": {
@@ -100,7 +100,7 @@
     "ora": "2026-11-26T14:29:50.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.047,
-    "var_4h": -0.235,
+    "var_4h": -0.024,
     "var_24h": 1.47
    },
    "rame": {
@@ -108,7 +108,7 @@
     "ora": "2026-11-26T14:29:08.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.056,
-    "var_4h": -0.447,
+    "var_4h": -0.196,
     "var_24h": 0.215
    },
    "gld": {
@@ -127,8 +127,8 @@
     "var_4h": 0.0,
     "var_24h": -0.232
    },
-   "punteggio_4h": -0.012,
-   "punteggio_24h": -0.035,
+   "punteggio_4h": 0.002,
+   "punteggio_24h": -0.03,
    "rapporto_oro_argento": 86.48
   },
   "etf": {
@@ -321,24 +321,28 @@
      "data": "2026-11-04"
     },
     {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
+     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
+     "data": "2026-11-20"
+    },
+    {
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "data": "2026-11-03"
     },
     {
      "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
      "data": "2026-11-24"
     },
     {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
-     "data": "2026-11-03"
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     },
     {
-     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
     },
     {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
+     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
+     "data": "2026-11-03"
     }
    ],
    "pboc_mesi_di_acquisti": 24,
