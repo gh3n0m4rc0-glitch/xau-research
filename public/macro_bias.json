@@ -1,16 +1,16 @@
 {
- "timestamp_utc": "2026-11-26T21:02:19Z",
- "bias": -0.244,
+ "timestamp_utc": "2026-11-26T21:16:44Z",
+ "bias": -0.272,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
- "summary": "Macro ribassista (bias -0.24, conf 0.27): inflazione attesa contro oro (-0.94); VIX pro oro (+0.89); dollaro contro oro (-0.72); tasso 2y (Fed) pro oro (+0.45) | reale 10y 2.79%",
+ "summary": "Macro ribassista (bias -0.27, conf 0.27): inflazione attesa contro oro (-0.94); VIX pro oro (+0.89); dollaro contro oro (-0.72); tasso 2y (Fed) pro oro (+0.45) | reale 10y 2.79%",
  "components": {
   "real_yield_10y": -0.231,
   "dollar_broad": -0.724,
   "nominal_2y": 0.447,
   "breakeven_10y": -0.943,
   "vix": 0.892,
-  "cot": 0.0
+  "cot": null
  },
  "news": {},
  "risk_flags": [],
@@ -26,13 +26,14 @@
   "nominal_2y": "FRED",
   "breakeven_10y": "FRED",
   "vix": "FRED",
-  "cot": "CFTC",
+  "cot": "MANCA: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
   "calendario": "ForexFactory"
  },
- "fonti_mancanti": [],
+ "fonti_mancanti": [
+  "cot"
+ ],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "notizie banche centrali: 503 Server Error: Service Unavailable for url: https://news.",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -65,12 +66,12 @@
     "var_24h": -2.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.776,
-    "ora": "2026-11-26T16:01:19.000-0500",
+    "ultimo": 103.779,
+    "ora": "2026-11-26T16:16:07.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.001,
-    "var_4h": -0.013,
-    "var_24h": 0.107
+    "var_1h": 0.013,
+    "var_4h": 0.0,
+    "var_24h": 0.11
    },
    "vix": {
     "ultimo": 26.8,
@@ -85,7 +86,7 @@
     "ora": "2026-11-26T14:01:58.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.098,
+    "var_4h": -0.132,
     "var_24h": 0.86
    },
    "argento": {
@@ -93,7 +94,7 @@
     "ora": "2026-11-26T14:26:26.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.169,
+    "var_4h": -0.302,
     "var_24h": 2.938
    },
    "petrolio_wti": {
@@ -101,7 +102,7 @@
     "ora": "2026-11-26T14:29:50.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.165,
+    "var_4h": 0.343,
     "var_24h": 1.47
    },
    "rame": {
@@ -109,7 +110,7 @@
     "ora": "2026-11-26T14:29:08.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.056,
+    "var_4h": -0.196,
     "var_24h": 0.215
    },
    "gld": {
@@ -128,8 +129,8 @@
     "var_4h": 0.0,
     "var_24h": -0.232
    },
-   "punteggio_4h": 0.006,
-   "punteggio_24h": -0.038,
+   "punteggio_4h": 0.019,
+   "punteggio_24h": -0.04,
    "rapporto_oro_argento": 86.48
   },
   "etf": {
@@ -303,18 +304,45 @@
     }
    ]
   },
-  "cot_flusso": {
-   "data": "2026-11-17",
-   "netto_fondi_pct_oi": 25.2,
-   "percentile_3anni": 0.17,
-   "variazione_4sett_pct_oi": -0.7,
-   "flusso_z": -0.09,
-   "punteggio_flusso": -0.063
+  "banche_centrali": {
+   "titoli_45g": [
+    {
+     "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
+     "data": "2026-11-24"
+    },
+    {
+     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
+     "data": "2026-11-24"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "Gold prices are falling: China is buying anyway - FXStreet",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
+     "data": "2026-11-21"
+    }
+   ],
+   "pboc_mesi_di_acquisti": 24,
+   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
+   "nota": "regime di fondo, mensile: informativo"
   },
   "geopolitica": {
-   "intensita_24h": 2.4644,
+   "intensita_24h": 2.5163,
    "media_30g": 3.102,
-   "z": -0.72,
+   "z": -0.66,
    "allarme": false,
    "punteggio": 0.0
   },
@@ -624,7 +652,7 @@
   "agli_analisti": false
  },
  "news_giudicate": false,
- "fonti_mancanti_testo": "",
+ "fonti_mancanti_testo": "posizionamento COT",
  "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | nessun segnale extra forte",
  "ultimo_dato": "Core PCE Price Index m/m 0.3 (previsione 0.3%): in linea",
  "ultimo_dato_ora_utc": "2026-11-25T13:30:00Z",
