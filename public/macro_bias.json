@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-27T10:32:23Z",
+ "timestamp_utc": "2026-11-27T10:46:35Z",
  "bias": -0.244,
  "confidence": 0.272,
  "regime": "moderatamente sfavorevole",
@@ -42,76 +42,76 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.787,
-    "ora": "2026-11-27T05:29:06.000-0500",
-    "unita_variazioni": "pb",
-    "var_1h": -0.7,
-    "var_4h": -0.3,
-    "var_24h": 5.2
-   },
-   "tasso_10y": {
-    "ultimo": 4.916,
-    "ora": "2026-11-27T05:28:34.000-0500",
+    "ultimo": 2.786,
+    "ora": "2026-11-27T05:45:05.000-0500",
     "unita_variazioni": "pb",
     "var_1h": -0.8,
-    "var_4h": -0.8,
-    "var_24h": 6.8
+    "var_4h": 0.1,
+    "var_24h": 5.1
+   },
+   "tasso_10y": {
+    "ultimo": 4.914,
+    "ora": "2026-11-27T05:45:04.000-0500",
+    "unita_variazioni": "pb",
+    "var_1h": -0.8,
+    "var_4h": -0.4,
+    "var_24h": 6.6
    },
    "tasso_2y": {
     "ultimo": 4.693,
-    "ora": "2026-11-27T05:31:04.000-0500",
+    "ora": "2026-11-27T05:45:04.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": 0.0,
-    "var_4h": 0.2,
+    "var_1h": -0.2,
+    "var_4h": 0.6,
     "var_24h": 5.8
    },
    "dollaro_dxy": {
-    "ultimo": 103.838,
-    "ora": "2026-11-27T05:31:07.000-0500",
+    "ultimo": 103.815,
+    "ora": "2026-11-27T05:45:51.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.001,
-    "var_4h": 0.142,
-    "var_24h": 0.167
+    "var_1h": -0.012,
+    "var_4h": 0.08,
+    "var_24h": 0.145
    },
    "vix": {
-    "ultimo": 24.66,
-    "ora": "2026-11-27T05:31:01.000-0500",
+    "ultimo": 24.59,
+    "ora": "2026-11-27T05:45:46.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": -0.05,
-    "var_4h": -2.14,
-    "var_24h": -2.14
+    "var_1h": -0.22,
+    "var_4h": -2.21,
+    "var_24h": -2.21
    },
    "oro_futures": {
     "ultimo": 3670.0,
-    "ora": "2026-11-27T05:16:26.000-0500",
+    "ora": "2026-11-27T05:32:05.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.361,
-    "var_4h": 0.763,
+    "var_1h": -0.255,
+    "var_4h": 0.658,
     "var_24h": 3.795
    },
    "argento": {
-    "ultimo": 43.895,
-    "ora": "2026-11-27T05:19:28.000-0500",
+    "ultimo": 44.005,
+    "ora": "2026-11-27T05:29:56.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.735,
-    "var_4h": -0.125,
-    "var_24h": 9.579
+    "var_1h": -0.441,
+    "var_4h": -0.045,
+    "var_24h": 9.853
    },
    "petrolio_wti": {
-    "ultimo": 85.82,
-    "ora": "2026-11-27T05:21:05.000-0500",
+    "ultimo": 85.8,
+    "ora": "2026-11-27T05:35:49.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.012,
-    "var_4h": -0.429,
-    "var_24h": 2.557
+    "var_1h": -0.035,
+    "var_4h": -0.418,
+    "var_24h": 2.533
    },
    "rame": {
-    "ultimo": 5.5915,
-    "ora": "2026-11-27T05:03:49.000-0500",
+    "ultimo": 5.586,
+    "ora": "2026-11-27T05:21:22.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.339,
-    "var_4h": -0.365,
-    "var_24h": 4.778
+    "var_1h": -0.428,
+    "var_4h": -0.755,
+    "var_24h": 4.675
    },
    "gld": {
     "ultimo": 327.45,
@@ -125,13 +125,13 @@
     "ultimo": 6.6541,
     "ora": "2026-11-27T05:21:00.000-0500",
     "unita_variazioni": "%",
-    "var_1h": 0.005,
-    "var_4h": -0.017,
+    "var_1h": -0.003,
+    "var_4h": -0.02,
     "var_24h": -0.084
    },
-   "punteggio_4h": -0.226,
-   "punteggio_24h": -0.364,
-   "rapporto_oro_argento": 83.61
+   "punteggio_4h": -0.199,
+   "punteggio_24h": -0.348,
+   "rapporto_oro_argento": 83.4
   },
   "etf": {
    "gld_tonnellate_stimate": 1000.2,
@@ -312,7 +312,7 @@
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
   },
-  "sintesi": "tassi/dollaro ultime 4h contro oro (-0.23)"
+  "sintesi": "nessun segnale extra forte"
  },
  "terminale": {
   "peso_nel_bias": 0,
@@ -610,7 +610,7 @@
  },
  "news_giudicate": false,
  "fonti_mancanti_testo": "",
- "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | tassi/dollaro ultime 4h contro oro (-0.23)",
+ "extra_sintesi": "Terminale: oro rialzista 35/100, fondi leggeri (21/100) | nessun segnale extra forte",
  "ultimo_dato": "Core PCE Price Index m/m 0.3 (previsione 0.3%): in linea",
  "ultimo_dato_ora_utc": "2026-11-25T13:30:00Z",
  "ultimo_dato_verso_oro": 0,
