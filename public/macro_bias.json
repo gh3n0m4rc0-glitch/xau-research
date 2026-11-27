@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-27T14:46:40Z",
+ "timestamp_utc": "2026-11-27T15:02:29Z",
  "bias": -0.243,
  "confidence": 0.27,
  "regime": "moderatamente sfavorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
@@ -41,103 +42,103 @@
   "nota": "informazioni in prova: non cambiano il bias finche' non le confermi",
   "intraday": {
    "tasso_reale_10y": {
-    "ultimo": 2.751,
-    "ora": "2026-11-27T09:45:47.000-0500",
+    "ultimo": 2.757,
+    "ora": "2026-11-27T10:01:27.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.5,
-    "var_4h": -3.5,
-    "var_24h": 1.6
+    "var_1h": -0.3,
+    "var_4h": -2.3,
+    "var_24h": 2.2
    },
    "tasso_10y": {
-    "ultimo": 4.888,
-    "ora": "2026-11-27T09:45:47.000-0500",
+    "ultimo": 4.896,
+    "ora": "2026-11-27T10:01:28.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -0.8,
-    "var_4h": -2.6,
-    "var_24h": 4.0
+    "var_1h": -0.6,
+    "var_4h": -1.2,
+    "var_24h": 4.8
    },
    "tasso_2y": {
     "ultimo": 4.666,
-    "ora": "2026-11-27T09:45:55.000-0500",
+    "ora": "2026-11-27T10:01:25.000-0500",
     "unita_variazioni": "pb",
-    "var_1h": -1.5,
-    "var_4h": -2.7,
+    "var_1h": -2.1,
+    "var_4h": -2.1,
     "var_24h": 3.1
    },
    "dollaro_dxy": {
-    "ultimo": 103.901,
-    "ora": "2026-11-27T09:45:56.000-0500",
+    "ultimo": 103.959,
+    "ora": "2026-11-27T10:01:29.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.018,
-    "var_4h": 0.083,
-    "var_24h": 0.228
+    "var_1h": 0.053,
+    "var_4h": 0.151,
+    "var_24h": 0.284
    },
    "vix": {
-    "ultimo": 26.89,
-    "ora": "2026-11-27T09:45:46.000-0500",
+    "ultimo": 27.27,
+    "ora": "2026-11-27T10:01:16.000-0500",
     "unita_variazioni": "punti",
-    "var_1h": 1.52,
-    "var_4h": 2.3,
-    "var_24h": 0.09
+    "var_1h": 1.8,
+    "var_4h": 2.44,
+    "var_24h": 0.47
    },
    "oro_futures": {
-    "ultimo": 3632.3,
-    "ora": "2026-11-27T09:35:50.000-0500",
+    "ultimo": 3634.7,
+    "ora": "2026-11-27T09:50:19.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.296,
-    "var_4h": -1.027,
-    "var_24h": 2.729
+    "var_1h": -0.313,
+    "var_4h": -1.15,
+    "var_24h": 2.797
    },
    "argento": {
-    "ultimo": 43.535,
-    "ora": "2026-11-27T09:35:02.000-0500",
+    "ultimo": 43.55,
+    "ora": "2026-11-27T09:51:11.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.046,
-    "var_4h": -1.068,
-    "var_24h": 8.68
+    "var_1h": -0.195,
+    "var_4h": -1.225,
+    "var_24h": 8.717
    },
    "petrolio_wti": {
-    "ultimo": 83.98,
-    "ora": "2026-11-27T09:35:54.000-0500",
+    "ultimo": 84.0,
+    "ora": "2026-11-27T09:51:27.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.745,
-    "var_4h": -2.121,
-    "var_24h": 0.359
+    "var_1h": -0.297,
+    "var_4h": -1.8,
+    "var_24h": 0.382
    },
    "rame": {
-    "ultimo": 5.5,
-    "ora": "2026-11-27T09:35:52.000-0500",
+    "ultimo": 5.504,
+    "ora": "2026-11-27T09:50:43.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.525,
-    "var_4h": -1.54,
-    "var_24h": 3.064
+    "var_1h": -0.542,
+    "var_4h": -1.556,
+    "var_24h": 3.139
    },
    "gld": {
-    "ultimo": 332.98,
-    "ora": "2026-11-27T09:45:55.965-0500",
+    "ultimo": 332.68,
+    "ora": "2026-11-27T10:01:29.587-0500",
     "unita_variazioni": "%",
-    "var_1h": 1.689,
-    "var_4h": 1.689,
-    "var_24h": 1.689
+    "var_1h": 1.597,
+    "var_4h": 1.597,
+    "var_24h": 1.597
    },
    "usdcny": {
     "ultimo": 6.6541,
-    "ora": "2026-11-27T09:26:00.000-0500",
+    "ora": "2026-11-27T09:50:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": -0.006,
     "var_4h": 0.0,
     "var_24h": -0.084
    },
-   "punteggio_4h": 0.167,
-   "punteggio_24h": -0.242,
-   "rapporto_oro_argento": 83.43
+   "punteggio_4h": 0.024,
+   "punteggio_24h": -0.29,
+   "rapporto_oro_argento": 83.46
   },
   "etf": {
-   "gld_tonnellate_stimate": 1028.2,
+   "gld_tonnellate_stimate": 1026.6,
    "data": "2026-11-27",
    "giorni_di_storico": 19,
    "nota": "stima: azioni in circolazione x prezzo GLD / prezzo oro",
-   "flusso_5g_t": -11.2,
+   "flusso_5g_t": -12.8,
    "flusso_20g_t": null,
    "punteggio": null
   },
@@ -310,45 +311,6 @@
    "variazione_4sett_pct_oi": -0.7,
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
-  },
-  "banche_centrali": {
-   "titoli_45g": [
-    {
-     "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
-     "data": "2026-11-20"
-    },
-    {
-     "titolo": "Gold Demand Holds Firm as Central Banks Buy Into the Price Collapse - Investing.com",
-     "data": "2026-11-23"
-    },
-    {
-     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
-     "data": "2026-11-24"
-    },
-    {
-     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
-     "data": "2026-11-17"
-    },
-    {
-     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
-     "data": "2026-10-16"
-    }
-   ],
-   "pboc_mesi_di_acquisti": null,
-   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
-   "nota": "regime di fondo, mensile: informativo"
   },
   "sintesi": "nessun segnale extra forte"
  },
