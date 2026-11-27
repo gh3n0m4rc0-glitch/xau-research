@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-27T22:02:26Z",
+ "timestamp_utc": "2026-11-27T22:16:32Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -8,7 +8,7 @@
   "real_yield_10y": -0.068,
   "dollar_broad": -0.724,
   "nominal_2y": 0.55,
-  "breakeven_10y": -0.943,
+  "breakeven_10y": -0.939,
   "vix": 0.912,
   "cot": 0.0
  },
@@ -17,7 +17,7 @@
  "risk_multiplier": 1.0,
  "halt_trading": false,
  "halt_reason": "",
- "data_age_days": 1,
+ "data_age_days": 0,
  "pre_news": [],
  "upcoming_events": [],
  "fonti": {
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "notizie banche centrali: 429 Client Error: Too Many Requests for url: https://news.go",
   "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
@@ -46,7 +45,7 @@
     "ora": "2026-11-27T14:30:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.2,
+    "var_4h": -0.1,
     "var_24h": 4.8
    },
    "tasso_10y": {
@@ -54,7 +53,7 @@
     "ora": "2026-11-27T14:30:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.4,
+    "var_4h": 0.0,
     "var_24h": 8.8
    },
    "tasso_2y": {
@@ -62,15 +61,15 @@
     "ora": "2026-11-27T14:30:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.8,
+    "var_4h": 0.2,
     "var_24h": 7.5
    },
    "dollaro_dxy": {
     "ultimo": 104.035,
     "ora": "2026-11-27T16:59:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.006,
-    "var_4h": 0.021,
+    "var_1h": -0.01,
+    "var_4h": 0.009,
     "var_24h": 0.357
    },
    "vix": {
@@ -78,7 +77,7 @@
     "ora": "2026-11-27T13:15:00.000-0500",
     "unita_variazioni": "punti",
     "var_1h": 0.0,
-    "var_4h": -0.15,
+    "var_4h": 0.0,
     "var_24h": -2.99
    },
    "oro_futures": {
@@ -86,7 +85,7 @@
     "ora": "2026-11-27T14:44:07.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.482,
+    "var_4h": 0.187,
     "var_24h": 3.23
    },
    "argento": {
@@ -94,7 +93,7 @@
     "ora": "2026-11-27T14:30:20.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.558,
+    "var_4h": 0.441,
     "var_24h": 7.919
    },
    "petrolio_wti": {
@@ -102,7 +101,7 @@
     "ora": "2026-11-27T14:44:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.786,
+    "var_4h": 0.555,
     "var_24h": -0.418
    },
    "rame": {
@@ -110,7 +109,7 @@
     "ora": "2026-11-27T14:34:26.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.154,
+    "var_4h": -0.253,
     "var_24h": 3.364
    },
    "gld": {
@@ -118,7 +117,7 @@
     "ora": "2026-11-27T13:10:00.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.042,
+    "var_4h": 0.0,
     "var_24h": 2.122
    },
    "usdcny": {
@@ -129,7 +128,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": -0.013,
+   "punteggio_4h": 0.027,
    "punteggio_24h": -0.563,
    "rapporto_oro_argento": 84.43
   },
@@ -311,6 +310,45 @@
    "variazione_4sett_pct_oi": -0.7,
    "flusso_z": -0.09,
    "punteggio_flusso": -0.063
+  },
+  "banche_centrali": {
+   "titoli_45g": [
+    {
+     "titolo": "Natixis Says Gold Could Hit $3,340. What the Data Shows - GoldSilver",
+     "data": "2026-11-24"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
+     "data": "2026-11-20"
+    },
+    {
+     "titolo": "Gold Demand Holds Firm as Central Banks Buy Into the Price Collapse - Investing.com",
+     "data": "2026-11-23"
+    },
+    {
+     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
+     "data": "2026-11-24"
+    },
+    {
+     "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
+     "data": "2026-11-17"
+    },
+    {
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
+    }
+   ],
+   "pboc_mesi_di_acquisti": null,
+   "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
+   "nota": "regime di fondo, mensile: informativo"
   },
   "sintesi": "tagli Fed prezzati in calo"
  },
