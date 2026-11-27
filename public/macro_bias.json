@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-27T22:32:01Z",
+ "timestamp_utc": "2026-11-27T22:46:28Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -44,7 +44,7 @@
     "ora": "2026-11-27T14:30:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": -0.1,
+    "var_4h": 0.0,
     "var_24h": 4.8
    },
    "tasso_10y": {
@@ -60,15 +60,15 @@
     "ora": "2026-11-27T14:30:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.2,
+    "var_4h": -0.4,
     "var_24h": 7.5
    },
    "dollaro_dxy": {
     "ultimo": 104.035,
     "ora": "2026-11-27T16:59:59.000-0500",
     "unita_variazioni": "%",
-    "var_1h": -0.01,
-    "var_4h": 0.009,
+    "var_1h": -0.023,
+    "var_4h": 0.004,
     "var_24h": 0.357
    },
    "vix": {
@@ -84,7 +84,7 @@
     "ora": "2026-11-27T14:44:07.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.187,
+    "var_4h": 0.17,
     "var_24h": 3.23
    },
    "argento": {
@@ -92,7 +92,7 @@
     "ora": "2026-11-27T14:30:20.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.441,
+    "var_4h": -0.242,
     "var_24h": 7.919
    },
    "petrolio_wti": {
@@ -100,7 +100,7 @@
     "ora": "2026-11-27T14:44:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.555,
+    "var_4h": 0.482,
     "var_24h": -0.418
    },
    "rame": {
@@ -127,7 +127,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.027,
+   "punteggio_4h": 0.021,
    "punteggio_24h": -0.563,
    "rapporto_oro_argento": 84.43
   },
@@ -317,6 +317,18 @@
      "data": "2026-11-24"
     },
     {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
+    },
+    {
+     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
+     "data": "2026-11-03"
+    },
+    {
+     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
+     "data": "2026-11-20"
+    },
+    {
      "titolo": "Gold Demand Holds Firm as Central Banks Buy Into the Price Collapse - Investing.com",
      "data": "2026-11-23"
     },
@@ -325,34 +337,22 @@
      "data": "2026-11-24"
     },
     {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
     },
     {
-     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
-     "data": "2026-11-21"
-    },
-    {
-     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
-     "data": "2026-11-18"
+     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
+     "data": "2026-10-16"
     }
    ],
-   "pboc_mesi_di_acquisti": 24,
+   "pboc_mesi_di_acquisti": null,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
   "geopolitica": {
-   "intensita_24h": 2.4404,
+   "intensita_24h": 2.4705,
    "media_30g": 3.0758,
-   "z": -0.73,
+   "z": -0.69,
    "allarme": false,
    "punteggio": 0.0
   },
