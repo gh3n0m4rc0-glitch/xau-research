@@ -1,77 +1,77 @@
 {
  "versione": 2,
- "settimana": "23-27 novembre 2026",
- "scritto_il": "2026-11-21",
- "venerdi": "2026-11-20",
+ "settimana": "30 novembre - 4 dicembre 2026",
+ "scritto_il": "2026-11-27",
+ "venerdi": "2026-11-27",
  "peso_nel_bot": 0,
  "nota": "Lettura settimanale del terminale macro. Solo informazione: il bot la mostra e la registra, non la usa per decidere.",
  "resoconto": [
-  "Settimana di crollo: il Nasdaq ha perso il 10% (peggio dal 2020), Dow e S&P 500 sono in correzione. L'arrivo in borsa di Anthropic non ha convinto e Nvidia ha perso il 23%.",
-  "Anche l'oro è crollato (-9%, minimo da 14 mesi): chi perdeva in borsa ha venduto oro, e la Fed alzerà i tassi il 9 dicembre (92%).",
-  "Venerdì però i rendimenti USA sono scesi e il rialzo della Fed è già tutto nei prezzi: per questa settimana è più probabile un rimbalzo, ma è una lettura debole.",
-  "Banche: i verbali della Fed confermano altri rialzi; la Banca del Giappone va verso l'1,5% il 18 dicembre (yen su); l'inflazione inglese è sotto le stime della BoE (sterlina giù).",
-  "Settimana corta: giovedì Ringraziamento con borse USA chiuse. Date da segnare: lunedì PMI, martedì sera Dell e HP, mercoledì PCE e PIL alle 14:30 italiane."
+  "Settimana di rimbalzo: Dow +5,5% (la migliore dal 2022), Nasdaq 100 +6,8%, oro +3,1%. Le vendite forzate dopo il crollo di Nvidia e Anthropic si sono fermate.",
+  "Ma l'inflazione USA non scende: PCE core di ottobre 3,3% (atteso 3,2%) e PIL rivisto al 4,3%. Il rialzo della Fed del 9 dicembre è dato al 93,5%.",
+  "Lettura per questa settimana: borse e oro più probabilmente ancora su, ma con poca convinzione; euro giù; sterlina e yen fermi.",
+  "Banche: la Fed entra nel silenzio prima della riunione; la BoJ va verso l'1,5% il 18 dicembre (inflazione di Tokyo al 2,9%); il mercato si aspetta rialzi BoE a dicembre e febbraio; De Cos scelto come prossimo presidente BCE.",
+  "Date da segnare (ora italiana): martedì inflazione europea alle 11 e ISM alle 16, giovedì ISM servizi alle 16, venerdì buste paga USA alle 14:30. Lunedì sera esce il COT in ritardo."
  ],
  "mercati": [
   {
    "id": "XAUUSD",
    "nome": "Oro",
    "verso": "rialzista",
-   "convinzione": 35,
-   "frase": "Dopo il -9% della settimana è più probabile un rimbalzo: le vendite forzate finiscono e i rendimenti scendono, ma la Fed resta contro.",
-   "cosa_lo_smentisce": "chiusura settimanale sotto 3.450 $ oppure PCE di mercoledì sopra lo 0,4% sul mese",
-   "prezzo_venerdi": 3539.0,
-   "var_settimana_pct": -8.97
+   "convinzione": 30,
+   "frase": "Le vendite forzate sono finite e i fondi hanno poco oro: il rimbalzo può continuare, ma Fed, dollaro ed ETF in uscita lo frenano.",
+   "cosa_lo_smentisce": "chiusura settimanale sotto 3.580 $ oppure buste paga di venerdì sopra 150.000",
+   "prezzo_venerdi": 3650.0,
+   "var_settimana_pct": 3.14
   },
   {
    "id": "US100",
    "nome": "Nasdaq 100",
    "verso": "rialzista",
    "convinzione": 30,
-   "frase": "Dopo la settimana peggiore dal 2020 un rimbalzo è possibile, ma l'intelligenza artificiale resta sotto vendita.",
-   "cosa_lo_smentisce": "chiusura settimanale sotto 24.500 oppure conti di Dell e HP deludenti martedì sera",
-   "prezzo_venerdi": 25028.98,
-   "var_settimana_pct": -10.43
+   "frase": "Il rimbalzo ha spezzato le vendite e la paura scende, ma i dubbi sull'intelligenza artificiale restano: più probabile ancora su, di poco.",
+   "cosa_lo_smentisce": "chiusura settimanale sotto 25.800 oppure nuove vendite su Nvidia dopo l'audizione di Huang",
+   "prezzo_venerdi": 26726.39,
+   "var_settimana_pct": 6.78
   },
   {
    "id": "US30",
    "nome": "Dow Jones (US30)",
    "verso": "rialzista",
    "convinzione": 35,
-   "frase": "Il Dow ha perso l'8%, il peggio dal 2020: ha meno tecnologia del Nasdaq e con i rendimenti in calo può recuperare.",
-   "cosa_lo_smentisce": "chiusura settimanale sotto 47.500",
-   "prezzo_venerdi": 48147.33,
-   "var_settimana_pct": -8.02
+   "frase": "Il rimbalzo del Dow è largo, con banche, industria e consumi davanti alla tecnologia: è più solido di quello del Nasdaq.",
+   "cosa_lo_smentisce": "chiusura settimanale sotto 49.500",
+   "prezzo_venerdi": 50774.94,
+   "var_settimana_pct": 5.46
   },
   {
    "id": "EURUSD",
    "nome": "Euro / dollaro",
-   "verso": "neutro",
+   "verso": "ribassista",
    "convinzione": 35,
-   "frase": "Fed che alza contro fondi già venduti al massimo: in una settimana corta l'euro più probabilmente resta fermo.",
-   "cosa_lo_smentisce": "chiusura settimanale sotto 1,0900 = ribassista; sopra 1,1050 = rialzista",
-   "prezzo_venerdi": 1.0967,
-   "var_settimana_pct": -0.49
+   "frase": "Fed che alza, Francia in recessione e un nuovo presidente BCE visto più morbido: l'euro più probabilmente scende ancora.",
+   "cosa_lo_smentisce": "chiusura settimanale sopra 1,1020 oppure inflazione europea di martedì sopra il 4,2%",
+   "prezzo_venerdi": 1.0933,
+   "var_settimana_pct": -0.31
   },
   {
    "id": "GBPUSD",
    "nome": "Sterlina / dollaro",
-   "verso": "ribassista",
-   "convinzione": 40,
-   "frase": "Inflazione inglese sotto le stime della BoE e disoccupazione in salita: la sterlina perde la spinta dei tassi.",
-   "cosa_lo_smentisce": "chiusura settimanale sopra 1,3215 (chiusura del 13 novembre)",
-   "prezzo_venerdi": 1.3081,
-   "var_settimana_pct": -1.01
+   "verso": "neutro",
+   "convinzione": 35,
+   "frase": "BoE e Fed vanno tutte e due verso il rialzo a dicembre: la sterlina più probabilmente resta ferma intorno a 1,31.",
+   "cosa_lo_smentisce": "chiusura settimanale sotto 1,3010 = ribassista; sopra 1,3215 = rialzista",
+   "prezzo_venerdi": 1.3093,
+   "var_settimana_pct": 0.09
   },
   {
    "id": "USDJPY",
    "nome": "Dollaro / yen",
-   "verso": "ribassista",
+   "verso": "neutro",
    "convinzione": 35,
-   "frase": "La Banca del Giappone va verso il rialzo di dicembre e il governo difende quota 160: più probabile giù.",
-   "cosa_lo_smentisce": "chiusura settimanale sopra 160,00 senza intervento",
-   "prezzo_venerdi": 158.53,
-   "var_settimana_pct": -0.71
+   "frase": "Il governo difende quota 160 e la BoJ va verso il rialzo, ma la Fed tiene alto il dollaro: più probabile fermo sotto 160.",
+   "cosa_lo_smentisce": "chiusura settimanale sopra 160,40 = rialzista; sotto 158,00 = ribassista",
+   "prezzo_venerdi": 159.56,
+   "var_settimana_pct": 0.65
   }
  ],
  "banche": [
@@ -82,9 +82,9 @@
    "prossima": "2026-12-09",
    "tasso": "3,75-4,00%",
    "tono": "falco",
-   "in_parole_semplici": "La Fed ha detto che i tassi saliranno ancora e resteranno alti fino al 2028. È il report che sta guidando tutti i mercati.",
+   "in_parole_semplici": "La Fed ha detto che i tassi saliranno ancora e resteranno alti fino al 2028. Il PCE di ottobre (core 3,3%, sopra le attese) le dà ragione.",
    "cosa_cambia": "I membri vedono i tassi al 4,1% a fine 2026 e a fine 2027 (a giugno 3,8% e 3,6%): più rialzi e più a lungo. Inflazione core 3,4%, disoccupazione 4,1%.",
-   "nota_prossima": "Il 9 dicembre decisione e nuove proiezioni insieme. Verbali del 18 novembre: quasi tutti vogliono altri rialzi, alcuni anche più grandi; rialzo di 0,25 dato al 92%.",
+   "nota_prossima": "Il 9 dicembre decisione e nuove proiezioni insieme; rialzo di 0,25 al 93,5% (Polymarket). PCE core 3,3%, PIL 4,3% e Beige Book: l'inflazione non migliora. Da sabato 28 novembre i membri non parlano di tassi (silenzio prima della riunione).",
    "prossima_ora_utc": "2026-12-09T19:00:00Z",
    "tasso_num": 4.0,
    "prossima_decisione_utc": "2026-12-09T19:00:00Z"
@@ -96,9 +96,9 @@
    "prossima": "2026-12-17",
    "tasso": "deposito 2,50%",
    "tono": "falco",
-   "in_parole_semplici": "La BCE vede più inflazione di prima e lascia capire altri rialzi, ma il 29 ottobre è rimasta ferma al 2,50%.",
+   "in_parole_semplici": "La BCE vede più inflazione di prima e lascia capire altri rialzi, ma il 29 ottobre è rimasta ferma al 2,50%. Intanto l'inflazione europea è salita al 4%.",
    "cosa_cambia": "Inflazione 2027 alzata al 2,5% (da 2,3%), core al 2,6%; crescita un po' migliore. Le ipotesi sui tassi salgono al 3% nel 2027.",
-   "nota_prossima": "Il 17 dicembre decisione e nuove proiezioni insieme. Giovedì 26 escono i verbali della riunione di ottobre.",
+   "nota_prossima": "Il 17 dicembre decisione e nuove proiezioni insieme. Martedì 1 dicembre l'inflazione di novembre (attesa 4,0%): sopra il 4% il rialzo diventa più probabile. Il 26 novembre i leader UE hanno scelto De Cos come prossimo presidente.",
    "prossima_ora_utc": "2026-12-17T13:15:00Z",
    "tasso_num": 2.5,
    "prossima_decisione_utc": "2026-12-17T13:15:00Z"
@@ -110,9 +110,9 @@
    "prossima": "2027-02-04",
    "tasso": "4,00%",
    "tono": "falco",
-   "in_parole_semplici": "La Banca d'Inghilterra ha alzato i tassi e avverte che l'inflazione peggiorerà ancora. Ma l'inflazione di ottobre (3,6%) è uscita sotto le sue stime.",
+   "in_parole_semplici": "La Banca d'Inghilterra ha alzato i tassi e avverte che l'inflazione peggiorerà ancora. Il mercato si aspetta un altro rialzo il 17 dicembre.",
    "cosa_cambia": "Tasso alzato al 4% (8 voti a 1, Mann voleva +0,50). L'inflazione inglese, 3,5% a settembre, è vista salire verso il 5% a metà 2027.",
-   "nota_prossima": "Il 17 dicembre decisione senza report; il prossimo report esce il 4 febbraio. Ottobre al 3,6% contro il 3,73% previsto dalla BoE: meno pressione per un altro rialzo.",
+   "nota_prossima": "Il 17 dicembre decisione senza report; il prossimo report esce il 4 febbraio. Il mercato prezza rialzi a dicembre e a febbraio (circa 88%); il comitato ha confermato le sue stime al Parlamento e il rapporto sulla stabilità del 26 non ha mosso la sterlina.",
    "prossima_ora_utc": "2027-02-04T12:00:00Z",
    "tasso_num": 4.0,
    "prossima_decisione_utc": "2026-12-17T12:00:00Z"
@@ -124,9 +124,9 @@
    "prossima": "2027-01-22",
    "tasso": "1,25%",
    "tono": "falco",
-   "in_parole_semplici": "La Banca del Giappone non ha alzato, ma ha detto chiaro che lo farà. Ora la maggior parte degli economisti si aspetta il rialzo all'1,5% il 18 dicembre.",
+   "in_parole_semplici": "La Banca del Giappone non ha alzato, ma ha detto chiaro che lo farà. L'inflazione di Tokyo al 2,9% rende il rialzo del 18 dicembre molto probabile.",
    "cosa_cambia": "Tassi fermi all'1,25% (8 a 1, Takata voleva 1,5%). Inflazione dell'anno fiscale 2027 alzata al 2,6% (da 2,4%). Nuova frase: l'inflazione di fondo «è» in linea con il 2%, prima «si avvicinava».",
-   "nota_prossima": "Il 17-18 dicembre decisione senza report: rialzo all'1,5% atteso (sondaggio Reuters, mercato intorno all'85%).",
+   "nota_prossima": "Il 17-18 dicembre decisione senza report: rialzo all'1,5% atteso dall'86% degli economisti, il mercato lo dà intorno al 72%. Inflazione di Tokyo di novembre 2,9%, la più alta da 16 mesi.",
    "prossima_ora_utc": "2027-01-22T03:00:00Z",
    "tasso_num": 1.25,
    "prossima_decisione_utc": "2026-12-18T03:00:00Z"
@@ -210,7 +210,7 @@
    "mercato": "XAUUSD",
    "atteso": "giù",
    "prima_settimana_pct": 0.64,
-   "da_allora_pct": -18.61,
+   "da_allora_pct": -16.06,
    "dal": "2026-09-11",
    "esito": "conferma"
   },
@@ -219,7 +219,7 @@
    "mercato": "US100",
    "atteso": "giù",
    "prima_settimana_pct": 0.94,
-   "da_allora_pct": -14.78,
+   "da_allora_pct": -9.0,
    "dal": "2026-09-11",
    "esito": "conferma"
   },
@@ -228,7 +228,7 @@
    "mercato": "US30",
    "atteso": "giù",
    "prima_settimana_pct": -1.69,
-   "da_allora_pct": -8.42,
+   "da_allora_pct": -3.42,
    "dal": "2026-09-11",
    "esito": "conferma"
   },
@@ -237,7 +237,7 @@
    "mercato": "EURUSD",
    "atteso": "giù",
    "prima_settimana_pct": -1.21,
-   "da_allora_pct": -5.49,
+   "da_allora_pct": -5.78,
    "dal": "2026-09-11",
    "esito": "conferma"
   },
@@ -246,7 +246,7 @@
    "mercato": "GBPUSD",
    "atteso": "giù",
    "prima_settimana_pct": -1.12,
-   "da_allora_pct": -3.28,
+   "da_allora_pct": -3.19,
    "dal": "2026-09-11",
    "esito": "conferma"
   },
@@ -255,7 +255,7 @@
    "mercato": "USDJPY",
    "atteso": "su",
    "prima_settimana_pct": 2.06,
-   "da_allora_pct": 3.14,
+   "da_allora_pct": 3.81,
    "dal": "2026-09-11",
    "esito": "conferma"
   },
@@ -264,7 +264,7 @@
    "mercato": "EURUSD",
    "atteso": "su",
    "prima_settimana_pct": -0.12,
-   "da_allora_pct": -5.6,
+   "da_allora_pct": -5.9,
    "dal": "2026-09-04",
    "esito": "smentisce"
   },
@@ -273,7 +273,7 @@
    "mercato": "GBPUSD",
    "atteso": "su",
    "prima_settimana_pct": -0.2,
-   "da_allora_pct": -2.37,
+   "da_allora_pct": -2.28,
    "dal": "2026-10-30",
    "esito": "smentisce"
   },
@@ -282,7 +282,7 @@
    "mercato": "USDJPY",
    "atteso": "giù",
    "prima_settimana_pct": 0.38,
-   "da_allora_pct": 1.06,
+   "da_allora_pct": 1.71,
    "dal": "2026-10-23",
    "esito": "smentisce"
   }
@@ -309,10 +309,6 @@
  "regola_conferma": "atteso = tono (falco +1, colomba -1) x effetto_falco; dal venerdi' prima della decisione all'ultimo prezzo: almeno +0,5% nel verso atteso = conferma, almeno -0,5% = smentisce, altrimenti neutro",
  "prezzi_settimanali": {
   "XAUUSD": [
-   [
-    "2026-05-01",
-    4610.82
-   ],
    [
     "2026-05-08",
     4724.01
@@ -428,13 +424,13 @@
    [
     "2026-11-20",
     3539.0
+   ],
+   [
+    "2026-11-27",
+    3650.0
    ]
   ],
   "US100": [
-   [
-    "2026-05-01",
-    27710.36
-   ],
    [
     "2026-05-08",
     29234.99
@@ -550,13 +546,13 @@
    [
     "2026-11-20",
     25028.98
+   ],
+   [
+    "2026-11-27",
+    26726.39
    ]
   ],
   "US30": [
-   [
-    "2026-05-01",
-    49499.27
-   ],
    [
     "2026-05-08",
     49609.16
@@ -672,13 +668,13 @@
    [
     "2026-11-20",
     48147.33
+   ],
+   [
+    "2026-11-27",
+    50774.94
    ]
   ],
   "EURUSD": [
-   [
-    "2026-05-01",
-    1.1755
-   ],
    [
     "2026-05-08",
     1.1773
@@ -794,13 +790,13 @@
    [
     "2026-11-20",
     1.0967
+   ],
+   [
+    "2026-11-27",
+    1.0933
    ]
   ],
   "GBPUSD": [
-   [
-    "2026-05-01",
-    1.3621
-   ],
    [
     "2026-05-08",
     1.3625
@@ -916,13 +912,13 @@
    [
     "2026-11-20",
     1.3081
+   ],
+   [
+    "2026-11-27",
+    1.3093
    ]
   ],
   "USDJPY": [
-   [
-    "2026-05-01",
-    156.76
-   ],
    [
     "2026-05-08",
     156.64
@@ -1038,84 +1034,25 @@
    [
     "2026-11-20",
     158.53
+   ],
+   [
+    "2026-11-27",
+    159.56
    ]
   ]
  },
  "calendario": [
   {
-   "quando": "2026-11-23T00:00:00Z",
-   "evento": "Giappone chiuso (festa del Lavoro)",
+   "quando": "2026-11-28T00:00:00Z",
+   "evento": "Fed: inizia il silenzio prima della riunione del 9 dicembre",
    "impatto": "basso",
    "previsione": "",
    "precedente": "",
-   "perche": "pochi scambi sullo yen in Asia",
-   "mercati": "USDJPY"
-  },
-  {
-   "quando": "2026-11-23T09:00:00Z",
-   "evento": "PMI area euro (novembre, prima stima)",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "tenuta dell'economia europea",
-   "mercati": "EURUSD"
-  },
-  {
-   "quando": "2026-11-23T09:30:00Z",
-   "evento": "PMI Regno Unito (novembre, prima stima)",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "dopo inflazione e lavoro più deboli",
-   "mercati": "GBPUSD"
-  },
-  {
-   "quando": "2026-11-23T14:45:00Z",
-   "evento": "PMI USA (novembre, prima stima)",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "55,9 composito",
-   "perche": "sopra 56 = Fed più dura; sotto 54 = timori sulla crescita",
+   "perche": "fino al 10 dicembre i membri non parlano di tassi",
    "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
   },
   {
-   "quando": "2026-11-23T21:05:00Z",
-   "evento": "Conti di HP Enterprise e Zoom",
-   "impatto": "basso",
-   "previsione": "",
-   "precedente": "",
-   "perche": "primi conti tecnologici dopo il crollo",
-   "mercati": "US100"
-  },
-  {
-   "quando": "2026-11-24T09:00:00Z",
-   "evento": "Ifo Germania (fiducia delle imprese)",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "economia tedesca",
-   "mercati": "EURUSD"
-  },
-  {
-   "quando": "2026-11-24T15:00:00Z",
-   "evento": "Fiducia dei consumatori USA (Conference Board)",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "effetto del crollo di borsa sulle famiglie",
-   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
-  },
-  {
-   "quando": "2026-11-24T21:05:00Z",
-   "evento": "Conti di Dell, HP, Workday e Autodesk",
-   "impatto": "alto",
-   "previsione": "",
-   "precedente": "",
-   "perche": "dicono se la spesa in IA tiene dopo il crollo di Nvidia (la mattina Analog Devices)",
-   "mercati": "US100 US30"
-  },
-  {
-   "quando": "2026-11-25T00:55:00Z",
+   "quando": "2026-11-30T00:55:00Z",
    "evento": "Giorno gotobi, fixing di Tokyo (9:55)",
    "impatto": "basso",
    "previsione": "",
@@ -1124,76 +1061,94 @@
    "mercati": "USDJPY"
   },
   {
-   "quando": "2026-11-25T07:00:00Z",
-   "evento": "PIL Germania, 3° trimestre (dato finale)",
-   "impatto": "basso",
+   "quando": "2026-11-30T13:00:00Z",
+   "evento": "Inflazione Germania (novembre, prima stima)",
+   "impatto": "medio",
    "previsione": "",
    "precedente": "",
-   "perche": "conferma della crescita tedesca",
+   "perche": "anticipa quella europea di martedì",
    "mercati": "EURUSD"
   },
   {
-   "quando": "2026-11-25T13:30:00Z",
-   "evento": "PCE di ottobre, PIL 3° trimestre (2ª stima), beni durevoli e sussidi",
+   "quando": "2026-11-30T20:30:00Z",
+   "evento": "COT del 24 novembre (in ritardo per il Ringraziamento)",
+   "impatto": "basso",
+   "previsione": "",
+   "precedente": "",
+   "perche": "come si sono mossi i fondi nella settimana del crollo",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-12-01T10:00:00Z",
+   "evento": "Inflazione area euro (novembre, prima stima)",
    "impatto": "alto",
-   "previsione": "core +0,3% mese / 3,2% anno",
-   "precedente": "core +0,3% / 3,1%; PIL 3,4%",
-   "perche": "l'inflazione che guarda la Fed: sopra 0,4% riapre il rialzo da 0,50",
-   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
-  },
-  {
-   "quando": "2026-11-25T19:00:00Z",
-   "evento": "Beige Book della Fed",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "come va l'economia nei 12 distretti, ultimo prima del 9 dicembre",
-   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
-  },
-  {
-   "quando": "2026-11-26T00:00:00Z",
-   "evento": "Ringraziamento: borse USA chiuse",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "pochi scambi su tutto: movimenti più bruschi",
-   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
-  },
-  {
-   "quando": "2026-11-26T10:30:00Z",
-   "evento": "BoE, rapporto sulla stabilità finanziaria",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "rischi per banche e mercati inglesi",
-   "mercati": "GBPUSD"
-  },
-  {
-   "quando": "2026-11-26T12:30:00Z",
-   "evento": "Verbali della BCE (riunione del 29 ottobre)",
-   "impatto": "basso",
-   "previsione": "",
-   "precedente": "",
-   "perche": "quanti volevano già alzare",
+   "previsione": "4,0%",
+   "precedente": "4,0%",
+   "perche": "sopra il 4% il rialzo BCE del 17 dicembre diventa più probabile",
    "mercati": "EURUSD"
   },
   {
-   "quando": "2026-11-26T23:30:00Z",
-   "evento": "Inflazione di Tokyo (novembre)",
-   "impatto": "medio",
-   "previsione": "",
-   "precedente": "",
-   "perche": "anticipa quella nazionale: più alta = rialzo BoJ più sicuro",
-   "mercati": "USDJPY"
+   "quando": "2026-12-01T15:00:00Z",
+   "evento": "ISM manifatturiero USA e posti vacanti (JOLTS)",
+   "impatto": "alto",
+   "previsione": "55",
+   "precedente": "55,5",
+   "perche": "tenuta dell'industria; prezzi pagati 75,2 a ottobre",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
   },
   {
-   "quando": "2026-11-27T18:00:00Z",
-   "evento": "Borse USA chiudono prima (13:00 di New York)",
+   "quando": "2026-12-01T15:00:00Z",
+   "evento": "Bowman (Fed) alla Camera sulla vigilanza bancaria",
    "impatto": "basso",
    "previsione": "",
    "precedente": "",
-   "perche": "venerdì dopo il Ringraziamento, pochi scambi",
-   "mercati": "US100 US30"
+   "perche": "unica voce Fed nella settimana di silenzio: parla di banche, non di tassi",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-12-02T10:00:00Z",
+   "evento": "Disoccupazione area euro",
+   "impatto": "basso",
+   "previsione": "",
+   "precedente": "",
+   "perche": "economia europea dopo la recessione francese",
+   "mercati": "EURUSD"
+  },
+  {
+   "quando": "2026-12-03T09:00:00Z",
+   "evento": "PMI servizi area euro e Regno Unito (dati finali)",
+   "impatto": "basso",
+   "previsione": "",
+   "precedente": "",
+   "perche": "conferma delle prime stime",
+   "mercati": "EURUSD GBPUSD"
+  },
+  {
+   "quando": "2026-12-03T13:30:00Z",
+   "evento": "Sussidi di disoccupazione USA",
+   "impatto": "medio",
+   "previsione": "",
+   "precedente": "",
+   "perche": "anticipo del dato sul lavoro di venerdì",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-12-03T15:00:00Z",
+   "evento": "ISM servizi USA e ordini alle fabbriche",
+   "impatto": "alto",
+   "previsione": "54",
+   "precedente": "54,5",
+   "perche": "i servizi sono quasi tutta l'economia USA; prezzi pagati 73 a ottobre",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
+  },
+  {
+   "quando": "2026-12-04T13:30:00Z",
+   "evento": "Buste paga USA (novembre)",
+   "impatto": "alto",
+   "previsione": "+90.000; disoccupazione 4,1%; salari +0,3%",
+   "precedente": "+165.000",
+   "perche": "ultimo dato sul lavoro prima della Fed del 9: forte = dollaro su, oro e borse giù; debole = il contrario",
+   "mercati": "XAUUSD US100 US30 EURUSD GBPUSD USDJPY"
   }
  ]
 }
