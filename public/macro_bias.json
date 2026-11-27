@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-27T23:31:56Z",
+ "timestamp_utc": "2026-11-27T23:46:28Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -45,7 +45,7 @@
     "ora": "2026-11-27T14:30:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.1,
+    "var_4h": 0.0,
     "var_24h": 0.0
    },
    "tasso_10y": {
@@ -61,7 +61,7 @@
     "ora": "2026-11-27T14:30:00.000-0500",
     "unita_variazioni": "pb",
     "var_1h": 0.0,
-    "var_4h": 0.2,
+    "var_4h": 0.0,
     "var_24h": 7.5
    },
    "dollaro_dxy": {
@@ -69,7 +69,7 @@
     "ora": "2026-11-27T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.02,
+    "var_4h": -0.016,
     "var_24h": 0.357
    },
    "vix": {
@@ -101,7 +101,7 @@
     "ora": "2026-11-27T18:07:57.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": 0.519,
+    "var_4h": 0.398,
     "var_24h": -0.418
    },
    "rame": {
@@ -128,7 +128,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.044,
+   "punteggio_4h": 0.04,
    "punteggio_24h": -0.375,
    "rapporto_oro_argento": 84.43
   },
