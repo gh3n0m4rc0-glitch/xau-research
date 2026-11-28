@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-28T11:46:26Z",
+ "timestamp_utc": "2026-11-28T12:02:19Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -318,35 +318,35 @@
      "data": "2026-11-24"
     },
     {
-     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
-     "data": "2026-11-04"
-    },
-    {
-     "titolo": "Gold demand remains near record highs as central bank buying surges 42% – WGC - Kitco",
-     "data": "2026-11-03"
-    },
-    {
-     "titolo": "Algeria leads Africa’s central bank gold rankings as Tanzania claims fifth place - Yahoo Finance",
-     "data": "2026-11-20"
-    },
-    {
      "titolo": "Gold Demand Holds Firm as Central Banks Buy Into the Price Collapse - Investing.com",
      "data": "2026-11-23"
+    },
+    {
+     "titolo": "Gold faces renewed pressure from rising real yields: Wells Fargo - TradingView",
+     "data": "2026-11-24"
+    },
+    {
+     "titolo": "Central Bank Gold Statistics: September 2026 | Post by Marissa Salim | Insights - World Gold Council",
+     "data": "2026-11-04"
     },
     {
      "titolo": "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
      "data": "2026-11-17"
     },
     {
-     "titolo": "Central Bank Gold Buying: Why 39 Tonnes Matters - GoldSilver",
-     "data": "2026-10-16"
+     "titolo": "Gold Demand Trends: Q3 2026 - World Gold Council",
+     "data": "2026-11-03"
     },
     {
-     "titolo": "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
-     "data": "2026-11-03"
+     "titolo": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? - Business Today",
+     "data": "2026-11-21"
+    },
+    {
+     "titolo": "Explained: Why did central banks just buy 320 tonnes of gold this quarter and can this last amid uncertain - The Economic Times",
+     "data": "2026-11-18"
     }
    ],
-   "pboc_mesi_di_acquisti": null,
+   "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
   },
@@ -704,7 +704,7 @@
    "GBPUSD": "FRED+lettura",
    "USDJPY": "FRED+lettura"
   },
-  "dati_presi_utc": "2026-11-28T10:01:11Z",
+  "dati_presi_utc": "2026-11-28T12:01:13Z",
   "sintesi": "Terminale: oro rialzista 30/100, fondi leggeri (21/100)",
   "testo_analisti": "Terminale settimanale 30 novembre - 4 dicembre 2026 (scritto il 2026-11-27, peso zero). XAUUSD: rialzista 30/100, da venerdi' +0.00%, COT fondi 21° pct. US100: rialzista 30/100, COT fondi 88° pct. US30: rialzista 35/100, COT fondi 68° pct. EURUSD: ribassista 35/100, COT fondi 1° pct. GBPUSD: neutro 35/100, COT fondi 39° pct. USDJPY: neutro 35/100, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
