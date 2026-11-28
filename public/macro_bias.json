@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-28T06:46:12Z",
+ "timestamp_utc": "2026-11-28T07:02:07Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -32,6 +32,7 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
+  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -348,13 +349,6 @@
    "pboc_mesi_di_acquisti": 24,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
-  },
-  "geopolitica": {
-   "intensita_24h": 2.4558,
-   "media_30g": 3.0526,
-   "z": -0.69,
-   "allarme": false,
-   "punteggio": 0.0
   },
   "sintesi": "tagli Fed prezzati in calo"
  },
