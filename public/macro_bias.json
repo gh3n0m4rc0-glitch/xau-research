@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-28T06:31:57Z",
+ "timestamp_utc": "2026-11-28T06:46:12Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -350,9 +350,9 @@
    "nota": "regime di fondo, mensile: informativo"
   },
   "geopolitica": {
-   "intensita_24h": 2.4506,
+   "intensita_24h": 2.4558,
    "media_30g": 3.0526,
-   "z": -0.7,
+   "z": -0.69,
    "allarme": false,
    "punteggio": 0.0
   },
