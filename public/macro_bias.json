@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-28T02:02:08Z",
+ "timestamp_utc": "2026-11-28T02:16:37Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -69,7 +69,7 @@
     "ora": "2026-11-27T16:59:59.000-0500",
     "unita_variazioni": "%",
     "var_1h": 0.0,
-    "var_4h": -0.023,
+    "var_4h": 0.0,
     "var_24h": 0.357
    },
    "vix": {
@@ -128,7 +128,7 @@
     "var_4h": 0.0,
     "var_24h": 0.0
    },
-   "punteggio_4h": 0.027,
+   "punteggio_4h": 0.0,
    "punteggio_24h": -0.375,
    "rapporto_oro_argento": 84.43
   },
