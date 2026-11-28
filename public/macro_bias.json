@@ -1,5 +1,5 @@
 {
- "timestamp_utc": "2026-11-28T09:46:33Z",
+ "timestamp_utc": "2026-11-28T10:01:52Z",
  "bias": -0.171,
  "confidence": 0.093,
  "regime": "moderatamente sfavorevole",
@@ -32,7 +32,6 @@
  "fonti_mancanti": [],
  "macro_incompleta": false,
  "fonti_extra_mancanti": [
-  "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
   "Myfxbook: 403 Client Error: Forbidden for url: https://www.myfxbook.com/community/outlook/",
   "SGE: en.sge.com.cn: SGE: prezzo non trovato; www.sge.com.cn: SGE: prezzo non trovato"
  ],
@@ -349,6 +348,13 @@
    "pboc_mesi_di_acquisti": null,
    "prossimo_dato_pboc_utc": "2026-12-07T01:00:00Z",
    "nota": "regime di fondo, mensile: informativo"
+  },
+  "geopolitica": {
+   "intensita_24h": 2.3312,
+   "media_30g": 3.0526,
+   "z": -0.84,
+   "allarme": false,
+   "punteggio": 0.0
   },
   "sintesi": "tagli Fed prezzati in calo"
  },
@@ -704,7 +710,7 @@
    "GBPUSD": "FRED+lettura",
    "USDJPY": "FRED+lettura"
   },
-  "dati_presi_utc": "2026-11-28T07:45:53Z",
+  "dati_presi_utc": "2026-11-28T10:01:11Z",
   "sintesi": "Terminale: oro rialzista 30/100, fondi leggeri (21/100)",
   "testo_analisti": "Terminale settimanale 30 novembre - 4 dicembre 2026 (scritto il 2026-11-27, peso zero). XAUUSD: rialzista 30/100, da venerdi' +0.00%, COT fondi 21° pct. US100: rialzista 30/100, COT fondi 88° pct. US30: rialzista 35/100, COT fondi 68° pct. EURUSD: ribassista 35/100, COT fondi 1° pct. GBPUSD: neutro 35/100, COT fondi 39° pct. USDJPY: neutro 35/100, COT fondi 30° pct. Fed falco (ultima 2026-09-16, prossima 2026-12-09): grafico XAUUSD conferma, US100 conferma, US30 conferma, EURUSD conferma, GBPUSD conferma, USDJPY conferma. BCE falco (ultima 2026-09-10, prossima 2026-12-17): grafico EURUSD smentisce. BoE falco (ultima 2026-11-05, prossima 2027-02-04): grafico GBPUSD smentisce. BoJ falco (ultima 2026-10-30, prossima 2027-01-22): grafico USDJPY smentisce.",
   "agli_analisti": false
